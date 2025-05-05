@@ -1,0 +1,380 @@
+nohup: ignoring input
+Loading checkpoint shards:   0%|          | 0/12 [00:00<?, ?it/s]Loading checkpoint shards:   8%|▊         | 1/12 [00:04<00:54,  4.93s/it]Loading checkpoint shards:  17%|█▋        | 2/12 [00:09<00:45,  4.58s/it]Loading checkpoint shards:  25%|██▌       | 3/12 [00:16<00:51,  5.73s/it]Loading checkpoint shards:  33%|███▎      | 4/12 [00:20<00:40,  5.02s/it]Loading checkpoint shards:  42%|████▏     | 5/12 [00:55<01:52, 16.03s/it]Loading checkpoint shards:  50%|█████     | 6/12 [01:26<02:06, 21.08s/it]Loading checkpoint shards:  58%|█████▊    | 7/12 [01:57<02:00, 24.19s/it]Loading checkpoint shards:  67%|██████▋   | 8/12 [02:23<01:39, 24.80s/it]Loading checkpoint shards:  75%|███████▌  | 9/12 [02:41<01:08, 22.72s/it]Loading checkpoint shards:  83%|████████▎ | 10/12 [02:59<00:42, 21.24s/it]Loading checkpoint shards:  92%|█████████▏| 11/12 [03:06<00:16, 16.91s/it]Loading checkpoint shards: 100%|██████████| 12/12 [03:06<00:00, 11.80s/it]Loading checkpoint shards: 100%|██████████| 12/12 [03:06<00:00, 15.56s/it]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+/home/anaconda3/envs/myo_thesis/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/anaconda3/envs/myo_thesis/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:650: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `64` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+📂 Loading annotations from: /mnt/synology/myothiha/coco/annotations/instances_train2017.json
+🖼️ Loading images from: /mnt/synology/myothiha/coco/images/train2017/
+loading annotations into memory...
+Done (t=14.32s)
+creating index...
+index created!
+(30394773, 4)
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain an agent?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there a living thing in the image?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image depict someone who might have a child?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could work at a place?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that could own an object?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there a person in the image with a head, body, and limbs?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show something with a name, age, and gender?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be a parent?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image depict someone who might be an employee?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there a person in the image who could be a friend?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that is typically powered by human effort?
+Actual Answer: yes
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be used for transportation?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show something made from common materials like metal or carbon fiber?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that has two wheels?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain a vehicle with a frame and components like a seat and handlebars?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that might have safety features like brakes or lights?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show something that interacts with its environment by moving on surfaces?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be ridden by a person?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that is a type of vehicle used for commuting or recreation?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that has a primary function related to moving from one place to another?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain a vehicle that uses fuel or energy to operate?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that has essential components like an engine and wheels?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there something in the image that could perform transportation functions?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show a structure that supports movement and stability?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that interacts with its environment while moving?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain a vehicle that has subsystems contributing to its operation?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there something in the image that could be classified based on its purpose or design?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show a car that shares common parts with other vehicle types?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that relates to other transportation systems?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain a vehicle that uses fuel or energy sources like gasoline or electricity?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain a vehicle?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there a machine in the image that could be ridden?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could have wheels and an engine?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that could be used for transportation?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that might have a handlebar and seat?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain a subclass of motorcycle?
+Actual Answer: yes
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be used for air travel?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that might have wings and a tail?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be designed for carrying passengers?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show something that might have safety features like seat belts?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be operated by a pilot?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that might have parts such as engines and landing gear?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be related to other vehicles like helicopters?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show something that might have functions such as cargo transport?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be part of a subclass like commercial airplane?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that might have operational aspects like flight routes?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain a vehicle?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there a transportation device in the image?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could have a route?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that carries passengers?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that is operated by someone?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain an object with an engine and wheels?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there something in the image that could have seats and doors?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain an object with a specific capacity?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that has a particular color?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain an object manufactured by a company?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain a vehicle?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there a locomotive in the image that could carry passengers?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that might have a driver?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show something that could be part of a scheduled service?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could transport cargo?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could have a route?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that could have a length and weight?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that might have passenger cars?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show a vehicle that could be used for transporting goods?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be part of a train, such as a cargo car?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain a vehicle?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there a piece of machinery in the image that could be used for transporting goods?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that might have an engine and wheels?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that could carry a load?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be operated by a driver?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain a vessel?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there a watercraft in the image that might have a hull and mast?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could have sails or an engine?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that could be used for transportation?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be made of steel or fiberglass?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show something that might be influenced by weather conditions?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there a boat in the image that could have a navigation system?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain something that could be used for fishing?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could have a rudder?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image show something that might include safety features like life jackets?
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: List the superclasses of traffic light.
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: List the object properties where traffic light appears as a subject.
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: List the part-of relationships defined for traffic light.
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: List the data properties that describe traffic light.
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: List the types of traffic light.
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: List the relationships traffic light has with other entities.
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: List the functions served by traffic light.
+Actual Answer: no
+Model Answer: no
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Does the image contain public safety equipment?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an outdoor fixture visible in the image?
+Actual Answer: no
+Model Answer: yes
+Image: http://images.cocodataset.org/train2017/000000391895.jpg
+Question: Is there an object in the image that could be installed in a public place?
+Actual Answer: no
+Model Answer: yes
+Image: 

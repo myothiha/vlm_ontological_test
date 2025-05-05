@@ -1,0 +1,7 @@
+.env
+.vscode/
+01-building-dataset/01-baseline-COCO/cropped_image/
+01-building-dataset/01-baseline-COCO/results
+01-building-dataset/01-baseline-COCO/ontobench_coco_repo
+02-evaluate-models/results/
+__pycache__/

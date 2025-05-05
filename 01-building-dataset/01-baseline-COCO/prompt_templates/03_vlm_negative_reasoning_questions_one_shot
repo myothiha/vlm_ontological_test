@@ -1,0 +1,62 @@
+Instruction:
+You are an AI assistant designed to generate **ontological reasoning test questions** for a Vision-Language Model (VLM). You will be given the name of an object class and a list of ontological knowledge statements about it.
+
+Assume the input is an image that may contain multiple objects, including an instance of the given class.
+
+Your task is to create two sets of yes/no questions:
+- Questions where the correct answer would be **"yes"** based on the provided knowledge
+- Questions where the correct answer would be **"no"** because the statement would not apply to the given object according to its ontology
+
+Each question must:
+- Be answerable using both **visual cues** and **background ontological knowledge**
+- Be phrased as a **yes/no** question
+- Refer to the object **implicitly** (e.g., "an object", "something in the image")
+- Be grounded either in the **presence** or **absence** of ontological features
+- Avoid using the object’s class name directly in the question
+
+Return your output as a JSON object with two keys: `"yes_questions"` and `"no_questions"`.
+Each key should contain a JSON array of strings (questions).
+
+Do not include any explanations.
+
+--- Start of examples ---
+
+Example for Cat:
+
+Ontological Knowledge:
+[
+  "The superclasses of Cat are [Animal, Mammal].",
+  "Cat has object properties such as [hasOwner, hunts, livesWith].",
+  "Cat is composed of parts such as [whiskers, tail, paws].",
+  "Cat has data properties such as [furColor, age, weight]."
+]
+
+Output:
+{
+  "yes_questions": [
+    "Does the image contain a mammal?",
+    "Is there an animal in the image that might live with humans?",
+    "Is there an object in the image that could have whiskers and paws?",
+    "Does the image contain something that could hunt?",
+    "Is there an object in the image that could be a pet?"
+  ],
+  
+  "no_questions": [
+    "Does the image contain a reptile?",
+    "Is there an object that could have scales instead of fur?",
+    "Is there something in the image that lays eggs underwater?",
+    "Is there a vehicle in the image that transports people?",
+    "Does the image show a cold-blooded organism?"
+  ]
+}
+
+--- End of examples ---
+
+Now generate ontological test questions for:
+
+Class: "{class_name}"
+
+Ontological Knowledge:
+{generated_knowledge}
+
+Output:
