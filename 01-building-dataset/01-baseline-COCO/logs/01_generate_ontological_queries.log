@@ -1,0 +1,1180 @@
+nohup: ignoring input
+📂 Loading annotations from: /mnt/synology/myothiha/coco/annotations/instances_train2017.json
+🖼️ Loading images from: /mnt/synology/myothiha/coco/images/train2017/
+loading annotations into memory...
+Done (t=10.83s)
+creating index...
+index created!
+🔄 Generating Knowledge Questions for: person
+Response [
+  "Which roles can a person fulfill within the ontology?",
+  "What relationships exist between person and organization?",
+  "What attributes are used to uniquely identify a person?",
+  "How is the concept of gender represented for person?",
+  "What events can a person participate in?",
+  "Which subclasses are defined under person?",
+  "How is the relationship between person and place modeled?",
+  "What temporal properties are associated with person?",
+  "How is kinship or family relationship represented for person?",
+  "Which properties capture the contact information of a person?"
+]
+Knowledge Questions: ['Which roles can a person fulfill within the ontology?', 'What relationships exist between person and organization?', 'What attributes are used to uniquely identify a person?', 'How is the concept of gender represented for person?', 'What events can a person participate in?', 'Which subclasses are defined under person?', 'How is the relationship between person and place modeled?', 'What temporal properties are associated with person?', 'How is kinship or family relationship represented for person?', 'Which properties capture the contact information of a person?']
+✅ Saved: person
+🔄 Generating Knowledge Questions for: bicycle
+Response [
+  "What are the essential components that constitute a bicycle?",
+  "Which subclasses are defined under the class bicycle?",
+  "How is bicycle related to the class vehicle in the ontology?",
+  "What types of propulsion methods are associated with bicycle?",
+  "Which object properties link bicycle to its riders?",
+  "What roles can a bicycle fulfill within transportation ontologies?",
+  "Are there any restrictions on the number of wheels for a bicycle in the ontology?",
+  "Which safety features are modeled as part-of relationships for bicycle?",
+  "How does the ontology represent the relationship between bicycle and terrain types?",
+  "What data properties capture the physical characteristics of a bicycle?"
+]
+Knowledge Questions: ['What are the essential components that constitute a bicycle?', 'Which subclasses are defined under the class bicycle?', 'How is bicycle related to the class vehicle in the ontology?', 'What types of propulsion methods are associated with bicycle?', 'Which object properties link bicycle to its riders?', 'What roles can a bicycle fulfill within transportation ontologies?', 'Are there any restrictions on the number of wheels for a bicycle in the ontology?', 'Which safety features are modeled as part-of relationships for bicycle?', 'How does the ontology represent the relationship between bicycle and terrain types?', 'What data properties capture the physical characteristics of a bicycle?']
+✅ Saved: bicycle
+🔄 Generating Knowledge Questions for: car
+Response [
+  "What subclasses are defined under car?",
+  "Which components are modeled as parts of a car?",
+  "What relationships connect car to fuel types?",
+  "Which properties describe the capacity or performance of a car?",
+  "How is car associated with manufacturer entities?",
+  "What roles can car play in transportation ontologies?",
+  "Which safety features are specified as attributes of car?",
+  "What types of energy sources are linked to car in the ontology?"
+]
+Knowledge Questions: ['What subclasses are defined under car?', 'Which components are modeled as parts of a car?', 'What relationships connect car to fuel types?', 'Which properties describe the capacity or performance of a car?', 'How is car associated with manufacturer entities?', 'What roles can car play in transportation ontologies?', 'Which safety features are specified as attributes of car?', 'What types of energy sources are linked to car in the ontology?']
+✅ Saved: car
+🔄 Generating Knowledge Questions for: motorcycle
+Response [
+  "What are the essential components defined for motorcycle?",
+  "Which subclasses are specified under motorcycle?",
+  "How is motorcycle related to the class vehicle?",
+  "What roles can motorcycle play in transportation ontologies?",
+  "Which object properties connect motorcycle to engine?",
+  "Are there restrictions on the number of wheels for motorcycle?",
+  "What data properties capture the performance characteristics of motorcycle?",
+  "How does motorcycle participate in ownership relationships?",
+  "Which safety features are associated with motorcycle in the ontology?",
+  "What types of fuel are linked to motorcycle through ontological properties?"
+]
+Knowledge Questions: ['What are the essential components defined for motorcycle?', 'Which subclasses are specified under motorcycle?', 'How is motorcycle related to the class vehicle?', 'What roles can motorcycle play in transportation ontologies?', 'Which object properties connect motorcycle to engine?', 'Are there restrictions on the number of wheels for motorcycle?', 'What data properties capture the performance characteristics of motorcycle?', 'How does motorcycle participate in ownership relationships?', 'Which safety features are associated with motorcycle in the ontology?', 'What types of fuel are linked to motorcycle through ontological properties?']
+✅ Saved: motorcycle
+🔄 Generating Knowledge Questions for: airplane
+Response [
+  "What are the essential components defined for airplane?",
+  "Which subclasses are specified under airplane?",
+  "What types of propulsion systems are associated with airplane?",
+  "How is airplane related to airport in the ontology?",
+  "Which object properties connect airplane to pilot?",
+  "What restrictions are placed on the capacity of airplane?",
+  "Which materials are specified in the construction of airplane?",
+  "How is the flight route of an airplane represented?",
+  "What maintenance relationships are defined for airplane?",
+  "Which safety features are modeled for airplane in the ontology?"
+]
+Knowledge Questions: ['What are the essential components defined for airplane?', 'Which subclasses are specified under airplane?', 'What types of propulsion systems are associated with airplane?', 'How is airplane related to airport in the ontology?', 'Which object properties connect airplane to pilot?', 'What restrictions are placed on the capacity of airplane?', 'Which materials are specified in the construction of airplane?', 'How is the flight route of an airplane represented?', 'What maintenance relationships are defined for airplane?', 'Which safety features are modeled for airplane in the ontology?']
+✅ Saved: airplane
+🔄 Generating Knowledge Questions for: bus
+Response [
+  "What are the subclasses of bus?",
+  "Which classes are defined as passengers of a bus?",
+  "What properties link a bus to its route?",
+  "Which components are modeled as parts of a bus?",
+  "How is the relationship between bus and bus stop represented?",
+  "What data properties specify the capacity of a bus?",
+  "Which classes are associated with the driver of a bus?",
+  "What restrictions exist on the number of wheels for a bus?",
+  "How is the manufacturer of a bus represented in the ontology?",
+  "What object properties connect a bus to its schedule?"
+]
+Knowledge Questions: ['What are the subclasses of bus?', 'Which classes are defined as passengers of a bus?', 'What properties link a bus to its route?', 'Which components are modeled as parts of a bus?', 'How is the relationship between bus and bus stop represented?', 'What data properties specify the capacity of a bus?', 'Which classes are associated with the driver of a bus?', 'What restrictions exist on the number of wheels for a bus?', 'How is the manufacturer of a bus represented in the ontology?', 'What object properties connect a bus to its schedule?']
+✅ Saved: bus
+🔄 Generating Knowledge Questions for: train
+Response [
+  "What are the subclasses of train?",
+  "Which classes are connected to train through the 'hasCarriage' property?",
+  "What types of propulsion are associated with train?",
+  "Which infrastructure elements are required by train for operation?",
+  "What roles can train fulfill in transportation ontologies?",
+  "Which entities can be passengers of train?",
+  "What are the possible relationships between train and station?",
+  "How is train related to the concept of railway network?",
+  "What are the typical components that constitute a train?",
+  "Which properties define the capacity of a train?"
+]
+Knowledge Questions: ['What are the subclasses of train?', "Which classes are connected to train through the 'hasCarriage' property?", 'What types of propulsion are associated with train?', 'Which infrastructure elements are required by train for operation?', 'What roles can train fulfill in transportation ontologies?', 'Which entities can be passengers of train?', 'What are the possible relationships between train and station?', 'How is train related to the concept of railway network?', 'What are the typical components that constitute a train?', 'Which properties define the capacity of a train?']
+✅ Saved: train
+🔄 Generating Knowledge Questions for: truck
+Response [
+  "What subclasses are defined under truck?",
+  "Which properties specify the cargo capacity of a truck?",
+  "What relationships exist between truck and road infrastructure?",
+  "Which components are modeled as parts of a truck?",
+  "How is truck distinguished from other vehicle classes in the ontology?",
+  "What types of fuel are associated with truck instances?",
+  "Which roles can a truck fulfill in transportation ontologies?",
+  "What restrictions are placed on the number of axles for a truck?",
+  "How is the manufacturer of a truck represented in the ontology?",
+  "What regulations or standards are linked to the truck class?"
+]
+Knowledge Questions: ['What subclasses are defined under truck?', 'Which properties specify the cargo capacity of a truck?', 'What relationships exist between truck and road infrastructure?', 'Which components are modeled as parts of a truck?', 'How is truck distinguished from other vehicle classes in the ontology?', 'What types of fuel are associated with truck instances?', 'Which roles can a truck fulfill in transportation ontologies?', 'What restrictions are placed on the number of axles for a truck?', 'How is the manufacturer of a truck represented in the ontology?', 'What regulations or standards are linked to the truck class?']
+✅ Saved: truck
+🔄 Generating Knowledge Questions for: boat
+Response [
+  "What subclasses are defined under boat?",
+  "Which materials are specified as components of a boat?",
+  "What types of propulsion methods are associated with boat?",
+  "Which water bodies are boats designed to operate in?",
+  "What are the functional roles assigned to boat in the ontology?",
+  "Which object properties link boat to its operators or crew?",
+  "How is boat related to other transportation classes?",
+  "What safety equipment is modeled as part of boat?",
+  "Which data properties describe the capacity of a boat?",
+  "Are there restrictions on the size or weight for instances of boat?"
+]
+Knowledge Questions: ['What subclasses are defined under boat?', 'Which materials are specified as components of a boat?', 'What types of propulsion methods are associated with boat?', 'Which water bodies are boats designed to operate in?', 'What are the functional roles assigned to boat in the ontology?', 'Which object properties link boat to its operators or crew?', 'How is boat related to other transportation classes?', 'What safety equipment is modeled as part of boat?', 'Which data properties describe the capacity of a boat?', 'Are there restrictions on the size or weight for instances of boat?']
+✅ Saved: boat
+🔄 Generating Knowledge Questions for: traffic light
+Response [
+  "What are the component parts defined for traffic light?",
+  "Which classes are allowed as locations for traffic light instances?",
+  "What color states are associated with traffic light?",
+  "Which object properties link traffic light to road intersections?",
+  "What temporal properties are defined for traffic light signal changes?",
+  "Which subclasses of traffic light are specified in the ontology?",
+  "What relationships exist between traffic light and vehicle flow regulation?",
+  "Which data properties describe the operational status of a traffic light?"
+]
+Knowledge Questions: ['What are the component parts defined for traffic light?', 'Which classes are allowed as locations for traffic light instances?', 'What color states are associated with traffic light?', 'Which object properties link traffic light to road intersections?', 'What temporal properties are defined for traffic light signal changes?', 'Which subclasses of traffic light are specified in the ontology?', 'What relationships exist between traffic light and vehicle flow regulation?', 'Which data properties describe the operational status of a traffic light?']
+✅ Saved: traffic light
+🔄 Generating Knowledge Questions for: fire hydrant
+Response [
+  "What are the main components that constitute a fire hydrant?",
+  "Which classes are connected to fire hydrant through supply relationships?",
+  "What types of fluids can a fire hydrant dispense according to the ontology?",
+  "Which maintenance activities are associated with fire hydrant?",
+  "What installation locations are defined for fire hydrant?",
+  "Which safety standards are linked to fire hydrant in the ontology?",
+  "What events can trigger the use of a fire hydrant?",
+  "Which classes represent entities authorized to operate a fire hydrant?",
+  "What material properties are specified for fire hydrant?",
+  "How is fire hydrant related to the municipal water system in the ontology?"
+]
+Knowledge Questions: ['What are the main components that constitute a fire hydrant?', 'Which classes are connected to fire hydrant through supply relationships?', 'What types of fluids can a fire hydrant dispense according to the ontology?', 'Which maintenance activities are associated with fire hydrant?', 'What installation locations are defined for fire hydrant?', 'Which safety standards are linked to fire hydrant in the ontology?', 'What events can trigger the use of a fire hydrant?', 'Which classes represent entities authorized to operate a fire hydrant?', 'What material properties are specified for fire hydrant?', 'How is fire hydrant related to the municipal water system in the ontology?']
+✅ Saved: fire hydrant
+🔄 Generating Knowledge Questions for: stop sign
+Response [
+  "What are the subclasses of stop sign?",
+  "Which traffic regulations are associated with stop sign?",
+  "What materials are specified in the composition of stop sign?",
+  "Which road entities are required to display a stop sign?",
+  "What are the visual characteristics defined for stop sign?",
+  "Which object properties link stop sign to road intersection?",
+  "What are the legal requirements for the placement of stop sign?",
+  "Which classes are disjoint with stop sign?",
+  "What data properties describe the reflective coating of stop sign?",
+  "Which transportation modes are affected by the presence of stop sign?"
+]
+Knowledge Questions: ['What are the subclasses of stop sign?', 'Which traffic regulations are associated with stop sign?', 'What materials are specified in the composition of stop sign?', 'Which road entities are required to display a stop sign?', 'What are the visual characteristics defined for stop sign?', 'Which object properties link stop sign to road intersection?', 'What are the legal requirements for the placement of stop sign?', 'Which classes are disjoint with stop sign?', 'What data properties describe the reflective coating of stop sign?', 'Which transportation modes are affected by the presence of stop sign?']
+✅ Saved: stop sign
+🔄 Generating Knowledge Questions for: parking meter
+Response [
+  "What are the subclasses of parking meter?",
+  "Which entities are permitted to interact with a parking meter?",
+  "What types of payment methods are accepted by a parking meter?",
+  "What temporal restrictions are associated with a parking meter?",
+  "Which physical locations can contain a parking meter?",
+  "What are the component parts of a parking meter?",
+  "How does a parking meter relate to parking space entities?",
+  "What events can trigger a state change in a parking meter?",
+  "Which data properties record the operational status of a parking meter?",
+  "What regulations or rules are linked to a parking meter?"
+]
+Knowledge Questions: ['What are the subclasses of parking meter?', 'Which entities are permitted to interact with a parking meter?', 'What types of payment methods are accepted by a parking meter?', 'What temporal restrictions are associated with a parking meter?', 'Which physical locations can contain a parking meter?', 'What are the component parts of a parking meter?', 'How does a parking meter relate to parking space entities?', 'What events can trigger a state change in a parking meter?', 'Which data properties record the operational status of a parking meter?', 'What regulations or rules are linked to a parking meter?']
+✅ Saved: parking meter
+🔄 Generating Knowledge Questions for: bench
+Response [
+  "What materials are specified in the composition of bench?",
+  "Which locations are benches typically associated with in the ontology?",
+  "What seating capacity is defined for bench instances?",
+  "Are there subclasses of bench representing specific types, such as park bench or workbench?",
+  "What functional roles are assigned to bench within the ontology?",
+  "Which object properties link bench to other furniture or outdoor structures?",
+  "Does bench have any defined relationships to users or occupants?",
+  "What maintenance or durability attributes are modeled for bench?",
+  "Are there any temporal properties indicating the installation or lifespan of a bench?",
+  "How is accessibility for bench represented in the ontology?"
+]
+Knowledge Questions: ['What materials are specified in the composition of bench?', 'Which locations are benches typically associated with in the ontology?', 'What seating capacity is defined for bench instances?', 'Are there subclasses of bench representing specific types, such as park bench or workbench?', 'What functional roles are assigned to bench within the ontology?', 'Which object properties link bench to other furniture or outdoor structures?', 'Does bench have any defined relationships to users or occupants?', 'What maintenance or durability attributes are modeled for bench?', 'Are there any temporal properties indicating the installation or lifespan of a bench?', 'How is accessibility for bench represented in the ontology?']
+✅ Saved: bench
+🔄 Generating Knowledge Questions for: bird
+Response [
+  "Which subclasses are defined under bird?",
+  "What anatomical structures are associated with bird?",
+  "What ecological roles are assigned to bird in the ontology?",
+  "Which migration patterns are modeled for bird?",
+  "What types of nests are linked to bird?",
+  "Which dietary habits are specified for bird?",
+  "What vocalization properties are attributed to bird?",
+  "Which habitats are connected to bird through object properties?",
+  "What developmental stages are described for bird?",
+  "Which flight capabilities are represented for bird in the ontology?"
+]
+Knowledge Questions: ['Which subclasses are defined under bird?', 'What anatomical structures are associated with bird?', 'What ecological roles are assigned to bird in the ontology?', 'Which migration patterns are modeled for bird?', 'What types of nests are linked to bird?', 'Which dietary habits are specified for bird?', 'What vocalization properties are attributed to bird?', 'Which habitats are connected to bird through object properties?', 'What developmental stages are described for bird?', 'Which flight capabilities are represented for bird in the ontology?']
+✅ Saved: bird
+🔄 Generating Knowledge Questions for: cat
+Response [
+  "What subclasses are defined under cat?",
+  "Which classes are disjoint with cat?",
+  "What are the typical habitats associated with cat?",
+  "Which roles or behaviors are assigned to cat in the ontology?",
+  "What anatomical structures are modeled as components of cat?",
+  "How is cat related to human in terms of object properties?",
+  "What restrictions are imposed on cat regarding its diet?",
+  "Which ontological axioms specify the lifespan of cat?",
+  "What relationships link cat to other domestic animals?",
+  "Are there any ontological definitions for breeds within the class cat?"
+]
+Knowledge Questions: ['What subclasses are defined under cat?', 'Which classes are disjoint with cat?', 'What are the typical habitats associated with cat?', 'Which roles or behaviors are assigned to cat in the ontology?', 'What anatomical structures are modeled as components of cat?', 'How is cat related to human in terms of object properties?', 'What restrictions are imposed on cat regarding its diet?', 'Which ontological axioms specify the lifespan of cat?', 'What relationships link cat to other domestic animals?', 'Are there any ontological definitions for breeds within the class cat?']
+✅ Saved: cat
+🔄 Generating Knowledge Questions for: dog
+Response [
+  "What breeds are subclasses of dog?",
+  "Which anatomical structures are defined as components of dog?",
+  "What behaviors are associated with dog in the ontology?",
+  "Which classes are defined as companions or owners of dog?",
+  "What roles can dog fulfill according to the ontology?",
+  "Which diseases or health conditions are linked to dog?",
+  "What environments or habitats are specified for dog?",
+  "Which food types are consumed by dog as defined in the ontology?"
+]
+Knowledge Questions: ['What breeds are subclasses of dog?', 'Which anatomical structures are defined as components of dog?', 'What behaviors are associated with dog in the ontology?', 'Which classes are defined as companions or owners of dog?', 'What roles can dog fulfill according to the ontology?', 'Which diseases or health conditions are linked to dog?', 'What environments or habitats are specified for dog?', 'Which food types are consumed by dog as defined in the ontology?']
+✅ Saved: dog
+🔄 Generating Knowledge Questions for: horse
+Response [
+  "What subclasses are defined under horse?",
+  "Which anatomical structures are modeled as parts of horse?",
+  "What roles or functions are associated with horse in the ontology?",
+  "Which object properties link horse to human?",
+  "What data properties capture physical characteristics of horse?",
+  "How is horse related to the class mammal in the ontology?",
+  "Which activities or behaviors are specified for horse?",
+  "Are there any restrictions or axioms involving horse and habitat?",
+  "What relationships connect horse to domestication events?",
+  "Which classes represent breeds or types of horse?"
+]
+Knowledge Questions: ['What subclasses are defined under horse?', 'Which anatomical structures are modeled as parts of horse?', 'What roles or functions are associated with horse in the ontology?', 'Which object properties link horse to human?', 'What data properties capture physical characteristics of horse?', 'How is horse related to the class mammal in the ontology?', 'Which activities or behaviors are specified for horse?', 'Are there any restrictions or axioms involving horse and habitat?', 'What relationships connect horse to domestication events?', 'Which classes represent breeds or types of horse?']
+✅ Saved: horse
+🔄 Generating Knowledge Questions for: sheep
+Response [
+  "What subclasses are defined under sheep?",
+  "Which classes are defined as predators of sheep?",
+  "What anatomical structures are specified as parts of sheep?",
+  "Which properties relate sheep to their domestication status?",
+  "What relationships exist between sheep and wool production?",
+  "Which classes are defined as typical habitats for sheep?",
+  "What data properties capture the age or breed of sheep?",
+  "Which classes represent diseases that affect sheep?",
+  "What object properties link sheep to their offspring?",
+  "Which classes are defined as food sources for sheep?"
+]
+Knowledge Questions: ['What subclasses are defined under sheep?', 'Which classes are defined as predators of sheep?', 'What anatomical structures are specified as parts of sheep?', 'Which properties relate sheep to their domestication status?', 'What relationships exist between sheep and wool production?', 'Which classes are defined as typical habitats for sheep?', 'What data properties capture the age or breed of sheep?', 'Which classes represent diseases that affect sheep?', 'What object properties link sheep to their offspring?', 'Which classes are defined as food sources for sheep?']
+✅ Saved: sheep
+🔄 Generating Knowledge Questions for: cow
+Response [
+  "What subclasses are defined under cow?",
+  "Which anatomical structures are modeled as parts of cow?",
+  "What roles or functions are associated with cow in agricultural ontologies?",
+  "Which object properties link cow to its offspring?",
+  "How is the relationship between cow and milk production represented?",
+  "What data properties capture the breed or age of a cow?",
+  "In which ontologies is cow classified as a domesticated animal?",
+  "What relationships connect cow to grazing land or pasture?",
+  "How is the lifecycle of cow represented in the ontology?",
+  "Which classes are defined as food products derived from cow?"
+]
+Knowledge Questions: ['What subclasses are defined under cow?', 'Which anatomical structures are modeled as parts of cow?', 'What roles or functions are associated with cow in agricultural ontologies?', 'Which object properties link cow to its offspring?', 'How is the relationship between cow and milk production represented?', 'What data properties capture the breed or age of a cow?', 'In which ontologies is cow classified as a domesticated animal?', 'What relationships connect cow to grazing land or pasture?', 'How is the lifecycle of cow represented in the ontology?', 'Which classes are defined as food products derived from cow?']
+✅ Saved: cow
+🔄 Generating Knowledge Questions for: elephant
+Response [
+  "What are the anatomical components defined for elephant?",
+  "Which habitats are associated with elephant in the ontology?",
+  "What subclasses of elephant are specified?",
+  "Which object properties link elephant to its social structure?",
+  "What relationships exist between elephant and water sources?",
+  "Which data properties capture the physical characteristics of elephant?",
+  "How is the diet of elephant represented in the ontology?",
+  "What ontological restrictions are applied to elephant regarding its geographic distribution?"
+]
+Knowledge Questions: ['What are the anatomical components defined for elephant?', 'Which habitats are associated with elephant in the ontology?', 'What subclasses of elephant are specified?', 'Which object properties link elephant to its social structure?', 'What relationships exist between elephant and water sources?', 'Which data properties capture the physical characteristics of elephant?', 'How is the diet of elephant represented in the ontology?', 'What ontological restrictions are applied to elephant regarding its geographic distribution?']
+✅ Saved: elephant
+🔄 Generating Knowledge Questions for: bear
+Response [
+  "What subclasses are defined under bear?",
+  "Which habitats are associated with bear in the ontology?",
+  "What prey or food sources are linked to bear through object properties?",
+  "Which anatomical features are modeled as parts of bear?",
+  "What life stages are specified for bear in the ontology?",
+  "Which geographic regions are connected to bear via relationships?",
+  "What predators or threats are related to bear in the ontology?",
+  "Which conservation statuses are assigned to bear as data properties?"
+]
+Knowledge Questions: ['What subclasses are defined under bear?', 'Which habitats are associated with bear in the ontology?', 'What prey or food sources are linked to bear through object properties?', 'Which anatomical features are modeled as parts of bear?', 'What life stages are specified for bear in the ontology?', 'Which geographic regions are connected to bear via relationships?', 'What predators or threats are related to bear in the ontology?', 'Which conservation statuses are assigned to bear as data properties?']
+✅ Saved: bear
+🔄 Generating Knowledge Questions for: zebra
+Response [
+  "What are the distinguishing morphological features defined for zebra?",
+  "Which habitats are associated with zebra in the ontology?",
+  "What are the known predator-prey relationships involving zebra?",
+  "How is zebra taxonomically classified within the ontology?",
+  "What behavioral traits are attributed to zebra?",
+  "Which subclasses or species are included under zebra?",
+  "What ecological roles are assigned to zebra?",
+  "What anatomical structures are specified for zebra?",
+  "Which geographic regions are linked to zebra populations?",
+  "What symbiotic or competitive relationships involve zebra?"
+]
+Knowledge Questions: ['What are the distinguishing morphological features defined for zebra?', 'Which habitats are associated with zebra in the ontology?', 'What are the known predator-prey relationships involving zebra?', 'How is zebra taxonomically classified within the ontology?', 'What behavioral traits are attributed to zebra?', 'Which subclasses or species are included under zebra?', 'What ecological roles are assigned to zebra?', 'What anatomical structures are specified for zebra?', 'Which geographic regions are linked to zebra populations?', 'What symbiotic or competitive relationships involve zebra?']
+✅ Saved: zebra
+🔄 Generating Knowledge Questions for: giraffe
+Response [
+  "What are the defining anatomical features of giraffe in the ontology?",
+  "Which habitats are associated with giraffe as specified in the ontology?",
+  "What dietary relationships are established for giraffe?",
+  "Which subclasses, if any, are defined under giraffe?",
+  "How is giraffe linked to other animal classes through object properties?",
+  "What ontological restrictions are placed on the neck length of giraffe?",
+  "Which predator-prey relationships involve giraffe as prey?",
+  "Are there any migration patterns modeled for giraffe in the ontology?",
+  "What reproductive behaviors are attributed to giraffe in the ontology?",
+  "Which conservation status properties are associated with giraffe?"
+]
+Knowledge Questions: ['What are the defining anatomical features of giraffe in the ontology?', 'Which habitats are associated with giraffe as specified in the ontology?', 'What dietary relationships are established for giraffe?', 'Which subclasses, if any, are defined under giraffe?', 'How is giraffe linked to other animal classes through object properties?', 'What ontological restrictions are placed on the neck length of giraffe?', 'Which predator-prey relationships involve giraffe as prey?', 'Are there any migration patterns modeled for giraffe in the ontology?', 'What reproductive behaviors are attributed to giraffe in the ontology?', 'Which conservation status properties are associated with giraffe?']
+✅ Saved: giraffe
+🔄 Generating Knowledge Questions for: backpack
+Response [
+  "What are the subclasses of backpack?",
+  "Which materials are specified as components of backpack?",
+  "What types of items is backpack designed to carry?",
+  "Which anatomical regions is backpack intended to be worn on?",
+  "What functional properties are associated with backpack?",
+  "Which activities or contexts is backpack commonly used in?",
+  "What are the relationships between backpack and other carrying equipment?",
+  "Which closure mechanisms are defined for backpack?",
+  "What capacity or volume attributes are associated with backpack?",
+  "Which manufacturers or brands are linked to backpack in the ontology?"
+]
+Knowledge Questions: ['What are the subclasses of backpack?', 'Which materials are specified as components of backpack?', 'What types of items is backpack designed to carry?', 'Which anatomical regions is backpack intended to be worn on?', 'What functional properties are associated with backpack?', 'Which activities or contexts is backpack commonly used in?', 'What are the relationships between backpack and other carrying equipment?', 'Which closure mechanisms are defined for backpack?', 'What capacity or volume attributes are associated with backpack?', 'Which manufacturers or brands are linked to backpack in the ontology?']
+✅ Saved: backpack
+🔄 Generating Knowledge Questions for: umbrella
+Response [
+  "What are the subclasses of umbrella?",
+  "Which materials are specified as components of umbrella?",
+  "What functions are associated with umbrella in the ontology?",
+  "Which weather conditions is umbrella designed to protect against?",
+  "What are the has-part relationships defined for umbrella?",
+  "Which classes are defined as being covered by umbrella?",
+  "What mechanisms of operation are modeled for umbrella?",
+  "Which object properties link umbrella to its owner or user?",
+  "Are there any color or size data properties associated with umbrella?",
+  "What events or actions involve umbrella as a participant?"
+]
+Knowledge Questions: ['What are the subclasses of umbrella?', 'Which materials are specified as components of umbrella?', 'What functions are associated with umbrella in the ontology?', 'Which weather conditions is umbrella designed to protect against?', 'What are the has-part relationships defined for umbrella?', 'Which classes are defined as being covered by umbrella?', 'What mechanisms of operation are modeled for umbrella?', 'Which object properties link umbrella to its owner or user?', 'Are there any color or size data properties associated with umbrella?', 'What events or actions involve umbrella as a participant?']
+✅ Saved: umbrella
+🔄 Generating Knowledge Questions for: handbag
+Response [
+  "What materials are specified in the composition of handbag?",
+  "Which classes are defined as subclasses of handbag?",
+  "What types of closure mechanisms are associated with handbag?",
+  "Which object properties link handbag to its owner?",
+  "What are the functional uses defined for handbag?",
+  "Which classes are handbag instances allowed to contain as contents?",
+  "What relationships exist between handbag and fashion accessory?",
+  "Are there any constraints on the size or capacity of handbag?",
+  "Which events or activities are handbags typically associated with?",
+  "What color attributes are defined for handbag?"
+]
+Knowledge Questions: ['What materials are specified in the composition of handbag?', 'Which classes are defined as subclasses of handbag?', 'What types of closure mechanisms are associated with handbag?', 'Which object properties link handbag to its owner?', 'What are the functional uses defined for handbag?', 'Which classes are handbag instances allowed to contain as contents?', 'What relationships exist between handbag and fashion accessory?', 'Are there any constraints on the size or capacity of handbag?', 'Which events or activities are handbags typically associated with?', 'What color attributes are defined for handbag?']
+✅ Saved: handbag
+🔄 Generating Knowledge Questions for: tie
+Response [
+  "What materials are specified for the class tie?",
+  "Which classes are defined as being worn together with tie?",
+  "What is the intended wearer of tie according to the ontology?",
+  "Are there any subclasses of tie representing specific styles or types?",
+  "What properties describe the color or pattern of tie?",
+  "Does tie have any defined relationships to formal attire classes?",
+  "Is tie associated with any particular dress codes in the ontology?",
+  "What are the manufacturing processes linked to tie?",
+  "Are there any object properties indicating how tie is fastened or adjusted?",
+  "Which events or occasions are ties commonly associated with in the ontology?"
+]
+Knowledge Questions: ['What materials are specified for the class tie?', 'Which classes are defined as being worn together with tie?', 'What is the intended wearer of tie according to the ontology?', 'Are there any subclasses of tie representing specific styles or types?', 'What properties describe the color or pattern of tie?', 'Does tie have any defined relationships to formal attire classes?', 'Is tie associated with any particular dress codes in the ontology?', 'What are the manufacturing processes linked to tie?', 'Are there any object properties indicating how tie is fastened or adjusted?', 'Which events or occasions are ties commonly associated with in the ontology?']
+✅ Saved: tie
+🔄 Generating Knowledge Questions for: suitcase
+Response [
+  "What are the subclasses of suitcase based on size or intended use?",
+  "Which materials are commonly specified in the composition of a suitcase?",
+  "What functional relationships exist between suitcase and travel?",
+  "Which object properties link suitcase to its contents?",
+  "How is suitcase related to transportation modes in the ontology?",
+  "What are the typical components or parts defined for suitcase?",
+  "Which data properties capture the capacity or dimensions of a suitcase?",
+  "Are there any restrictions on the weight property for suitcase?",
+  "What relationships connect suitcase to owner or user classes?",
+  "How does suitcase relate to security features such as locks in the ontology?"
+]
+Knowledge Questions: ['What are the subclasses of suitcase based on size or intended use?', 'Which materials are commonly specified in the composition of a suitcase?', 'What functional relationships exist between suitcase and travel?', 'Which object properties link suitcase to its contents?', 'How is suitcase related to transportation modes in the ontology?', 'What are the typical components or parts defined for suitcase?', 'Which data properties capture the capacity or dimensions of a suitcase?', 'Are there any restrictions on the weight property for suitcase?', 'What relationships connect suitcase to owner or user classes?', 'How does suitcase relate to security features such as locks in the ontology?']
+✅ Saved: suitcase
+🔄 Generating Knowledge Questions for: frisbee
+Response [
+  "What materials are specified in the definition of frisbee?",
+  "Which activities or sports is frisbee associated with in the ontology?",
+  "What are the subclasses or types of frisbee defined?",
+  "What shape or physical characteristics are attributed to frisbee?",
+  "Which object properties link frisbee to players or participants?",
+  "Is frisbee defined as a subclass of any broader sporting equipment class?",
+  "What actions or uses are modeled for frisbee in the ontology?",
+  "Are there any regulations or standards linked to frisbee as an object?",
+  "Which properties describe the dimensions or weight of frisbee?",
+  "What relationships connect frisbee to playing fields or locations?"
+]
+Knowledge Questions: ['What materials are specified in the definition of frisbee?', 'Which activities or sports is frisbee associated with in the ontology?', 'What are the subclasses or types of frisbee defined?', 'What shape or physical characteristics are attributed to frisbee?', 'Which object properties link frisbee to players or participants?', 'Is frisbee defined as a subclass of any broader sporting equipment class?', 'What actions or uses are modeled for frisbee in the ontology?', 'Are there any regulations or standards linked to frisbee as an object?', 'Which properties describe the dimensions or weight of frisbee?', 'What relationships connect frisbee to playing fields or locations?']
+✅ Saved: frisbee
+🔄 Generating Knowledge Questions for: skis
+Response [
+  "What materials are skis composed of according to the ontology?",
+  "Which activities are skis designed to participate in?",
+  "What subclasses of skis are defined in the ontology?",
+  "Which equipment or accessories are skis typically used with?",
+  "What are the functional properties associated with skis?",
+  "Which anatomical regions of the human body interact with skis?",
+  "Are there any environmental conditions specified for the use of skis?",
+  "What manufacturing processes are linked to skis in the ontology?",
+  "Which transportation methods involve skis as a component?",
+  "What maintenance or care procedures are associated with skis?"
+]
+Knowledge Questions: ['What materials are skis composed of according to the ontology?', 'Which activities are skis designed to participate in?', 'What subclasses of skis are defined in the ontology?', 'Which equipment or accessories are skis typically used with?', 'What are the functional properties associated with skis?', 'Which anatomical regions of the human body interact with skis?', 'Are there any environmental conditions specified for the use of skis?', 'What manufacturing processes are linked to skis in the ontology?', 'Which transportation methods involve skis as a component?', 'What maintenance or care procedures are associated with skis?']
+✅ Saved: skis
+🔄 Generating Knowledge Questions for: snowboard
+Response [
+  "What materials are specified in the composition of snowboard?",
+  "Which sports activities is snowboard classified as equipment for?",
+  "What are the functional components defined for snowboard?",
+  "Which subclasses of snowboard are represented in the ontology?",
+  "What relationships exist between snowboard and binding?",
+  "Which manufacturers are associated with the production of snowboard?",
+  "What physical properties are attributed to snowboard in the ontology?",
+  "How is snowboard related to terrain types in the ontology?",
+  "What maintenance actions are defined for snowboard?",
+  "Which user skill levels are linked to snowboard usage?"
+]
+Knowledge Questions: ['What materials are specified in the composition of snowboard?', 'Which sports activities is snowboard classified as equipment for?', 'What are the functional components defined for snowboard?', 'Which subclasses of snowboard are represented in the ontology?', 'What relationships exist between snowboard and binding?', 'Which manufacturers are associated with the production of snowboard?', 'What physical properties are attributed to snowboard in the ontology?', 'How is snowboard related to terrain types in the ontology?', 'What maintenance actions are defined for snowboard?', 'Which user skill levels are linked to snowboard usage?']
+✅ Saved: snowboard
+🔄 Generating Knowledge Questions for: sports ball
+Response [
+  "What are the subclasses of sports ball?",
+  "Which sports are associated with sports ball as an equipment?",
+  "What material properties are defined for sports ball?",
+  "Which object properties link sports ball to player?",
+  "What are the dimensional constraints specified for sports ball?",
+  "Which manufacturing processes are related to sports ball?",
+  "What regulations or standards are referenced for sports ball in the ontology?",
+  "How is sports ball related to the concept of game equipment?",
+  "Are there any color or pattern attributes defined for sports ball?",
+  "Which classes represent the parts or components of a sports ball?"
+]
+Knowledge Questions: ['What are the subclasses of sports ball?', 'Which sports are associated with sports ball as an equipment?', 'What material properties are defined for sports ball?', 'Which object properties link sports ball to player?', 'What are the dimensional constraints specified for sports ball?', 'Which manufacturing processes are related to sports ball?', 'What regulations or standards are referenced for sports ball in the ontology?', 'How is sports ball related to the concept of game equipment?', 'Are there any color or pattern attributes defined for sports ball?', 'Which classes represent the parts or components of a sports ball?']
+✅ Saved: sports ball
+🔄 Generating Knowledge Questions for: kite
+Response [
+  "What materials are specified as components of kite?",
+  "Which subclasses of kite are defined in the ontology?",
+  "What is the intended function or use of kite according to the ontology?",
+  "Which object properties link kite to wind or weather conditions?",
+  "What relationships exist between kite and person in the ontology?",
+  "Does kite have any defined part-whole relationships with string or frame?",
+  "Are there any restrictions on the shape or size attributes of kite?",
+  "Which events or activities involve kite as a participant?",
+  "Is kite associated with any safety considerations in the ontology?",
+  "What manufacturing processes are linked to kite?"
+]
+Knowledge Questions: ['What materials are specified as components of kite?', 'Which subclasses of kite are defined in the ontology?', 'What is the intended function or use of kite according to the ontology?', 'Which object properties link kite to wind or weather conditions?', 'What relationships exist between kite and person in the ontology?', 'Does kite have any defined part-whole relationships with string or frame?', 'Are there any restrictions on the shape or size attributes of kite?', 'Which events or activities involve kite as a participant?', 'Is kite associated with any safety considerations in the ontology?', 'What manufacturing processes are linked to kite?']
+✅ Saved: kite
+🔄 Generating Knowledge Questions for: baseball bat
+Response [
+  "What materials are specified for baseball bat instances?",
+  "Which classes are defined as the intended users of a baseball bat?",
+  "What actions or activities is a baseball bat designed to participate in?",
+  "What are the defined component parts of a baseball bat?",
+  "How is a baseball bat related to the class baseball game?",
+  "Are there subclasses of baseball bat based on material or usage?",
+  "What regulations or standards are associated with the baseball bat class?",
+  "Which object properties link a baseball bat to other sports equipment?",
+  "What physical characteristics are described for baseball bat instances?",
+  "Is there a defined relationship between baseball bat and manufacturer classes?"
+]
+Knowledge Questions: ['What materials are specified for baseball bat instances?', 'Which classes are defined as the intended users of a baseball bat?', 'What actions or activities is a baseball bat designed to participate in?', 'What are the defined component parts of a baseball bat?', 'How is a baseball bat related to the class baseball game?', 'Are there subclasses of baseball bat based on material or usage?', 'What regulations or standards are associated with the baseball bat class?', 'Which object properties link a baseball bat to other sports equipment?', 'What physical characteristics are described for baseball bat instances?', 'Is there a defined relationship between baseball bat and manufacturer classes?']
+✅ Saved: baseball bat
+🔄 Generating Knowledge Questions for: baseball glove
+Response [
+  "What materials are specified in the composition of a baseball glove?",
+  "Which roles does a baseball glove fulfill in the context of a baseball game?",
+  "What are the defined part-of relationships for a baseball glove within sports equipment?",
+  "Which object properties link a baseball glove to a player?",
+  "Are there subclasses of baseball glove based on player position?",
+  "What data properties describe the size or webbing style of a baseball glove?",
+  "How is a baseball glove related to the action of catching in the ontology?",
+  "What manufacturing processes are associated with the creation of a baseball glove?",
+  "Which equipment items are functionally related to a baseball glove in the ontology?",
+  "What constraints exist on the use of a baseball glove in official gameplay?"
+]
+Knowledge Questions: ['What materials are specified in the composition of a baseball glove?', 'Which roles does a baseball glove fulfill in the context of a baseball game?', 'What are the defined part-of relationships for a baseball glove within sports equipment?', 'Which object properties link a baseball glove to a player?', 'Are there subclasses of baseball glove based on player position?', 'What data properties describe the size or webbing style of a baseball glove?', 'How is a baseball glove related to the action of catching in the ontology?', 'What manufacturing processes are associated with the creation of a baseball glove?', 'Which equipment items are functionally related to a baseball glove in the ontology?', 'What constraints exist on the use of a baseball glove in official gameplay?']
+✅ Saved: baseball glove
+🔄 Generating Knowledge Questions for: skateboard
+Response [
+  "What are the essential components that constitute a skateboard?",
+  "Which activities or sports is a skateboard used for?",
+  "What materials are commonly used in the construction of a skateboard?",
+  "How does a skateboard relate to the class of wheeled vehicles?",
+  "Which object properties connect a skateboard to its user?",
+  "What subclasses or types of skateboard are defined in the ontology?",
+  "What safety equipment is associated with the use of a skateboard?",
+  "Which physical forces or actions are required to operate a skateboard?",
+  "What maintenance actions are relevant for a skateboard?",
+  "How is a skateboard distinguished from similar transportation devices in the ontology?"
+]
+Knowledge Questions: ['What are the essential components that constitute a skateboard?', 'Which activities or sports is a skateboard used for?', 'What materials are commonly used in the construction of a skateboard?', 'How does a skateboard relate to the class of wheeled vehicles?', 'Which object properties connect a skateboard to its user?', 'What subclasses or types of skateboard are defined in the ontology?', 'What safety equipment is associated with the use of a skateboard?', 'Which physical forces or actions are required to operate a skateboard?', 'What maintenance actions are relevant for a skateboard?', 'How is a skateboard distinguished from similar transportation devices in the ontology?']
+✅ Saved: skateboard
+🔄 Generating Knowledge Questions for: surfboard
+Response [
+  "What materials are specified in the composition of surfboard?",
+  "Which activities or sports is surfboard designed for?",
+  "What are the subclasses or types of surfboard defined in the ontology?",
+  "Which object properties link surfboard to water environments?",
+  "Does surfboard have any required accessory relationships, such as with leash or fins?",
+  "What physical dimensions or characteristics are described for surfboard?",
+  "Which agents or users are associated with surfboard usage?",
+  "Is surfboard classified as a type of sports equipment in the ontology?",
+  "What manufacturing processes are associated with surfboard?",
+  "Are there any safety standards or regulations linked to surfboard?"
+]
+Knowledge Questions: ['What materials are specified in the composition of surfboard?', 'Which activities or sports is surfboard designed for?', 'What are the subclasses or types of surfboard defined in the ontology?', 'Which object properties link surfboard to water environments?', 'Does surfboard have any required accessory relationships, such as with leash or fins?', 'What physical dimensions or characteristics are described for surfboard?', 'Which agents or users are associated with surfboard usage?', 'Is surfboard classified as a type of sports equipment in the ontology?', 'What manufacturing processes are associated with surfboard?', 'Are there any safety standards or regulations linked to surfboard?']
+✅ Saved: surfboard
+🔄 Generating Knowledge Questions for: tennis racket
+Response [
+  "What materials are specified as components of a tennis racket?",
+  "Which subclasses are defined under tennis racket?",
+  "What functional relationships connect a tennis racket to other sports equipment?",
+  "Which object properties link tennis racket to the concept of tennis ball?",
+  "Are there any data properties that describe the weight or string tension of a tennis racket?",
+  "What part-whole relationships involve tennis racket and its handle or strings?",
+  "Which activities or actions is tennis racket defined as being used for?",
+  "What manufacturers or brands are associated with tennis racket in the ontology?"
+]
+Knowledge Questions: ['What materials are specified as components of a tennis racket?', 'Which subclasses are defined under tennis racket?', 'What functional relationships connect a tennis racket to other sports equipment?', 'Which object properties link tennis racket to the concept of tennis ball?', 'Are there any data properties that describe the weight or string tension of a tennis racket?', 'What part-whole relationships involve tennis racket and its handle or strings?', 'Which activities or actions is tennis racket defined as being used for?', 'What manufacturers or brands are associated with tennis racket in the ontology?']
+✅ Saved: tennis racket
+🔄 Generating Knowledge Questions for: bottle
+Response [
+  "What materials are defined as possible compositions for bottle?",
+  "Which subclasses of bottle are specified in the ontology?",
+  "What closure mechanisms are associated with bottle?",
+  "Which object properties link bottle to its contents?",
+  "What manufacturing processes are related to bottle?",
+  "Is bottle defined as a container in the ontology hierarchy?",
+  "What volume capacities are specified for bottle?",
+  "Which classes are defined as possible contents of bottle?",
+  "What relationships exist between bottle and label?",
+  "Are there any functional properties that distinguish bottle from similar containers?"
+]
+Knowledge Questions: ['What materials are defined as possible compositions for bottle?', 'Which subclasses of bottle are specified in the ontology?', 'What closure mechanisms are associated with bottle?', 'Which object properties link bottle to its contents?', 'What manufacturing processes are related to bottle?', 'Is bottle defined as a container in the ontology hierarchy?', 'What volume capacities are specified for bottle?', 'Which classes are defined as possible contents of bottle?', 'What relationships exist between bottle and label?', 'Are there any functional properties that distinguish bottle from similar containers?']
+✅ Saved: bottle
+🔄 Generating Knowledge Questions for: wine glass
+Response [
+  "What materials are specified for the construction of a wine glass?",
+  "Which beverages are intended to be served in a wine glass according to the ontology?",
+  "What are the component parts defined for a wine glass?",
+  "How is a wine glass functionally distinguished from other types of drinking vessels?",
+  "What subclasses of wine glass are present in the ontology?",
+  "Which events or activities involve the use of a wine glass?",
+  "What shape or design features are associated with a wine glass?",
+  "Are there any restrictions on the capacity of a wine glass defined in the ontology?",
+  "What relationships exist between wine glass and table setting?",
+  "Which cleaning or maintenance processes are linked to wine glass?"
+]
+Knowledge Questions: ['What materials are specified for the construction of a wine glass?', 'Which beverages are intended to be served in a wine glass according to the ontology?', 'What are the component parts defined for a wine glass?', 'How is a wine glass functionally distinguished from other types of drinking vessels?', 'What subclasses of wine glass are present in the ontology?', 'Which events or activities involve the use of a wine glass?', 'What shape or design features are associated with a wine glass?', 'Are there any restrictions on the capacity of a wine glass defined in the ontology?', 'What relationships exist between wine glass and table setting?', 'Which cleaning or maintenance processes are linked to wine glass?']
+✅ Saved: wine glass
+🔄 Generating Knowledge Questions for: cup
+Response [
+  "What materials are specified for cup in the ontology?",
+  "Which classes are defined as contents that a cup can hold?",
+  "What are the functional uses associated with cup?",
+  "Are there subclasses of cup representing different types or styles?",
+  "Which object properties relate cup to other tableware items?",
+  "Is there a defined capacity or volume property for cup?",
+  "Does cup have any relationships indicating its typical location or context of use?",
+  "Are there any restrictions on the temperature of substances that a cup can contain?"
+]
+Knowledge Questions: ['What materials are specified for cup in the ontology?', 'Which classes are defined as contents that a cup can hold?', 'What are the functional uses associated with cup?', 'Are there subclasses of cup representing different types or styles?', 'Which object properties relate cup to other tableware items?', 'Is there a defined capacity or volume property for cup?', 'Does cup have any relationships indicating its typical location or context of use?', 'Are there any restrictions on the temperature of substances that a cup can contain?']
+✅ Saved: cup
+🔄 Generating Knowledge Questions for: fork
+Response [
+  "What materials are specified in the composition of fork?",
+  "Which subclasses of fork are defined based on usage or design?",
+  "What functional roles are assigned to fork in the ontology?",
+  "What are the defined relationships between fork and food items?",
+  "Which manufacturing processes are associated with fork?",
+  "What are the possible part-of relationships involving fork and table setting?",
+  "How is fork differentiated from similar utensils in the ontology?",
+  "What ergonomic properties are described for fork?",
+  "Which cultural or regional variations of fork are modeled?",
+  "What safety or hygiene properties are attributed to fork?"
+]
+Knowledge Questions: ['What materials are specified in the composition of fork?', 'Which subclasses of fork are defined based on usage or design?', 'What functional roles are assigned to fork in the ontology?', 'What are the defined relationships between fork and food items?', 'Which manufacturing processes are associated with fork?', 'What are the possible part-of relationships involving fork and table setting?', 'How is fork differentiated from similar utensils in the ontology?', 'What ergonomic properties are described for fork?', 'Which cultural or regional variations of fork are modeled?', 'What safety or hygiene properties are attributed to fork?']
+✅ Saved: fork
+🔄 Generating Knowledge Questions for: knife
+Response [
+  "What are the material properties associated with knife?",
+  "Which subclasses of knife are defined in the ontology?",
+  "What functional roles are assigned to knife in the ontology?",
+  "How is knife related to the class 'cutting instrument'?",
+  "What are the defined part components of knife?",
+  "Which object properties link knife to food items?",
+  "What safety-related attributes are specified for knife?",
+  "How does knife participate in the process of food preparation?",
+  "What manufacturing methods are associated with knife?",
+  "Which classes are defined as being sharpened by knife?"
+]
+Knowledge Questions: ['What are the material properties associated with knife?', 'Which subclasses of knife are defined in the ontology?', 'What functional roles are assigned to knife in the ontology?', "How is knife related to the class 'cutting instrument'?", 'What are the defined part components of knife?', 'Which object properties link knife to food items?', 'What safety-related attributes are specified for knife?', 'How does knife participate in the process of food preparation?', 'What manufacturing methods are associated with knife?', 'Which classes are defined as being sharpened by knife?']
+✅ Saved: knife
+🔄 Generating Knowledge Questions for: spoon
+Response [
+  "What materials are defined as possible compositions for spoon?",
+  "Which subclasses of spoon are specified in the ontology?",
+  "What functional roles are associated with spoon?",
+  "Which object properties link spoon to food or liquid?",
+  "What are the defined relationships between spoon and utensil?",
+  "Are there any restrictions on the shape or size attributes of spoon?",
+  "Which activities or processes involve spoon as a participant?",
+  "Does spoon have any specified part-of relationships with table setting?",
+  "What data properties describe the capacity or volume of spoon?",
+  "Are there any disjoint classes specified for spoon within the ontology?"
+]
+Knowledge Questions: ['What materials are defined as possible compositions for spoon?', 'Which subclasses of spoon are specified in the ontology?', 'What functional roles are associated with spoon?', 'Which object properties link spoon to food or liquid?', 'What are the defined relationships between spoon and utensil?', 'Are there any restrictions on the shape or size attributes of spoon?', 'Which activities or processes involve spoon as a participant?', 'Does spoon have any specified part-of relationships with table setting?', 'What data properties describe the capacity or volume of spoon?', 'Are there any disjoint classes specified for spoon within the ontology?']
+✅ Saved: spoon
+🔄 Generating Knowledge Questions for: bowl
+Response [
+  "What materials are commonly used to construct a bowl?",
+  "Which classes are defined as subclasses of bowl?",
+  "What is the intended function or use of a bowl in the ontology?",
+  "Are there any object properties linking bowl to food items?",
+  "Does bowl have any defined relationships with utensils?",
+  "What shapes or forms are specified for bowl in the ontology?",
+  "Is bowl associated with any specific events or activities, such as serving or eating?",
+  "Are there any restrictions on the capacity or volume of a bowl?",
+  "What data properties describe the physical characteristics of a bowl?",
+  "Does bowl participate in any containment relationships with other objects?"
+]
+Knowledge Questions: ['What materials are commonly used to construct a bowl?', 'Which classes are defined as subclasses of bowl?', 'What is the intended function or use of a bowl in the ontology?', 'Are there any object properties linking bowl to food items?', 'Does bowl have any defined relationships with utensils?', 'What shapes or forms are specified for bowl in the ontology?', 'Is bowl associated with any specific events or activities, such as serving or eating?', 'Are there any restrictions on the capacity or volume of a bowl?', 'What data properties describe the physical characteristics of a bowl?', 'Does bowl participate in any containment relationships with other objects?']
+✅ Saved: bowl
+🔄 Generating Knowledge Questions for: banana
+Response [
+  "What are the subclasses of banana, such as specific cultivars or varieties?",
+  "Which anatomical parts are defined for banana, such as peel or pulp?",
+  "What are the typical developmental stages associated with banana?",
+  "Which object properties link banana to its plant of origin?",
+  "What nutritional data properties are associated with banana?",
+  "How is banana related to other fruits in the ontology?",
+  "What processes or actions involve banana as an input or output?",
+  "Which classes represent diseases or pests that affect banana?",
+  "What are the possible uses or products derived from banana?",
+  "Which geographic regions are associated with the cultivation of banana?"
+]
+Knowledge Questions: ['What are the subclasses of banana, such as specific cultivars or varieties?', 'Which anatomical parts are defined for banana, such as peel or pulp?', 'What are the typical developmental stages associated with banana?', 'Which object properties link banana to its plant of origin?', 'What nutritional data properties are associated with banana?', 'How is banana related to other fruits in the ontology?', 'What processes or actions involve banana as an input or output?', 'Which classes represent diseases or pests that affect banana?', 'What are the possible uses or products derived from banana?', 'Which geographic regions are associated with the cultivation of banana?']
+✅ Saved: banana
+🔄 Generating Knowledge Questions for: apple
+Response [
+  "What subclasses of apple are defined in the ontology?",
+  "Which classes are defined as parts of an apple?",
+  "What properties describe the taste or color of apple?",
+  "Which classes are related to apple through the grows-on property?",
+  "What are the edible components specified for apple?",
+  "Which processes or transformations involve apple as an input or output?",
+  "What relationships exist between apple and its seeds?",
+  "Which organisms are defined as consumers of apple in the ontology?"
+]
+Knowledge Questions: ['What subclasses of apple are defined in the ontology?', 'Which classes are defined as parts of an apple?', 'What properties describe the taste or color of apple?', 'Which classes are related to apple through the grows-on property?', 'What are the edible components specified for apple?', 'Which processes or transformations involve apple as an input or output?', 'What relationships exist between apple and its seeds?', 'Which organisms are defined as consumers of apple in the ontology?']
+✅ Saved: apple
+🔄 Generating Knowledge Questions for: sandwich
+Response [
+  "What are the necessary ingredients that define a sandwich?",
+  "Which subclasses are defined under sandwich?",
+  "What types of bread are associated with sandwich as a component?",
+  "Which object properties link sandwich to its fillings?",
+  "How is sandwich related to meal or food item in the ontology?",
+  "What preparation methods are specified for sandwich?",
+  "Which data properties describe the nutritional content of sandwich?",
+  "What are the possible serving contexts for sandwich?",
+  "How does sandwich participate in hasLayer or similar compositional relationships?",
+  "Are there any restrictions on the number of layers in a sandwich?"
+]
+Knowledge Questions: ['What are the necessary ingredients that define a sandwich?', 'Which subclasses are defined under sandwich?', 'What types of bread are associated with sandwich as a component?', 'Which object properties link sandwich to its fillings?', 'How is sandwich related to meal or food item in the ontology?', 'What preparation methods are specified for sandwich?', 'Which data properties describe the nutritional content of sandwich?', 'What are the possible serving contexts for sandwich?', 'How does sandwich participate in hasLayer or similar compositional relationships?', 'Are there any restrictions on the number of layers in a sandwich?']
+✅ Saved: sandwich
+🔄 Generating Knowledge Questions for: orange
+Response [
+  "What subclasses of orange are defined in the ontology?",
+  "Which classes are defined as being edible parts of orange?",
+  "What relationships exist between orange and citrus fruit classes?",
+  "Which properties describe the nutritional content of orange?",
+  "How is orange related to the class tree in the ontology?",
+  "Are there any defined uses or products derived from orange?",
+  "What are the defined developmental stages of orange in the ontology?",
+  "Which classes represent diseases or pests affecting orange?"
+]
+Knowledge Questions: ['What subclasses of orange are defined in the ontology?', 'Which classes are defined as being edible parts of orange?', 'What relationships exist between orange and citrus fruit classes?', 'Which properties describe the nutritional content of orange?', 'How is orange related to the class tree in the ontology?', 'Are there any defined uses or products derived from orange?', 'What are the defined developmental stages of orange in the ontology?', 'Which classes represent diseases or pests affecting orange?']
+✅ Saved: orange
+🔄 Generating Knowledge Questions for: broccoli
+Response [
+  "What are the subclasses of broccoli, if any?",
+  "Which anatomical structures are defined as parts of broccoli?",
+  "What are the nutritional properties associated with broccoli?",
+  "Which biological processes involve broccoli as a participant?",
+  "What are the cultivation requirements specified for broccoli?",
+  "Which classes are defined as edible parts of broccoli?",
+  "What are the taxonomic relationships between broccoli and other Brassica species?",
+  "Which object properties link broccoli to its growth environment?",
+  "What are the harvesting methods associated with broccoli?",
+  "Which diseases or pests are known to affect broccoli?"
+]
+Knowledge Questions: ['What are the subclasses of broccoli, if any?', 'Which anatomical structures are defined as parts of broccoli?', 'What are the nutritional properties associated with broccoli?', 'Which biological processes involve broccoli as a participant?', 'What are the cultivation requirements specified for broccoli?', 'Which classes are defined as edible parts of broccoli?', 'What are the taxonomic relationships between broccoli and other Brassica species?', 'Which object properties link broccoli to its growth environment?', 'What are the harvesting methods associated with broccoli?', 'Which diseases or pests are known to affect broccoli?']
+✅ Saved: broccoli
+🔄 Generating Knowledge Questions for: carrot
+Response [
+  "What are the subclasses of carrot, if any?",
+  "Which anatomical parts are defined for carrot?",
+  "What are the nutritional properties associated with carrot?",
+  "Which classes are defined as edible parts of carrot?",
+  "What is the botanical family to which carrot belongs?",
+  "Which growth stages are specified for carrot?",
+  "What are the relationships between carrot and soil types?",
+  "Which organisms interact with carrot as pests or pollinators?",
+  "What are the typical uses or functions assigned to carrot in the ontology?",
+  "Which environmental conditions are linked to carrot cultivation?"
+]
+Knowledge Questions: ['What are the subclasses of carrot, if any?', 'Which anatomical parts are defined for carrot?', 'What are the nutritional properties associated with carrot?', 'Which classes are defined as edible parts of carrot?', 'What is the botanical family to which carrot belongs?', 'Which growth stages are specified for carrot?', 'What are the relationships between carrot and soil types?', 'Which organisms interact with carrot as pests or pollinators?', 'What are the typical uses or functions assigned to carrot in the ontology?', 'Which environmental conditions are linked to carrot cultivation?']
+✅ Saved: carrot
+🔄 Generating Knowledge Questions for: hot dog
+Response [
+  "What are the essential components that constitute a hot dog?",
+  "Which food categories does hot dog belong to in the ontology?",
+  "What ingredients are typically used in the preparation of a hot dog?",
+  "What types of bread are associated with hot dog as a part-whole relationship?",
+  "Which condiments are commonly linked to hot dog through object properties?",
+  "What are the possible variations or subclasses of hot dog defined in the ontology?",
+  "In which contexts or events is hot dog commonly served according to the ontology?",
+  "What cooking methods are associated with the preparation of hot dog?",
+  "Which classes are defined as being able to consume hot dog?",
+  "What nutritional data properties are associated with hot dog?"
+]
+Knowledge Questions: ['What are the essential components that constitute a hot dog?', 'Which food categories does hot dog belong to in the ontology?', 'What ingredients are typically used in the preparation of a hot dog?', 'What types of bread are associated with hot dog as a part-whole relationship?', 'Which condiments are commonly linked to hot dog through object properties?', 'What are the possible variations or subclasses of hot dog defined in the ontology?', 'In which contexts or events is hot dog commonly served according to the ontology?', 'What cooking methods are associated with the preparation of hot dog?', 'Which classes are defined as being able to consume hot dog?', 'What nutritional data properties are associated with hot dog?']
+✅ Saved: hot dog
+🔄 Generating Knowledge Questions for: pizza
+Response [
+  "What are the essential ingredients that define pizza as a class?",
+  "Which subclasses represent different styles or types of pizza?",
+  "How is pizza related to other food classes through object properties?",
+  "What toppings are commonly associated with pizza in the ontology?",
+  "Which data properties capture the nutritional information of pizza?",
+  "What are the possible crust types specified for pizza?",
+  "How does pizza participate in part-whole relationships with its components?",
+  "Which preparation methods are linked to pizza in the ontology?",
+  "What restrictions exist on the allowed toppings for pizza?",
+  "How is pizza classified in relation to other baked goods?"
+]
+Knowledge Questions: ['What are the essential ingredients that define pizza as a class?', 'Which subclasses represent different styles or types of pizza?', 'How is pizza related to other food classes through object properties?', 'What toppings are commonly associated with pizza in the ontology?', 'Which data properties capture the nutritional information of pizza?', 'What are the possible crust types specified for pizza?', 'How does pizza participate in part-whole relationships with its components?', 'Which preparation methods are linked to pizza in the ontology?', 'What restrictions exist on the allowed toppings for pizza?', 'How is pizza classified in relation to other baked goods?']
+✅ Saved: pizza
+🔄 Generating Knowledge Questions for: donut
+Response [
+  "What are the subclasses of donut?",
+  "Which ingredients are associated with donut through composition relationships?",
+  "What preparation methods are linked to donut?",
+  "Which food categories does donut belong to?",
+  "What toppings or fillings can be related to donut via object properties?",
+  "Is donut defined as a type of baked good or fried food in the ontology?",
+  "What nutritional data properties are specified for donut?",
+  "Which events or occasions are donuts commonly associated with in the ontology?",
+  "Are there regional variations of donut represented as subclasses?",
+  "What is the relationship between donut and other pastries in the ontology?"
+]
+Knowledge Questions: ['What are the subclasses of donut?', 'Which ingredients are associated with donut through composition relationships?', 'What preparation methods are linked to donut?', 'Which food categories does donut belong to?', 'What toppings or fillings can be related to donut via object properties?', 'Is donut defined as a type of baked good or fried food in the ontology?', 'What nutritional data properties are specified for donut?', 'Which events or occasions are donuts commonly associated with in the ontology?', 'Are there regional variations of donut represented as subclasses?', 'What is the relationship between donut and other pastries in the ontology?']
+✅ Saved: donut
+🔄 Generating Knowledge Questions for: cake
+Response [
+  "What are the typical ingredients associated with cake?",
+  "Which subclasses are defined under cake?",
+  "What events or occasions are cakes commonly linked to?",
+  "How is cake related to other dessert classes in the ontology?",
+  "What preparation methods are specified for cake?",
+  "Which object properties connect cake to its decorations or toppings?",
+  "What are the possible shapes or forms that cake can take?",
+  "How is cake classified based on flavor or filling in the ontology?",
+  "What roles can cake play in a meal or celebration context?",
+  "Which data properties capture the nutritional information of cake?"
+]
+Knowledge Questions: ['What are the typical ingredients associated with cake?', 'Which subclasses are defined under cake?', 'What events or occasions are cakes commonly linked to?', 'How is cake related to other dessert classes in the ontology?', 'What preparation methods are specified for cake?', 'Which object properties connect cake to its decorations or toppings?', 'What are the possible shapes or forms that cake can take?', 'How is cake classified based on flavor or filling in the ontology?', 'What roles can cake play in a meal or celebration context?', 'Which data properties capture the nutritional information of cake?']
+✅ Saved: cake
+🔄 Generating Knowledge Questions for: chair
+Response [
+  "What materials are defined as possible components of a chair?",
+  "Which subclasses of chair are specified in the ontology?",
+  "What functional roles are associated with chair?",
+  "How is chair related to the class furniture?",
+  "What properties describe the seating capacity of a chair?",
+  "Which object properties link chair to its supporting parts?",
+  "Are there any constraints on the number of legs a chair must have?",
+  "What relationships exist between chair and person in the ontology?",
+  "Which data properties capture the dimensions of a chair?",
+  "Is chair defined as movable or fixed in the ontology?"
+]
+Knowledge Questions: ['What materials are defined as possible components of a chair?', 'Which subclasses of chair are specified in the ontology?', 'What functional roles are associated with chair?', 'How is chair related to the class furniture?', 'What properties describe the seating capacity of a chair?', 'Which object properties link chair to its supporting parts?', 'Are there any constraints on the number of legs a chair must have?', 'What relationships exist between chair and person in the ontology?', 'Which data properties capture the dimensions of a chair?', 'Is chair defined as movable or fixed in the ontology?']
+✅ Saved: chair
+🔄 Generating Knowledge Questions for: couch
+Response [
+  "What materials are specified in the composition of couch?",
+  "Which seating capacity restrictions are defined for couch?",
+  "What subclasses of couch are present in the ontology?",
+  "Which object properties relate couch to living room or other rooms?",
+  "Are there any ergonomic features associated with couch?",
+  "What relationships exist between couch and upholstery?",
+  "Does couch have any defined relationships with furniture sets?",
+  "What data properties describe the dimensions of couch?",
+  "Is couch associated with any specific style or design categories?",
+  "What functional roles are assigned to couch in the ontology?"
+]
+Knowledge Questions: ['What materials are specified in the composition of couch?', 'Which seating capacity restrictions are defined for couch?', 'What subclasses of couch are present in the ontology?', 'Which object properties relate couch to living room or other rooms?', 'Are there any ergonomic features associated with couch?', 'What relationships exist between couch and upholstery?', 'Does couch have any defined relationships with furniture sets?', 'What data properties describe the dimensions of couch?', 'Is couch associated with any specific style or design categories?', 'What functional roles are assigned to couch in the ontology?']
+✅ Saved: couch
+🔄 Generating Knowledge Questions for: potted plant
+Response [
+  "What are the essential components that constitute a potted plant?",
+  "Which object properties link a potted plant to its container?",
+  "How is the relationship between a potted plant and its growing medium represented?",
+  "What subclasses are defined under potted plant?",
+  "Which data properties capture the care requirements of a potted plant?",
+  "How is the association between a potted plant and its location modeled?",
+  "What restrictions exist on the types of plants that can be classified as potted plants?",
+  "Which properties describe the interaction between a potted plant and environmental factors?"
+]
+Knowledge Questions: ['What are the essential components that constitute a potted plant?', 'Which object properties link a potted plant to its container?', 'How is the relationship between a potted plant and its growing medium represented?', 'What subclasses are defined under potted plant?', 'Which data properties capture the care requirements of a potted plant?', 'How is the association between a potted plant and its location modeled?', 'What restrictions exist on the types of plants that can be classified as potted plants?', 'Which properties describe the interaction between a potted plant and environmental factors?']
+✅ Saved: potted plant
+🔄 Generating Knowledge Questions for: bed
+Response [
+  "What are the subclasses defined under bed?",
+  "Which materials are specified as components of bed?",
+  "What functional relationships connect bed to other furniture classes?",
+  "Which object properties link bed to bedroom?",
+  "What are the possible configurations or types of bed represented in the ontology?",
+  "Which data properties describe the dimensions of bed?",
+  "How is bed related to the concept of sleep in the ontology?",
+  "Are there any disjoint classes specified for bed?",
+  "What part-whole relationships involve bed and its components?",
+  "Which classes are defined as being supported by bed?"
+]
+Knowledge Questions: ['What are the subclasses defined under bed?', 'Which materials are specified as components of bed?', 'What functional relationships connect bed to other furniture classes?', 'Which object properties link bed to bedroom?', 'What are the possible configurations or types of bed represented in the ontology?', 'Which data properties describe the dimensions of bed?', 'How is bed related to the concept of sleep in the ontology?', 'Are there any disjoint classes specified for bed?', 'What part-whole relationships involve bed and its components?', 'Which classes are defined as being supported by bed?']
+✅ Saved: bed
+🔄 Generating Knowledge Questions for: dining table
+Response [
+  "What materials are commonly used to construct a dining table?",
+  "Which classes represent items typically placed on a dining table?",
+  "How is a dining table functionally distinguished from other types of tables in the ontology?",
+  "What are the typical part-of relationships involving a dining table and a dining room?",
+  "Which seating furniture classes are associated with a dining table?",
+  "Are there subclasses of dining table based on shape or size?",
+  "What object properties link a dining table to its users?",
+  "What data properties describe the capacity or dimensions of a dining table?",
+  "Which activities are modeled as occurring at a dining table?",
+  "What relationships exist between a dining table and meal events in the ontology?"
+]
+Knowledge Questions: ['What materials are commonly used to construct a dining table?', 'Which classes represent items typically placed on a dining table?', 'How is a dining table functionally distinguished from other types of tables in the ontology?', 'What are the typical part-of relationships involving a dining table and a dining room?', 'Which seating furniture classes are associated with a dining table?', 'Are there subclasses of dining table based on shape or size?', 'What object properties link a dining table to its users?', 'What data properties describe the capacity or dimensions of a dining table?', 'Which activities are modeled as occurring at a dining table?', 'What relationships exist between a dining table and meal events in the ontology?']
+✅ Saved: dining table
+🔄 Generating Knowledge Questions for: toilet
+Response [
+  "What are the essential components that constitute a toilet?",
+  "Which classes are defined as subclasses of toilet?",
+  "What functional relationships exist between toilet and plumbing system?",
+  "Which object properties link toilet to bathroom?",
+  "What material types are specified for the construction of a toilet?",
+  "How is toilet connected to sanitation facilities in the ontology?",
+  "What maintenance-related properties are associated with toilet?",
+  "Which classes are defined as compatible accessories for toilet?",
+  "What usage constraints are modeled for toilet in the ontology?"
+]
+Knowledge Questions: ['What are the essential components that constitute a toilet?', 'Which classes are defined as subclasses of toilet?', 'What functional relationships exist between toilet and plumbing system?', 'Which object properties link toilet to bathroom?', 'What material types are specified for the construction of a toilet?', 'How is toilet connected to sanitation facilities in the ontology?', 'What maintenance-related properties are associated with toilet?', 'Which classes are defined as compatible accessories for toilet?', 'What usage constraints are modeled for toilet in the ontology?']
+✅ Saved: toilet
+🔄 Generating Knowledge Questions for: tv
+Response [
+  "What are the subclasses of tv based on display technology?",
+  "Which object properties link tv to remote control devices?",
+  "What components are defined as parts of a tv?",
+  "Which data properties specify the screen size of a tv?",
+  "How is tv related to the class electronic device?",
+  "What relationships exist between tv and broadcast signal sources?",
+  "Which classes represent the types of content displayed on a tv?",
+  "What are the possible connections between tv and audio output devices?"
+]
+Knowledge Questions: ['What are the subclasses of tv based on display technology?', 'Which object properties link tv to remote control devices?', 'What components are defined as parts of a tv?', 'Which data properties specify the screen size of a tv?', 'How is tv related to the class electronic device?', 'What relationships exist between tv and broadcast signal sources?', 'Which classes represent the types of content displayed on a tv?', 'What are the possible connections between tv and audio output devices?']
+✅ Saved: tv
+🔄 Generating Knowledge Questions for: laptop
+Response [
+  "What are the essential hardware components defined for laptop?",
+  "Which subclasses represent different types of laptops?",
+  "What relationships exist between laptop and operating system?",
+  "How is laptop connected to peripheral devices in the ontology?",
+  "Which data properties capture the technical specifications of laptop?",
+  "What is the relationship between laptop and battery in the ontology?",
+  "Which classes are defined as parts of a laptop?",
+  "How does laptop relate to user in the ontology?",
+  "What object properties link laptop to network connectivity features?",
+  "Are there any restrictions on the software that can be installed on laptop?"
+]
+Knowledge Questions: ['What are the essential hardware components defined for laptop?', 'Which subclasses represent different types of laptops?', 'What relationships exist between laptop and operating system?', 'How is laptop connected to peripheral devices in the ontology?', 'Which data properties capture the technical specifications of laptop?', 'What is the relationship between laptop and battery in the ontology?', 'Which classes are defined as parts of a laptop?', 'How does laptop relate to user in the ontology?', 'What object properties link laptop to network connectivity features?', 'Are there any restrictions on the software that can be installed on laptop?']
+✅ Saved: laptop
+🔄 Generating Knowledge Questions for: mouse
+Response [
+  "What are the subclasses of mouse?",
+  "Which anatomical structures are defined as parts of mouse?",
+  "What biological processes is mouse involved in?",
+  "Which classes are defined as predators of mouse?",
+  "What habitats are associated with mouse?",
+  "Which developmental stages are specified for mouse?",
+  "What diseases are known to affect mouse?",
+  "Which object properties link mouse to its food sources?",
+  "What are the typical lifespan and reproductive traits of mouse?",
+  "Which experimental models use mouse as a reference organism?"
+]
+Knowledge Questions: ['What are the subclasses of mouse?', 'Which anatomical structures are defined as parts of mouse?', 'What biological processes is mouse involved in?', 'Which classes are defined as predators of mouse?', 'What habitats are associated with mouse?', 'Which developmental stages are specified for mouse?', 'What diseases are known to affect mouse?', 'Which object properties link mouse to its food sources?', 'What are the typical lifespan and reproductive traits of mouse?', 'Which experimental models use mouse as a reference organism?']
+✅ Saved: mouse
+🔄 Generating Knowledge Questions for: remote
+Response [
+  "What are the subclasses of remote based on their intended device control?",
+  "Which object properties link remote to electronic devices?",
+  "What material composition data properties are defined for remote?",
+  "How is remote functionally related to signal transmission classes?",
+  "Which classes represent the power source of remote?",
+  "What are the possible communication protocols associated with remote?",
+  "Which classes represent the buttons or controls that are part of remote?",
+  "How is remote associated with user interaction events?",
+  "What are the possible states or modes defined for remote?",
+  "Which classes represent the range or distance limitations of remote?"
+]
+Knowledge Questions: ['What are the subclasses of remote based on their intended device control?', 'Which object properties link remote to electronic devices?', 'What material composition data properties are defined for remote?', 'How is remote functionally related to signal transmission classes?', 'Which classes represent the power source of remote?', 'What are the possible communication protocols associated with remote?', 'Which classes represent the buttons or controls that are part of remote?', 'How is remote associated with user interaction events?', 'What are the possible states or modes defined for remote?', 'Which classes represent the range or distance limitations of remote?']
+✅ Saved: remote
+🔄 Generating Knowledge Questions for: keyboard
+Response [
+  "What are the subclasses of keyboard?",
+  "Which components are defined as parts of a keyboard?",
+  "What functions are associated with the keyboard class?",
+  "Which devices are connected to a keyboard via object properties?",
+  "What data properties specify the layout or type of a keyboard?",
+  "How is keyboard related to input device in the ontology?",
+  "Which events or actions can a keyboard initiate according to the ontology?",
+  "What physical characteristics are described for keyboard instances?"
+]
+Knowledge Questions: ['What are the subclasses of keyboard?', 'Which components are defined as parts of a keyboard?', 'What functions are associated with the keyboard class?', 'Which devices are connected to a keyboard via object properties?', 'What data properties specify the layout or type of a keyboard?', 'How is keyboard related to input device in the ontology?', 'Which events or actions can a keyboard initiate according to the ontology?', 'What physical characteristics are described for keyboard instances?']
+✅ Saved: keyboard
+🔄 Generating Knowledge Questions for: cell phone
+Response [
+  "What are the essential components that constitute a cell phone?",
+  "Which communication technologies are supported by cell phone?",
+  "What types of data can be processed or stored by a cell phone?",
+  "Which classes of devices are subclasses or specializations of cell phone?",
+  "What are the functional relationships between cell phone and cellular network?",
+  "Which user roles are associated with operating a cell phone?",
+  "What energy sources are required for a cell phone to function?",
+  "What are the typical input and output interfaces of a cell phone?",
+  "How does a cell phone interact with other electronic devices?",
+  "What are the manufacturing materials commonly used in cell phone construction?"
+]
+Knowledge Questions: ['What are the essential components that constitute a cell phone?', 'Which communication technologies are supported by cell phone?', 'What types of data can be processed or stored by a cell phone?', 'Which classes of devices are subclasses or specializations of cell phone?', 'What are the functional relationships between cell phone and cellular network?', 'Which user roles are associated with operating a cell phone?', 'What energy sources are required for a cell phone to function?', 'What are the typical input and output interfaces of a cell phone?', 'How does a cell phone interact with other electronic devices?', 'What are the manufacturing materials commonly used in cell phone construction?']
+✅ Saved: cell phone
+🔄 Generating Knowledge Questions for: microwave
+Response [
+  "What are the component parts defined for microwave?",
+  "Which classes are defined as subclasses of microwave?",
+  "What functional relationships are associated with microwave?",
+  "Which object properties link microwave to other kitchen appliances?",
+  "What data properties specify the power rating of microwave?",
+  "Which processes or actions is microwave capable of performing?",
+  "What materials are specified in the composition of microwave?",
+  "Which safety features are ontologically described for microwave?",
+  "What is the typical location or environment associated with microwave?",
+  "How is microwave related to the concept of food heating in the ontology?"
+]
+Knowledge Questions: ['What are the component parts defined for microwave?', 'Which classes are defined as subclasses of microwave?', 'What functional relationships are associated with microwave?', 'Which object properties link microwave to other kitchen appliances?', 'What data properties specify the power rating of microwave?', 'Which processes or actions is microwave capable of performing?', 'What materials are specified in the composition of microwave?', 'Which safety features are ontologically described for microwave?', 'What is the typical location or environment associated with microwave?', 'How is microwave related to the concept of food heating in the ontology?']
+✅ Saved: microwave
+🔄 Generating Knowledge Questions for: oven
+Response [
+  "What are the subclasses of oven defined in the ontology?",
+  "Which object properties link oven to other kitchen appliances?",
+  "What materials are specified as components of oven?",
+  "Which processes is oven capable of performing according to the ontology?",
+  "What data properties describe the temperature range of oven?",
+  "How is oven related to the class food in the ontology?",
+  "What functional parts are defined as part-of relationships for oven?",
+  "Which energy sources are associated with oven in the ontology?",
+  "What safety features are modeled as properties of oven?",
+  "Which maintenance actions are linked to oven through object properties?"
+]
+Knowledge Questions: ['What are the subclasses of oven defined in the ontology?', 'Which object properties link oven to other kitchen appliances?', 'What materials are specified as components of oven?', 'Which processes is oven capable of performing according to the ontology?', 'What data properties describe the temperature range of oven?', 'How is oven related to the class food in the ontology?', 'What functional parts are defined as part-of relationships for oven?', 'Which energy sources are associated with oven in the ontology?', 'What safety features are modeled as properties of oven?', 'Which maintenance actions are linked to oven through object properties?']
+✅ Saved: oven
+🔄 Generating Knowledge Questions for: toaster
+Response [
+  "What are the functional components that constitute a toaster?",
+  "Which electrical appliance classes is toaster a subclass of?",
+  "What types of bread products can a toaster process?",
+  "What safety features are associated with a toaster?",
+  "Which materials are commonly used in the construction of a toaster?",
+  "How does a toaster interact with other kitchen appliances in an ontology?",
+  "What energy source is required for a toaster to operate?",
+  "What are the typical object properties linking toaster to its heating elements?",
+  "What maintenance actions are defined for a toaster in the ontology?",
+  "Which user actions are associated with operating a toaster?"
+]
+Knowledge Questions: ['What are the functional components that constitute a toaster?', 'Which electrical appliance classes is toaster a subclass of?', 'What types of bread products can a toaster process?', 'What safety features are associated with a toaster?', 'Which materials are commonly used in the construction of a toaster?', 'How does a toaster interact with other kitchen appliances in an ontology?', 'What energy source is required for a toaster to operate?', 'What are the typical object properties linking toaster to its heating elements?', 'What maintenance actions are defined for a toaster in the ontology?', 'Which user actions are associated with operating a toaster?']
+✅ Saved: toaster
+🔄 Generating Knowledge Questions for: sink
+Response [
+  "What are the typical materials specified for sink instances?",
+  "Which functional relationships connect sink to plumbing fixtures?",
+  "What are the containment relationships involving sink and water basin?",
+  "Which subclasses are defined under sink?",
+  "What are the usage contexts or locations associated with sink?",
+  "Which object properties relate sink to faucet or drain components?",
+  "What are the maintenance-related attributes defined for sink?",
+  "How is sink connected to water supply systems in the ontology?"
+]
+Knowledge Questions: ['What are the typical materials specified for sink instances?', 'Which functional relationships connect sink to plumbing fixtures?', 'What are the containment relationships involving sink and water basin?', 'Which subclasses are defined under sink?', 'What are the usage contexts or locations associated with sink?', 'Which object properties relate sink to faucet or drain components?', 'What are the maintenance-related attributes defined for sink?', 'How is sink connected to water supply systems in the ontology?']
+✅ Saved: sink
+🔄 Generating Knowledge Questions for: refrigerator
+Response [
+  "What are the essential components that constitute a refrigerator?",
+  "Which classes are defined as subclasses of refrigerator?",
+  "What types of food or items are typically stored in a refrigerator according to the ontology?",
+  "Which energy source properties are associated with refrigerator?",
+  "What are the functional relationships between refrigerator and other kitchen appliances?",
+  "Which maintenance activities are linked to refrigerator in the ontology?",
+  "What temperature range is specified for refrigerator operation?",
+  "Which object properties connect refrigerator to its manufacturer?",
+  "How is the capacity of a refrigerator represented in the ontology?",
+  "What safety features are modeled for refrigerator?"
+]
+Knowledge Questions: ['What are the essential components that constitute a refrigerator?', 'Which classes are defined as subclasses of refrigerator?', 'What types of food or items are typically stored in a refrigerator according to the ontology?', 'Which energy source properties are associated with refrigerator?', 'What are the functional relationships between refrigerator and other kitchen appliances?', 'Which maintenance activities are linked to refrigerator in the ontology?', 'What temperature range is specified for refrigerator operation?', 'Which object properties connect refrigerator to its manufacturer?', 'How is the capacity of a refrigerator represented in the ontology?', 'What safety features are modeled for refrigerator?']
+✅ Saved: refrigerator
+🔄 Generating Knowledge Questions for: book
+Response [
+  "What are the subclasses defined under book?",
+  "Which classes are related to book through authorship properties?",
+  "What physical and digital formats are specified for book?",
+  "Which properties describe the publication details of book?",
+  "What relationships exist between book and publisher classes?",
+  "How is book linked to library or collection classes?",
+  "What are the defined parts or components of book?",
+  "Which properties capture the language or edition of book?",
+  "What restrictions or cardinalities are set for book's ISBN property?",
+  "How does book relate to genre or subject classification classes?"
+]
+Knowledge Questions: ['What are the subclasses defined under book?', 'Which classes are related to book through authorship properties?', 'What physical and digital formats are specified for book?', 'Which properties describe the publication details of book?', 'What relationships exist between book and publisher classes?', 'How is book linked to library or collection classes?', 'What are the defined parts or components of book?', 'Which properties capture the language or edition of book?', "What restrictions or cardinalities are set for book's ISBN property?", 'How does book relate to genre or subject classification classes?']
+✅ Saved: book
+🔄 Generating Knowledge Questions for: clock
+Response [
+  "What are the subclasses of clock?",
+  "Which components are defined as parts of a clock?",
+  "What functions or roles are associated with clock?",
+  "Which properties describe the materials used in a clock?",
+  "How is clock related to the concept of timekeeping device?",
+  "What relationships exist between clock and power source?",
+  "Which data properties specify the accuracy of a clock?",
+  "What object properties link clock to its manufacturer?",
+  "Are there any temporal properties associated with clock operation?",
+  "Which classes are defined as being measured by a clock?"
+]
+Knowledge Questions: ['What are the subclasses of clock?', 'Which components are defined as parts of a clock?', 'What functions or roles are associated with clock?', 'Which properties describe the materials used in a clock?', 'How is clock related to the concept of timekeeping device?', 'What relationships exist between clock and power source?', 'Which data properties specify the accuracy of a clock?', 'What object properties link clock to its manufacturer?', 'Are there any temporal properties associated with clock operation?', 'Which classes are defined as being measured by a clock?']
+✅ Saved: clock
+🔄 Generating Knowledge Questions for: vase
+Response [
+  "What materials are commonly used to construct a vase?",
+  "Which classes are defined as subclasses of vase?",
+  "What types of objects can a vase contain according to the ontology?",
+  "What decorative styles are associated with the vase class?",
+  "How is the vase class related to the class flower?",
+  "What functional properties are assigned to vase in the ontology?",
+  "Are there any temporal properties describing the use or display period of a vase?",
+  "Which classes are defined as possible locations for a vase?",
+  "What shape attributes are associated with the vase class?",
+  "Does the ontology specify any cultural or historical context for vase?"
+]
+Knowledge Questions: ['What materials are commonly used to construct a vase?', 'Which classes are defined as subclasses of vase?', 'What types of objects can a vase contain according to the ontology?', 'What decorative styles are associated with the vase class?', 'How is the vase class related to the class flower?', 'What functional properties are assigned to vase in the ontology?', 'Are there any temporal properties describing the use or display period of a vase?', 'Which classes are defined as possible locations for a vase?', 'What shape attributes are associated with the vase class?', 'Does the ontology specify any cultural or historical context for vase?']
+✅ Saved: vase
+🔄 Generating Knowledge Questions for: scissors
+Response [
+  "What materials are specified as components of scissors?",
+  "Which subclasses of scissors are defined in the ontology?",
+  "What functional roles are associated with scissors?",
+  "Which object properties link scissors to their users?",
+  "Are there any defined relationships between scissors and cutting actions?",
+  "What manufacturing processes are associated with scissors?",
+  "Which parts are modeled as constituents of scissors?",
+  "What safety features are described for scissors in the ontology?",
+  "How are scissors categorized based on their intended use?",
+  "What maintenance procedures are linked to scissors?"
+]
+Knowledge Questions: ['What materials are specified as components of scissors?', 'Which subclasses of scissors are defined in the ontology?', 'What functional roles are associated with scissors?', 'Which object properties link scissors to their users?', 'Are there any defined relationships between scissors and cutting actions?', 'What manufacturing processes are associated with scissors?', 'Which parts are modeled as constituents of scissors?', 'What safety features are described for scissors in the ontology?', 'How are scissors categorized based on their intended use?', 'What maintenance procedures are linked to scissors?']
+✅ Saved: scissors
+🔄 Generating Knowledge Questions for: teddy bear
+Response [
+  "What materials are specified in the composition of teddy bear?",
+  "Which age groups is teddy bear intended for according to the ontology?",
+  "What manufacturing processes are associated with teddy bear?",
+  "What emotional or social roles are assigned to teddy bear?",
+  "Does teddy bear have any safety certifications or standards defined?",
+  "What anatomical parts are modeled in the structure of teddy bear?",
+  "Which classes are allowed as owners or users of teddy bear?",
+  "Are there any color or size attributes defined for teddy bear?",
+  "What relationships exist between teddy bear and other toy classes?",
+  "Is teddy bear associated with any specific events or occasions in the ontology?"
+]
+Knowledge Questions: ['What materials are specified in the composition of teddy bear?', 'Which age groups is teddy bear intended for according to the ontology?', 'What manufacturing processes are associated with teddy bear?', 'What emotional or social roles are assigned to teddy bear?', 'Does teddy bear have any safety certifications or standards defined?', 'What anatomical parts are modeled in the structure of teddy bear?', 'Which classes are allowed as owners or users of teddy bear?', 'Are there any color or size attributes defined for teddy bear?', 'What relationships exist between teddy bear and other toy classes?', 'Is teddy bear associated with any specific events or occasions in the ontology?']
+✅ Saved: teddy bear
+🔄 Generating Knowledge Questions for: hair drier
+Response [
+  "What are the main components that constitute a hair drier?",
+  "Which electrical safety standards are associated with hair drier?",
+  "What types of materials are commonly used in the construction of hair drier?",
+  "Which subclasses exist under hair drier based on usage or technology?",
+  "What are the primary functions defined for hair drier?",
+  "How does hair drier relate to other personal care appliances in the ontology?",
+  "What energy sources can power a hair drier?",
+  "Which object properties link hair drier to its manufacturer?",
+  "What are the possible output temperature ranges for hair drier?",
+  "Which data properties describe the power rating of hair drier?"
+]
+Knowledge Questions: ['What are the main components that constitute a hair drier?', 'Which electrical safety standards are associated with hair drier?', 'What types of materials are commonly used in the construction of hair drier?', 'Which subclasses exist under hair drier based on usage or technology?', 'What are the primary functions defined for hair drier?', 'How does hair drier relate to other personal care appliances in the ontology?', 'What energy sources can power a hair drier?', 'Which object properties link hair drier to its manufacturer?', 'What are the possible output temperature ranges for hair drier?', 'Which data properties describe the power rating of hair drier?']
+✅ Saved: hair drier
+🔄 Generating Knowledge Questions for: toothbrush
+Response [
+  "What materials are specified as components of toothbrush?",
+  "Which subclasses are defined under toothbrush?",
+  "What functional relationships link toothbrush to oral hygiene?",
+  "Which object properties connect toothbrush to toothpaste?",
+  "What data properties describe the bristle type of toothbrush?",
+  "Which anatomical entities are intended recipients of toothbrush use?",
+  "What manufacturing processes are associated with toothbrush?",
+  "Which temporal properties relate to the lifespan of toothbrush?",
+  "What ergonomic features are modeled for toothbrush in the ontology?",
+  "How is toothbrush related to cleaning actions in the ontology?"
+]
+Knowledge Questions: ['What materials are specified as components of toothbrush?', 'Which subclasses are defined under toothbrush?', 'What functional relationships link toothbrush to oral hygiene?', 'Which object properties connect toothbrush to toothpaste?', 'What data properties describe the bristle type of toothbrush?', 'Which anatomical entities are intended recipients of toothbrush use?', 'What manufacturing processes are associated with toothbrush?', 'Which temporal properties relate to the lifespan of toothbrush?', 'What ergonomic features are modeled for toothbrush in the ontology?', 'How is toothbrush related to cleaning actions in the ontology?']
+✅ Saved: toothbrush

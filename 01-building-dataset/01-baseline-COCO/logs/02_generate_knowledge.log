@@ -1,0 +1,1144 @@
+nohup: ignoring input
+🔄 Generating Knowledge for: car
+LLM Response [
+  "Subclasses defined under car include [sedan, hatchback, SUV, convertible, coupe, stationWagon].",
+  "Components modeled as parts of a car are [engine, wheels, doors, seats, transmission, chassis, steeringWheel].",
+  "Relationships connecting car to fuel types include [usesFuelType, compatibleWithFuel].",
+  "Properties describing the capacity or performance of a car are [enginePower, seatingCapacity, cargoVolume, topSpeed, fuelEfficiency].",
+  "Car is associated with manufacturer entities through relationships such as [producedBy, manufacturedBy, hasManufacturer].",
+  "In transportation ontologies, car can play roles such as [vehicle, meansOfTransport, passengerCarrier].",
+  "Safety features specified as attributes of car include [airbags, antiLockBrakes, tractionControl, electronicStabilityControl, seatBelts].",
+  "Types of energy sources linked to car in the ontology are [gasoline, diesel, electricity, hybrid, hydrogen]."
+]
+Generated Knowledge ['Subclasses defined under car include [sedan, hatchback, SUV, convertible, coupe, stationWagon].', 'Components modeled as parts of a car are [engine, wheels, doors, seats, transmission, chassis, steeringWheel].', 'Relationships connecting car to fuel types include [usesFuelType, compatibleWithFuel].', 'Properties describing the capacity or performance of a car are [enginePower, seatingCapacity, cargoVolume, topSpeed, fuelEfficiency].', 'Car is associated with manufacturer entities through relationships such as [producedBy, manufacturedBy, hasManufacturer].', 'In transportation ontologies, car can play roles such as [vehicle, meansOfTransport, passengerCarrier].', 'Safety features specified as attributes of car include [airbags, antiLockBrakes, tractionControl, electronicStabilityControl, seatBelts].', 'Types of energy sources linked to car in the ontology are [gasoline, diesel, electricity, hybrid, hydrogen].']
+✅ Saved: car
+🔄 Generating Knowledge for: motorcycle
+LLM Response [
+  "Essential components for motorcycle include [engine, frame, wheels, handlebars, seat].",
+  "Subclasses specified under motorcycle are [sport motorcycle, cruiser, touring motorcycle, scooter, dirt bike].",
+  "Motorcycle is defined as a subclass of [vehicle].",
+  "In transportation ontologies, motorcycle can play roles such as [modeOfTransport, trafficParticipant, vehicleType].",
+  "Object properties connecting motorcycle to engine include [hasEngine, poweredBy].",
+  "There are restrictions specifying that motorcycle typically has [two wheels], with some variants allowing [three wheels].",
+  "Data properties capturing performance characteristics of motorcycle include [topSpeed, engineCapacity, horsepower, fuelEfficiency, acceleration].",
+  "Motorcycle participates in ownership relationships through properties like [ownedBy, registeredTo, leasedBy].",
+  "Safety features associated with motorcycle in the ontology are [antiLockBrakingSystem, tractionControl, airbags, protectiveGear].",
+  "Types of fuel linked to motorcycle through ontological properties are [gasoline, electric, diesel]."
+]
+Generated Knowledge ['Essential components for motorcycle include [engine, frame, wheels, handlebars, seat].', 'Subclasses specified under motorcycle are [sport motorcycle, cruiser, touring motorcycle, scooter, dirt bike].', 'Motorcycle is defined as a subclass of [vehicle].', 'In transportation ontologies, motorcycle can play roles such as [modeOfTransport, trafficParticipant, vehicleType].', 'Object properties connecting motorcycle to engine include [hasEngine, poweredBy].', 'There are restrictions specifying that motorcycle typically has [two wheels], with some variants allowing [three wheels].', 'Data properties capturing performance characteristics of motorcycle include [topSpeed, engineCapacity, horsepower, fuelEfficiency, acceleration].', 'Motorcycle participates in ownership relationships through properties like [ownedBy, registeredTo, leasedBy].', 'Safety features associated with motorcycle in the ontology are [antiLockBrakingSystem, tractionControl, airbags, protectiveGear].', 'Types of fuel linked to motorcycle through ontological properties are [gasoline, electric, diesel].']
+✅ Saved: motorcycle
+🔄 Generating Knowledge for: airplane
+LLM Response [
+  "Essential components defined for airplane include [fuselage, wings, engines, landingGear, cockpit].",
+  "Subclasses specified under airplane are [passengerAirplane, cargoAirplane, militaryAirplane, privateJet].",
+  "Propulsion systems associated with airplane include [jetEngine, turboprop, pistonEngine, electricMotor].",
+  "Airplane is related to airport through the object property [landsAt, departsFrom, parksAt].",
+  "Object properties connecting airplane to pilot include [operatedBy, assignedPilot].",
+  "Restrictions on the capacity of airplane are defined by [maximumPassengerCount, maximumCargoWeight].",
+  "Materials specified in the construction of airplane are [aluminum, titanium, compositeMaterials, steel].",
+  "The flight route of an airplane is represented by the object property [followsFlightPath, assignedRoute].",
+  "Maintenance relationships defined for airplane include [requiresInspection, scheduledMaintenance, maintainedBy].",
+  "Safety features modeled for airplane in the ontology are [emergencyExits, oxygenMasks, lifeVests, fireSuppressionSystem]."
+]
+Generated Knowledge ['Essential components defined for airplane include [fuselage, wings, engines, landingGear, cockpit].', 'Subclasses specified under airplane are [passengerAirplane, cargoAirplane, militaryAirplane, privateJet].', 'Propulsion systems associated with airplane include [jetEngine, turboprop, pistonEngine, electricMotor].', 'Airplane is related to airport through the object property [landsAt, departsFrom, parksAt].', 'Object properties connecting airplane to pilot include [operatedBy, assignedPilot].', 'Restrictions on the capacity of airplane are defined by [maximumPassengerCount, maximumCargoWeight].', 'Materials specified in the construction of airplane are [aluminum, titanium, compositeMaterials, steel].', 'The flight route of an airplane is represented by the object property [followsFlightPath, assignedRoute].', 'Maintenance relationships defined for airplane include [requiresInspection, scheduledMaintenance, maintainedBy].', 'Safety features modeled for airplane in the ontology are [emergencyExits, oxygenMasks, lifeVests, fireSuppressionSystem].']
+✅ Saved: airplane
+🔄 Generating Knowledge for: bus
+LLM Response [
+  "The subclasses of bus include [SchoolBus, CityBus, ShuttleBus, DoubleDeckerBus].",
+  "Passengers of a bus are represented by the class [Person].",
+  "A bus is linked to its route through properties such as [followsRoute, assignedToRoute].",
+  "Parts of a bus include components like [engine, wheels, seats, doors].",
+  "The relationship between bus and bus stop is modeled by the property [stopsAt].",
+  "The capacity of a bus is specified by data properties such as [seatingCapacity, standingCapacity].",
+  "The driver of a bus is associated with the class [BusDriver].",
+  "A bus is typically restricted to having [four or more wheels].",
+  "The manufacturer of a bus is represented by the property [manufacturedBy] linking to the class [Manufacturer].",
+  "A bus is connected to its schedule through object properties such as [hasSchedule, operatesOnSchedule]."
+]
+Generated Knowledge ['The subclasses of bus include [SchoolBus, CityBus, ShuttleBus, DoubleDeckerBus].', 'Passengers of a bus are represented by the class [Person].', 'A bus is linked to its route through properties such as [followsRoute, assignedToRoute].', 'Parts of a bus include components like [engine, wheels, seats, doors].', 'The relationship between bus and bus stop is modeled by the property [stopsAt].', 'The capacity of a bus is specified by data properties such as [seatingCapacity, standingCapacity].', 'The driver of a bus is associated with the class [BusDriver].', 'A bus is typically restricted to having [four or more wheels].', 'The manufacturer of a bus is represented by the property [manufacturedBy] linking to the class [Manufacturer].', 'A bus is connected to its schedule through object properties such as [hasSchedule, operatesOnSchedule].']
+✅ Saved: bus
+🔄 Generating Knowledge for: train
+LLM Response [
+  "Subclasses of train include [freightTrain, passengerTrain, highSpeedTrain, lightRailTrain].",
+  "The 'hasCarriage' property connects train to the class [Carriage].",
+  "Train is associated with propulsion types such as [electric, diesel, steam].",
+  "Train requires infrastructure elements like [railwayTrack, station, signalingSystem] for operation.",
+  "Train can fulfill roles such as [publicTransportVehicle, freightCarrier, commuterService] in transportation ontologies.",
+  "Entities that can be passengers of train include [Person, Animal].",
+  "Relationships between train and station include [arrivesAt, departsFrom, stopsAt, terminatesAt].",
+  "Train is a primary element within the [railwayNetwork] concept.",
+  "Typical components constituting a train are [locomotive, carriage, caboose, bogie].",
+  "Properties defining the capacity of a train include [numberOfSeats, maximumLoad, passengerCapacity]."
+]
+Generated Knowledge ['Subclasses of train include [freightTrain, passengerTrain, highSpeedTrain, lightRailTrain].', "The 'hasCarriage' property connects train to the class [Carriage].", 'Train is associated with propulsion types such as [electric, diesel, steam].', 'Train requires infrastructure elements like [railwayTrack, station, signalingSystem] for operation.', 'Train can fulfill roles such as [publicTransportVehicle, freightCarrier, commuterService] in transportation ontologies.', 'Entities that can be passengers of train include [Person, Animal].', 'Relationships between train and station include [arrivesAt, departsFrom, stopsAt, terminatesAt].', 'Train is a primary element within the [railwayNetwork] concept.', 'Typical components constituting a train are [locomotive, carriage, caboose, bogie].', 'Properties defining the capacity of a train include [numberOfSeats, maximumLoad, passengerCapacity].']
+✅ Saved: train
+🔄 Generating Knowledge for: truck
+LLM Response [
+  "Subclasses defined under truck include [dump truck, tanker truck, flatbed truck, box truck, pickup truck, semi-trailer truck].",
+  "Properties specifying the cargo capacity of a truck are [hasCargoCapacity, maximumLoad, payloadCapacity].",
+  "Truck is related to road infrastructure through properties such as [operatesOn, requiresRoadType, restrictedByWeightLimit].",
+  "Components modeled as parts of a truck include [engine, chassis, cab, wheels, axles, cargo bed, transmission].",
+  "Truck is distinguished from other vehicle classes by attributes such as [intendedForCargoTransport, higherGrossWeight, specializedBodyTypes].",
+  "Types of fuel associated with truck instances are [diesel, gasoline, natural gas, electricity, hydrogen].",
+  "Roles a truck can fulfill in transportation ontologies include [goodsCarrier, logisticsAsset, fleetVehicle, deliveryVehicle].",
+  "Restrictions on the number of axles for a truck are defined by [minimumAxleCount, maximumAxleCount, axleConfiguration].",
+  "The manufacturer of a truck is represented by the property [hasManufacturer] linking to an [Organization] class.",
+  "Regulations or standards linked to the truck class include [emissionStandards, weightLimits, safetyRegulations, licensingRequirements]."
+]
+Generated Knowledge ['Subclasses defined under truck include [dump truck, tanker truck, flatbed truck, box truck, pickup truck, semi-trailer truck].', 'Properties specifying the cargo capacity of a truck are [hasCargoCapacity, maximumLoad, payloadCapacity].', 'Truck is related to road infrastructure through properties such as [operatesOn, requiresRoadType, restrictedByWeightLimit].', 'Components modeled as parts of a truck include [engine, chassis, cab, wheels, axles, cargo bed, transmission].', 'Truck is distinguished from other vehicle classes by attributes such as [intendedForCargoTransport, higherGrossWeight, specializedBodyTypes].', 'Types of fuel associated with truck instances are [diesel, gasoline, natural gas, electricity, hydrogen].', 'Roles a truck can fulfill in transportation ontologies include [goodsCarrier, logisticsAsset, fleetVehicle, deliveryVehicle].', 'Restrictions on the number of axles for a truck are defined by [minimumAxleCount, maximumAxleCount, axleConfiguration].', 'The manufacturer of a truck is represented by the property [hasManufacturer] linking to an [Organization] class.', 'Regulations or standards linked to the truck class include [emissionStandards, weightLimits, safetyRegulations, licensingRequirements].']
+✅ Saved: truck
+🔄 Generating Knowledge for: boat
+LLM Response [
+  "Subclasses defined under boat include [sailboat, motorboat, rowboat, yacht, ferry, barge].",
+  "Materials specified as components of a boat are [wood, fiberglass, steel, aluminum, plastic].",
+  "Propulsion methods associated with boat include [sail, motor, oar, paddle, jet].",
+  "Boats are designed to operate in water bodies such as [rivers, lakes, seas, oceans].",
+  "Functional roles assigned to boat in the ontology are [transportation, recreation, fishing, rescue, cargo].",
+  "Object properties linking boat to its operators or crew include [hasCaptain, hasCrewMember, operatedBy].",
+  "Boat is related to other transportation classes through [isA Watercraft, subclassOf Vehicle].",
+  "Safety equipment modeled as part of boat includes [life jackets, lifeboats, fire extinguisher, first aid kit, distress signals].",
+  "Data properties describing the capacity of a boat are [passengerCapacity, cargoCapacity, weightLimit].",
+  "Restrictions on the size or weight for instances of boat are defined by [minimumLength, maximumLength, maximumWeight]."
+]
+Generated Knowledge ['Subclasses defined under boat include [sailboat, motorboat, rowboat, yacht, ferry, barge].', 'Materials specified as components of a boat are [wood, fiberglass, steel, aluminum, plastic].', 'Propulsion methods associated with boat include [sail, motor, oar, paddle, jet].', 'Boats are designed to operate in water bodies such as [rivers, lakes, seas, oceans].', 'Functional roles assigned to boat in the ontology are [transportation, recreation, fishing, rescue, cargo].', 'Object properties linking boat to its operators or crew include [hasCaptain, hasCrewMember, operatedBy].', 'Boat is related to other transportation classes through [isA Watercraft, subclassOf Vehicle].', 'Safety equipment modeled as part of boat includes [life jackets, lifeboats, fire extinguisher, first aid kit, distress signals].', 'Data properties describing the capacity of a boat are [passengerCapacity, cargoCapacity, weightLimit].', 'Restrictions on the size or weight for instances of boat are defined by [minimumLength, maximumLength, maximumWeight].']
+✅ Saved: boat
+🔄 Generating Knowledge for: traffic light
+LLM Response [
+  "A traffic light consists of components such as [signal head, pole, controller, lamp, housing].",
+  "Traffic light instances can be located at classes such as [road intersection, pedestrian crossing, railway crossing].",
+  "The color states associated with traffic light are [red, yellow, green].",
+  "Object properties linking traffic light to road intersections include [controlsIntersection, isInstalledAt].",
+  "Temporal properties defined for traffic light signal changes are [cycleDuration, phaseTime, changeInterval].",
+  "Specified subclasses of traffic light include [pedestrian traffic light, bicycle traffic light, vehicle traffic light, adaptive traffic light].",
+  "Relationships between traffic light and vehicle flow regulation include [regulatesVehicleFlow, managesTraffic, enforcesStopGo].",
+  "Data properties describing the operational status of a traffic light are [isOperational, malfunctionStatus, lastMaintenanceDate]."
+]
+Generated Knowledge ['A traffic light consists of components such as [signal head, pole, controller, lamp, housing].', 'Traffic light instances can be located at classes such as [road intersection, pedestrian crossing, railway crossing].', 'The color states associated with traffic light are [red, yellow, green].', 'Object properties linking traffic light to road intersections include [controlsIntersection, isInstalledAt].', 'Temporal properties defined for traffic light signal changes are [cycleDuration, phaseTime, changeInterval].', 'Specified subclasses of traffic light include [pedestrian traffic light, bicycle traffic light, vehicle traffic light, adaptive traffic light].', 'Relationships between traffic light and vehicle flow regulation include [regulatesVehicleFlow, managesTraffic, enforcesStopGo].', 'Data properties describing the operational status of a traffic light are [isOperational, malfunctionStatus, lastMaintenanceDate].']
+✅ Saved: traffic light
+🔄 Generating Knowledge for: fire hydrant
+LLM Response [
+  "A fire hydrant is made up of components such as [outlet valve, nozzle, bonnet, barrel, operating nut, flange, base].",
+  "Fire hydrant is connected through supply relationships to classes such as [municipal water system, fire hose, sprinkler system].",
+  "According to the ontology, a fire hydrant can dispense fluids such as [potable water, non-potable water].",
+  "Maintenance activities associated with fire hydrant include [inspection, lubrication, pressure testing, painting, flushing].",
+  "Defined installation locations for fire hydrant are [public streets, sidewalks, industrial sites, building exteriors].",
+  "Fire hydrant is linked to safety standards such as [NFPA 291, AWWA C502, ISO 9001].",
+  "Events that can trigger the use of a fire hydrant include [fire emergency, hydrant testing, water main flushing, training exercise].",
+  "Entities authorized to operate a fire hydrant are represented by classes such as [firefighter, utility worker, municipal employee].",
+  "Material properties specified for fire hydrant include [corrosion resistance, tensile strength, material composition, pressure rating].",
+  "Fire hydrant is ontologically related to the municipal water system through the [connectedTo, suppliedBy] relationships."
+]
+Generated Knowledge ['A fire hydrant is made up of components such as [outlet valve, nozzle, bonnet, barrel, operating nut, flange, base].', 'Fire hydrant is connected through supply relationships to classes such as [municipal water system, fire hose, sprinkler system].', 'According to the ontology, a fire hydrant can dispense fluids such as [potable water, non-potable water].', 'Maintenance activities associated with fire hydrant include [inspection, lubrication, pressure testing, painting, flushing].', 'Defined installation locations for fire hydrant are [public streets, sidewalks, industrial sites, building exteriors].', 'Fire hydrant is linked to safety standards such as [NFPA 291, AWWA C502, ISO 9001].', 'Events that can trigger the use of a fire hydrant include [fire emergency, hydrant testing, water main flushing, training exercise].', 'Entities authorized to operate a fire hydrant are represented by classes such as [firefighter, utility worker, municipal employee].', 'Material properties specified for fire hydrant include [corrosion resistance, tensile strength, material composition, pressure rating].', 'Fire hydrant is ontologically related to the municipal water system through the [connectedTo, suppliedBy] relationships.']
+✅ Saved: fire hydrant
+🔄 Generating Knowledge for: stop sign
+LLM Response [
+  "Subclasses of stop sign include [temporary stop sign, portable stop sign].",
+  "Stop sign is associated with traffic regulations such as [mandatory stop, right-of-way assignment].",
+  "Materials specified for stop sign composition include [aluminum, steel, reflective sheeting].",
+  "Road entities required to display a stop sign are [road intersections, pedestrian crossings, private driveways].",
+  "Visual characteristics defined for stop sign are [octagonal shape, red background, white border, white STOP text].",
+  "Object properties linking stop sign to road intersection include [installedAt, regulates].",
+  "Legal requirements for the placement of stop sign include [visibility distance, mounting height, lateral placement from roadway].",
+  "Classes disjoint with stop sign are [yield sign, speed limit sign, traffic light].",
+  "Data properties describing the reflective coating of stop sign are [coatingType, reflectivityGrade, manufacturer].",
+  "Transportation modes affected by the presence of stop sign are [motor vehicles, bicycles, pedestrians]."
+]
+Generated Knowledge ['Subclasses of stop sign include [temporary stop sign, portable stop sign].', 'Stop sign is associated with traffic regulations such as [mandatory stop, right-of-way assignment].', 'Materials specified for stop sign composition include [aluminum, steel, reflective sheeting].', 'Road entities required to display a stop sign are [road intersections, pedestrian crossings, private driveways].', 'Visual characteristics defined for stop sign are [octagonal shape, red background, white border, white STOP text].', 'Object properties linking stop sign to road intersection include [installedAt, regulates].', 'Legal requirements for the placement of stop sign include [visibility distance, mounting height, lateral placement from roadway].', 'Classes disjoint with stop sign are [yield sign, speed limit sign, traffic light].', 'Data properties describing the reflective coating of stop sign are [coatingType, reflectivityGrade, manufacturer].', 'Transportation modes affected by the presence of stop sign are [motor vehicles, bicycles, pedestrians].']
+✅ Saved: stop sign
+🔄 Generating Knowledge for: parking meter
+LLM Response [
+  "Subclasses of parking meter include [digital parking meter, mechanical parking meter, smart parking meter].",
+  "Entities permitted to interact with a parking meter are [drivers, parking enforcement officers, maintenance personnel].",
+  "Accepted payment methods for a parking meter are [coins, credit cards, mobile payments, contactless cards].",
+  "Temporal restrictions associated with a parking meter include [operating hours, maximum parking duration, time-limited rates].",
+  "Physical locations that can contain a parking meter are [street curbs, parking lots, public roadsides].",
+  "Component parts of a parking meter include [coin slot, display screen, payment terminal, ticket printer, sensor, keypad].",
+  "A parking meter is linked to parking space entities through the [regulates, monitors, or assigns] relationship.",
+  "Events that can trigger a state change in a parking meter are [payment received, time expiration, maintenance access, malfunction detection].",
+  "Data properties recording the operational status of a parking meter include [current status, last maintenance date, payment balance, error code].",
+  "Regulations or rules linked to a parking meter are [parking time limits, payment requirements, enforcement policies, penalty rules]."
+]
+Generated Knowledge ['Subclasses of parking meter include [digital parking meter, mechanical parking meter, smart parking meter].', 'Entities permitted to interact with a parking meter are [drivers, parking enforcement officers, maintenance personnel].', 'Accepted payment methods for a parking meter are [coins, credit cards, mobile payments, contactless cards].', 'Temporal restrictions associated with a parking meter include [operating hours, maximum parking duration, time-limited rates].', 'Physical locations that can contain a parking meter are [street curbs, parking lots, public roadsides].', 'Component parts of a parking meter include [coin slot, display screen, payment terminal, ticket printer, sensor, keypad].', 'A parking meter is linked to parking space entities through the [regulates, monitors, or assigns] relationship.', 'Events that can trigger a state change in a parking meter are [payment received, time expiration, maintenance access, malfunction detection].', 'Data properties recording the operational status of a parking meter include [current status, last maintenance date, payment balance, error code].', 'Regulations or rules linked to a parking meter are [parking time limits, payment requirements, enforcement policies, penalty rules].']
+✅ Saved: parking meter
+🔄 Generating Knowledge for: bench
+LLM Response [
+  "Bench is composed of materials such as [wood, metal, plastic, stone].",
+  "Benches are commonly associated with locations like [parks, gardens, public squares, bus stops].",
+  "The seating capacity for bench instances is typically defined as [two to six persons].",
+  "Bench has subclasses including [park bench, workbench, memorial bench, garden bench].",
+  "Bench fulfills functional roles such as [providing seating, supporting rest, serving as a work surface].",
+  "Bench is linked to other furniture or outdoor structures through object properties like [adjacentTo, partOf, locatedNear].",
+  "Bench has defined relationships to users or occupants via properties such as [isOccupiedBy, reservedFor].",
+  "Bench includes maintenance and durability attributes such as [requiresMaintenance, weatherResistance, expectedLifespan].",
+  "Temporal properties for bench include [installationDate, removalDate, serviceDuration].",
+  "Accessibility for bench is represented by properties like [isAccessible, hasArmrests, seatHeight]."
+]
+Generated Knowledge ['Bench is composed of materials such as [wood, metal, plastic, stone].', 'Benches are commonly associated with locations like [parks, gardens, public squares, bus stops].', 'The seating capacity for bench instances is typically defined as [two to six persons].', 'Bench has subclasses including [park bench, workbench, memorial bench, garden bench].', 'Bench fulfills functional roles such as [providing seating, supporting rest, serving as a work surface].', 'Bench is linked to other furniture or outdoor structures through object properties like [adjacentTo, partOf, locatedNear].', 'Bench has defined relationships to users or occupants via properties such as [isOccupiedBy, reservedFor].', 'Bench includes maintenance and durability attributes such as [requiresMaintenance, weatherResistance, expectedLifespan].', 'Temporal properties for bench include [installationDate, removalDate, serviceDuration].', 'Accessibility for bench is represented by properties like [isAccessible, hasArmrests, seatHeight].']
+✅ Saved: bench
+🔄 Generating Knowledge for: bird
+LLM Response [
+  "Subclasses defined under bird include [songbird, raptor, waterfowl, flightless bird].",
+  "Anatomical structures associated with bird are [beak, wings, feathers, hollow bones].",
+  "Ecological roles assigned to bird in the ontology are [pollinator, seed disperser, predator, prey].",
+  "Migration patterns modeled for bird include [long-distance migration, partial migration, resident, altitudinal migration].",
+  "Types of nests linked to bird are [cup nest, cavity nest, platform nest, ground nest].",
+  "Dietary habits specified for bird are [insectivorous, granivorous, frugivorous, carnivorous, omnivorous].",
+  "Vocalization properties attributed to bird are [song complexity, call frequency, repertoire size].",
+  "Habitats connected to bird through object properties are [forest, wetland, grassland, urban area, coastal region].",
+  "Developmental stages described for bird are [egg, hatchling, nestling, fledgling, adult].",
+  "Flight capabilities represented for bird in the ontology are [powered flight, gliding, soaring, flightlessness]."
+]
+Generated Knowledge ['Subclasses defined under bird include [songbird, raptor, waterfowl, flightless bird].', 'Anatomical structures associated with bird are [beak, wings, feathers, hollow bones].', 'Ecological roles assigned to bird in the ontology are [pollinator, seed disperser, predator, prey].', 'Migration patterns modeled for bird include [long-distance migration, partial migration, resident, altitudinal migration].', 'Types of nests linked to bird are [cup nest, cavity nest, platform nest, ground nest].', 'Dietary habits specified for bird are [insectivorous, granivorous, frugivorous, carnivorous, omnivorous].', 'Vocalization properties attributed to bird are [song complexity, call frequency, repertoire size].', 'Habitats connected to bird through object properties are [forest, wetland, grassland, urban area, coastal region].', 'Developmental stages described for bird are [egg, hatchling, nestling, fledgling, adult].', 'Flight capabilities represented for bird in the ontology are [powered flight, gliding, soaring, flightlessness].']
+✅ Saved: bird
+🔄 Generating Knowledge for: cat
+LLM Response [
+  "Subclasses defined under cat include [domestic cat, wildcat, feral cat].",
+  "Classes disjoint with cat are [dog, bird, reptile].",
+  "Typical habitats associated with cat are [household, urban area, rural area, forest].",
+  "Roles or behaviors assigned to cat in the ontology are [pet, predator, companion animal].",
+  "Anatomical structures modeled as components of cat include [claws, whiskers, tail, ears, paws].",
+  "Cat is related to human through object properties such as [ownedBy, caredForBy, interactsWith].",
+  "Dietary restrictions imposed on cat specify [obligate carnivore, cannot digest plant material efficiently].",
+  "Ontological axioms specify the lifespan of cat as [average lifespan between 12 and 18 years].",
+  "Relationships linking cat to other domestic animals include [cohabitsWith, socializesWith, competesWith].",
+  "Ontological definitions for breeds within the class cat are provided as [breed subclasses such as Siamese, Persian, Maine Coon]."
+]
+Generated Knowledge ['Subclasses defined under cat include [domestic cat, wildcat, feral cat].', 'Classes disjoint with cat are [dog, bird, reptile].', 'Typical habitats associated with cat are [household, urban area, rural area, forest].', 'Roles or behaviors assigned to cat in the ontology are [pet, predator, companion animal].', 'Anatomical structures modeled as components of cat include [claws, whiskers, tail, ears, paws].', 'Cat is related to human through object properties such as [ownedBy, caredForBy, interactsWith].', 'Dietary restrictions imposed on cat specify [obligate carnivore, cannot digest plant material efficiently].', 'Ontological axioms specify the lifespan of cat as [average lifespan between 12 and 18 years].', 'Relationships linking cat to other domestic animals include [cohabitsWith, socializesWith, competesWith].', 'Ontological definitions for breeds within the class cat are provided as [breed subclasses such as Siamese, Persian, Maine Coon].']
+✅ Saved: cat
+🔄 Generating Knowledge for: dog
+LLM Response [
+  "Breeds that are subclasses of dog include [LabradorRetriever, GermanShepherd, Bulldog, Poodle].",
+  "Anatomical structures defined as components of dog are [tail, paws, ears, fur, teeth].",
+  "Behaviors associated with dog in the ontology are [barking, fetching, herding, guarding, playing].",
+  "Classes defined as companions or owners of dog are [Human, Family, Child].",
+  "Roles that dog can fulfill according to the ontology are [pet, serviceAnimal, guardDog, therapyAnimal, workingDog].",
+  "Diseases or health conditions linked to dog include [canineDistemper, parvovirus, hipDysplasia, rabies, heartworm].",
+  "Environments or habitats specified for dog are [domesticHome, kennel, urbanArea, ruralArea].",
+  "Food types consumed by dog as defined in the ontology are [dogFood, meat, kibble, bones, treats]."
+]
+Generated Knowledge ['Breeds that are subclasses of dog include [LabradorRetriever, GermanShepherd, Bulldog, Poodle].', 'Anatomical structures defined as components of dog are [tail, paws, ears, fur, teeth].', 'Behaviors associated with dog in the ontology are [barking, fetching, herding, guarding, playing].', 'Classes defined as companions or owners of dog are [Human, Family, Child].', 'Roles that dog can fulfill according to the ontology are [pet, serviceAnimal, guardDog, therapyAnimal, workingDog].', 'Diseases or health conditions linked to dog include [canineDistemper, parvovirus, hipDysplasia, rabies, heartworm].', 'Environments or habitats specified for dog are [domesticHome, kennel, urbanArea, ruralArea].', 'Food types consumed by dog as defined in the ontology are [dogFood, meat, kibble, bones, treats].']
+✅ Saved: dog
+🔄 Generating Knowledge for: horse
+LLM Response [
+  "Subclasses defined under horse include [DraftHorse, Thoroughbred, Pony, ArabianHorse].",
+  "Anatomical structures modeled as parts of horse are [hoof, mane, tail, teeth, heart, lung].",
+  "Roles or functions associated with horse include [ridingAnimal, draftAnimal, racingAnimal, companionAnimal].",
+  "Object properties linking horse to human are [ownedBy, riddenBy, caredForBy, trainedBy].",
+  "Data properties capturing physical characteristics of horse are [height, weight, coatColor, age, sex].",
+  "Horse is classified as a subclass of [Mammal] in the ontology.",
+  "Activities or behaviors specified for horse include [grazing, running, jumping, neighing, socializing].",
+  "Restrictions or axioms involving horse and habitat specify that horse [inhabitsGrassland, requiresShelter].",
+  "Relationships connecting horse to domestication events include [wasDomesticatedIn, involvedInDomestication].",
+  "Classes representing breeds or types of horse are [ArabianHorse, Thoroughbred, QuarterHorse, ShetlandPony]."
+]
+Generated Knowledge ['Subclasses defined under horse include [DraftHorse, Thoroughbred, Pony, ArabianHorse].', 'Anatomical structures modeled as parts of horse are [hoof, mane, tail, teeth, heart, lung].', 'Roles or functions associated with horse include [ridingAnimal, draftAnimal, racingAnimal, companionAnimal].', 'Object properties linking horse to human are [ownedBy, riddenBy, caredForBy, trainedBy].', 'Data properties capturing physical characteristics of horse are [height, weight, coatColor, age, sex].', 'Horse is classified as a subclass of [Mammal] in the ontology.', 'Activities or behaviors specified for horse include [grazing, running, jumping, neighing, socializing].', 'Restrictions or axioms involving horse and habitat specify that horse [inhabitsGrassland, requiresShelter].', 'Relationships connecting horse to domestication events include [wasDomesticatedIn, involvedInDomestication].', 'Classes representing breeds or types of horse are [ArabianHorse, Thoroughbred, QuarterHorse, ShetlandPony].']
+✅ Saved: horse
+🔄 Generating Knowledge for: sheep
+LLM Response [
+  "Subclasses defined under sheep include [DomesticSheep, WildSheep, Lamb].",
+  "Predators of sheep are represented by classes such as [Wolf, Coyote, Bear, Dog].",
+  "Anatomical structures specified as parts of sheep include [horns, hooves, fleece, udder].",
+  "Properties relating sheep to their domestication status include [isDomesticated, domesticationEvent].",
+  "Sheep are connected to wool production through relationships such as [producesWool, sourceOfWool].",
+  "Typical habitats for sheep are represented by classes like [Grassland, Pasture, MountainMeadow].",
+  "Data properties capturing the age or breed of sheep include [ageInYears, breedName].",
+  "Diseases affecting sheep are represented by classes such as [FootRot, Scrapie, SheepPox].",
+  "Object properties linking sheep to their offspring include [hasOffspring, parentOf].",
+  "Food sources for sheep are defined by classes such as [Grass, Hay, Clover]."
+]
+Generated Knowledge ['Subclasses defined under sheep include [DomesticSheep, WildSheep, Lamb].', 'Predators of sheep are represented by classes such as [Wolf, Coyote, Bear, Dog].', 'Anatomical structures specified as parts of sheep include [horns, hooves, fleece, udder].', 'Properties relating sheep to their domestication status include [isDomesticated, domesticationEvent].', 'Sheep are connected to wool production through relationships such as [producesWool, sourceOfWool].', 'Typical habitats for sheep are represented by classes like [Grassland, Pasture, MountainMeadow].', 'Data properties capturing the age or breed of sheep include [ageInYears, breedName].', 'Diseases affecting sheep are represented by classes such as [FootRot, Scrapie, SheepPox].', 'Object properties linking sheep to their offspring include [hasOffspring, parentOf].', 'Food sources for sheep are defined by classes such as [Grass, Hay, Clover].']
+✅ Saved: sheep
+🔄 Generating Knowledge for: cow
+LLM Response [
+  "Subclasses defined under cow include [DairyCow, BeefCow, Calf, Heifer, Bull].",
+  "Anatomical structures modeled as parts of cow are [udder, horn, hoof, tail, stomach, hide].",
+  "Roles or functions associated with cow in agricultural ontologies are [milkProducer, meatSource, draughtAnimal, manureProvider].",
+  "Object properties linking cow to its offspring include [hasOffspring, motherOf, parentOf].",
+  "The relationship between cow and milk production is represented by the property [producesMilk].",
+  "Data properties capturing the breed or age of a cow are [breed, ageInYears, dateOfBirth].",
+  "Cow is classified as a domesticated animal in ontologies such as [Animal Ontology, AGROVOC, FoodOn, NCBI Taxonomy].",
+  "Relationships connecting cow to grazing land or pasture include [grazesOn, locatedIn, feedsIn].",
+  "The lifecycle of cow is represented by stages such as [calf, heifer, adult, lactating, dry, slaughtered].",
+  "Classes defined as food products derived from cow are [beef, milk, cheese, butter, yogurt, gelatin]."
+]
+Generated Knowledge ['Subclasses defined under cow include [DairyCow, BeefCow, Calf, Heifer, Bull].', 'Anatomical structures modeled as parts of cow are [udder, horn, hoof, tail, stomach, hide].', 'Roles or functions associated with cow in agricultural ontologies are [milkProducer, meatSource, draughtAnimal, manureProvider].', 'Object properties linking cow to its offspring include [hasOffspring, motherOf, parentOf].', 'The relationship between cow and milk production is represented by the property [producesMilk].', 'Data properties capturing the breed or age of a cow are [breed, ageInYears, dateOfBirth].', 'Cow is classified as a domesticated animal in ontologies such as [Animal Ontology, AGROVOC, FoodOn, NCBI Taxonomy].', 'Relationships connecting cow to grazing land or pasture include [grazesOn, locatedIn, feedsIn].', 'The lifecycle of cow is represented by stages such as [calf, heifer, adult, lactating, dry, slaughtered].', 'Classes defined as food products derived from cow are [beef, milk, cheese, butter, yogurt, gelatin].']
+✅ Saved: cow
+🔄 Generating Knowledge for: elephant
+LLM Response [
+  "Anatomical components defined for elephant include [trunk, tusks, ears, legs, tail, skin].",
+  "Elephant is associated with habitats such as [savanna, forest, grassland, wetland].",
+  "Subclasses specified for elephant are [AfricanElephant, AsianElephant].",
+  "Object properties linking elephant to its social structure include [belongsToHerd, ledByMatriarch, interactsWith].",
+  "Relationships between elephant and water sources are represented by [drinksFrom, migratesToWaterhole, bathesIn].",
+  "Data properties capturing the physical characteristics of elephant include [bodyMass, shoulderHeight, tuskLength, earSize].",
+  "The diet of elephant is represented by object properties such as [feedsOn, consumes, prefersPlantType].",
+  "Ontological restrictions applied to elephant regarding geographic distribution include [restrictedToAfrica, restrictedToAsia, migratoryRange]."
+]
+Generated Knowledge ['Anatomical components defined for elephant include [trunk, tusks, ears, legs, tail, skin].', 'Elephant is associated with habitats such as [savanna, forest, grassland, wetland].', 'Subclasses specified for elephant are [AfricanElephant, AsianElephant].', 'Object properties linking elephant to its social structure include [belongsToHerd, ledByMatriarch, interactsWith].', 'Relationships between elephant and water sources are represented by [drinksFrom, migratesToWaterhole, bathesIn].', 'Data properties capturing the physical characteristics of elephant include [bodyMass, shoulderHeight, tuskLength, earSize].', 'The diet of elephant is represented by object properties such as [feedsOn, consumes, prefersPlantType].', 'Ontological restrictions applied to elephant regarding geographic distribution include [restrictedToAfrica, restrictedToAsia, migratoryRange].']
+✅ Saved: elephant
+🔄 Generating Knowledge for: bear
+LLM Response [
+  "Subclasses defined under bear include [BrownBear, PolarBear, BlackBear, PandaBear, SlothBear, SunBear, AsiaticBlackBear, SpectacledBear].",
+  "Bear is associated with habitats such as [forest, tundra, mountains, wetlands, grasslands].",
+  "Bear is linked to prey or food sources including [fish, berries, insects, small mammals, plants, honey, carrion].",
+  "Anatomical features modeled as parts of bear are [claws, fur, snout, paws, teeth, ears].",
+  "Life stages specified for bear in the ontology are [cub, juvenile, subadult, adult].",
+  "Geographic regions connected to bear via relationships include [NorthAmerica, Europe, Asia, SouthAmerica, Arctic].",
+  "Predators or threats related to bear in the ontology are [humans, habitatLoss, poaching, climateChange, disease].",
+  "Conservation statuses assigned to bear as data properties are [LeastConcern, Vulnerable, Endangered, CriticallyEndangered]."
+]
+Generated Knowledge ['Subclasses defined under bear include [BrownBear, PolarBear, BlackBear, PandaBear, SlothBear, SunBear, AsiaticBlackBear, SpectacledBear].', 'Bear is associated with habitats such as [forest, tundra, mountains, wetlands, grasslands].', 'Bear is linked to prey or food sources including [fish, berries, insects, small mammals, plants, honey, carrion].', 'Anatomical features modeled as parts of bear are [claws, fur, snout, paws, teeth, ears].', 'Life stages specified for bear in the ontology are [cub, juvenile, subadult, adult].', 'Geographic regions connected to bear via relationships include [NorthAmerica, Europe, Asia, SouthAmerica, Arctic].', 'Predators or threats related to bear in the ontology are [humans, habitatLoss, poaching, climateChange, disease].', 'Conservation statuses assigned to bear as data properties are [LeastConcern, Vulnerable, Endangered, CriticallyEndangered].']
+✅ Saved: bear
+🔄 Generating Knowledge for: zebra
+LLM Response [
+  "Zebra is characterized by morphological features such as [black-and-white stripes, equine body structure, mane].",
+  "Zebra is associated with habitats including [savanna, grassland, woodland].",
+  "Predator-prey relationships involving zebra include [preyed upon by lions, hyenas, crocodiles].",
+  "Zebra is taxonomically classified as [Kingdom Animalia, Phylum Chordata, Class Mammalia, Order Perissodactyla, Family Equidae, Genus Equus].",
+  "Behavioral traits attributed to zebra are [herding, grazing, vigilance, migratory movement].",
+  "Subclasses or species under zebra include [Plains zebra (Equus quagga), Mountain zebra (Equus zebra), Grevy's zebra (Equus grevyi)].",
+  "Ecological roles assigned to zebra are [primary consumer, grazer, prey species].",
+  "Anatomical structures specified for zebra are [hooves, mane, tail, teeth adapted for grazing].",
+  "Geographic regions linked to zebra populations are [sub-Saharan Africa, eastern and southern Africa].",
+  "Symbiotic or competitive relationships involving zebra include [competition with wildebeest and antelope, mutualistic interactions with oxpeckers]."
+]
+Generated Knowledge ['Zebra is characterized by morphological features such as [black-and-white stripes, equine body structure, mane].', 'Zebra is associated with habitats including [savanna, grassland, woodland].', 'Predator-prey relationships involving zebra include [preyed upon by lions, hyenas, crocodiles].', 'Zebra is taxonomically classified as [Kingdom Animalia, Phylum Chordata, Class Mammalia, Order Perissodactyla, Family Equidae, Genus Equus].', 'Behavioral traits attributed to zebra are [herding, grazing, vigilance, migratory movement].', "Subclasses or species under zebra include [Plains zebra (Equus quagga), Mountain zebra (Equus zebra), Grevy's zebra (Equus grevyi)].", 'Ecological roles assigned to zebra are [primary consumer, grazer, prey species].', 'Anatomical structures specified for zebra are [hooves, mane, tail, teeth adapted for grazing].', 'Geographic regions linked to zebra populations are [sub-Saharan Africa, eastern and southern Africa].', 'Symbiotic or competitive relationships involving zebra include [competition with wildebeest and antelope, mutualistic interactions with oxpeckers].']
+✅ Saved: zebra
+🔄 Generating Knowledge for: giraffe
+LLM Response [
+  "Giraffe is characterized by anatomical features such as [long neck, long legs, ossicones, patterned coat].",
+  "Giraffe is associated with habitats including [savanna, open woodland, grassland].",
+  "Giraffe is defined as a herbivore with dietary relationships to [leaves, twigs, acacia trees].",
+  "No subclasses are defined under giraffe in the ontology [none].",
+  "Giraffe is linked to other animal classes through object properties like [sharesHabitatWith, isPreyedUponBy, formsHerdWith].",
+  "The ontology restricts giraffe neck length to values classified as [exceptionally long compared to other mammals].",
+  "Giraffe is involved as prey in predator-prey relationships with [lion, hyena, crocodile].",
+  "Migration patterns for giraffe are modeled as [seasonal movement in response to food and water availability].",
+  "Reproductive behaviors attributed to giraffe include [polygynous mating, calving, maternal care].",
+  "Conservation status properties associated with giraffe include [IUCN status, population trend, threats]."
+]
+Generated Knowledge ['Giraffe is characterized by anatomical features such as [long neck, long legs, ossicones, patterned coat].', 'Giraffe is associated with habitats including [savanna, open woodland, grassland].', 'Giraffe is defined as a herbivore with dietary relationships to [leaves, twigs, acacia trees].', 'No subclasses are defined under giraffe in the ontology [none].', 'Giraffe is linked to other animal classes through object properties like [sharesHabitatWith, isPreyedUponBy, formsHerdWith].', 'The ontology restricts giraffe neck length to values classified as [exceptionally long compared to other mammals].', 'Giraffe is involved as prey in predator-prey relationships with [lion, hyena, crocodile].', 'Migration patterns for giraffe are modeled as [seasonal movement in response to food and water availability].', 'Reproductive behaviors attributed to giraffe include [polygynous mating, calving, maternal care].', 'Conservation status properties associated with giraffe include [IUCN status, population trend, threats].']
+✅ Saved: giraffe
+🔄 Generating Knowledge for: backpack
+LLM Response [
+  "Subclasses of backpack include [hiking backpack, school backpack, travel backpack, tactical backpack, laptop backpack].",
+  "Backpack is composed of materials such as [nylon, polyester, canvas, leather, mesh].",
+  "Backpack is designed to carry items such as [books, laptops, clothing, food, water bottles, gear].",
+  "Backpack is intended to be worn on the [back, shoulders].",
+  "Functional properties of backpack include [storage, portability, load distribution, organization].",
+  "Backpack is commonly used in activities or contexts such as [school, hiking, travel, commuting, camping, military operations].",
+  "Backpack is related to other carrying equipment such as [duffel bag, messenger bag, suitcase, tote bag].",
+  "Closure mechanisms defined for backpack include [zippers, buckles, drawstrings, Velcro, magnetic snaps].",
+  "Capacity or volume attributes associated with backpack are typically measured in [liters, cubic inches].",
+  "Manufacturers or brands linked to backpack in the ontology include [JanSport, The North Face, Osprey, Herschel, Deuter]."
+]
+Generated Knowledge ['Subclasses of backpack include [hiking backpack, school backpack, travel backpack, tactical backpack, laptop backpack].', 'Backpack is composed of materials such as [nylon, polyester, canvas, leather, mesh].', 'Backpack is designed to carry items such as [books, laptops, clothing, food, water bottles, gear].', 'Backpack is intended to be worn on the [back, shoulders].', 'Functional properties of backpack include [storage, portability, load distribution, organization].', 'Backpack is commonly used in activities or contexts such as [school, hiking, travel, commuting, camping, military operations].', 'Backpack is related to other carrying equipment such as [duffel bag, messenger bag, suitcase, tote bag].', 'Closure mechanisms defined for backpack include [zippers, buckles, drawstrings, Velcro, magnetic snaps].', 'Capacity or volume attributes associated with backpack are typically measured in [liters, cubic inches].', 'Manufacturers or brands linked to backpack in the ontology include [JanSport, The North Face, Osprey, Herschel, Deuter].']
+✅ Saved: backpack
+🔄 Generating Knowledge for: umbrella
+LLM Response [
+  "Subclasses of umbrella include [folding umbrella, golf umbrella, beach umbrella].",
+  "Umbrella is composed of materials such as [fabric, metal, plastic, wood].",
+  "Functions associated with umbrella are [providing shelter, blocking rain, shielding from sunlight].",
+  "Umbrella is designed to protect against weather conditions like [rain, sunlight, snow].",
+  "Has-part relationships for umbrella include [canopy, ribs, shaft, handle, tip].",
+  "Classes defined as being covered by umbrella are [person, object].",
+  "Mechanisms of operation modeled for umbrella include [manual opening, automatic opening, closing].",
+  "Object properties linking umbrella to its owner or user are [ownedBy, usedBy, carriedBy].",
+  "Umbrella has data properties such as [color, size, weight, diameter].",
+  "Events or actions involving umbrella as a participant include [opening, closing, carrying, lending]."
+]
+Generated Knowledge ['Subclasses of umbrella include [folding umbrella, golf umbrella, beach umbrella].', 'Umbrella is composed of materials such as [fabric, metal, plastic, wood].', 'Functions associated with umbrella are [providing shelter, blocking rain, shielding from sunlight].', 'Umbrella is designed to protect against weather conditions like [rain, sunlight, snow].', 'Has-part relationships for umbrella include [canopy, ribs, shaft, handle, tip].', 'Classes defined as being covered by umbrella are [person, object].', 'Mechanisms of operation modeled for umbrella include [manual opening, automatic opening, closing].', 'Object properties linking umbrella to its owner or user are [ownedBy, usedBy, carriedBy].', 'Umbrella has data properties such as [color, size, weight, diameter].', 'Events or actions involving umbrella as a participant include [opening, closing, carrying, lending].']
+✅ Saved: umbrella
+🔄 Generating Knowledge for: handbag
+LLM Response [
+  "Handbag is composed of materials such as [leather, fabric, synthetic fibers, metal].",
+  "Subclasses of handbag include [clutch, tote, satchel, shoulder bag, crossbody bag].",
+  "Closure mechanisms associated with handbag are [zipper, magnetic snap, buckle, drawstring, clasp].",
+  "Object properties linking handbag to its owner include [ownedBy, carriedBy, belongsTo].",
+  "Functional uses defined for handbag are [carrying personal items, fashion statement, organizing belongings].",
+  "Handbag instances are allowed to contain contents such as [wallet, keys, cosmetics, mobile phone, documents].",
+  "Handbag is related to fashion accessory through the relationship [isA, typeOf, categorizedAs].",
+  "Constraints on the size or capacity of handbag may include [minimum and maximum volume, weight limits, dimension restrictions].",
+  "Handbags are typically associated with events or activities such as [shopping, social gatherings, work, travel, formal occasions].",
+  "Color attributes defined for handbag include [primaryColor, secondaryColor, pattern, finish]."
+]
+Generated Knowledge ['Handbag is composed of materials such as [leather, fabric, synthetic fibers, metal].', 'Subclasses of handbag include [clutch, tote, satchel, shoulder bag, crossbody bag].', 'Closure mechanisms associated with handbag are [zipper, magnetic snap, buckle, drawstring, clasp].', 'Object properties linking handbag to its owner include [ownedBy, carriedBy, belongsTo].', 'Functional uses defined for handbag are [carrying personal items, fashion statement, organizing belongings].', 'Handbag instances are allowed to contain contents such as [wallet, keys, cosmetics, mobile phone, documents].', 'Handbag is related to fashion accessory through the relationship [isA, typeOf, categorizedAs].', 'Constraints on the size or capacity of handbag may include [minimum and maximum volume, weight limits, dimension restrictions].', 'Handbags are typically associated with events or activities such as [shopping, social gatherings, work, travel, formal occasions].', 'Color attributes defined for handbag include [primaryColor, secondaryColor, pattern, finish].']
+✅ Saved: handbag
+🔄 Generating Knowledge for: tie
+LLM Response [
+  "Tie is specified to be made from materials such as [silk, polyester, cotton, wool].",
+  "Tie is defined as being worn together with classes like [shirt, suit, blazer].",
+  "The intended wearer of tie is specified as [person, adult, professional].",
+  "Subclasses of tie include specific styles such as [bow tie, necktie, bolo tie, ascot tie].",
+  "Properties describing the color or pattern of tie include [hasColor, hasPattern, motif].",
+  "Tie has defined relationships to formal attire classes such as [formalWear, businessAttire].",
+  "Tie is associated with dress codes like [business, formal, semi-formal].",
+  "Manufacturing processes linked to tie include [weaving, cutting, sewing, finishing].",
+  "Object properties indicating how tie is fastened or adjusted include [isTiedBy, hasKnotType, isAdjustedBy].",
+  "Ties are commonly associated with events or occasions such as [weddings, business meetings, ceremonies, graduations]."
+]
+Generated Knowledge ['Tie is specified to be made from materials such as [silk, polyester, cotton, wool].', 'Tie is defined as being worn together with classes like [shirt, suit, blazer].', 'The intended wearer of tie is specified as [person, adult, professional].', 'Subclasses of tie include specific styles such as [bow tie, necktie, bolo tie, ascot tie].', 'Properties describing the color or pattern of tie include [hasColor, hasPattern, motif].', 'Tie has defined relationships to formal attire classes such as [formalWear, businessAttire].', 'Tie is associated with dress codes like [business, formal, semi-formal].', 'Manufacturing processes linked to tie include [weaving, cutting, sewing, finishing].', 'Object properties indicating how tie is fastened or adjusted include [isTiedBy, hasKnotType, isAdjustedBy].', 'Ties are commonly associated with events or occasions such as [weddings, business meetings, ceremonies, graduations].']
+✅ Saved: tie
+🔄 Generating Knowledge for: suitcase
+LLM Response [
+  "Subclasses of suitcase based on size or intended use include [carry-on suitcase, checked suitcase, garment suitcase, cabin suitcase, children's suitcase].",
+  "Suitcase is commonly composed of materials such as [polycarbonate, fabric, leather, aluminum, plastic].",
+  "Suitcase is functionally related to travel through properties like [usedFor, accompanies, facilitatesTravel].",
+  "Object properties linking suitcase to its contents include [containsItem, holds, stores].",
+  "Suitcase is associated with transportation modes via relationships such as [usedIn, transportedBy, accompaniesMode].",
+  "Typical components or parts of suitcase are [handle, wheels, zipper, compartments, lock].",
+  "Data properties capturing suitcase capacity or dimensions include [volume, height, width, depth, weightLimit].",
+  "There are restrictions on the weight property for suitcase, often defined by [maximumWeight, airlineWeightLimit].",
+  "Relationships connecting suitcase to owner or user classes include [ownedBy, usedBy, assignedTo].",
+  "Suitcase relates to security features such as locks through properties like [hasLock, equippedWith, securedBy]."
+]
+Generated Knowledge ["Subclasses of suitcase based on size or intended use include [carry-on suitcase, checked suitcase, garment suitcase, cabin suitcase, children's suitcase].", 'Suitcase is commonly composed of materials such as [polycarbonate, fabric, leather, aluminum, plastic].', 'Suitcase is functionally related to travel through properties like [usedFor, accompanies, facilitatesTravel].', 'Object properties linking suitcase to its contents include [containsItem, holds, stores].', 'Suitcase is associated with transportation modes via relationships such as [usedIn, transportedBy, accompaniesMode].', 'Typical components or parts of suitcase are [handle, wheels, zipper, compartments, lock].', 'Data properties capturing suitcase capacity or dimensions include [volume, height, width, depth, weightLimit].', 'There are restrictions on the weight property for suitcase, often defined by [maximumWeight, airlineWeightLimit].', 'Relationships connecting suitcase to owner or user classes include [ownedBy, usedBy, assignedTo].', 'Suitcase relates to security features such as locks through properties like [hasLock, equippedWith, securedBy].']
+✅ Saved: suitcase
+🔄 Generating Knowledge for: frisbee
+LLM Response [
+  "Frisbee is defined as being made from materials such as [plastic, rubber].",
+  "Frisbee is associated with activities like [Ultimate, Disc Golf, recreational play].",
+  "Types of frisbee include subclasses such as [Ultimate Frisbee Disc, Disc Golf Disc, Recreational Frisbee].",
+  "Frisbee is characterized by a [circular, flat, aerodynamic] shape.",
+  "Object properties linking frisbee to participants include [isThrownBy, isCaughtBy, isPassedTo].",
+  "Frisbee is classified as a subclass of [Sporting Equipment, Game Equipment].",
+  "Modeled actions for frisbee include [throwing, catching, passing, spinning].",
+  "Frisbee is linked to regulations or standards such as [official size, weight, and material requirements set by sports organizations].",
+  "Properties describing frisbee's dimensions or weight include [diameter, thickness, mass].",
+  "Relationships connecting frisbee to locations include [isUsedOn, isPlayedOn, isPermittedOn] with playing fields or parks."
+]
+Generated Knowledge ['Frisbee is defined as being made from materials such as [plastic, rubber].', 'Frisbee is associated with activities like [Ultimate, Disc Golf, recreational play].', 'Types of frisbee include subclasses such as [Ultimate Frisbee Disc, Disc Golf Disc, Recreational Frisbee].', 'Frisbee is characterized by a [circular, flat, aerodynamic] shape.', 'Object properties linking frisbee to participants include [isThrownBy, isCaughtBy, isPassedTo].', 'Frisbee is classified as a subclass of [Sporting Equipment, Game Equipment].', 'Modeled actions for frisbee include [throwing, catching, passing, spinning].', 'Frisbee is linked to regulations or standards such as [official size, weight, and material requirements set by sports organizations].', "Properties describing frisbee's dimensions or weight include [diameter, thickness, mass].", 'Relationships connecting frisbee to locations include [isUsedOn, isPlayedOn, isPermittedOn] with playing fields or parks.']
+✅ Saved: frisbee
+🔄 Generating Knowledge for: skis
+LLM Response [
+  "Skis are composed of materials such as [wood, fiberglass, metal, plastic, carbon fiber].",
+  "Skis are designed to participate in activities like [alpine skiing, cross-country skiing, ski jumping, freestyle skiing].",
+  "Subclasses of skis include [alpine skis, cross-country skis, freestyle skis, touring skis, jumping skis].",
+  "Skis are typically used with equipment or accessories such as [ski boots, ski bindings, ski poles, ski helmets].",
+  "Functional properties associated with skis include [length, width, camber, flex, sidecut radius].",
+  "The anatomical regions of the human body that interact with skis are [feet, ankles, lower legs].",
+  "Environmental conditions specified for the use of skis include [snow, ice, cold temperatures, mountainous terrain].",
+  "Manufacturing processes linked to skis are [lamination, molding, pressing, finishing, edge installation].",
+  "Transportation methods involving skis as a component include [ski lifts, ski racks, ski bags, snowmobiles].",
+  "Maintenance or care procedures associated with skis are [waxing, edge sharpening, base repair, cleaning, storage]."
+]
+Generated Knowledge ['Skis are composed of materials such as [wood, fiberglass, metal, plastic, carbon fiber].', 'Skis are designed to participate in activities like [alpine skiing, cross-country skiing, ski jumping, freestyle skiing].', 'Subclasses of skis include [alpine skis, cross-country skis, freestyle skis, touring skis, jumping skis].', 'Skis are typically used with equipment or accessories such as [ski boots, ski bindings, ski poles, ski helmets].', 'Functional properties associated with skis include [length, width, camber, flex, sidecut radius].', 'The anatomical regions of the human body that interact with skis are [feet, ankles, lower legs].', 'Environmental conditions specified for the use of skis include [snow, ice, cold temperatures, mountainous terrain].', 'Manufacturing processes linked to skis are [lamination, molding, pressing, finishing, edge installation].', 'Transportation methods involving skis as a component include [ski lifts, ski racks, ski bags, snowmobiles].', 'Maintenance or care procedures associated with skis are [waxing, edge sharpening, base repair, cleaning, storage].']
+✅ Saved: skis
+🔄 Generating Knowledge for: snowboard
+LLM Response [
+  "Snowboard is composed of materials such as [wood core, fiberglass, plastic, metal edges, resin].",
+  "Snowboard is classified as equipment for sports activities including [snowboarding, freestyle snowboarding, alpine snowboarding].",
+  "Functional components defined for snowboard include [deck, base, edges, nose, tail, inserts].",
+  "Subclasses of snowboard represented in the ontology are [freestyle snowboard, alpine snowboard, splitboard, freeride snowboard, powder snowboard].",
+  "Snowboard is related to binding through the relationship [hasBinding, requiresBinding, compatibleWithBinding].",
+  "Manufacturers associated with the production of snowboard include [Burton, Salomon, K2, Ride, Lib Tech, Rossignol].",
+  "Physical properties attributed to snowboard in the ontology are [length, width, flex, weight, sidecut radius, camber profile].",
+  "Snowboard is linked to terrain types such as [groomed runs, powder, park, backcountry, halfpipe].",
+  "Maintenance actions defined for snowboard are [waxing, edge sharpening, base repair, cleaning].",
+  "User skill levels linked to snowboard usage include [beginner, intermediate, advanced, expert]."
+]
+Generated Knowledge ['Snowboard is composed of materials such as [wood core, fiberglass, plastic, metal edges, resin].', 'Snowboard is classified as equipment for sports activities including [snowboarding, freestyle snowboarding, alpine snowboarding].', 'Functional components defined for snowboard include [deck, base, edges, nose, tail, inserts].', 'Subclasses of snowboard represented in the ontology are [freestyle snowboard, alpine snowboard, splitboard, freeride snowboard, powder snowboard].', 'Snowboard is related to binding through the relationship [hasBinding, requiresBinding, compatibleWithBinding].', 'Manufacturers associated with the production of snowboard include [Burton, Salomon, K2, Ride, Lib Tech, Rossignol].', 'Physical properties attributed to snowboard in the ontology are [length, width, flex, weight, sidecut radius, camber profile].', 'Snowboard is linked to terrain types such as [groomed runs, powder, park, backcountry, halfpipe].', 'Maintenance actions defined for snowboard are [waxing, edge sharpening, base repair, cleaning].', 'User skill levels linked to snowboard usage include [beginner, intermediate, advanced, expert].']
+✅ Saved: snowboard
+🔄 Generating Knowledge for: sports ball
+LLM Response [
+  "Subclasses of sports ball include [football, basketball, volleyball, tennis ball, baseball, golf ball, cricket ball, rugby ball, handball].",
+  "Sports associated with sports ball as equipment are [soccer, basketball, volleyball, tennis, baseball, golf, cricket, rugby, handball].",
+  "Material properties defined for sports ball are [outerMaterial, coreMaterial, surfaceTexture, elasticity].",
+  "Object properties linking sports ball to player include [isUsedBy, isPossessedBy, isThrownBy, isKickedBy].",
+  "Dimensional constraints specified for sports ball are [diameter, circumference, weight, pressure].",
+  "Manufacturing processes related to sports ball are [molding, stitching, vulcanization, lamination, inflation].",
+  "Regulations or standards referenced for sports ball in the ontology include [FIFA regulations, NBA standards, ITF specifications, ISO standards].",
+  "Sports ball is classified as a type of [game equipment] in the ontology.",
+  "Color and pattern attributes defined for sports ball are [primaryColor, secondaryColor, patternType, logo].",
+  "Classes representing parts or components of a sports ball are [bladder, cover, stitching, valve, lining]."
+]
+Generated Knowledge ['Subclasses of sports ball include [football, basketball, volleyball, tennis ball, baseball, golf ball, cricket ball, rugby ball, handball].', 'Sports associated with sports ball as equipment are [soccer, basketball, volleyball, tennis, baseball, golf, cricket, rugby, handball].', 'Material properties defined for sports ball are [outerMaterial, coreMaterial, surfaceTexture, elasticity].', 'Object properties linking sports ball to player include [isUsedBy, isPossessedBy, isThrownBy, isKickedBy].', 'Dimensional constraints specified for sports ball are [diameter, circumference, weight, pressure].', 'Manufacturing processes related to sports ball are [molding, stitching, vulcanization, lamination, inflation].', 'Regulations or standards referenced for sports ball in the ontology include [FIFA regulations, NBA standards, ITF specifications, ISO standards].', 'Sports ball is classified as a type of [game equipment] in the ontology.', 'Color and pattern attributes defined for sports ball are [primaryColor, secondaryColor, patternType, logo].', 'Classes representing parts or components of a sports ball are [bladder, cover, stitching, valve, lining].']
+✅ Saved: sports ball
+🔄 Generating Knowledge for: kite
+LLM Response [
+  "Kite is composed of materials such as [paper, plastic, fabric, wood, bamboo, string].",
+  "Defined subclasses of kite include [delta kite, box kite, stunt kite, parafoil kite].",
+  "The primary function of kite is [recreational flying, aerial display, scientific measurement].",
+  "Object properties linking kite to wind or weather include [requiresWind, affectedByWeather].",
+  "Kite is related to person through relationships such as [flownBy, ownedBy, builtBy].",
+  "Kite has part-whole relationships with [string, frame, sail].",
+  "There are restrictions on kite attributes such as [maximum wingspan, minimum weight, allowable shapes].",
+  "Kite participates in events or activities like [kite flying festival, competition, outdoor recreation].",
+  "Kite is associated with safety considerations such as [avoid power lines, use in open areas, supervision required].",
+  "Manufacturing processes linked to kite include [assembly, material cutting, frame construction, decoration]."
+]
+Generated Knowledge ['Kite is composed of materials such as [paper, plastic, fabric, wood, bamboo, string].', 'Defined subclasses of kite include [delta kite, box kite, stunt kite, parafoil kite].', 'The primary function of kite is [recreational flying, aerial display, scientific measurement].', 'Object properties linking kite to wind or weather include [requiresWind, affectedByWeather].', 'Kite is related to person through relationships such as [flownBy, ownedBy, builtBy].', 'Kite has part-whole relationships with [string, frame, sail].', 'There are restrictions on kite attributes such as [maximum wingspan, minimum weight, allowable shapes].', 'Kite participates in events or activities like [kite flying festival, competition, outdoor recreation].', 'Kite is associated with safety considerations such as [avoid power lines, use in open areas, supervision required].', 'Manufacturing processes linked to kite include [assembly, material cutting, frame construction, decoration].']
+✅ Saved: kite
+🔄 Generating Knowledge for: baseball bat
+LLM Response [
+  "Baseball bat instances are specified to be made from materials such as [wood, aluminum, composite].",
+  "The intended users of a baseball bat are defined as members of the class [Baseball Player].",
+  "A baseball bat is designed to participate in activities such as [hitting, batting, training].",
+  "The component parts defined for a baseball bat include [barrel, handle, knob, grip].",
+  "A baseball bat is related to the class baseball game as an [essential equipment used in gameplay].",
+  "Subclasses of baseball bat are defined based on material or usage, such as [wooden bat, aluminum bat, youth bat, professional bat].",
+  "Baseball bat is associated with regulations or standards such as [league rules, size and weight specifications, safety standards].",
+  "Object properties linking a baseball bat to other sports equipment include [isAccessoryTo, isStoredWith, isComparedTo].",
+  "Physical characteristics described for baseball bat instances include [length, weight, diameter, material type].",
+  "There is a defined relationship between baseball bat and manufacturer classes through the property [isManufacturedBy]."
+]
+Generated Knowledge ['Baseball bat instances are specified to be made from materials such as [wood, aluminum, composite].', 'The intended users of a baseball bat are defined as members of the class [Baseball Player].', 'A baseball bat is designed to participate in activities such as [hitting, batting, training].', 'The component parts defined for a baseball bat include [barrel, handle, knob, grip].', 'A baseball bat is related to the class baseball game as an [essential equipment used in gameplay].', 'Subclasses of baseball bat are defined based on material or usage, such as [wooden bat, aluminum bat, youth bat, professional bat].', 'Baseball bat is associated with regulations or standards such as [league rules, size and weight specifications, safety standards].', 'Object properties linking a baseball bat to other sports equipment include [isAccessoryTo, isStoredWith, isComparedTo].', 'Physical characteristics described for baseball bat instances include [length, weight, diameter, material type].', 'There is a defined relationship between baseball bat and manufacturer classes through the property [isManufacturedBy].']
+✅ Saved: baseball bat
+🔄 Generating Knowledge for: baseball glove
+LLM Response [
+  "A baseball glove is typically composed of materials such as [leather, synthetic fibers, padding].",
+  "In a baseball game, a baseball glove serves roles including [catching, fielding, protection].",
+  "Within sports equipment, a baseball glove is part of [baseball uniform, fielding gear].",
+  "Object properties linking a baseball glove to a player include [isWornBy, assignedTo].",
+  "Subclasses of baseball glove based on player position include [catcher's mitt, first baseman's glove, infielder's glove, outfielder's glove, pitcher's glove].",
+  "Data properties describing a baseball glove include [size, webbingStyle, pocketDepth].",
+  "A baseball glove is ontologically related to the action of catching through the property [enablesCatching].",
+  "Manufacturing processes associated with a baseball glove include [cutting, stitching, lacing, molding].",
+  "Functionally related equipment items include [baseball, bat, batting glove, catcher's mask].",
+  "Constraints on the use of a baseball glove in official gameplay include [size limits, material requirements, position-specific designs]."
+]
+Generated Knowledge ['A baseball glove is typically composed of materials such as [leather, synthetic fibers, padding].', 'In a baseball game, a baseball glove serves roles including [catching, fielding, protection].', 'Within sports equipment, a baseball glove is part of [baseball uniform, fielding gear].', 'Object properties linking a baseball glove to a player include [isWornBy, assignedTo].', "Subclasses of baseball glove based on player position include [catcher's mitt, first baseman's glove, infielder's glove, outfielder's glove, pitcher's glove].", 'Data properties describing a baseball glove include [size, webbingStyle, pocketDepth].', 'A baseball glove is ontologically related to the action of catching through the property [enablesCatching].', 'Manufacturing processes associated with a baseball glove include [cutting, stitching, lacing, molding].', "Functionally related equipment items include [baseball, bat, batting glove, catcher's mask].", 'Constraints on the use of a baseball glove in official gameplay include [size limits, material requirements, position-specific designs].']
+✅ Saved: baseball glove
+🔄 Generating Knowledge for: skateboard
+LLM Response [
+  "A skateboard consists of essential components such as [deck, trucks, wheels, bearings, grip tape].",
+  "A skateboard is used for activities including [skateboarding, freestyle, street skating, vert skating].",
+  "Common materials used in the construction of a skateboard are [maple wood, aluminum, polyurethane, plastic, fiberglass].",
+  "A skateboard is classified as a type of [wheeled vehicle] in the ontology.",
+  "Object properties connecting a skateboard to its user include [isRiddenBy, isOwnedBy, isOperatedBy].",
+  "Defined subclasses or types of skateboard include [longboard, cruiser, penny board, electric skateboard].",
+  "Safety equipment associated with skateboard use includes [helmet, knee pads, elbow pads, wrist guards].",
+  "Operating a skateboard requires physical forces or actions such as [pushing, balancing, turning, jumping].",
+  "Relevant maintenance actions for a skateboard are [cleaning, tightening trucks, replacing wheels, lubricating bearings].",
+  "A skateboard is distinguished from similar transportation devices by [having a flat deck, four small wheels, no handlebars, and being propelled by foot]."
+]
+Generated Knowledge ['A skateboard consists of essential components such as [deck, trucks, wheels, bearings, grip tape].', 'A skateboard is used for activities including [skateboarding, freestyle, street skating, vert skating].', 'Common materials used in the construction of a skateboard are [maple wood, aluminum, polyurethane, plastic, fiberglass].', 'A skateboard is classified as a type of [wheeled vehicle] in the ontology.', 'Object properties connecting a skateboard to its user include [isRiddenBy, isOwnedBy, isOperatedBy].', 'Defined subclasses or types of skateboard include [longboard, cruiser, penny board, electric skateboard].', 'Safety equipment associated with skateboard use includes [helmet, knee pads, elbow pads, wrist guards].', 'Operating a skateboard requires physical forces or actions such as [pushing, balancing, turning, jumping].', 'Relevant maintenance actions for a skateboard are [cleaning, tightening trucks, replacing wheels, lubricating bearings].', 'A skateboard is distinguished from similar transportation devices by [having a flat deck, four small wheels, no handlebars, and being propelled by foot].']
+✅ Saved: skateboard
+🔄 Generating Knowledge for: surfboard
+LLM Response [
+  "Surfboard is composed of materials such as [polyurethane foam, fiberglass, epoxy resin, wood].",
+  "Surfboard is designed for activities including [surfing, wave riding].",
+  "Defined subclasses of surfboard include [longboard, shortboard, fish, funboard, gun].",
+  "Object properties linking surfboard to water environments include [usedIn, suitableFor, operatesIn].",
+  "Surfboard has required accessory relationships with [leash, fins, wax].",
+  "Physical characteristics described for surfboard are [length, width, thickness, volume, weight].",
+  "Agents associated with surfboard usage are [surfers, instructors, lifeguards].",
+  "Surfboard is classified as a type of [sports equipment] in the ontology.",
+  "Manufacturing processes associated with surfboard include [shaping, laminating, sanding, glassing].",
+  "Safety standards or regulations linked to surfboard are [ISO 25649, ASTM F2374, local surf safety guidelines]."
+]
+Generated Knowledge ['Surfboard is composed of materials such as [polyurethane foam, fiberglass, epoxy resin, wood].', 'Surfboard is designed for activities including [surfing, wave riding].', 'Defined subclasses of surfboard include [longboard, shortboard, fish, funboard, gun].', 'Object properties linking surfboard to water environments include [usedIn, suitableFor, operatesIn].', 'Surfboard has required accessory relationships with [leash, fins, wax].', 'Physical characteristics described for surfboard are [length, width, thickness, volume, weight].', 'Agents associated with surfboard usage are [surfers, instructors, lifeguards].', 'Surfboard is classified as a type of [sports equipment] in the ontology.', 'Manufacturing processes associated with surfboard include [shaping, laminating, sanding, glassing].', 'Safety standards or regulations linked to surfboard are [ISO 25649, ASTM F2374, local surf safety guidelines].']
+✅ Saved: surfboard
+🔄 Generating Knowledge for: tennis racket
+LLM Response [
+  "A tennis racket is composed of materials such as [graphite, carbon fiber, aluminum, wood].",
+  "Subclasses defined under tennis racket include [junior tennis racket, professional tennis racket, recreational tennis racket].",
+  "A tennis racket is functionally related to other sports equipment through relationships like [usedWith, pairedWith, compatibleWith].",
+  "Object properties linking tennis racket to tennis ball include [hits, strikes, serves].",
+  "Data properties describing a tennis racket include [weight, stringTension, length].",
+  "Part-whole relationships specify that a tennis racket consists of [handle, strings, frame, grip].",
+  "A tennis racket is used for activities such as [playing tennis, practicing serves, training].",
+  "Manufacturers or brands associated with tennis racket include [Wilson, Head, Babolat, Yonex, Prince]."
+]
+Generated Knowledge ['A tennis racket is composed of materials such as [graphite, carbon fiber, aluminum, wood].', 'Subclasses defined under tennis racket include [junior tennis racket, professional tennis racket, recreational tennis racket].', 'A tennis racket is functionally related to other sports equipment through relationships like [usedWith, pairedWith, compatibleWith].', 'Object properties linking tennis racket to tennis ball include [hits, strikes, serves].', 'Data properties describing a tennis racket include [weight, stringTension, length].', 'Part-whole relationships specify that a tennis racket consists of [handle, strings, frame, grip].', 'A tennis racket is used for activities such as [playing tennis, practicing serves, training].', 'Manufacturers or brands associated with tennis racket include [Wilson, Head, Babolat, Yonex, Prince].']
+✅ Saved: tennis racket
+🔄 Generating Knowledge for: bottle
+LLM Response [
+  "Bottle can be composed of materials such as [glass, plastic, metal, ceramic].",
+  "Defined subclasses of bottle include [water bottle, wine bottle, spray bottle, baby bottle].",
+  "Closure mechanisms associated with bottle are [screw cap, cork, snap-on lid, flip-top].",
+  "Bottle is linked to its contents via object properties such as [contains, filledWith].",
+  "Manufacturing processes related to bottle include [blow molding, injection molding, glass blowing].",
+  "Bottle is classified as a type of container in the ontology hierarchy [container].",
+  "Specified volume capacities for bottle include [250ml, 500ml, 1L, 2L].",
+  "Possible contents of bottle are defined as classes such as [liquid, beverage, chemical, medicine].",
+  "Relationships between bottle and label include [hasLabel, labeledWith].",
+  "Functional properties distinguishing bottle from similar containers include [narrow neck, resealable closure, designed for pouring]."
+]
+Generated Knowledge ['Bottle can be composed of materials such as [glass, plastic, metal, ceramic].', 'Defined subclasses of bottle include [water bottle, wine bottle, spray bottle, baby bottle].', 'Closure mechanisms associated with bottle are [screw cap, cork, snap-on lid, flip-top].', 'Bottle is linked to its contents via object properties such as [contains, filledWith].', 'Manufacturing processes related to bottle include [blow molding, injection molding, glass blowing].', 'Bottle is classified as a type of container in the ontology hierarchy [container].', 'Specified volume capacities for bottle include [250ml, 500ml, 1L, 2L].', 'Possible contents of bottle are defined as classes such as [liquid, beverage, chemical, medicine].', 'Relationships between bottle and label include [hasLabel, labeledWith].', 'Functional properties distinguishing bottle from similar containers include [narrow neck, resealable closure, designed for pouring].']
+✅ Saved: bottle
+🔄 Generating Knowledge for: wine glass
+LLM Response [
+  "Wine glass is constructed from materials such as [glass, crystal].",
+  "Wine glass is intended for serving beverages like [red wine, white wine, rosé, sparkling wine].",
+  "Wine glass consists of component parts including [bowl, stem, base].",
+  "Wine glass is functionally distinguished by its design for enhancing the aroma and flavor of wine [aeration, aroma concentration].",
+  "Subclasses of wine glass include [red wine glass, white wine glass, champagne flute, dessert wine glass].",
+  "Wine glass is involved in events or activities such as [wine tasting, formal dining, celebrations].",
+  "Wine glass is associated with design features like [tall stem, wide bowl, thin rim].",
+  "The ontology defines capacity restrictions for wine glass in the range of [120 ml to 450 ml].",
+  "Wine glass is related to table setting through properties like [isPlacedOn, accompanies, isPartOf].",
+  "Wine glass is linked to cleaning or maintenance processes such as [hand washing, dishwasher safe, polishing]."
+]
+Generated Knowledge ['Wine glass is constructed from materials such as [glass, crystal].', 'Wine glass is intended for serving beverages like [red wine, white wine, rosé, sparkling wine].', 'Wine glass consists of component parts including [bowl, stem, base].', 'Wine glass is functionally distinguished by its design for enhancing the aroma and flavor of wine [aeration, aroma concentration].', 'Subclasses of wine glass include [red wine glass, white wine glass, champagne flute, dessert wine glass].', 'Wine glass is involved in events or activities such as [wine tasting, formal dining, celebrations].', 'Wine glass is associated with design features like [tall stem, wide bowl, thin rim].', 'The ontology defines capacity restrictions for wine glass in the range of [120 ml to 450 ml].', 'Wine glass is related to table setting through properties like [isPlacedOn, accompanies, isPartOf].', 'Wine glass is linked to cleaning or maintenance processes such as [hand washing, dishwasher safe, polishing].']
+✅ Saved: wine glass
+🔄 Generating Knowledge for: cup
+LLM Response [
+  "Cup is specified to be made from materials such as [ceramic, glass, plastic, metal].",
+  "Cup can contain contents defined as [beverage, liquid, soup].",
+  "Functional uses associated with cup include [drinking, serving, measuring].",
+  "Subclasses of cup include types such as [teacup, coffee cup, mug, espresso cup].",
+  "Object properties relating cup to other tableware items include [isPairedWith, isPartOfSet, accompanies].",
+  "Cup has a defined data property for capacity or volume such as [holdsVolume, capacityInMilliliters].",
+  "Cup is typically associated with locations or contexts such as [kitchen, dining table, café].",
+  "There are restrictions indicating that cup can contain substances within a temperature range specified by [maximumSafeTemperature, minimumSafeTemperature]."
+]
+Generated Knowledge ['Cup is specified to be made from materials such as [ceramic, glass, plastic, metal].', 'Cup can contain contents defined as [beverage, liquid, soup].', 'Functional uses associated with cup include [drinking, serving, measuring].', 'Subclasses of cup include types such as [teacup, coffee cup, mug, espresso cup].', 'Object properties relating cup to other tableware items include [isPairedWith, isPartOfSet, accompanies].', 'Cup has a defined data property for capacity or volume such as [holdsVolume, capacityInMilliliters].', 'Cup is typically associated with locations or contexts such as [kitchen, dining table, café].', 'There are restrictions indicating that cup can contain substances within a temperature range specified by [maximumSafeTemperature, minimumSafeTemperature].']
+✅ Saved: cup
+🔄 Generating Knowledge for: fork
+LLM Response [
+  "Fork is composed of materials such as [stainless steel, plastic, wood, silver].",
+  "Subclasses of fork based on usage or design include [salad fork, dessert fork, dinner fork, fish fork].",
+  "Fork fulfills functional roles such as [food manipulation, eating utensil, serving tool].",
+  "Fork is related to food items through relationships like [usedToEat, serves, pierces].",
+  "Manufacturing processes associated with fork include [stamping, molding, forging, polishing].",
+  "Fork is part of table setting arrangements such as [place setting, cutlery set].",
+  "Fork is differentiated from similar utensils by features like [tined head, prongs, absence of a cutting edge].",
+  "Ergonomic properties described for fork include [handle shape, weight, balance, grip comfort].",
+  "Cultural or regional variations of fork modeled are [chop fork, trident fork, European fork, American fork].",
+  "Safety and hygiene properties attributed to fork include [dishwasher safe, non-toxic materials, smooth edges, corrosion resistance]."
+]
+Generated Knowledge ['Fork is composed of materials such as [stainless steel, plastic, wood, silver].', 'Subclasses of fork based on usage or design include [salad fork, dessert fork, dinner fork, fish fork].', 'Fork fulfills functional roles such as [food manipulation, eating utensil, serving tool].', 'Fork is related to food items through relationships like [usedToEat, serves, pierces].', 'Manufacturing processes associated with fork include [stamping, molding, forging, polishing].', 'Fork is part of table setting arrangements such as [place setting, cutlery set].', 'Fork is differentiated from similar utensils by features like [tined head, prongs, absence of a cutting edge].', 'Ergonomic properties described for fork include [handle shape, weight, balance, grip comfort].', 'Cultural or regional variations of fork modeled are [chop fork, trident fork, European fork, American fork].', 'Safety and hygiene properties attributed to fork include [dishwasher safe, non-toxic materials, smooth edges, corrosion resistance].']
+✅ Saved: fork
+🔄 Generating Knowledge for: knife
+LLM Response [
+  "Knife is associated with material properties such as [stainless steel, ceramic, plastic handle].",
+  "Defined subclasses of knife include [chef's knife, paring knife, bread knife, utility knife].",
+  "Knife is assigned functional roles such as [cutting, slicing, dicing, chopping].",
+  "Knife is classified as a type of [cutting instrument].",
+  "Knife consists of part components such as [blade, handle, bolster, tang].",
+  "Knife is linked to food items through object properties like [cuts, slices, prepares].",
+  "Knife has safety-related attributes including [blade guard, non-slip handle, safety lock].",
+  "Knife participates in food preparation by [cutting, chopping, slicing, mincing ingredients].",
+  "Knife is associated with manufacturing methods such as [forging, stamping, molding, grinding].",
+  "Classes defined as being sharpened by knife include [pencil, stick, wooden skewer]."
+]
+Generated Knowledge ['Knife is associated with material properties such as [stainless steel, ceramic, plastic handle].', "Defined subclasses of knife include [chef's knife, paring knife, bread knife, utility knife].", 'Knife is assigned functional roles such as [cutting, slicing, dicing, chopping].', 'Knife is classified as a type of [cutting instrument].', 'Knife consists of part components such as [blade, handle, bolster, tang].', 'Knife is linked to food items through object properties like [cuts, slices, prepares].', 'Knife has safety-related attributes including [blade guard, non-slip handle, safety lock].', 'Knife participates in food preparation by [cutting, chopping, slicing, mincing ingredients].', 'Knife is associated with manufacturing methods such as [forging, stamping, molding, grinding].', 'Classes defined as being sharpened by knife include [pencil, stick, wooden skewer].']
+✅ Saved: knife
+🔄 Generating Knowledge for: spoon
+LLM Response [
+  "Spoon can be composed of materials such as [metal, plastic, wood, ceramic].",
+  "The ontology specifies subclasses of spoon including [teaspoon, tablespoon, dessertSpoon, soupSpoon].",
+  "Functional roles associated with spoon include [scooping, stirring, serving].",
+  "Object properties linking spoon to food or liquid include [contains, serves, transfers].",
+  "Spoon is defined as a subclass of [utensil] and is related through the property [isA].",
+  "Restrictions on spoon include shape attributes such as [concave bowl, elongated handle] and size attributes like [length, bowl diameter].",
+  "Spoon participates in activities such as [eating, cooking, serving, mixing].",
+  "Spoon is related to table setting through the part-of relationship [partOfTableSetting].",
+  "Data properties describing spoon include [capacity, volume].",
+  "Disjoint classes specified for spoon include [fork, knife, chopstick]."
+]
+Generated Knowledge ['Spoon can be composed of materials such as [metal, plastic, wood, ceramic].', 'The ontology specifies subclasses of spoon including [teaspoon, tablespoon, dessertSpoon, soupSpoon].', 'Functional roles associated with spoon include [scooping, stirring, serving].', 'Object properties linking spoon to food or liquid include [contains, serves, transfers].', 'Spoon is defined as a subclass of [utensil] and is related through the property [isA].', 'Restrictions on spoon include shape attributes such as [concave bowl, elongated handle] and size attributes like [length, bowl diameter].', 'Spoon participates in activities such as [eating, cooking, serving, mixing].', 'Spoon is related to table setting through the part-of relationship [partOfTableSetting].', 'Data properties describing spoon include [capacity, volume].', 'Disjoint classes specified for spoon include [fork, knife, chopstick].']
+✅ Saved: spoon
+🔄 Generating Knowledge for: bowl
+LLM Response [
+  "Bowl is commonly constructed from materials such as [ceramic, glass, plastic, metal, wood].",
+  "Subclasses of bowl include [salad bowl, soup bowl, mixing bowl, rice bowl].",
+  "The primary function of a bowl is to [hold, serve, or contain food or liquids].",
+  "Bowl is linked to food items through object properties such as [containsFood, servesFood].",
+  "Bowl has defined relationships with utensils via properties like [usedWith, accompanies].",
+  "Bowl is specified in forms such as [round, oval, square, deep, shallow].",
+  "Bowl is associated with activities such as [serving, eating, mixing, preparing food].",
+  "There may be restrictions on bowl's capacity, defined by [minimumVolume, maximumVolume].",
+  "Physical characteristics of a bowl are described by data properties such as [diameter, height, volume, color, material].",
+  "Bowl participates in containment relationships, often [containing food or ingredients, being placed inside cupboards or on tables]."
+]
+Generated Knowledge ['Bowl is commonly constructed from materials such as [ceramic, glass, plastic, metal, wood].', 'Subclasses of bowl include [salad bowl, soup bowl, mixing bowl, rice bowl].', 'The primary function of a bowl is to [hold, serve, or contain food or liquids].', 'Bowl is linked to food items through object properties such as [containsFood, servesFood].', 'Bowl has defined relationships with utensils via properties like [usedWith, accompanies].', 'Bowl is specified in forms such as [round, oval, square, deep, shallow].', 'Bowl is associated with activities such as [serving, eating, mixing, preparing food].', "There may be restrictions on bowl's capacity, defined by [minimumVolume, maximumVolume].", 'Physical characteristics of a bowl are described by data properties such as [diameter, height, volume, color, material].', 'Bowl participates in containment relationships, often [containing food or ingredients, being placed inside cupboards or on tables].']
+✅ Saved: bowl
+🔄 Generating Knowledge for: banana
+LLM Response [
+  "Subclasses of banana include specific cultivars and varieties such as [Cavendish, Plantain, Red Banana, Lady Finger].",
+  "Anatomical parts defined for banana are [peel, pulp, seeds, stem].",
+  "Typical developmental stages for banana are [immature, mature green, ripe, overripe].",
+  "Object properties linking banana to its plant of origin include [isFruitOf, growsOn].",
+  "Nutritional data properties associated with banana are [caloricValue, carbohydrateContent, potassiumLevel, vitaminCContent].",
+  "Banana is related to other fruits in the ontology as a member of the [Berry, EdibleFruit] classes.",
+  "Processes involving banana as input or output include [harvesting, ripening, processing, consumption].",
+  "Classes representing diseases or pests that affect banana include [PanamaDisease, BananaBunchyTopVirus, BlackSigatoka, BananaWeevil].",
+  "Possible uses or products derived from banana are [freshFruit, bananaChips, bananaFlour, animalFeed, fiber].",
+  "Geographic regions associated with the cultivation of banana are [SoutheastAsia, CentralAmerica, Africa, SouthAmerica, India]."
+]
+Generated Knowledge ['Subclasses of banana include specific cultivars and varieties such as [Cavendish, Plantain, Red Banana, Lady Finger].', 'Anatomical parts defined for banana are [peel, pulp, seeds, stem].', 'Typical developmental stages for banana are [immature, mature green, ripe, overripe].', 'Object properties linking banana to its plant of origin include [isFruitOf, growsOn].', 'Nutritional data properties associated with banana are [caloricValue, carbohydrateContent, potassiumLevel, vitaminCContent].', 'Banana is related to other fruits in the ontology as a member of the [Berry, EdibleFruit] classes.', 'Processes involving banana as input or output include [harvesting, ripening, processing, consumption].', 'Classes representing diseases or pests that affect banana include [PanamaDisease, BananaBunchyTopVirus, BlackSigatoka, BananaWeevil].', 'Possible uses or products derived from banana are [freshFruit, bananaChips, bananaFlour, animalFeed, fiber].', 'Geographic regions associated with the cultivation of banana are [SoutheastAsia, CentralAmerica, Africa, SouthAmerica, India].']
+✅ Saved: banana
+🔄 Generating Knowledge for: apple
+LLM Response [
+  "Subclasses of apple include [GrannySmith, Fuji, GoldenDelicious].",
+  "Parts of an apple are defined as [skin, flesh, core, seeds, stem].",
+  "Properties describing the taste or color of apple are [hasTaste, hasColor].",
+  "Classes related to apple through the grows-on property include [AppleTree].",
+  "Edible components specified for apple are [flesh, skin].",
+  "Processes involving apple as input or output include [juicing, baking, fermenting, slicing].",
+  "Apple is related to its seeds through the [containsSeed] relationship.",
+  "Organisms defined as consumers of apple are [human, deer, bird, insect]."
+]
+Generated Knowledge ['Subclasses of apple include [GrannySmith, Fuji, GoldenDelicious].', 'Parts of an apple are defined as [skin, flesh, core, seeds, stem].', 'Properties describing the taste or color of apple are [hasTaste, hasColor].', 'Classes related to apple through the grows-on property include [AppleTree].', 'Edible components specified for apple are [flesh, skin].', 'Processes involving apple as input or output include [juicing, baking, fermenting, slicing].', 'Apple is related to its seeds through the [containsSeed] relationship.', 'Organisms defined as consumers of apple are [human, deer, bird, insect].']
+✅ Saved: apple
+🔄 Generating Knowledge for: sandwich
+LLM Response [
+  "A sandwich is defined by necessary ingredients including [bread, filling].",
+  "Subclasses of sandwich include [club sandwich, submarine sandwich, open-faced sandwich, panini].",
+  "Types of bread associated with sandwich as a component are [white bread, whole wheat bread, rye bread, baguette, ciabatta].",
+  "Object properties linking sandwich to its fillings include [hasFilling, containsIngredient].",
+  "Sandwich is classified as a subclass of [meal, food item] in the ontology.",
+  "Preparation methods specified for sandwich are [assembled, grilled, toasted, pressed].",
+  "Data properties describing the nutritional content of sandwich include [calories, protein, fat, carbohydrates, sodium].",
+  "Possible serving contexts for sandwich are [lunch, snack, picnic, takeout, party].",
+  "Sandwich participates in compositional relationships such as [hasLayer, isLayerOf].",
+  "Some ontologies specify restrictions on the number of layers in a sandwich, typically requiring [at least two layers of bread with filling in between]."
+]
+Generated Knowledge ['A sandwich is defined by necessary ingredients including [bread, filling].', 'Subclasses of sandwich include [club sandwich, submarine sandwich, open-faced sandwich, panini].', 'Types of bread associated with sandwich as a component are [white bread, whole wheat bread, rye bread, baguette, ciabatta].', 'Object properties linking sandwich to its fillings include [hasFilling, containsIngredient].', 'Sandwich is classified as a subclass of [meal, food item] in the ontology.', 'Preparation methods specified for sandwich are [assembled, grilled, toasted, pressed].', 'Data properties describing the nutritional content of sandwich include [calories, protein, fat, carbohydrates, sodium].', 'Possible serving contexts for sandwich are [lunch, snack, picnic, takeout, party].', 'Sandwich participates in compositional relationships such as [hasLayer, isLayerOf].', 'Some ontologies specify restrictions on the number of layers in a sandwich, typically requiring [at least two layers of bread with filling in between].']
+✅ Saved: sandwich
+🔄 Generating Knowledge for: orange
+LLM Response [
+  "The subclasses of orange include [NavelOrange, BloodOrange, ValenciaOrange].",
+  "The edible parts of orange are represented by classes such as [OrangeFlesh, OrangeJuice, OrangeZest].",
+  "Orange is related to citrus fruit classes through relationships like [isA, hasVariety, isMemberOfCitrusGenus].",
+  "Properties describing the nutritional content of orange include [vitaminCContent, sugarContent, fiberContent, caloricValue].",
+  "Orange is classified as a subclass of [CitrusFruit], which is under [Fruit, PlantProduct] in the ontology.",
+  "Defined uses and products derived from orange include [juiceProduction, marmalade, essentialOil, flavoringAgent].",
+  "The developmental stages of orange in the ontology are [Flower, ImmatureFruit, MatureFruit, RipeFruit].",
+  "Classes representing diseases or pests affecting orange include [CitrusGreeningDisease, CitrusCanker, AphidInfestation, FruitFlyDamage]."
+]
+Generated Knowledge ['The subclasses of orange include [NavelOrange, BloodOrange, ValenciaOrange].', 'The edible parts of orange are represented by classes such as [OrangeFlesh, OrangeJuice, OrangeZest].', 'Orange is related to citrus fruit classes through relationships like [isA, hasVariety, isMemberOfCitrusGenus].', 'Properties describing the nutritional content of orange include [vitaminCContent, sugarContent, fiberContent, caloricValue].', 'Orange is classified as a subclass of [CitrusFruit], which is under [Fruit, PlantProduct] in the ontology.', 'Defined uses and products derived from orange include [juiceProduction, marmalade, essentialOil, flavoringAgent].', 'The developmental stages of orange in the ontology are [Flower, ImmatureFruit, MatureFruit, RipeFruit].', 'Classes representing diseases or pests affecting orange include [CitrusGreeningDisease, CitrusCanker, AphidInfestation, FruitFlyDamage].']
+✅ Saved: orange
+🔄 Generating Knowledge for: broccoli
+LLM Response [
+  "Broccoli has subclasses such as [sprouting broccoli, purple cauliflower].",
+  "The anatomical structures identified as parts of broccoli include [florets, stalk, leaves, stem].",
+  "Nutritional properties linked to broccoli are [vitamin C content, fiber, folate, potassium, antioxidants].",
+  "Broccoli participates in biological processes such as [photosynthesis, flowering, seed production, nutrient uptake].",
+  "Cultivation requirements for broccoli include [cool temperatures, well-drained soil, full sun, regular watering].",
+  "Edible parts of broccoli are classified as [florets, stalk, leaves].",
+  "Broccoli is taxonomically related to other Brassica species such as [cabbage, cauliflower, kale, Brussels sprouts].",
+  "Object properties connecting broccoli to its growth environment include [growsInSoilType, requiresClimate, cultivatedInRegion].",
+  "Harvesting methods for broccoli involve [manual cutting, mechanical harvesting, selective picking].",
+  "Diseases and pests affecting broccoli include [downy mildew, clubroot, aphids, cabbage worms]."
+]
+Generated Knowledge ['Broccoli has subclasses such as [sprouting broccoli, purple cauliflower].', 'The anatomical structures identified as parts of broccoli include [florets, stalk, leaves, stem].', 'Nutritional properties linked to broccoli are [vitamin C content, fiber, folate, potassium, antioxidants].', 'Broccoli participates in biological processes such as [photosynthesis, flowering, seed production, nutrient uptake].', 'Cultivation requirements for broccoli include [cool temperatures, well-drained soil, full sun, regular watering].', 'Edible parts of broccoli are classified as [florets, stalk, leaves].', 'Broccoli is taxonomically related to other Brassica species such as [cabbage, cauliflower, kale, Brussels sprouts].', 'Object properties connecting broccoli to its growth environment include [growsInSoilType, requiresClimate, cultivatedInRegion].', 'Harvesting methods for broccoli involve [manual cutting, mechanical harvesting, selective picking].', 'Diseases and pests affecting broccoli include [downy mildew, clubroot, aphids, cabbage worms].']
+✅ Saved: broccoli
+🔄 Generating Knowledge for: carrot
+LLM Response [
+  "Carrot has subclasses such as [wild carrot, cultivated carrot].",
+  "Anatomical parts defined for carrot include [root, leaves, stem, flowers, seeds].",
+  "Nutritional properties associated with carrot are [beta-carotene content, fiber, vitamin A, carbohydrates].",
+  "Classes defined as edible parts of carrot are [root].",
+  "Carrot belongs to the botanical family [Apiaceae].",
+  "Growth stages specified for carrot include [seed, seedling, vegetative, root development, flowering, seed production].",
+  "Carrot has relationships with soil types such as [loamy soil, sandy soil, well-drained soil].",
+  "Organisms that interact with carrot as pests or pollinators include [carrot fly, aphids, bees, hoverflies].",
+  "Typical uses or functions assigned to carrot are [food, livestock feed, juice production, medicinal use].",
+  "Environmental conditions linked to carrot cultivation are [cool temperatures, full sun, moderate rainfall, loose soil]."
+]
+Generated Knowledge ['Carrot has subclasses such as [wild carrot, cultivated carrot].', 'Anatomical parts defined for carrot include [root, leaves, stem, flowers, seeds].', 'Nutritional properties associated with carrot are [beta-carotene content, fiber, vitamin A, carbohydrates].', 'Classes defined as edible parts of carrot are [root].', 'Carrot belongs to the botanical family [Apiaceae].', 'Growth stages specified for carrot include [seed, seedling, vegetative, root development, flowering, seed production].', 'Carrot has relationships with soil types such as [loamy soil, sandy soil, well-drained soil].', 'Organisms that interact with carrot as pests or pollinators include [carrot fly, aphids, bees, hoverflies].', 'Typical uses or functions assigned to carrot are [food, livestock feed, juice production, medicinal use].', 'Environmental conditions linked to carrot cultivation are [cool temperatures, full sun, moderate rainfall, loose soil].']
+✅ Saved: carrot
+🔄 Generating Knowledge for: hot dog
+LLM Response [
+  "A hot dog is essentially composed of a cooked sausage and a sliced bun [sausage, bun].",
+  "Hot dog is categorized under [Sandwich, FastFood, ProcessedMeatProduct].",
+  "Typical ingredients in a hot dog include [sausage, bun, mustard, ketchup, onions, relish].",
+  "Hot dog is commonly associated with [hot dog bun, sandwich roll] as its bread component.",
+  "Condiments commonly linked to hot dog are [mustard, ketchup, relish, onions, sauerkraut].",
+  "Possible variations or subclasses of hot dog include [ChiliDog, CornDog, ChicagoStyleHotDog, VeganHotDog].",
+  "Hot dog is commonly served at [sporting events, picnics, barbecues, street food venues].",
+  "Cooking methods associated with hot dog are [grilling, boiling, steaming, roasting].",
+  "Classes defined as being able to consume hot dog include [Human, Omnivore].",
+  "Nutritional data properties for hot dog include [calories, fatContent, proteinContent, sodiumContent, carbohydrateContent]."
+]
+Generated Knowledge ['A hot dog is essentially composed of a cooked sausage and a sliced bun [sausage, bun].', 'Hot dog is categorized under [Sandwich, FastFood, ProcessedMeatProduct].', 'Typical ingredients in a hot dog include [sausage, bun, mustard, ketchup, onions, relish].', 'Hot dog is commonly associated with [hot dog bun, sandwich roll] as its bread component.', 'Condiments commonly linked to hot dog are [mustard, ketchup, relish, onions, sauerkraut].', 'Possible variations or subclasses of hot dog include [ChiliDog, CornDog, ChicagoStyleHotDog, VeganHotDog].', 'Hot dog is commonly served at [sporting events, picnics, barbecues, street food venues].', 'Cooking methods associated with hot dog are [grilling, boiling, steaming, roasting].', 'Classes defined as being able to consume hot dog include [Human, Omnivore].', 'Nutritional data properties for hot dog include [calories, fatContent, proteinContent, sodiumContent, carbohydrateContent].']
+✅ Saved: hot dog
+🔄 Generating Knowledge for: pizza
+LLM Response [
+  "Pizza is defined by essential ingredients such as [dough, tomato sauce, cheese].",
+  "Subclasses of pizza include types like [NeapolitanPizza, SicilianPizza, MargheritaPizza, PepperoniPizza].",
+  "Pizza is related to other food classes through object properties such as [hasTopping, hasCrust, servedWith].",
+  "Commonly associated toppings for pizza in the ontology are [pepperoni, mushrooms, olives, onions, bell peppers].",
+  "Data properties capturing the nutritional information of pizza include [calories, fatContent, proteinContent, carbohydrateContent].",
+  "Possible crust types specified for pizza are [thinCrust, thickCrust, stuffedCrust, glutenFreeCrust].",
+  "Pizza participates in part-whole relationships as a whole composed of parts like [crust, sauce, cheese, toppings].",
+  "Preparation methods linked to pizza in the ontology include [baking, woodFired, stoneBaked].",
+  "Restrictions on allowed toppings for pizza may include [vegetarianToppingsOnly, noSeafood, glutenFreeOptions].",
+  "Pizza is classified as a subclass of [BakedGood, PreparedFood] in relation to other baked goods."
+]
+Generated Knowledge ['Pizza is defined by essential ingredients such as [dough, tomato sauce, cheese].', 'Subclasses of pizza include types like [NeapolitanPizza, SicilianPizza, MargheritaPizza, PepperoniPizza].', 'Pizza is related to other food classes through object properties such as [hasTopping, hasCrust, servedWith].', 'Commonly associated toppings for pizza in the ontology are [pepperoni, mushrooms, olives, onions, bell peppers].', 'Data properties capturing the nutritional information of pizza include [calories, fatContent, proteinContent, carbohydrateContent].', 'Possible crust types specified for pizza are [thinCrust, thickCrust, stuffedCrust, glutenFreeCrust].', 'Pizza participates in part-whole relationships as a whole composed of parts like [crust, sauce, cheese, toppings].', 'Preparation methods linked to pizza in the ontology include [baking, woodFired, stoneBaked].', 'Restrictions on allowed toppings for pizza may include [vegetarianToppingsOnly, noSeafood, glutenFreeOptions].', 'Pizza is classified as a subclass of [BakedGood, PreparedFood] in relation to other baked goods.']
+✅ Saved: pizza
+🔄 Generating Knowledge for: donut
+LLM Response [
+  "Subclasses of donut include [glazed donut, jelly donut, cream-filled donut, cake donut, ring donut].",
+  "Donut is composed of ingredients such as [flour, sugar, eggs, milk, yeast, butter, oil].",
+  "Preparation methods linked to donut are [frying, baking].",
+  "Donut belongs to food categories such as [pastry, dessert, sweet snack].",
+  "Toppings or fillings related to donut via object properties include [chocolate glaze, sprinkles, powdered sugar, fruit jam, custard, cream].",
+  "Donut is defined as both a type of baked good and fried food in the ontology [baked good, fried food].",
+  "Nutritional data properties specified for donut are [calories, fat content, sugar content, carbohydrate content, protein content].",
+  "Events or occasions commonly associated with donuts in the ontology are [breakfast, snack time, celebrations, National Donut Day].",
+  "Regional variations of donut represented as subclasses include [beignet, Berliner, sufganiyah, churro].",
+  "Donut is related to other pastries in the ontology through the shared superclass [pastry] and similar composition and preparation methods."
+]
+Generated Knowledge ['Subclasses of donut include [glazed donut, jelly donut, cream-filled donut, cake donut, ring donut].', 'Donut is composed of ingredients such as [flour, sugar, eggs, milk, yeast, butter, oil].', 'Preparation methods linked to donut are [frying, baking].', 'Donut belongs to food categories such as [pastry, dessert, sweet snack].', 'Toppings or fillings related to donut via object properties include [chocolate glaze, sprinkles, powdered sugar, fruit jam, custard, cream].', 'Donut is defined as both a type of baked good and fried food in the ontology [baked good, fried food].', 'Nutritional data properties specified for donut are [calories, fat content, sugar content, carbohydrate content, protein content].', 'Events or occasions commonly associated with donuts in the ontology are [breakfast, snack time, celebrations, National Donut Day].', 'Regional variations of donut represented as subclasses include [beignet, Berliner, sufganiyah, churro].', 'Donut is related to other pastries in the ontology through the shared superclass [pastry] and similar composition and preparation methods.']
+✅ Saved: donut
+🔄 Generating Knowledge for: cake
+LLM Response [
+  "Typical ingredients for cake include [flour, sugar, eggs, butter, baking powder, milk].",
+  "Defined subclasses of cake are [cheesecake, sponge cake, fruit cake, chocolate cake, pound cake].",
+  "Cakes are commonly linked to events such as [birthdays, weddings, anniversaries, celebrations].",
+  "Cake is related to other dessert classes through the superclass [dessert] and shares properties with [pastry, pie, tart].",
+  "Specified preparation methods for cake include [baking, mixing, frosting, layering].",
+  "Object properties connecting cake to decorations or toppings include [hasDecoration, toppedWith, filledWith].",
+  "Possible shapes or forms of cake are [round, square, sheet, tiered, cupcake].",
+  "Cake is classified based on flavor or filling as [chocolate, vanilla, fruit-filled, cream-filled, nut-flavored].",
+  "In a meal or celebration, cake can serve roles such as [dessert, centerpiece, celebratory item].",
+  "Data properties capturing the nutritional information of cake include [calorieContent, fatContent, sugarContent, servingSize]."
+]
+Generated Knowledge ['Typical ingredients for cake include [flour, sugar, eggs, butter, baking powder, milk].', 'Defined subclasses of cake are [cheesecake, sponge cake, fruit cake, chocolate cake, pound cake].', 'Cakes are commonly linked to events such as [birthdays, weddings, anniversaries, celebrations].', 'Cake is related to other dessert classes through the superclass [dessert] and shares properties with [pastry, pie, tart].', 'Specified preparation methods for cake include [baking, mixing, frosting, layering].', 'Object properties connecting cake to decorations or toppings include [hasDecoration, toppedWith, filledWith].', 'Possible shapes or forms of cake are [round, square, sheet, tiered, cupcake].', 'Cake is classified based on flavor or filling as [chocolate, vanilla, fruit-filled, cream-filled, nut-flavored].', 'In a meal or celebration, cake can serve roles such as [dessert, centerpiece, celebratory item].', 'Data properties capturing the nutritional information of cake include [calorieContent, fatContent, sugarContent, servingSize].']
+✅ Saved: cake
+🔄 Generating Knowledge for: chair
+LLM Response [
+  "Possible materials defined for a chair include [wood, metal, plastic, fabric, leather].",
+  "Subclasses of chair specified in the ontology are [armchair, office chair, dining chair, rocking chair, stool].",
+  "Functional roles associated with chair include [providing seating, supporting posture, facilitating rest].",
+  "Chair is classified as a type of [furniture] in the ontology.",
+  "Properties describing the seating capacity of a chair include [hasSeatingCapacity, numberOfSeats].",
+  "Object properties linking chair to its supporting parts are [hasLeg, hasBackrest, hasArmrest, hasSeat].",
+  "There is a constraint that a chair must have at least [three or four legs], depending on the subclass.",
+  "Relationships between chair and person include [isOccupiedBy, isDesignedFor, isUsedBy].",
+  "Data properties capturing the dimensions of a chair are [height, width, depth, seatHeight].",
+  "Chair is defined as [movable] in the ontology, though some subclasses may be fixed."
+]
+Generated Knowledge ['Possible materials defined for a chair include [wood, metal, plastic, fabric, leather].', 'Subclasses of chair specified in the ontology are [armchair, office chair, dining chair, rocking chair, stool].', 'Functional roles associated with chair include [providing seating, supporting posture, facilitating rest].', 'Chair is classified as a type of [furniture] in the ontology.', 'Properties describing the seating capacity of a chair include [hasSeatingCapacity, numberOfSeats].', 'Object properties linking chair to its supporting parts are [hasLeg, hasBackrest, hasArmrest, hasSeat].', 'There is a constraint that a chair must have at least [three or four legs], depending on the subclass.', 'Relationships between chair and person include [isOccupiedBy, isDesignedFor, isUsedBy].', 'Data properties capturing the dimensions of a chair are [height, width, depth, seatHeight].', 'Chair is defined as [movable] in the ontology, though some subclasses may be fixed.']
+✅ Saved: chair
+🔄 Generating Knowledge for: couch
+LLM Response [
+  "Couch is composed of materials such as [wood, metal, fabric, leather, foam].",
+  "Couch has seating capacity restrictions defined as [two-seater, three-seater, sectional].",
+  "Subclasses of couch include [sofa, loveseat, sectional couch, sleeper sofa].",
+  "Couch is related to rooms through object properties like [locatedIn, placedIn, suitableForRoom].",
+  "Couch is associated with ergonomic features such as [lumbar support, adjustable headrest, reclining mechanism].",
+  "Couch has relationships with upholstery through properties like [hasUpholstery, coveredWith].",
+  "Couch is linked to furniture sets via relationships such as [partOfSet, matchesSet].",
+  "Couch dimensions are described by data properties such as [length, width, height, seatDepth].",
+  "Couch is associated with style or design categories including [modern, traditional, contemporary, mid-century].",
+  "Couch fulfills functional roles such as [seating, lounging, sleeping]."
+]
+Generated Knowledge ['Couch is composed of materials such as [wood, metal, fabric, leather, foam].', 'Couch has seating capacity restrictions defined as [two-seater, three-seater, sectional].', 'Subclasses of couch include [sofa, loveseat, sectional couch, sleeper sofa].', 'Couch is related to rooms through object properties like [locatedIn, placedIn, suitableForRoom].', 'Couch is associated with ergonomic features such as [lumbar support, adjustable headrest, reclining mechanism].', 'Couch has relationships with upholstery through properties like [hasUpholstery, coveredWith].', 'Couch is linked to furniture sets via relationships such as [partOfSet, matchesSet].', 'Couch dimensions are described by data properties such as [length, width, height, seatDepth].', 'Couch is associated with style or design categories including [modern, traditional, contemporary, mid-century].', 'Couch fulfills functional roles such as [seating, lounging, sleeping].']
+✅ Saved: couch
+🔄 Generating Knowledge for: potted plant
+LLM Response [
+  "A potted plant consists essentially of [plant, pot, growing medium].",
+  "The object property [isContainedIn] links a potted plant to its container.",
+  "The relationship between a potted plant and its growing medium is represented by the object property [hasGrowingMedium].",
+  "Subclasses defined under potted plant include [indoor potted plant, outdoor potted plant, decorative potted plant].",
+  "Data properties that capture the care requirements of a potted plant are [wateringFrequency, lightRequirement, fertilizerType, humidityPreference].",
+  "The association between a potted plant and its location is modeled by the object property [isLocatedAt].",
+  "Restrictions on the types of plants classified as potted plants require that the plant must be capable of sustained growth in a containerized environment [container-suitable species].",
+  "Properties describing the interaction between a potted plant and environmental factors include [respondsToLight, respondsToHumidity, respondsToTemperature]."
+]
+Generated Knowledge ['A potted plant consists essentially of [plant, pot, growing medium].', 'The object property [isContainedIn] links a potted plant to its container.', 'The relationship between a potted plant and its growing medium is represented by the object property [hasGrowingMedium].', 'Subclasses defined under potted plant include [indoor potted plant, outdoor potted plant, decorative potted plant].', 'Data properties that capture the care requirements of a potted plant are [wateringFrequency, lightRequirement, fertilizerType, humidityPreference].', 'The association between a potted plant and its location is modeled by the object property [isLocatedAt].', 'Restrictions on the types of plants classified as potted plants require that the plant must be capable of sustained growth in a containerized environment [container-suitable species].', 'Properties describing the interaction between a potted plant and environmental factors include [respondsToLight, respondsToHumidity, respondsToTemperature].']
+✅ Saved: potted plant
+🔄 Generating Knowledge for: bed
+LLM Response [
+  "Subclasses defined under bed include [bunkBed, canopyBed, platformBed, sofaBed, waterBed].",
+  "Materials specified as components of bed are [wood, metal, fabric, foam, leather].",
+  "Functional relationships connect bed to other furniture classes through [isPlacedNextTo, complements, isPartOfSetWith].",
+  "Object properties linking bed to bedroom include [isLocatedIn, furnishes, isEssentialFor].",
+  "Possible configurations or types of bed represented in the ontology are [single, double, queen, king, loft, trundle].",
+  "Data properties describing the dimensions of bed are [length, width, height, mattressSize].",
+  "Bed is related to the concept of sleep through the [enables, supports, isUsedFor] relationships.",
+  "Disjoint classes specified for bed include [chair, table, desk, wardrobe].",
+  "Part-whole relationships involve bed and its components such as [hasHeadboard, hasFootboard, hasFrame, hasMattress, hasSlats].",
+  "Classes defined as being supported by bed are [mattress, bedding, pillow]."
+]
+Generated Knowledge ['Subclasses defined under bed include [bunkBed, canopyBed, platformBed, sofaBed, waterBed].', 'Materials specified as components of bed are [wood, metal, fabric, foam, leather].', 'Functional relationships connect bed to other furniture classes through [isPlacedNextTo, complements, isPartOfSetWith].', 'Object properties linking bed to bedroom include [isLocatedIn, furnishes, isEssentialFor].', 'Possible configurations or types of bed represented in the ontology are [single, double, queen, king, loft, trundle].', 'Data properties describing the dimensions of bed are [length, width, height, mattressSize].', 'Bed is related to the concept of sleep through the [enables, supports, isUsedFor] relationships.', 'Disjoint classes specified for bed include [chair, table, desk, wardrobe].', 'Part-whole relationships involve bed and its components such as [hasHeadboard, hasFootboard, hasFrame, hasMattress, hasSlats].', 'Classes defined as being supported by bed are [mattress, bedding, pillow].']
+✅ Saved: bed
+🔄 Generating Knowledge for: dining table
+LLM Response [
+  "Dining table is commonly constructed from materials such as [wood, glass, metal, plastic].",
+  "Items typically placed on a dining table are represented by classes such as [Plate, Utensil, Glassware, Centerpiece].",
+  "Dining table is functionally distinguished by its primary use for [serving and consuming meals].",
+  "Dining table is typically part of a [Dining Room] in part-of relationships.",
+  "Seating furniture classes associated with a dining table include [Dining Chair, Bench].",
+  "Subclasses of dining table based on shape or size include [Round Dining Table, Rectangular Dining Table, Extendable Dining Table].",
+  "Object properties linking a dining table to its users include [isUsedBy, hasSeatingFor].",
+  "Data properties describing a dining table's capacity or dimensions include [seatingCapacity, length, width, height].",
+  "Activities modeled as occurring at a dining table include [eating, socializing, working].",
+  "Relationships between a dining table and meal events include [isLocationFor, hostsEvent]."
+]
+Generated Knowledge ['Dining table is commonly constructed from materials such as [wood, glass, metal, plastic].', 'Items typically placed on a dining table are represented by classes such as [Plate, Utensil, Glassware, Centerpiece].', 'Dining table is functionally distinguished by its primary use for [serving and consuming meals].', 'Dining table is typically part of a [Dining Room] in part-of relationships.', 'Seating furniture classes associated with a dining table include [Dining Chair, Bench].', 'Subclasses of dining table based on shape or size include [Round Dining Table, Rectangular Dining Table, Extendable Dining Table].', 'Object properties linking a dining table to its users include [isUsedBy, hasSeatingFor].', "Data properties describing a dining table's capacity or dimensions include [seatingCapacity, length, width, height].", 'Activities modeled as occurring at a dining table include [eating, socializing, working].', 'Relationships between a dining table and meal events include [isLocationFor, hostsEvent].']
+✅ Saved: dining table
+🔄 Generating Knowledge for: toilet
+LLM Response [
+  "A toilet consists of essential components such as [bowl, tank, seat, flush mechanism, lid].",
+  "Defined subclasses of toilet include [smart toilet, squat toilet, composting toilet, portable toilet].",
+  "Toilet is functionally connected to plumbing system through relationships like [isConnectedTo, drainsInto, receivesWaterFrom].",
+  "Object properties linking toilet to bathroom include [isLocatedIn, isFixtureOf].",
+  "Material types specified for toilet construction are [ceramic, porcelain, stainless steel, plastic].",
+  "Toilet is related to sanitation facilities via relationships such as [isPartOf, supports, enablesSanitation].",
+  "Maintenance-related properties for toilet include [requiresCleaning, hasMaintenanceSchedule, needsRepair].",
+  "Compatible accessories for toilet are defined as classes like [toiletPaperHolder, bidet, toiletBrush, toiletSeatCover].",
+  "Usage constraints modeled for toilet include [maximumWeightLimit, intendedForHumanUse, waterUsageRestriction]."
+]
+Generated Knowledge ['A toilet consists of essential components such as [bowl, tank, seat, flush mechanism, lid].', 'Defined subclasses of toilet include [smart toilet, squat toilet, composting toilet, portable toilet].', 'Toilet is functionally connected to plumbing system through relationships like [isConnectedTo, drainsInto, receivesWaterFrom].', 'Object properties linking toilet to bathroom include [isLocatedIn, isFixtureOf].', 'Material types specified for toilet construction are [ceramic, porcelain, stainless steel, plastic].', 'Toilet is related to sanitation facilities via relationships such as [isPartOf, supports, enablesSanitation].', 'Maintenance-related properties for toilet include [requiresCleaning, hasMaintenanceSchedule, needsRepair].', 'Compatible accessories for toilet are defined as classes like [toiletPaperHolder, bidet, toiletBrush, toiletSeatCover].', 'Usage constraints modeled for toilet include [maximumWeightLimit, intendedForHumanUse, waterUsageRestriction].']
+✅ Saved: toilet
+🔄 Generating Knowledge for: tv
+LLM Response [
+  "Subclasses of tv based on display technology include [LED TV, OLED TV, LCD TV, Plasma TV, QLED TV].",
+  "Object properties linking tv to remote control devices include [controlledBy, pairedWith].",
+  "Components defined as parts of a tv are [screen, speakers, tuner, power supply, circuit board, ports].",
+  "Data properties specifying the screen size of a tv include [screenSize, diagonalInches, displayDimension].",
+  "Tv is classified as a subclass of [electronic device].",
+  "Relationships between tv and broadcast signal sources include [receivesSignalFrom, connectedTo, tunedTo].",
+  "Classes representing types of content displayed on a tv are [television program, movie, video game, advertisement, streaming content].",
+  "Possible connections between tv and audio output devices are [connectedTo, outputsAudioTo, pairedWith]."
+]
+Generated Knowledge ['Subclasses of tv based on display technology include [LED TV, OLED TV, LCD TV, Plasma TV, QLED TV].', 'Object properties linking tv to remote control devices include [controlledBy, pairedWith].', 'Components defined as parts of a tv are [screen, speakers, tuner, power supply, circuit board, ports].', 'Data properties specifying the screen size of a tv include [screenSize, diagonalInches, displayDimension].', 'Tv is classified as a subclass of [electronic device].', 'Relationships between tv and broadcast signal sources include [receivesSignalFrom, connectedTo, tunedTo].', 'Classes representing types of content displayed on a tv are [television program, movie, video game, advertisement, streaming content].', 'Possible connections between tv and audio output devices are [connectedTo, outputsAudioTo, pairedWith].']
+✅ Saved: tv
+🔄 Generating Knowledge for: laptop
+LLM Response [
+  "A laptop contains essential hardware components such as [processor, memory, storage, display, keyboard, battery].",
+  "Subclasses representing different types of laptops include [gamingLaptop, ultrabook, convertibleLaptop, businessLaptop].",
+  "Laptop is related to operating system through the property [runsOperatingSystem].",
+  "Laptop connects to peripheral devices via relationships like [hasPeripheral, connectsToDevice].",
+  "Technical specifications of a laptop are captured by data properties such as [RAMSize, processorType, storageCapacity, screenSize, weight].",
+  "Laptop is linked to battery through the relationship [poweredByBattery].",
+  "Classes defined as parts of a laptop include [keyboard, touchpad, screen, motherboard, battery, ports].",
+  "Laptop relates to user through properties such as [usedBy, ownedBy].",
+  "Object properties linking laptop to network connectivity features include [hasWiFi, hasEthernetPort, supportsBluetooth].",
+  "There may be restrictions on the software installed on a laptop, defined by properties like [supportsSoftwareType, compatibleWithOperatingSystem]."
+]
+Generated Knowledge ['A laptop contains essential hardware components such as [processor, memory, storage, display, keyboard, battery].', 'Subclasses representing different types of laptops include [gamingLaptop, ultrabook, convertibleLaptop, businessLaptop].', 'Laptop is related to operating system through the property [runsOperatingSystem].', 'Laptop connects to peripheral devices via relationships like [hasPeripheral, connectsToDevice].', 'Technical specifications of a laptop are captured by data properties such as [RAMSize, processorType, storageCapacity, screenSize, weight].', 'Laptop is linked to battery through the relationship [poweredByBattery].', 'Classes defined as parts of a laptop include [keyboard, touchpad, screen, motherboard, battery, ports].', 'Laptop relates to user through properties such as [usedBy, ownedBy].', 'Object properties linking laptop to network connectivity features include [hasWiFi, hasEthernetPort, supportsBluetooth].', 'There may be restrictions on the software installed on a laptop, defined by properties like [supportsSoftwareType, compatibleWithOperatingSystem].']
+✅ Saved: laptop
+🔄 Generating Knowledge for: mouse
+LLM Response [
+  "Subclasses of mouse include [HouseMouse, FieldMouse, LaboratoryMouse].",
+  "Anatomical structures that are parts of mouse include [tail, whiskers, paws, ears, fur, teeth].",
+  "Mouse participates in biological processes such as [metabolism, reproduction, locomotion, sensory perception].",
+  "Predators of mouse are defined as [owl, snake, fox, cat].",
+  "Habitats associated with mouse are [grassland, forest, urban areas, agricultural fields].",
+  "Developmental stages specified for mouse are [embryo, pup, juvenile, adult].",
+  "Diseases known to affect mouse include [mouse hepatitis, leptospirosis, lymphocytic choriomeningitis].",
+  "Object properties linking mouse to its food sources include [eats, foragesFor, consumes].",
+  "Typical lifespan and reproductive traits of mouse are [lifespan: 1-3 years, high reproductive rate, short gestation period].",
+  "Experimental models that use mouse as a reference organism are [genetic studies, cancer research, immunology models, drug testing]."
+]
+Generated Knowledge ['Subclasses of mouse include [HouseMouse, FieldMouse, LaboratoryMouse].', 'Anatomical structures that are parts of mouse include [tail, whiskers, paws, ears, fur, teeth].', 'Mouse participates in biological processes such as [metabolism, reproduction, locomotion, sensory perception].', 'Predators of mouse are defined as [owl, snake, fox, cat].', 'Habitats associated with mouse are [grassland, forest, urban areas, agricultural fields].', 'Developmental stages specified for mouse are [embryo, pup, juvenile, adult].', 'Diseases known to affect mouse include [mouse hepatitis, leptospirosis, lymphocytic choriomeningitis].', 'Object properties linking mouse to its food sources include [eats, foragesFor, consumes].', 'Typical lifespan and reproductive traits of mouse are [lifespan: 1-3 years, high reproductive rate, short gestation period].', 'Experimental models that use mouse as a reference organism are [genetic studies, cancer research, immunology models, drug testing].']
+✅ Saved: mouse
+🔄 Generating Knowledge for: remote
+LLM Response [
+  "Subclasses of remote based on intended device control include [TVRemote, AirConditionerRemote, AudioSystemRemote, FanRemote].",
+  "Object properties linking remote to electronic devices include [controlsDevice, pairsWith, sendsSignalTo].",
+  "Material composition data properties for remote include [casingMaterial, buttonMaterial, batteryType].",
+  "Remote is functionally related to signal transmission classes through [emitsSignal, usesProtocol, transmitsCommand].",
+  "Classes representing the power source of remote are [Battery, RechargeableBattery, USBPower].",
+  "Possible communication protocols associated with remote are [Infrared, RadioFrequency, Bluetooth, WiFi].",
+  "Classes representing the buttons or controls that are part of remote include [Button, Touchpad, Dial, Switch].",
+  "Remote is associated with user interaction events through [buttonPress, longPress, gestureInput, voiceCommand].",
+  "Possible states or modes defined for remote are [active, standby, pairingMode, sleepMode].",
+  "Classes representing the range or distance limitations of remote are [SignalRange, MaximumDistance, EffectiveRange]."
+]
+Generated Knowledge ['Subclasses of remote based on intended device control include [TVRemote, AirConditionerRemote, AudioSystemRemote, FanRemote].', 'Object properties linking remote to electronic devices include [controlsDevice, pairsWith, sendsSignalTo].', 'Material composition data properties for remote include [casingMaterial, buttonMaterial, batteryType].', 'Remote is functionally related to signal transmission classes through [emitsSignal, usesProtocol, transmitsCommand].', 'Classes representing the power source of remote are [Battery, RechargeableBattery, USBPower].', 'Possible communication protocols associated with remote are [Infrared, RadioFrequency, Bluetooth, WiFi].', 'Classes representing the buttons or controls that are part of remote include [Button, Touchpad, Dial, Switch].', 'Remote is associated with user interaction events through [buttonPress, longPress, gestureInput, voiceCommand].', 'Possible states or modes defined for remote are [active, standby, pairingMode, sleepMode].', 'Classes representing the range or distance limitations of remote are [SignalRange, MaximumDistance, EffectiveRange].']
+✅ Saved: remote
+🔄 Generating Knowledge for: keyboard
+LLM Response [
+  "Subclasses of keyboard include [mechanical keyboard, membrane keyboard, virtual keyboard, ergonomic keyboard].",
+  "Components defined as parts of a keyboard are [keys, key switches, casing, circuit board, cable].",
+  "Functions associated with the keyboard class are [inputting characters, sending commands, controlling devices].",
+  "Devices connected to a keyboard via object properties are [computer, tablet, workstation, terminal].",
+  "Data properties specifying the layout or type of a keyboard are [layoutType, keyCount, language, formFactor].",
+  "Keyboard is classified as a subclass of [input device] in the ontology.",
+  "Events or actions a keyboard can initiate include [key press, key release, macro execution, input event].",
+  "Physical characteristics described for keyboard instances are [dimensions, weight, color, material]."
+]
+Generated Knowledge ['Subclasses of keyboard include [mechanical keyboard, membrane keyboard, virtual keyboard, ergonomic keyboard].', 'Components defined as parts of a keyboard are [keys, key switches, casing, circuit board, cable].', 'Functions associated with the keyboard class are [inputting characters, sending commands, controlling devices].', 'Devices connected to a keyboard via object properties are [computer, tablet, workstation, terminal].', 'Data properties specifying the layout or type of a keyboard are [layoutType, keyCount, language, formFactor].', 'Keyboard is classified as a subclass of [input device] in the ontology.', 'Events or actions a keyboard can initiate include [key press, key release, macro execution, input event].', 'Physical characteristics described for keyboard instances are [dimensions, weight, color, material].']
+✅ Saved: keyboard
+🔄 Generating Knowledge for: cell phone
+LLM Response [
+  "A cell phone is composed of essential components such as [display, battery, processor, memory, camera, antenna, microphone, speaker, SIM card].",
+  "Cell phone supports communication technologies including [GSM, CDMA, LTE, 5G, Wi-Fi, Bluetooth, NFC].",
+  "A cell phone can process or store data types such as [audio, video, text, images, applications, contacts, messages].",
+  "Subclasses or specializations of cell phone include [smartphone, feature phone, rugged phone, satellite phone].",
+  "Cell phone establishes functional relationships with cellular network through [signal transmission, data exchange, authentication, roaming].",
+  "User roles associated with operating a cell phone are [owner, user, administrator, service technician].",
+  "The primary energy source required for a cell phone to function is [rechargeable battery], with [external power supply] for charging.",
+  "Typical input interfaces of a cell phone are [touchscreen, physical buttons, microphone, camera], and output interfaces are [display, speaker, vibration motor, LED indicators].",
+  "A cell phone interacts with other electronic devices via [Bluetooth pairing, Wi-Fi connectivity, USB connection, NFC, infrared].",
+  "Common manufacturing materials for cell phone construction include [plastic, glass, aluminum, lithium, silicon, copper]."
+]
+Generated Knowledge ['A cell phone is composed of essential components such as [display, battery, processor, memory, camera, antenna, microphone, speaker, SIM card].', 'Cell phone supports communication technologies including [GSM, CDMA, LTE, 5G, Wi-Fi, Bluetooth, NFC].', 'A cell phone can process or store data types such as [audio, video, text, images, applications, contacts, messages].', 'Subclasses or specializations of cell phone include [smartphone, feature phone, rugged phone, satellite phone].', 'Cell phone establishes functional relationships with cellular network through [signal transmission, data exchange, authentication, roaming].', 'User roles associated with operating a cell phone are [owner, user, administrator, service technician].', 'The primary energy source required for a cell phone to function is [rechargeable battery], with [external power supply] for charging.', 'Typical input interfaces of a cell phone are [touchscreen, physical buttons, microphone, camera], and output interfaces are [display, speaker, vibration motor, LED indicators].', 'A cell phone interacts with other electronic devices via [Bluetooth pairing, Wi-Fi connectivity, USB connection, NFC, infrared].', 'Common manufacturing materials for cell phone construction include [plastic, glass, aluminum, lithium, silicon, copper].']
+✅ Saved: cell phone
+🔄 Generating Knowledge for: microwave
+LLM Response [
+  "Microwave consists of component parts such as [door, controlPanel, turntable, magnetron, cavity, powerCord].",
+  "No subclasses are explicitly defined for microwave in the ontology [none].",
+  "Microwave is functionally related to actions such as [heating, defrosting, cooking].",
+  "Object properties such as [isPlacedNextTo, isConnectedTo, isPartOfSetWith] link microwave to other kitchen appliances.",
+  "The power rating of microwave is specified by data properties such as [wattage, voltage].",
+  "Microwave is capable of performing processes such as [foodHeating, defrosting, reheating].",
+  "Materials specified in the composition of microwave include [metal, plastic, glass, electronicComponents].",
+  "Safety features described for microwave include [childLock, automaticShutoff, doorInterlock, overheatProtection].",
+  "The typical location for microwave is defined as [kitchen, breakRoom, pantry].",
+  "Microwave is ontologically related to food heating through the [performsFoodHeating] property."
+]
+Generated Knowledge ['Microwave consists of component parts such as [door, controlPanel, turntable, magnetron, cavity, powerCord].', 'No subclasses are explicitly defined for microwave in the ontology [none].', 'Microwave is functionally related to actions such as [heating, defrosting, cooking].', 'Object properties such as [isPlacedNextTo, isConnectedTo, isPartOfSetWith] link microwave to other kitchen appliances.', 'The power rating of microwave is specified by data properties such as [wattage, voltage].', 'Microwave is capable of performing processes such as [foodHeating, defrosting, reheating].', 'Materials specified in the composition of microwave include [metal, plastic, glass, electronicComponents].', 'Safety features described for microwave include [childLock, automaticShutoff, doorInterlock, overheatProtection].', 'The typical location for microwave is defined as [kitchen, breakRoom, pantry].', 'Microwave is ontologically related to food heating through the [performsFoodHeating] property.']
+✅ Saved: microwave
+🔄 Generating Knowledge for: oven
+LLM Response [
+  "The subclasses of oven include [convection oven, microwave oven, toaster oven, steam oven].",
+  "Oven is linked to other kitchen appliances through object properties such as [isLocatedIn, isConnectedTo, sharesPowerSourceWith].",
+  "Oven is composed of materials such as [stainless steel, glass, ceramic, insulation foam].",
+  "Oven is capable of performing processes like [baking, roasting, broiling, heating].",
+  "Oven has data properties describing temperature range such as [minTemperature, maxTemperature, temperatureSetting].",
+  "Oven is related to the class food through properties like [cooks, heats, prepares].",
+  "Functional parts defined for oven include [door, heating element, control panel, rack, thermostat].",
+  "Energy sources associated with oven are [electricity, natural gas, propane].",
+  "Safety features modeled for oven include [automatic shutoff, child lock, overheat protection, insulated handle].",
+  "Maintenance actions linked to oven through object properties are [clean, inspect, replaceFilter, service]."
+]
+Generated Knowledge ['The subclasses of oven include [convection oven, microwave oven, toaster oven, steam oven].', 'Oven is linked to other kitchen appliances through object properties such as [isLocatedIn, isConnectedTo, sharesPowerSourceWith].', 'Oven is composed of materials such as [stainless steel, glass, ceramic, insulation foam].', 'Oven is capable of performing processes like [baking, roasting, broiling, heating].', 'Oven has data properties describing temperature range such as [minTemperature, maxTemperature, temperatureSetting].', 'Oven is related to the class food through properties like [cooks, heats, prepares].', 'Functional parts defined for oven include [door, heating element, control panel, rack, thermostat].', 'Energy sources associated with oven are [electricity, natural gas, propane].', 'Safety features modeled for oven include [automatic shutoff, child lock, overheat protection, insulated handle].', 'Maintenance actions linked to oven through object properties are [clean, inspect, replaceFilter, service].']
+✅ Saved: oven
+🔄 Generating Knowledge for: toaster
+LLM Response [
+  "A toaster consists of functional components such as [heating elements, slots, lever, crumb tray, timer, control knob].",
+  "Toaster is a subclass of electrical appliance classes including [KitchenAppliance, SmallAppliance, ElectricDevice].",
+  "A toaster can process bread products such as [sliced bread, bagels, English muffins, waffles].",
+  "Safety features associated with a toaster include [automatic shutoff, cool-touch exterior, crumb tray, overheat protection].",
+  "Common materials used in the construction of a toaster are [stainless steel, plastic, nichrome wire, aluminum].",
+  "In an ontology, a toaster interacts with other kitchen appliances through relationships like [isLocatedIn, sharesPowerSourceWith, isUsedWith].",
+  "The energy source required for a toaster to operate is [electricity].",
+  "Typical object properties linking toaster to its heating elements are [hasHeatingElement, contains, poweredBy].",
+  "Maintenance actions defined for a toaster in the ontology include [cleaning crumb tray, inspecting cord, removing crumbs, checking heating elements].",
+  "User actions associated with operating a toaster are [inserting bread, selecting browning level, pressing lever, removing toast]."
+]
+Generated Knowledge ['A toaster consists of functional components such as [heating elements, slots, lever, crumb tray, timer, control knob].', 'Toaster is a subclass of electrical appliance classes including [KitchenAppliance, SmallAppliance, ElectricDevice].', 'A toaster can process bread products such as [sliced bread, bagels, English muffins, waffles].', 'Safety features associated with a toaster include [automatic shutoff, cool-touch exterior, crumb tray, overheat protection].', 'Common materials used in the construction of a toaster are [stainless steel, plastic, nichrome wire, aluminum].', 'In an ontology, a toaster interacts with other kitchen appliances through relationships like [isLocatedIn, sharesPowerSourceWith, isUsedWith].', 'The energy source required for a toaster to operate is [electricity].', 'Typical object properties linking toaster to its heating elements are [hasHeatingElement, contains, poweredBy].', 'Maintenance actions defined for a toaster in the ontology include [cleaning crumb tray, inspecting cord, removing crumbs, checking heating elements].', 'User actions associated with operating a toaster are [inserting bread, selecting browning level, pressing lever, removing toast].']
+✅ Saved: toaster
+🔄 Generating Knowledge for: sink
+LLM Response [
+  "Sink instances are typically made from materials such as [ceramic, stainless steel, porcelain, composite].",
+  "Sink is functionally related to plumbing fixtures through relationships like [isConnectedTo, isPartOf].",
+  "Sink contains or is associated with water basin through relationships such as [hasBasin, containsBasin].",
+  "Defined subclasses under sink include [kitchen sink, bathroom sink, utility sink].",
+  "Sink is commonly used in locations such as [kitchen, bathroom, laundry room, laboratory].",
+  "Object properties connecting sink to faucet or drain components include [hasFaucet, hasDrain, isEquippedWith].",
+  "Maintenance-related attributes for sink include [cleaningFrequency, leakStatus, installationDate].",
+  "Sink is linked to water supply systems via properties like [receivesWaterFrom, connectedToSupplyLine]."
+]
+Generated Knowledge ['Sink instances are typically made from materials such as [ceramic, stainless steel, porcelain, composite].', 'Sink is functionally related to plumbing fixtures through relationships like [isConnectedTo, isPartOf].', 'Sink contains or is associated with water basin through relationships such as [hasBasin, containsBasin].', 'Defined subclasses under sink include [kitchen sink, bathroom sink, utility sink].', 'Sink is commonly used in locations such as [kitchen, bathroom, laundry room, laboratory].', 'Object properties connecting sink to faucet or drain components include [hasFaucet, hasDrain, isEquippedWith].', 'Maintenance-related attributes for sink include [cleaningFrequency, leakStatus, installationDate].', 'Sink is linked to water supply systems via properties like [receivesWaterFrom, connectedToSupplyLine].']
+✅ Saved: sink
+🔄 Generating Knowledge for: refrigerator
+LLM Response [
+  "A refrigerator consists of essential components such as [compressor, evaporator, condenser, thermostat, shelves, door].",
+  "Defined subclasses of refrigerator include [miniFridge, doubleDoorRefrigerator, smartRefrigerator, commercialRefrigerator].",
+  "Typical items stored in a refrigerator are [dairyProducts, vegetables, fruits, beverages, meat, leftovers, medicines].",
+  "Refrigerator is associated with energy source properties such as [usesElectricity, energyEfficiencyRating, powerConsumption].",
+  "Functional relationships connect refrigerator to other kitchen appliances through properties like [isLocatedIn, worksWith, complements].",
+  "Maintenance activities linked to refrigerator include [defrosting, cleaning, filterReplacement, temperatureCheck].",
+  "The specified operational temperature range for refrigerator is [1°C to 7°C].",
+  "Object properties connecting refrigerator to its manufacturer include [hasManufacturer, producedBy, brand].",
+  "The capacity of a refrigerator is represented by data properties such as [storageVolume, netCapacity, grossCapacity].",
+  "Modeled safety features for refrigerator include [childLock, doorAlarm, temperatureAlarm, surgeProtection]."
+]
+Generated Knowledge ['A refrigerator consists of essential components such as [compressor, evaporator, condenser, thermostat, shelves, door].', 'Defined subclasses of refrigerator include [miniFridge, doubleDoorRefrigerator, smartRefrigerator, commercialRefrigerator].', 'Typical items stored in a refrigerator are [dairyProducts, vegetables, fruits, beverages, meat, leftovers, medicines].', 'Refrigerator is associated with energy source properties such as [usesElectricity, energyEfficiencyRating, powerConsumption].', 'Functional relationships connect refrigerator to other kitchen appliances through properties like [isLocatedIn, worksWith, complements].', 'Maintenance activities linked to refrigerator include [defrosting, cleaning, filterReplacement, temperatureCheck].', 'The specified operational temperature range for refrigerator is [1°C to 7°C].', 'Object properties connecting refrigerator to its manufacturer include [hasManufacturer, producedBy, brand].', 'The capacity of a refrigerator is represented by data properties such as [storageVolume, netCapacity, grossCapacity].', 'Modeled safety features for refrigerator include [childLock, doorAlarm, temperatureAlarm, surgeProtection].']
+✅ Saved: refrigerator
+🔄 Generating Knowledge for: book
+LLM Response [
+  "Subclasses defined under book include [Ebook, HardcoverBook, PaperbackBook, Audiobook].",
+  "Book is related to classes such as [Author, Editor, Contributor] through authorship properties.",
+  "Book is specified in formats including [physical, digital, audio, electronic].",
+  "Properties describing the publication details of book are [publicationDate, publisher, placeOfPublication, edition].",
+  "Book is connected to publisher classes via relationships like [publishedBy, hasPublisher].",
+  "Book is associated with library or collection classes through properties such as [isHeldBy, isPartOfCollection].",
+  "Defined parts or components of book include [cover, spine, pages, chapters, tableOfContents, index].",
+  "Properties capturing language or edition of book are [language, edition, translationOf].",
+  "The ISBN property of book typically has a cardinality restriction of [exactly one ISBN per edition].",
+  "Book relates to genre or subject classification classes through properties like [hasGenre, classifiedAs, subject]."
+]
+Generated Knowledge ['Subclasses defined under book include [Ebook, HardcoverBook, PaperbackBook, Audiobook].', 'Book is related to classes such as [Author, Editor, Contributor] through authorship properties.', 'Book is specified in formats including [physical, digital, audio, electronic].', 'Properties describing the publication details of book are [publicationDate, publisher, placeOfPublication, edition].', 'Book is connected to publisher classes via relationships like [publishedBy, hasPublisher].', 'Book is associated with library or collection classes through properties such as [isHeldBy, isPartOfCollection].', 'Defined parts or components of book include [cover, spine, pages, chapters, tableOfContents, index].', 'Properties capturing language or edition of book are [language, edition, translationOf].', 'The ISBN property of book typically has a cardinality restriction of [exactly one ISBN per edition].', 'Book relates to genre or subject classification classes through properties like [hasGenre, classifiedAs, subject].']
+✅ Saved: book
+🔄 Generating Knowledge for: clock
+LLM Response [
+  "Subclasses of clock include [wall clock, alarm clock, grandfather clock, digital clock].",
+  "A clock consists of parts such as [face, hands, movement, case, dial, escapement, pendulum, gears].",
+  "Clock fulfills functions or roles like [measuring time, displaying time, signaling alarms].",
+  "Properties describing clock materials include [caseMaterial, dialMaterial, handMaterial].",
+  "Clock is classified as a type of [timekeeping device].",
+  "Clock is related to power source through relationships like [poweredBy, requiresPowerSource].",
+  "Data properties specifying clock accuracy include [accuracy, deviationPerDay, precision].",
+  "Object properties linking clock to its manufacturer include [manufacturedBy, hasBrand].",
+  "Temporal properties associated with clock operation are [operatingPeriod, startTime, endTime].",
+  "Classes measured by a clock include [time interval, duration, moment]."
+]
+Generated Knowledge ['Subclasses of clock include [wall clock, alarm clock, grandfather clock, digital clock].', 'A clock consists of parts such as [face, hands, movement, case, dial, escapement, pendulum, gears].', 'Clock fulfills functions or roles like [measuring time, displaying time, signaling alarms].', 'Properties describing clock materials include [caseMaterial, dialMaterial, handMaterial].', 'Clock is classified as a type of [timekeeping device].', 'Clock is related to power source through relationships like [poweredBy, requiresPowerSource].', 'Data properties specifying clock accuracy include [accuracy, deviationPerDay, precision].', 'Object properties linking clock to its manufacturer include [manufacturedBy, hasBrand].', 'Temporal properties associated with clock operation are [operatingPeriod, startTime, endTime].', 'Classes measured by a clock include [time interval, duration, moment].']
+✅ Saved: clock
+🔄 Generating Knowledge for: vase
+LLM Response [
+  "Common materials for constructing a vase include [ceramic, glass, porcelain, metal, stone, wood].",
+  "Subclasses of vase include [flowerVase, decorativeVase, amphora, urn].",
+  "A vase can contain objects such as [flowers, water, decorative branches, potpourri].",
+  "Decorative styles associated with vase include [Art Nouveau, Baroque, Minimalist, Traditional, Contemporary].",
+  "The vase class is linked to the flower class through the property [holds, contains].",
+  "Functional properties assigned to vase include [holdsContents, supportsArrangement, displaysDecor].",
+  "Temporal properties for vase include [displayPeriod, usageEra, exhibitionDate].",
+  "Possible locations for a vase are [table, shelf, mantelpiece, altar, displayCase].",
+  "Shape attributes for vase include [height, diameter, neckWidth, bodyShape, baseType].",
+  "The ontology specifies cultural and historical contexts for vase such as [ancientGreek, MingDynasty, VictorianEra, contemporaryArt]."
+]
+Generated Knowledge ['Common materials for constructing a vase include [ceramic, glass, porcelain, metal, stone, wood].', 'Subclasses of vase include [flowerVase, decorativeVase, amphora, urn].', 'A vase can contain objects such as [flowers, water, decorative branches, potpourri].', 'Decorative styles associated with vase include [Art Nouveau, Baroque, Minimalist, Traditional, Contemporary].', 'The vase class is linked to the flower class through the property [holds, contains].', 'Functional properties assigned to vase include [holdsContents, supportsArrangement, displaysDecor].', 'Temporal properties for vase include [displayPeriod, usageEra, exhibitionDate].', 'Possible locations for a vase are [table, shelf, mantelpiece, altar, displayCase].', 'Shape attributes for vase include [height, diameter, neckWidth, bodyShape, baseType].', 'The ontology specifies cultural and historical contexts for vase such as [ancientGreek, MingDynasty, VictorianEra, contemporaryArt].']
+✅ Saved: vase
+🔄 Generating Knowledge for: scissors
+LLM Response [
+  "Scissors are composed of materials such as [steel, plastic, stainless steel].",
+  "Defined subclasses of scissors include [kitchen scissors, surgical scissors, hairdressing scissors, children's scissors].",
+  "Functional roles associated with scissors are [cutting, trimming, snipping].",
+  "Object properties linking scissors to their users include [usedBy, ownedBy].",
+  "Scissors are related to cutting actions through the property [performsAction, isToolFor].",
+  "Manufacturing processes associated with scissors are [forging, molding, assembly, sharpening].",
+  "Constituent parts of scissors include [blades, handles, pivot screw].",
+  "Safety features described for scissors include [rounded tips, blade guards, locking mechanisms].",
+  "Scissors are categorized by intended use as [household, medical, industrial, craft].",
+  "Maintenance procedures linked to scissors are [cleaning, sharpening, lubrication]."
+]
+Generated Knowledge ['Scissors are composed of materials such as [steel, plastic, stainless steel].', "Defined subclasses of scissors include [kitchen scissors, surgical scissors, hairdressing scissors, children's scissors].", 'Functional roles associated with scissors are [cutting, trimming, snipping].', 'Object properties linking scissors to their users include [usedBy, ownedBy].', 'Scissors are related to cutting actions through the property [performsAction, isToolFor].', 'Manufacturing processes associated with scissors are [forging, molding, assembly, sharpening].', 'Constituent parts of scissors include [blades, handles, pivot screw].', 'Safety features described for scissors include [rounded tips, blade guards, locking mechanisms].', 'Scissors are categorized by intended use as [household, medical, industrial, craft].', 'Maintenance procedures linked to scissors are [cleaning, sharpening, lubrication].']
+✅ Saved: scissors
+🔄 Generating Knowledge for: teddy bear
+LLM Response [
+  "Teddy bear is composed of materials such as [fabric, stuffing, plastic eyes, thread].",
+  "Teddy bear is intended for age groups including [infants, children, collectors].",
+  "Teddy bear is associated with manufacturing processes like [sewing, stuffing, assembly].",
+  "Teddy bear fulfills emotional and social roles such as [comfort object, gift, companion].",
+  "Teddy bear may have safety certifications or standards like [EN71, ASTM F963, CE mark].",
+  "Teddy bear's structure includes anatomical parts such as [head, arms, legs, ears, torso].",
+  "Permitted owners or users of teddy bear include classes like [Person, Child, Collector].",
+  "Teddy bear has attributes for color and size such as [color, height, width, weight].",
+  "Teddy bear is related to other toy classes through relationships like [isA PlushToy, isVariantOf StuffedAnimal].",
+  "Teddy bear is associated with events or occasions such as [birthdays, Valentine's Day, holidays]."
+]
+Generated Knowledge ['Teddy bear is composed of materials such as [fabric, stuffing, plastic eyes, thread].', 'Teddy bear is intended for age groups including [infants, children, collectors].', 'Teddy bear is associated with manufacturing processes like [sewing, stuffing, assembly].', 'Teddy bear fulfills emotional and social roles such as [comfort object, gift, companion].', 'Teddy bear may have safety certifications or standards like [EN71, ASTM F963, CE mark].', "Teddy bear's structure includes anatomical parts such as [head, arms, legs, ears, torso].", 'Permitted owners or users of teddy bear include classes like [Person, Child, Collector].', 'Teddy bear has attributes for color and size such as [color, height, width, weight].', 'Teddy bear is related to other toy classes through relationships like [isA PlushToy, isVariantOf StuffedAnimal].', "Teddy bear is associated with events or occasions such as [birthdays, Valentine's Day, holidays]."]
+✅ Saved: teddy bear
+🔄 Generating Knowledge for: hair drier
+LLM Response [
+  "A hair drier consists of components such as [heating element, fan, motor, casing, power cord, control switches].",
+  "Hair drier is associated with electrical safety standards like [IEC 60335-2-23, UL 859, CE marking].",
+  "Common materials used in hair drier construction include [plastic, metal alloys, ceramic, rubber].",
+  "Subclasses of hair drier based on usage or technology include [professional hair drier, travel hair drier, ionic hair drier, ceramic hair drier].",
+  "Primary functions defined for hair drier are [drying hair, styling hair, delivering hot or cool air].",
+  "Hair drier is categorized as a type of [personal care appliance] and is related to other devices like [electric shaver, curling iron, hair straightener].",
+  "Hair drier can be powered by energy sources such as [electricity, rechargeable battery].",
+  "Object properties linking hair drier to its manufacturer include [isProducedBy, hasBrand, manufacturedBy].",
+  "Possible output temperature ranges for hair drier are typically [40°C to 120°C].",
+  "Data properties describing the power rating of hair drier include [wattage, voltage, current]."
+]
+Generated Knowledge ['A hair drier consists of components such as [heating element, fan, motor, casing, power cord, control switches].', 'Hair drier is associated with electrical safety standards like [IEC 60335-2-23, UL 859, CE marking].', 'Common materials used in hair drier construction include [plastic, metal alloys, ceramic, rubber].', 'Subclasses of hair drier based on usage or technology include [professional hair drier, travel hair drier, ionic hair drier, ceramic hair drier].', 'Primary functions defined for hair drier are [drying hair, styling hair, delivering hot or cool air].', 'Hair drier is categorized as a type of [personal care appliance] and is related to other devices like [electric shaver, curling iron, hair straightener].', 'Hair drier can be powered by energy sources such as [electricity, rechargeable battery].', 'Object properties linking hair drier to its manufacturer include [isProducedBy, hasBrand, manufacturedBy].', 'Possible output temperature ranges for hair drier are typically [40°C to 120°C].', 'Data properties describing the power rating of hair drier include [wattage, voltage, current].']
+✅ Saved: hair drier
+🔄 Generating Knowledge for: toothbrush
+LLM Response [
+  "Toothbrush is composed of materials such as [plastic, nylon, rubber, bamboo].",
+  "Subclasses defined under toothbrush include [electric toothbrush, manual toothbrush, children's toothbrush].",
+  "Toothbrush is functionally related to oral hygiene through [removesPlaqueFrom, cleansTeethOf].",
+  "Object properties connecting toothbrush to toothpaste include [appliesToothpaste, usedWith].",
+  "Data properties describing the bristle type of toothbrush are [bristleMaterial, bristleHardness, bristleArrangement].",
+  "Anatomical entities intended for toothbrush use are [teeth, gums, tongue].",
+  "Manufacturing processes associated with toothbrush include [injectionMolding, bristleTufting, handleAssembly].",
+  "Temporal properties relating to toothbrush lifespan are [recommendedReplacementInterval, usageDuration].",
+  "Ergonomic features modeled for toothbrush are [handleShape, gripTexture, headSize].",
+  "Toothbrush is related to cleaning actions in the ontology through [performsCleaning, facilitatesOralCleaning]."
+]
+Generated Knowledge ['Toothbrush is composed of materials such as [plastic, nylon, rubber, bamboo].', "Subclasses defined under toothbrush include [electric toothbrush, manual toothbrush, children's toothbrush].", 'Toothbrush is functionally related to oral hygiene through [removesPlaqueFrom, cleansTeethOf].', 'Object properties connecting toothbrush to toothpaste include [appliesToothpaste, usedWith].', 'Data properties describing the bristle type of toothbrush are [bristleMaterial, bristleHardness, bristleArrangement].', 'Anatomical entities intended for toothbrush use are [teeth, gums, tongue].', 'Manufacturing processes associated with toothbrush include [injectionMolding, bristleTufting, handleAssembly].', 'Temporal properties relating to toothbrush lifespan are [recommendedReplacementInterval, usageDuration].', 'Ergonomic features modeled for toothbrush are [handleShape, gripTexture, headSize].', 'Toothbrush is related to cleaning actions in the ontology through [performsCleaning, facilitatesOralCleaning].']
+✅ Saved: toothbrush

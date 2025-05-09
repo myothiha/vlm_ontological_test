@@ -69,7 +69,9 @@ class LLMWrapper:
     def __call__(self, prompt: str, **generate_kwargs):
         if self.pipe is None:
             raise ValueError("Pipeline not initialized.")
-        return self.pipe(prompt, **generate_kwargs)
+        result = self.pipe(prompt, **generate_kwargs)
+        response = result[0]['generated_text']
+        return response
 
     def get_model(self):
         return self.model

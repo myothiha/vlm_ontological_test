@@ -108,6 +108,9 @@ for image_id in image_ids:
 
                 image_counter += 1
 
+
+image_output_dir = "results/images"
+
 # STEP 1: Authenticate
 login(token=os.getenv("HF_ACCESS_TOKEN"))  # Or just `login()` to log in interactively
 

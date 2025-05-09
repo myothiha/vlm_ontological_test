@@ -10,7 +10,7 @@ import pandas as pd
 # Add the parent folder to Python's search path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
-from libs.llm_loader.llm_wrapper import LLMWrapper
+from libs.llm_loader.llm_wrapper.gpt_llm_wrapper import GPTLLMWrapper
 from libs.prompt.prompt_manager import PromptTemplateManager
 from dotenv import load_dotenv
 from utils import extract_json_object
@@ -20,7 +20,8 @@ load_dotenv()
 model_path = os.getenv("DEEP_SEEK_R1_32B")
 
 # Load model
-llm = LLMWrapper(model_path=model_path)
+# llm = LLMWrapper(model_path=model_path)
+llm = GPTLLMWrapper("gpt-4.1")
 
 # Load prompt template manager
 manager = PromptTemplateManager(prompt_dir="prompt_templates")
@@ -30,7 +31,13 @@ df = pd.read_csv("results/02_ontological_knowledge_one_shot.csv")
 
 # Output file for step 3.
 csv_filename = "results/03_generate_vlm_reasoning_questions.csv"
-pd.DataFrame(columns=["class", "knowledge_questions", "generated_knowledge", "vlm_reasoning_questions"]).to_csv(csv_filename, index=False)
+
+generated_objects = []
+if os.path.exists(csv_filename):
+    df_reasoning_questions = pd.read_csv(csv_filename)
+    generated_objects = df_reasoning_questions['class'].to_list()
+else:
+    pd.DataFrame(columns=["class", "knowledge_questions", "generated_knowledge", "vlm_reasoning_questions"]).to_csv(csv_filename, index=False)
 
 # Prepare output storage
 answers = []
@@ -40,13 +47,16 @@ for _, row in df.iterrows():
     knowledge_questions = json.loads(row["knowledge_questions"])
     generated_knowledge = json.loads(row["generated_knowledge"])
 
-    print("🔄 Generating Knowledge Questions for:", class_name)
+    if class_name in generated_objects:
+        continue
+    else:
+        generated_objects.append(class_name)
+
+    print("🔄 Generating Reasoning Questions for:", class_name)
     
     prompt = manager.format("03_vlm_reasoning_questions_one_shot", class_name=class_name, generated_knowledge=json.dumps(generated_knowledge, indent=2))
 
-    result = llm(prompt, max_new_tokens=600)
-    response = result[0]['generated_text']
-
+    response = llm(prompt, max_new_tokens=600)
     print("LLM Response", response)
 
     vlm_reasoning_questions = extract_json_object(response)

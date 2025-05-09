@@ -7,28 +7,37 @@ import gc
 import json
 import pandas as pd
 
-from llm_loader.llm_wrapper import LLMWrapper
-from prompt.prompt_manager import PromptTemplateManager
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
+from libs.llm_loader.llm_wrapper.gpt_llm_wrapper import GPTLLMWrapper
+from libs.prompt.prompt_manager import PromptTemplateManager
 from dotenv import load_dotenv
 from utils import extract_list
-from coco_loader.coco_dataset_loader import COCOLoader
+from libs.coco_loader.coco_dataset_loader import COCOLoader
 
 # Load environment variables
 load_dotenv()
-model_path = os.getenv("DEEP_SEEK_R1_32B")
+# model_path = os.getenv("DEEP_SEEK_R1_32B")
 
 # Load model
-llm = LLMWrapper(model_path=model_path)
+llm = GPTLLMWrapper("gpt-4.1")
 
 # Load prompt template manager
-manager = PromptTemplateManager(prompt_dir="prompt/templates")
+manager = PromptTemplateManager(prompt_dir="prompt_templates")
 
 # Load previously saved questions
 df = pd.read_csv("results/01_ontological_queries.csv")
 
 # Output file setup
-csv_filename = "02_ontological_knowledge_one_shot.csv"
-pd.DataFrame(columns=["class", "knowledge_questions", "generated_knowledge"]).to_csv(csv_filename, index=False)
+output_filename = "results/02_ontological_knowledge_one_shot.csv"
+
+# Write header once
+generated_objects = []
+if os.path.exists(output_filename):
+    df_onto_queries = pd.read_csv(output_filename)
+    generated_objects = df_onto_queries['class'].to_list()
+else:
+    pd.DataFrame(columns=["class", "knowledge_questions", "generated_knowledge"]).to_csv(output_filename, index=False)
 
 # Prepare output storage
 answers = []
@@ -38,14 +47,17 @@ for _, row in df.iterrows():
     class_name = row["class"]
     knowledge_questions = json.loads(row["knowledge_questions"])
 
-    print("🔄 Generating Knowledge Questions for:", class_name)
+    if class_name in generated_objects:
+        continue
+    else:
+        generated_objects.append(class_name)
+
+    print("🔄 Generating Knowledge for:", class_name)
     
     prompt = manager.format("generate_knowledge_prompt1", class_name=class_name, questions_json=json.dumps(knowledge_questions, indent=2))
 
-    result = llm(prompt, max_new_tokens=600)
-    response = result[0]['generated_text']
-
-    # print("LLM Response", response)
+    response = llm(prompt, max_new_tokens=600)
+    print("LLM Response", response)
 
     generated_knowledge = extract_list(response)
 
@@ -57,7 +69,7 @@ for _, row in df.iterrows():
         "knowledge_questions": json.dumps(knowledge_questions),
         "generated_knowledge": json.dumps(generated_knowledge),
     }])
-    row_df.to_csv(csv_filename, mode='a', header=False, index=False)
+    row_df.to_csv(output_filename, mode='a', header=False, index=False)
 
 
     print(f"✅ Saved: {class_name}")
