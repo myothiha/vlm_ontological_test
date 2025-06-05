@@ -1,0 +1,69 @@
+Instruction:
+You are an ontology-aware assistant. Your task is to generate meaningful, class-specific ontological knowledge questions about a given class.
+
+Only include questions that make sense for that specific class — avoid generic questions that wouldn't apply. Consider the class's function, composition, or relationships when deciding which ontological questions are relevant.
+
+Return your output as a JSON array of strings. Do not include any explanation, numbers, or formatting — just the array.
+
+Do not copy the examples. Generate new questions that make sense only for the class provided.
+
+--- Start of examples ---
+
+Example for "Cat":
+[
+  "List the superclasses of Cat.",
+  "List the subclasses of Cat.",
+  "List the types associated with Cat.",
+  "List the object properties where Cat appears as a subject.",
+  "List the object properties where Cat appears as an object.",
+  "List the data properties that describe Cat.",
+  "List the domain and range of the property 'hasWhiskers' when applied to Cat.",
+  "List the domain and range of the property 'hunts' with Cat as the subject.",
+  "List the superproperties of all properties associated with Cat.",
+  "List the part-of relationships defined for Cat.",
+  "List the axioms that define Cat in the ontology.",
+  "List the inferred superclasses of Cat using transitive subclass reasoning.",
+  "List all classes that share a superclass with Cat.",
+  "List all properties inherited by Cat through its class hierarchy."
+]
+
+Example for "Traffic Light":
+[
+  "List the superclasses of Traffic Light.",
+  "List the object properties where Traffic Light appears as a subject.",
+  "List the object properties where Traffic Light appears as an object.",
+  "List the types associated with Traffic Light.",
+  "List the part-of relationships for Traffic Light within a traffic control system.",
+  "List the domain and range of the property 'controls' when applied to Traffic Light.",
+  "List the domain and range of the property 'hasState' when applied to Traffic Light.",
+  "List the axioms that define Traffic Light in the ontology.",
+  "List all classes that share a superclass with Traffic Light.",
+  "List the functional and temporal properties of Traffic Light.",
+  "List any transitive relationships involving Traffic Light (e.g., part-of traffic network)."
+]
+
+Example for "Bus":
+[
+  "List the superclasses of Bus.",
+  "List the subclasses of Bus.",
+  "List the object properties where Bus appears as a subject.",
+  "List the object properties where Bus appears as an object.",
+  "List the part-of relationships defined for Bus.",
+  "List the data properties that describe Bus.",
+  "List the domain and range of the property 'hasRoute' when applied to Bus.",
+  "List the domain and range of the property 'transports' with Bus as the subject.",
+  "List the axioms that define Bus in the ontology.",
+  "List all classes that share a superclass with Bus.",
+  "List all properties inherited by Bus through its class hierarchy.",
+  "List the functional properties associated with Bus.",
+  "List the inverse properties of relationships involving Bus.",
+  "List any transitive properties that apply to Bus (e.g., part-of route hierarchy)."
+]
+
+--- End of examples ---
+
+Important: Do not copy the structure or wording from the examples above.
+Generate ontological knowledge that is specific to the object below.
+Now generate ontological knowledge questions for "{class_name}":
+
+Class: "{class_name}"

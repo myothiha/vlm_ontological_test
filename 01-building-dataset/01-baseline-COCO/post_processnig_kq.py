@@ -11,7 +11,7 @@ from llm_loader.llm_wrapper import LLMWrapper
 from prompt.prompt_manager import PromptTemplateManager
 from dotenv import load_dotenv
 from utils import extract_list
-from coco_loader.coco_dataset_loader import COCOLoader
+from libs.dataset_loader.coco_dataset_loader import COCOLoader
 
 # Load environment variables
 load_dotenv()

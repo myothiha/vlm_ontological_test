@@ -12,7 +12,9 @@ import json
 import pandas as pd
 
 from dotenv import load_dotenv
-from libs.coco_loader.coco_dataset_loader import COCOLoader
+from collections import defaultdict
+
+from libs.dataset_loader.coco_dataset_loader import COCOLoader
 
 from PIL import Image
 
@@ -48,6 +50,9 @@ print("Total Images: ", len(image_ids))
 image_counter = 0
 min_area = 4096
 
+MAX_SAMPLES_PER_CLASS = 1
+class_sample_counter = defaultdict(int)
+
 for image_id in image_ids:
     image, image_info = loader.load_image(image_id)
     annotations = loader.get_annotations(image_id)
@@ -55,6 +60,10 @@ for image_id in image_ids:
     for ann in annotations:
         category_id = ann["category_id"]
         category_name = loader.coco.loadCats(category_id)[0]["name"]
+
+        # Skip if class has enough samples
+        if class_sample_counter[category_name] >= MAX_SAMPLES_PER_CLASS:
+            continue
 
         bbox = ann["bbox"]  # [x, y, w, h]
         x, y, w, h = bbox
@@ -80,7 +89,6 @@ for image_id in image_ids:
 
         if area < min_area:
             # skip the image
-            print(f"Skipped: {width}x{height} = {area} px²")
             continue
 
         # Save image to file
@@ -107,6 +115,9 @@ for image_id in image_ids:
                 new_row.to_csv(csv_output, mode="a", index=False, header=False)
 
                 image_counter += 1
+
+        # After saving questions related to a class. 
+        class_sample_counter[category_name] += 1
 
 
 image_output_dir = "results/images"

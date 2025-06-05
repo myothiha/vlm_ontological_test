@@ -1,1 +1,19 @@
 nohup: ignoring input
+📂 Loading annotations from: /mnt/synology/myothiha/coco/annotations/instances_train2017.json
+🖼️ Loading images from: /mnt/synology/myothiha/coco/images/train2017/
+loading annotations into memory...
+Done (t=11.07s)
+creating index...
+index created!
+Total Images:  118287
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 1416 examples [00:00, 137229.01 examples/s]
+Map:   0%|          | 0/1416 [00:00<?, ? examples/s]Map: 100%|██████████| 1416/1416 [00:00<00:00, 27958.47 examples/s]
+Uploading the dataset shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Map:   0%|          | 0/1416 [00:00<?, ? examples/s][A
+Map:  71%|███████   | 1000/1416 [00:00<00:00, 6277.54 examples/s][AMap: 100%|██████████| 1416/1416 [00:00<00:00, 7044.84 examples/s]
+
+Creating parquet from Arrow format:   0%|          | 0/15 [00:00<?, ?ba/s][ACreating parquet from Arrow format: 100%|██████████| 15/15 [00:00<00:00, 376.79ba/s]
+Uploading the dataset shards: 100%|██████████| 1/1 [00:02<00:00,  2.06s/it]Uploading the dataset shards: 100%|██████████| 1/1 [00:02<00:00,  2.06s/it]
+✅ Dataset pushed successfully to Hugging Face.
+🧹 Deleted temporary dataset folder: ontobench_coco_repo
+🧹 Deleted cropped image folder: results/images

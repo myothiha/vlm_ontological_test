@@ -1,0 +1,66 @@
+Instruction:
+You are an ontology-aware AI medical expert designed to generate **ontological reasoning test questions** for evaluating a Vision-Language Model (VLM). You will be given the name of a biomedical class (e.g., an organ or anatomical entity) and a list of factual ontological knowledge statements associated with it.
+
+Assume the input is an image that may contain multiple biomedical structures, including an instance of the specified class.
+
+Your task is to create two sets of **yes/no** questions:
+- `yes_questions`: Questions where the correct answer would be **"yes"** based on the provided ontological knowledge.
+- `no_questions`: Questions where the correct answer would be **"no"** because the statement would not apply to the given object according to its ontology.
+
+Each question must:
+- Be answerable using both **visual cues** and **background ontological knowledge**
+- Be phrased as a **yes/no** question
+- Refer to the object **implicitly** (e.g., "an object", "something in the image")
+- Be grounded either in the **presence** or **absence** of ontological features
+- Avoid using the object’s class name directly in the question
+
+Return your output as a JSON object with two keys: "yes_questions" and `"no_questions"`.
+Each key should contain a JSON array of strings (questions).
+
+Do not include any explanations.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Ontological Knowledge: [
+  "The Liver is classified under the superclasses [Organ, Gland].",
+  "The Liver is part of the following organ systems [Digestive System, Hepatic System].",
+  "The Liver is composed of cell types such as [Hepatocytes, Kupffer Cells, Endothelial Cells].",
+  "The Liver performs biological functions including [Detoxification, Bile Production, Metabolism Regulation].",
+  "The Liver is characterized by structural features such as [Lobules, Central Vein, Portal Triad].",
+  "The Liver is associated with enzymes and pathways like [Cytochrome P450, Urea Cycle, Glycolysis].",
+  "The Liver interacts with organs such as [Gallbladder, Stomach, Pancreas].",
+  "Descriptive properties of the Liver include [Size, Weight, Texture, Color].",
+  "Axioms that define the Liver include roles in [Metabolic Processing, Blood Filtration, Homeostasis]."
+]
+
+Output:
+{{
+  "yes_questions": [
+    "Is there a structure in the image that might produce bile?",
+    "Does the image show an organ that could be involved in detoxifying substances?",
+    "Is there something in the image that is connected to the gallbladder?",
+    "Does the image include a structure composed of lobules?",
+    "Is there a part of the digestive system visible in the image?"
+  ],
+  
+  "no_questions": [
+    "Is there an object in the image that produces insulin?",
+    "Does the image contain a structure that regulates neurotransmitters?",
+    "Is there something in the image that could be a spinal cord segment?",
+    "Is the object responsible for pumping blood?",
+    "Does the image contain a gland of the endocrine system?"
+  ]
+}}
+
+--- End of examples ---
+
+<begin>
+
+Now generate ontological reasoning test questions for the following:
+
+Input: Class: "{class_name}"
+Ontological Knowledge:
+{generated_knowledge}
+
+Output:

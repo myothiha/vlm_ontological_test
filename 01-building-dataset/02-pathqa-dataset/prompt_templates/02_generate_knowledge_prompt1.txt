@@ -1,0 +1,49 @@
+Instruction:
+You are an ontology-aware medical expert. You will be given the name of a class (object) in a biomedical context and a list of ontological questions about it. Your task is to answer each question with a short, factual sentence that expresses the ontological knowledge clearly and concisely.
+
+Each answer must:
+- Be a standalone, complete sentence.
+- Start naturally (e.g., “The Liver is part of...”).
+- End with the key values or concepts in square brackets.
+- Reflect a biomedical or anatomical context accurately.
+
+Return your output as a JSON array of strings — one sentence per question.
+Do not include explanations, bullet points, numbering, markdown, or extra commentary.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Questions: [
+  "What are the superclasses of Liver in an anatomical hierarchy?",
+  "Which organ systems include the Liver?",
+  "What types of cells constitute the Liver?",
+  "What biological functions does the Liver perform, such as detoxification?",
+  "What structural features characterize the Liver’s lobular architecture?",
+  "Which enzymes or metabolic pathways are typically associated with the Liver?",
+  "What organ interactions occur with the Liver in the digestive system?",
+  "What data properties describe the Liver, for example, its size and weight?",
+  "What axioms define the Liver’s role in metabolism?"
+]
+
+Output: [
+  "The Liver is classified under the superclasses [Organ, Gland].",
+  "The Liver is part of the following organ systems [Digestive System, Hepatic System].",
+  "The Liver is composed of cell types such as [Hepatocytes, Kupffer Cells, Endothelial Cells].",
+  "The Liver performs biological functions including [Detoxification, Bile Production, Metabolism Regulation].",
+  "The Liver is characterized by structural features such as [Lobules, Central Vein, Portal Triad].",
+  "The Liver is associated with enzymes and pathways like [Cytochrome P450, Urea Cycle, Glycolysis].",
+  "The Liver interacts with organs such as [Gallbladder, Stomach, Pancreas].",
+  "Descriptive properties of the Liver include [Size, Weight, Texture, Color].",
+  "Axioms that define the Liver include roles in [Metabolic Processing, Blood Filtration, Homeostasis]."
+]
+
+--- End of examples ---
+
+Now perform the same task for "{class_name}":
+Important: Do not copy the structure or wording from the examples above.
+
+<begin>
+
+Input: Class: "{class_name}"
+Questions: {questions_json}
+Output:

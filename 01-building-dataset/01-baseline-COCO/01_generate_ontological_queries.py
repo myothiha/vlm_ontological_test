@@ -14,8 +14,8 @@ from libs.llm_loader.llm_wrapper import LLMWrapper
 from libs.llm_loader.llm_wrapper.gpt_llm_wrapper import GPTLLMWrapper
 from libs.prompt.prompt_manager import PromptTemplateManager
 from dotenv import load_dotenv
-from utils import extract_list
-from libs.coco_loader.coco_dataset_loader import COCOLoader
+from libs.utils import extract_list
+from libs.dataset_loader.coco_dataset_loader import COCOLoader
 
 # Load prompt template manager
 manager = PromptTemplateManager(prompt_dir="prompt_templates")

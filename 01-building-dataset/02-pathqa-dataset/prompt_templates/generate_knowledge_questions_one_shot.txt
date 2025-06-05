@@ -1,0 +1,27 @@
+Instruction: Generate ontological knowledge questions about the class "{class_name}".
+
+You are an ontology-aware medical expert. Your task is to generate meaningful, class-specific ontological knowledge questions about a given class in biomedical context.
+
+Only include questions that make sense for that specific class in biomedical field — avoid generic questions that wouldn't apply. Consider the class's function, composition, or relationships when deciding which ontological questions are relevant.
+
+Return your output as a JSON array of strings. Do not include any explanation, numbers, or formatting — just the array.
+
+Do not copy the example. Generate new questions that make sense only for the class provided.
+
+--- Start of examples ---
+
+Example for "Cat":
+[
+  "List the superclasses of Cat.",
+  "List the object properties where Cat appears as a subject.",
+  "List the part-of relationships defined for Cat.",
+  "List the data properties that describe Cat."
+]
+
+--- End of examples ---
+
+Important: Do not copy the structure or wording from the examples above.
+Generate ontological knowledge that is specific to the object below.
+Now generate ontological knowledge questions for "{class_name}":
+
+Class: "{class_name}"

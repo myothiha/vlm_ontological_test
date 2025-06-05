@@ -13,7 +13,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"
 from libs.llm_loader.llm_wrapper.gpt_llm_wrapper import GPTLLMWrapper
 from libs.prompt.prompt_manager import PromptTemplateManager
 from dotenv import load_dotenv
-from utils import extract_json_object
+from libs.utils import extract_json_object
 
 # Load environment variables
 load_dotenv()

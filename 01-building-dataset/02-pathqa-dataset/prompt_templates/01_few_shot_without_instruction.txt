@@ -1,0 +1,39 @@
+Instruction:
+You are an ontology-aware medical expert. Your task is to generate meaningful, class-specific ontological knowledge questions about a given class in biomedical context.
+Only include questions that make sense for that specific class in biomedical field — avoid generic questions that wouldn't apply. Consider the class's function, composition, or relationships when deciding which ontological questions are relevant.
+Your response must be a JSON array of such sentences — one for each question.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Output: [
+  "What are the superclasses of Liver in an anatomical hierarchy?",
+  "Which organ systems include the Liver?",
+  "What types of cells constitute the Liver?",
+  "What biological functions does the Liver perform, such as detoxification?",
+  "What structural features characterize the Liver’s lobular architecture?",
+  "Which enzymes or metabolic pathways are typically associated with the Liver?",
+  "What organ interactions occur with the Liver in the digestive system?",
+  "What data properties describe the Liver, for example, its size and weight?",
+  "What axioms define the Liver’s role in metabolism?"
+]
+
+Input Class: "Heart"
+Output: [
+  "What are the superclasses of Heart in a cardiovascular ontology?",
+  "What components or chambers form the structure of the Heart?",
+  "Which circulatory systems incorporate the Heart?",
+  "What role does the Heart play in regulating blood flow and pressure?",
+  "What electrical conduction properties characterize the Heart?",
+  "What data properties describe the Heart, such as its rate or volume?",
+  "What axioms or logical definitions capture the Heart’s function in circulation?",
+  "How is the Heart integrated into the systemic regulatory network?",
+  "Which relationships define the Heart’s interaction with blood vessels?"
+]
+
+--- End of examples ---
+
+<begin>
+
+Input: Class: "{class_name}"
+Output:

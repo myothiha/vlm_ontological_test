@@ -5,12 +5,11 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from transformers import BitsAndBytesConfig
 
 class LLMWrapper:
-    def __init__(self, model_path, pipeline_kwargs=None, quantized=False, quantization_bits=4):
+    def __init__(self, model_path, pipeline_kwargs=None, quantization_bits=0):
         self.model_path = model_path
         self.tokenizer = None
         self.model = None
         self.pipe = None
-        self.quantized = quantized
         self.quantization_bits = quantization_bits
         self._load()
         self._build_pipeline(pipeline_kwargs or {})
@@ -22,7 +21,7 @@ class LLMWrapper:
         )
         self.tokenizer.pad_token = self.tokenizer.eos_token
 
-        if self.quantized:
+        if self.quantization_bits > 0:
             if self.quantization_bits == 4:
                 quant_config = BitsAndBytesConfig(
                     load_in_4bit=True,

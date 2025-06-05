@@ -12,8 +12,8 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"
 from libs.llm_loader.llm_wrapper.gpt_llm_wrapper import GPTLLMWrapper
 from libs.prompt.prompt_manager import PromptTemplateManager
 from dotenv import load_dotenv
-from utils import extract_list
-from libs.coco_loader.coco_dataset_loader import COCOLoader
+from libs.utils import extract_list
+from libs.dataset_loader.coco_dataset_loader import COCOLoader
 
 # Load environment variables
 load_dotenv()
