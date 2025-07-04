@@ -1,7 +1,7 @@
 # llm_loader/llm_wrapper.py
 
 import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline, GPTQConfig
 from transformers import BitsAndBytesConfig
 
 class LLMWrapper:
@@ -10,9 +10,8 @@ class LLMWrapper:
         self.tokenizer = None
         self.model = None
         self.pipe = None
+        self.pipeline_kwargs = pipeline_kwargs
         self.quantization_bits = quantization_bits
-        self._load()
-        self._build_pipeline(pipeline_kwargs or {})
 
     def _load(self):
         self.tokenizer = AutoTokenizer.from_pretrained(
@@ -22,7 +21,14 @@ class LLMWrapper:
         self.tokenizer.pad_token = self.tokenizer.eos_token
 
         if self.quantization_bits > 0:
-            if self.quantization_bits == 4:
+            if self.quantization_bits == 2:
+                quant_config = GPTQConfig(
+                    bits=2,
+                    group_size=128,
+                    dataset="wikitext2",
+                    tokenizer=self.tokenizer
+                )
+            elif self.quantization_bits == 4:
                 quant_config = BitsAndBytesConfig(
                     load_in_4bit=True,
                     bnb_4bit_compute_dtype=torch.float16,
@@ -66,6 +72,10 @@ class LLMWrapper:
         self.pipe = pipeline(**default_kwargs)
 
     def __call__(self, prompt: str, **generate_kwargs):
+        if self.model is None:
+            self._load()
+            self._build_pipeline(self.pipeline_kwargs or {})
+
         if self.pipe is None:
             raise ValueError("Pipeline not initialized.")
         result = self.pipe(prompt, **generate_kwargs)
@@ -73,9 +83,13 @@ class LLMWrapper:
         return response
 
     def get_model(self):
+        if self.model is None:
+            self._load()
         return self.model
 
     def get_tokenizer(self):
+        if self.tokenizer is None:
+            self._load()
         return self.tokenizer
 
     def get_pipeline(self):

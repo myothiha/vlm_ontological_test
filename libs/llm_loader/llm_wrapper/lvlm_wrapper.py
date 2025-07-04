@@ -9,7 +9,6 @@ class LVLMWrapper:
         self.model_path = model_path
         self.processor = None
         self.model = None
-        self._load()
         # self._build_pipeline(pipeline_kwargs or {})
 
     def _load(self):
@@ -33,6 +32,9 @@ class LVLMWrapper:
         self.pipe = pipeline(**default_kwargs)
 
     def __call__(self, image: str, prompt: str, **generate_kwargs):
+        if self.model is None or self.processor is None:
+            self._load()
+
         messages = [
             {
                 "role": "system",

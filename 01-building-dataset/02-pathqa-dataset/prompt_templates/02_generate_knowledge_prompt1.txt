@@ -1,14 +1,18 @@
 Instruction:
-You are an ontology-aware medical expert. You will be given the name of a class (object) in a biomedical context and a list of ontological questions about it. Your task is to answer each question with a short, factual sentence that expresses the ontological knowledge clearly and concisely.
+You are an ontology-aware medical expert. You will be given the name of a biomedical class (e.g., an organ or anatomical structure) and a list of ontological questions about it. Your task is to generate short, factual answers to each question using correct biomedical knowledge.
 
 Each answer must:
-- Be a standalone, complete sentence.
-- Start naturally (e.g., “The Liver is part of...”).
-- End with the key values or concepts in square brackets.
-- Reflect a biomedical or anatomical context accurately.
+- Be a complete, standalone sentence.
+- Start naturally (e.g., “The X is part of...”, “X interacts with...”).
+- End with key concepts or values enclosed in square brackets, e.g., [A, B, C].
+- Be expressed clearly and concisely in natural English.
+- Reflect anatomical or biomedical context accurately.
 
-Return your output as a JSON array of strings — one sentence per question.
-Do not include explanations, bullet points, numbering, markdown, or extra commentary.
+Output formatting requirements:
+- Return your answers as a **JSON array of strings** — one answer per question.
+- Each sentence must be enclosed in **double quotes**.
+- Do **not** include explanations, markdown, bullet points, or additional formatting.
+- Ensure strict JSON compliance: use only commas between items, and no trailing commas.
 
 --- Start of examples ---
 
@@ -46,4 +50,5 @@ Important: Do not copy the structure or wording from the examples above.
 
 Input: Class: "{class_name}"
 Questions: {questions_json}
+
 Output:

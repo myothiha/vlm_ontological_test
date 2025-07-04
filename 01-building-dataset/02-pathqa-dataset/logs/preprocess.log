@@ -1,0 +1,14 @@
+nohup: ignoring input
+/home/anaconda3/envs/myo_thesis_test/lib/python3.9/site-packages/PIL/TiffImagePlugin.py:900: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Uploading the dataset shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Map:   0%|          | 0/2596 [00:00<?, ? examples/s][A
+Map:  35%|███▍      | 900/2596 [00:00<00:00, 6099.51 examples/s][A
+Map:  62%|██████▏   | 1600/2596 [00:00<00:00, 4822.26 examples/s][A
+Map: 100%|██████████| 2596/2596 [00:00<00:00, 4131.02 examples/s][AMap: 100%|██████████| 2596/2596 [00:00<00:00, 4349.32 examples/s]
+
+Creating parquet from Arrow format:   0%|          | 0/26 [00:00<?, ?ba/s][A
+Creating parquet from Arrow format:  35%|███▍      | 9/26 [00:00<00:00, 87.58ba/s][A
+Creating parquet from Arrow format:  69%|██████▉   | 18/26 [00:00<00:00, 79.69ba/s][ACreating parquet from Arrow format: 100%|██████████| 26/26 [00:00<00:00, 57.59ba/s]
+Uploading the dataset shards: 100%|██████████| 1/1 [00:29<00:00, 29.12s/it]Uploading the dataset shards: 100%|██████████| 1/1 [00:29<00:00, 29.12s/it]
+✅ Dataset pushed successfully to Hugging Face.

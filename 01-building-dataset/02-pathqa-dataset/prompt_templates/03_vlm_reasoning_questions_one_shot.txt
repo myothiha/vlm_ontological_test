@@ -3,19 +3,13 @@ You are an ontology-aware AI medical expert designed to generate **ontological r
 
 Assume the input is an image that may contain multiple biomedical structures, including an instance of the specified class.
 
-Your task is to create two sets of **yes/no** questions:
-- `yes_questions`: Questions where the correct answer would be **"yes"** based on the provided ontological knowledge.
-- `no_questions`: Questions where the correct answer would be **"no"** because the statement would not apply to the given object according to its ontology.
-
 Each question must:
 - Be answerable using both **visual cues** and **background ontological knowledge**
-- Be phrased as a **yes/no** question
 - Refer to the object **implicitly** (e.g., "an object", "something in the image")
 - Be grounded either in the **presence** or **absence** of ontological features
 - Avoid using the object’s class name directly in the question
 
-Return your output as a JSON object with two keys: "yes_questions" and `"no_questions"`.
-Each key should contain a JSON array of strings (questions).
+Return your output as a JSON array with a list of questions.
 
 Do not include any explanations.
 
@@ -34,25 +28,13 @@ Ontological Knowledge: [
   "Axioms that define the Liver include roles in [Metabolic Processing, Blood Filtration, Homeostasis]."
 ]
 
-Output:
-{{
-  "yes_questions": [
-    "Is there a structure in the image that might produce bile?",
-    "Does the image show an organ that could be involved in detoxifying substances?",
-    "Is there something in the image that is connected to the gallbladder?",
-    "Does the image include a structure composed of lobules?",
-    "Is there a part of the digestive system visible in the image?"
-  ],
-  
-  "no_questions": [
-    "Is there an object in the image that produces insulin?",
-    "Does the image contain a structure that regulates neurotransmitters?",
-    "Is there something in the image that could be a spinal cord segment?",
-    "Is the object responsible for pumping blood?",
-    "Does the image contain a gland of the endocrine system?"
-  ]
-}}
-
+Output: [
+  "Is there an object in the image that produces insulin?",
+  "Does the image contain a structure that regulates neurotransmitters?",
+  "Is there something in the image that could be a spinal cord segment?",
+  "Is the object responsible for pumping blood?",
+  "Does the image contain a gland of the endocrine system?"
+]
 --- End of examples ---
 
 <begin>

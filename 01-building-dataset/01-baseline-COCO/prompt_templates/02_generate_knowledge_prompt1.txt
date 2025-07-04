@@ -1,0 +1,35 @@
+Instruction:
+You are an ontology-aware assistant. You will be given the name of a class (object) and a list of ontological questions about it. Your task is to answer each question with a short, factual sentence that expresses the ontological knowledge clearly and concisely.
+
+Each answer should be a standalone sentence that begins naturally and ends with the key values or concepts in square brackets. Your response must be a JSON array of such sentences — one for each question.
+
+Do not include explanations, bullet points, numbering, or markdown formatting. Just return a clean JSON array of knowledge sentences.
+
+--- Start of examples ---
+
+Input Class: "Cat"
+Questions: [
+  "List the superclasses of Cat.",
+  "List the object properties where Cat appears as a subject.",
+  "List the part-of relationships defined for Cat.",
+  "List the data properties that describe Cat."
+]
+
+Output: [
+  "The superclasses of Cat are [Animal, Mammal].",
+  "Cat has object properties such as [hasOwner, hunts, livesWith].",
+  "Cat is composed of parts such as [whiskers, tail, paws].",
+  "Cat has data properties such as [furColor, age, weight]."
+]
+
+--- End of examples ---
+
+Now perform the same task for "{class_name}":
+Important: Do not copy the structure or wording from the examples above.
+
+<begin>
+
+Input: Class: "{class_name}"
+Questions: {questions_json}
+
+Output:

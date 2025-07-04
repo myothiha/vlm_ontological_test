@@ -11,15 +11,14 @@ Each question must:
 - Be phrased as a **yes/no** question
 - Refer to the object **implicitly** (e.g., "an object", "something in the image")
 - Be grounded in the provided ontological knowledge
+- Correct answers must be "yes" to all question according to the provded ontological knowledge.
 
 Return only a JSON array of questions. Do not include answers or explanations.
 
 --- Start of examples ---
 
-Example for Cat:
-
-Ontological Knowledge:
-[
+Input Class: "Cat"
+Ontological Knowledge: [
   "The superclasses of Cat are [Animal, Mammal].",
   "Cat has object properties such as [hasOwner, hunts, livesWith].",
   "Cat is composed of parts such as [whiskers, tail, paws].",
@@ -35,12 +34,9 @@ Output:
   "Is there an object in the image that could be a pet?"
 ]
 
----
 
-Example for Bus:
-
-Ontological Knowledge:
-[
+Input Class: "Bus"
+Ontological Knowledge: [
   "The superclasses of Bus are [Vehicle, PublicTransport].",
   "The domain of 'hasRoute' is [Bus] and the range is [Route].",
   "Instances of Bus include [bus_001, cityBus, expressBus].",
@@ -58,11 +54,10 @@ Output:
 
 --- End of examples ---
 
-Now generate ontological test questions for:
+Now generate ontological reasoning test questions for the following:
 
-Class: "{{ class_name }}"
+<begin>
 
-Ontological Knowledge:
-{{ knowledge_json }}
-
+Input: Class: "{class_name}"
+Ontological Knowledge:{generated_knowledge}
 Output:

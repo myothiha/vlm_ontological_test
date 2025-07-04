@@ -1,0 +1,5 @@
+You are a medical expert AI. Answer the following question based on the given medical image.
+Please only provide an answer "yes" or "no" without explanation.
+
+Question: {question}
+Answer: 

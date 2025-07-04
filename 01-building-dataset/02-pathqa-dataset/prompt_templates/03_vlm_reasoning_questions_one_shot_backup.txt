@@ -1,0 +1,52 @@
+Instruction:
+You are an ontology-aware AI medical expert designed to generate **ontological reasoning test questions** for evaluating a Vision-Language Model (VLM). 
+You will be given the name of a biomedical class (e.g., an organ or anatomical entity) and a list of factual ontological knowledge statements associated with it.
+Assume the input is an image that may contain multiple biomedical structures, including an instance of the specified class.
+
+Each question must:
+- Be answerable using both **visual cues** and **background ontological knowledge**
+- Refer to the object **implicitly** (e.g., "an object", "something in the image")
+- Avoid using the object’s class name directly in the question
+
+Your response must be a JSON array of such questioins — one for each question.
+Do not include any explanations.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Ontological Knowledge: [
+  "The Liver is classified under the superclasses [Organ, Gland].",
+  "The Liver is part of the following organ systems [Digestive System, Hepatic System].",
+  "The Liver is composed of cell types such as [Hepatocytes, Kupffer Cells, Endothelial Cells].",
+  "The Liver performs biological functions including [Detoxification, Bile Production, Metabolism Regulation].",
+  "The Liver is characterized by structural features such as [Lobules, Central Vein, Portal Triad].",
+  "The Liver is associated with enzymes and pathways like [Cytochrome P450, Urea Cycle, Glycolysis].",
+  "The Liver interacts with organs such as [Gallbladder, Stomach, Pancreas].",
+  "Descriptive properties of the Liver include [Size, Weight, Texture, Color].",
+  "Axioms that define the Liver include roles in [Metabolic Processing, Blood Filtration, Homeostasis]."
+]
+
+Output:[
+  "Is there something in the image that could be classified as an organ or a gland?",
+  "Is there something in the image that could belong to both the digestive and hepatic systems?",
+  "Is there a region in the image that may be composed of specialized cells like hepatocytes or Kupffer cells?",
+  "Can you find a structure in the image that might contain endothelial cells or cell arrangements typical of internal organs?",
+  "Is there a structure in the image that suggests involvement in detoxifying substances?",
+  "Is there something present that could be producing bile or regulating metabolic processes?",
+  "Is there an area that visually resembles lobules or displays features like a central vein or portal triads?",
+  "Can you identify something in the image that might be participating in biochemical pathways such as the urea cycle or glycolysis?",
+  "Is there a structure in the image that could be associated with enzyme activity involving cytochrome P450?",
+  "Is there an object that appears to be spatially or anatomically related to the gallbladder, stomach, or pancreas?",
+  "Does the image contain something whose size, weight, texture, or color could indicate a metabolic organ?",
+  "Is there something in the image that may play a role in metabolic processing, blood filtration, or maintaining homeostasis?"
+]
+
+--- End of examples ---
+
+Now generate ontological reasoning test questions for the following:
+
+<begin>
+
+Input: Class: "{class_name}"
+Ontological Knowledge:{generated_knowledge}
+Output:

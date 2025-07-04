@@ -1,0 +1,1284 @@
+nohup: ignoring input
+[nltk_data] Downloading package punkt to /home/dice/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Loading checkpoint shards:   0%|          | 0/12 [00:00<?, ?it/s]Loading checkpoint shards:   8%|▊         | 1/12 [00:46<08:27, 46.10s/it]Loading checkpoint shards:  17%|█▋        | 2/12 [00:56<04:09, 24.96s/it]Loading checkpoint shards:  25%|██▌       | 3/12 [00:58<02:12, 14.72s/it]Loading checkpoint shards:  33%|███▎      | 4/12 [01:01<01:19,  9.90s/it]Loading checkpoint shards:  42%|████▏     | 5/12 [01:02<00:47,  6.74s/it]Loading checkpoint shards:  50%|█████     | 6/12 [01:03<00:28,  4.67s/it]Loading checkpoint shards:  58%|█████▊    | 7/12 [01:03<00:16,  3.36s/it]Loading checkpoint shards:  67%|██████▋   | 8/12 [01:04<00:10,  2.51s/it]Loading checkpoint shards:  75%|███████▌  | 9/12 [01:05<00:05,  1.95s/it]Loading checkpoint shards:  83%|████████▎ | 10/12 [01:05<00:03,  1.56s/it]Loading checkpoint shards:  92%|█████████▏| 11/12 [01:06<00:01,  1.36s/it]Loading checkpoint shards: 100%|██████████| 12/12 [01:06<00:00,  5.57s/it]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: where are liver stem cells (oval cells) located?
+Answer:
+Question: where are liver stem cells (oval cells) located?
+Actual Answer: in the canals of hering
+Model Answer: Periportal areas.
+Starring Reasoning for Concept: canals
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a structure that allows blood flow?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is related to the nervous system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a pathway for cerebrospinal fluid?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that facilitates bile transport?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object part of the circulatory system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is the object related to a blood disorder?
+Negative Reasoning Question: Does the image contain a structure that involves uncontrolled cell proliferation?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Starring Reasoning for Concept: oval cells
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain cells involved in tissue regeneration?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that participates in liver repair?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Can you identify something in the image that exhibits bipotentiality?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there a structure in the image that communicates with hepatocytes?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain cells responsible for liver tissue maintenance?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a virus that can infect epithelial cells?
+Negative Reasoning Question: Does the image contain a virus that can be targeted by antiviral medications like ganciclovir?
+Negative Reasoning Question: Is there something in the image with envelope proteins as part of its structure?
+Starring Reasoning for Concept: liver stem cells
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that has the potential to differentiate into multiple cell types?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure with self-renewal capability?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that participates in liver regeneration?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object involved in the regulation of blood glucose levels?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a cell type that expresses CD133 on its surface?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Starring Reasoning for Concept: hering
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image involved in blood pressure regulation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure related to arterial vasodilation?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be a baroreceptor?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for cardiovascular reflexes?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a mechanism of the baroreflex?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is the object related to a blood disorder?
+Negative Reasoning Question: Is there something in the image that is associated with the presence of the Philadelphia chromosome?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: what are stained here with an immunohistochemical stain for cytokeratin 7?
+Answer:
+Question: what are stained here with an immunohistochemical stain for cytokeratin 7?
+Actual Answer: bile duct cells and canals of hering
+Model Answer: Psammoma bodies and tumor cells.
+Starring Reasoning for Concept: hering
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image involved in blood pressure regulation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure related to arterial vasodilation?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be a baroreceptor?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for cardiovascular reflexes?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a mechanism of the baroreflex?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is there something in the image that is associated with the presence of the Philadelphia chromosome?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Negative Reasoning Question: Is the object related to a blood disorder?
+Starring Reasoning for Concept: canals
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a structure that allows blood flow?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is related to the nervous system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a pathway for cerebrospinal fluid?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that facilitates bile transport?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object part of the circulatory system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Negative Reasoning Question: The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Does the image contain a structure that involves uncontrolled cell proliferation?
+Negative Reasoning Question: Is the object related to a blood disorder?
+Starring Reasoning for Concept: cytokeratin 7
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is a component of the cytoskeleton?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that provides mechanical stability to cells?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that is involved in cell adhesion?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object classified as an intermediate filament protein?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a cell type that expresses this protein?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Starring Reasoning for Concept: immunohistochemical stain
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is used to visualize specific antigens?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that utilizes immunostaining for targeting cells or tissues?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be a technique for diagnosing diseases based on pattern recognition?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for providing specificity in identifying cellular components?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a method that allows for the visualization of nuclei or membranes?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Starring Reasoning for Concept: bile duct cells
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that modifies bile composition?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure involved in water reabsorption?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that regulates the secretion of digestive enzymes?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for absorbing nutrients from ingested food?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a glandular cell type with microvilli?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: what are bile duct cells and canals of hering stained here with for cytokeratin 7?
+Answer:
+Question: what are bile duct cells and canals of hering stained here with for cytokeratin 7?
+Actual Answer: an immunohistochemical stain
+Model Answer: Brown.
+Starring Reasoning for Concept: hering
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image involved in blood pressure regulation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure related to arterial vasodilation?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be a baroreceptor?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for cardiovascular reflexes?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a mechanism of the baroreflex?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Negative Reasoning Question: Is the object related to a blood disorder?
+Negative Reasoning Question: Does the image contain a structure that involves uncontrolled cell proliferation?
+Starring Reasoning for Concept: canals
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a structure that allows blood flow?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is related to the nervous system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a pathway for cerebrospinal fluid?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that facilitates bile transport?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object part of the circulatory system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is there an object in the image that is derived from the lymphoid cell lineage?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Negative Reasoning Question: Does the image contain a structure that involves uncontrolled cell proliferation?
+Starring Reasoning for Concept: cytokeratin 7
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is a component of the cytoskeleton?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that provides mechanical stability to cells?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that is involved in cell adhesion?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object classified as an intermediate filament protein?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a cell type that expresses this protein?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Starring Reasoning for Concept: immunohistochemical stain
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is used to visualize specific antigens?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that utilizes immunostaining for targeting cells or tissues?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be a technique for diagnosing diseases based on pattern recognition?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for providing specificity in identifying cellular components?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a method that allows for the visualization of nuclei or membranes?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Starring Reasoning for Concept: bile duct cells
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that modifies bile composition?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure involved in water reabsorption?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that regulates the secretion of digestive enzymes?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for absorbing nutrients from ingested food?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a glandular cell type with microvilli?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: are bile duct cells and canals of hering stained here with an immunohistochemical stain for cytokeratin 7?
+Answer:
+Question: are bile duct cells and canals of hering stained here with an immunohistochemical stain for cytokeratin 7?
+Actual Answer: yes
+Model Answer: Yes.
+Starring Reasoning for Concept: hering
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image involved in blood pressure regulation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure related to arterial vasodilation?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be a baroreceptor?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for cardiovascular reflexes?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a mechanism of the baroreflex?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is there an object in the image that is derived from the lymphoid cell lineage?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Negative Reasoning Question: Is there something in the image that is associated with the presence of the Philadelphia chromosome?
+Starring Reasoning for Concept: canals
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a structure that allows blood flow?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is related to the nervous system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a pathway for cerebrospinal fluid?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that facilitates bile transport?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object part of the circulatory system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is there something in the image that is associated with the presence of the Philadelphia chromosome?
+Negative Reasoning Question: Does the image contain a structure that involves uncontrolled cell proliferation?
+Negative Reasoning Question: Is there an object in the image that is derived from the lymphoid cell lineage?
+Starring Reasoning for Concept: cytokeratin 7
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is a component of the cytoskeleton?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that provides mechanical stability to cells?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that is involved in cell adhesion?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object classified as an intermediate filament protein?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a cell type that expresses this protein?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Starring Reasoning for Concept: immunohistochemical stain
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is used to visualize specific antigens?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that utilizes immunostaining for targeting cells or tissues?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be a technique for diagnosing diseases based on pattern recognition?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for providing specificity in identifying cellular components?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a method that allows for the visualization of nuclei or membranes?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Does the image contain a part of the respiratory system?
+Starring Reasoning for Concept: bile duct cells
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that modifies bile composition?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure involved in water reabsorption?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that regulates the secretion of digestive enzymes?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for absorbing nutrients from ingested food?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a glandular cell type with microvilli?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: what do the areas of white chalky deposits represent?
+Answer:
+Question: what do the areas of white chalky deposits represent?
+Actual Answer: foci of fat necrosis
+Model Answer: Calcium deposits.
+Starring Reasoning for Concept: white chalky deposits
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that could indicate osteoarthritis?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with gout?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image related to joint mobility?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a condition due to accumulation of calcium pyrophosphate?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object an example of dystrophic calcification?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Starring Reasoning for Concept: fat necrosis
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that results from enzymatic action and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with the pathological process of cell death?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be indicative of tissue damage in adipose tissue?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object characterized by calcification and cyst formation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show signs of impaired function due to ischemia and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Starring Reasoning for Concept: foci
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that could potentially cause inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a structure involved in tumor formation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be part of the autoimmune disorder mechanism?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object characterized by impaired signaling?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a lesion of the central nervous system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is there an object in the image that is derived from the lymphoid cell lineage?
+Negative Reasoning Question: Is there something in the image that is associated with the presence of the Philadelphia chromosome?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: how do the areas of white chalky deposits represent foci of fat necrosis?
+Answer:
+Question: how do the areas of white chalky deposits represent foci of fat necrosis?
+Actual Answer: with calcium soap formation (saponification)
+Model Answer: Fat necrosis.
+Starring Reasoning for Concept: white chalky deposits
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that could indicate osteoarthritis?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with gout?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image related to joint mobility?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a condition due to accumulation of calcium pyrophosphate?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object an example of dystrophic calcification?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Starring Reasoning for Concept: fat necrosis
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that results from enzymatic action and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with the pathological process of cell death?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be indicative of tissue damage in adipose tissue?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object characterized by calcification and cyst formation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{'reasoning_question': 'Does the image show signs of impaired function due to ischemia and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: do the areas of white chalky deposits represent foci of fat necrosis with calcium soap formation at sites of lipid breakdown in the mesentery?
+Answer:
+Question: do the areas of white chalky deposits represent foci of fat necrosis with calcium soap formation at sites of lipid breakdown in the mesentery?
+Actual Answer: yes
+Model Answer: Yes.
+Starring Reasoning for Concept: fat necrosis
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that results from enzymatic action and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with the pathological process of cell death?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be indicative of tissue damage in adipose tissue?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object characterized by calcification and cyst formation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show signs of impaired function due to ischemia and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Starring Reasoning for Concept: formation
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Negative Reasoning Question: Does the image contain a structure that involves uncontrolled cell proliferation?
+Negative Reasoning Question: Is there something in the image that is associated with the presence of the Philadelphia chromosome?
+Starring Reasoning for Concept: sites
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that binds to RNA?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure involved in protein synthesis?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image related to signal transduction pathways?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for enzymatic catalysis?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a site with high affinity for DNA?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is the object used in diagnostic testing for bile duct cells?
+Negative Reasoning Question: Does the image contain a staining method that involves enzyme-linked immunosorbent assay (ELISA)?
+Negative Reasoning Question: Does the image contain a structure that is part of tissue analysis?
+Starring Reasoning for Concept: mesentery
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that is part of the digestive system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that provides support for the small intestine?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object a gland of the endocrine system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain something that attaches to the posterior abdominal wall?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is supplied by the superior mesenteric artery?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Starring Reasoning for Concept: lipid
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is part of the cell membrane?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain something that stores energy in cells?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that contributes to cell signaling?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for hormone regulation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that is hydrophobic?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Starring Reasoning for Concept: calcium soap
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is a type of chemical compound?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that has a formula Ca(MR)2?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that is involved in saponification?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object in the image insoluble in water?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a substance used in manufacturing soaps?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a virus that can be targeted by antiviral medications like ganciclovir?
+Negative Reasoning Question: Is the object more likely to infect individuals who are immunocompromised?
+Negative Reasoning Question: Does the object utilize host cell machinery for DNA replication?
+Starring Reasoning for Concept: white chalky deposits
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that could indicate osteoarthritis?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with gout?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image related to joint mobility?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{'reasoning_question': 'Does the image show a condition due to accumulation of calcium pyrophosphate?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object an example of dystrophic calcification?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: do the histone subunits represent foci of fat necrosis with calcium soap formation at sites of lipid breakdown in the mesentery?
+Answer:
+Question: do the histone subunits represent foci of fat necrosis with calcium soap formation at sites of lipid breakdown in the mesentery?
+Actual Answer: no
+Model Answer: Yes.
+Starring Reasoning for Concept: formation
+Negative Reasoning Question: Is there something in the image that is associated with the presence of the Philadelphia chromosome?
+Negative Reasoning Question: Is the object related to a blood disorder?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Starring Reasoning for Concept: fat necrosis
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that results from enzymatic action and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with the pathological process of cell death?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be indicative of tissue damage in adipose tissue?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object characterized by calcification and cyst formation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show signs of impaired function due to ischemia and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Starring Reasoning for Concept: histone subunits
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that binds to DNA?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure involved in gene regulation?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that is part of a nucleosome?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for DNA packaging?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a protein with a specific amino acid sequence?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Starring Reasoning for Concept: sites
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that binds to RNA?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure involved in protein synthesis?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image related to signal transduction pathways?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for enzymatic catalysis?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a site with high affinity for DNA?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Does the image contain a staining method that involves enzyme-linked immunosorbent assay (ELISA)?
+Negative Reasoning Question: Is there an object in the image that uses antibodies for cell identification?
+Negative Reasoning Question: Is the object used in diagnostic testing for bile duct cells?
+Starring Reasoning for Concept: mesentery
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that is part of the digestive system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that provides support for the small intestine?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object a gland of the endocrine system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain something that attaches to the posterior abdominal wall?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is supplied by the superior mesenteric artery?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Starring Reasoning for Concept: lipid
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is part of the cell membrane?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain something that stores energy in cells?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that contributes to cell signaling?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for hormone regulation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that is hydrophobic?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Starring Reasoning for Concept: calcium soap
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is a type of chemical compound?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that has a formula Ca(MR)2?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{'reasoning_question': 'Is there something in the image that is involved in saponification?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object in the image insoluble in water?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a substance used in manufacturing soaps?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object known to have a varying prevalence rate among different populations?
+Negative Reasoning Question: Is the object more likely to infect individuals who are immunocompromised?
+Negative Reasoning Question: Does the image contain a virus that can infect epithelial cells?
+Starring Reasoning for Concept: foci
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that could potentially cause inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a structure involved in tumor formation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be part of the autoimmune disorder mechanism?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object characterized by impaired signaling?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a lesion of the central nervous system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Negative Reasoning Question: Is the object related to a blood disorder?
+Negative Reasoning Question: Is there something in the image that is associated with the presence of the Philadelphia chromosome?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: what represent foci of fat necrosis with calcium soap formation at sites of lipid breakdown in the mesentery?
+Answer:
+Question: what represent foci of fat necrosis with calcium soap formation at sites of lipid breakdown in the mesentery?
+Actual Answer: the areas of white chalky deposits
+Model Answer: Fat necrosis.
+Starring Reasoning for Concept: fat necrosis
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that results from enzymatic action and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with the pathological process of cell death?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be indicative of tissue damage in adipose tissue?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object characterized by calcification and cyst formation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show signs of impaired function due to ischemia and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Starring Reasoning for Concept: formation
+Negative Reasoning Question: Does the image contain a structure that involves uncontrolled cell proliferation?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Negative Reasoning Question: Is there an object in the image that is derived from the lymphoid cell lineage?
+Starring Reasoning for Concept: sites
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that binds to RNA?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure involved in protein synthesis?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image related to signal transduction pathways?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for enzymatic catalysis?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a site with high affinity for DNA?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Does the image contain a structure that is part of tissue analysis?
+Negative Reasoning Question: Is there an object in the image that uses antibodies for cell identification?
+Negative Reasoning Question: Is the object used in diagnostic testing for bile duct cells?
+Starring Reasoning for Concept: mesentery
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that is part of the digestive system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that provides support for the small intestine?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object a gland of the endocrine system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain something that attaches to the posterior abdominal wall?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is supplied by the superior mesenteric artery?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Starring Reasoning for Concept: lipid
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is part of the cell membrane?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain something that stores energy in cells?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that contributes to cell signaling?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for hormone regulation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that is hydrophobic?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Starring Reasoning for Concept: calcium soap
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is a type of chemical compound?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{'reasoning_question': 'Does the image contain a structure that has a formula Ca(MR)2?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that is involved in saponification?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object in the image insoluble in water?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a substance used in manufacturing soaps?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a virus that can be targeted by antiviral medications like ganciclovir?
+Negative Reasoning Question: Is the object responsible for symptoms such as fatigue and fever?
+Negative Reasoning Question: Is there something in the image with envelope proteins as part of its structure?
+Starring Reasoning for Concept: white chalky deposits
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that could indicate osteoarthritis?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with gout?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image related to joint mobility?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a condition due to accumulation of calcium pyrophosphate?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object an example of dystrophic calcification?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: where do areas of white chalky deposits represent foci of fat necrosis with calcium soap formation?
+Answer:
+Question: where do areas of white chalky deposits represent foci of fat necrosis with calcium soap formation?
+Actual Answer: at sites of lipid breakdown in the mesentery
+Model Answer: Pancreas.
+Starring Reasoning for Concept: fat necrosis
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that results from enzymatic action and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with the pathological process of cell death?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be indicative of tissue damage in adipose tissue?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object characterized by calcification and cyst formation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show signs of impaired function due to ischemia and inflammation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Starring Reasoning for Concept: formation
+Negative Reasoning Question: Is the object related to a blood disorder?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Negative Reasoning Question: Does the image contain a structure that involves uncontrolled cell proliferation?
+Starring Reasoning for Concept: mesentery
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that is part of the digestive system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that provides support for the small intestine?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object a gland of the endocrine system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain something that attaches to the posterior abdominal wall?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is supplied by the superior mesenteric artery?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Starring Reasoning for Concept: lipid
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is part of the cell membrane?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain something that stores energy in cells?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that contributes to cell signaling?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for hormone regulation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that is hydrophobic?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Starring Reasoning for Concept: calcium soap
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is a type of chemical compound?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that has a formula Ca(MR)2?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that is involved in saponification?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object in the image insoluble in water?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a substance used in manufacturing soaps?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the object utilize host cell machinery for DNA replication?
+Negative Reasoning Question: Is the object responsible for symptoms such as fatigue and fever?
+Negative Reasoning Question: Is the object more likely to infect individuals who are immunocompromised?
+Starring Reasoning for Concept: white chalky deposits
+Positive Reasoning Question: The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{'reasoning_question': 'Is there an object in the image that could indicate osteoarthritis?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with gout?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image related to joint mobility?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a condition due to accumulation of calcium pyrophosphate?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is the object an example of dystrophic calcification?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: is embolus derived from a lower-extremity deep venous thrombus lodged in a pulmonary artery branch?
+Answer:
+Question: is embolus derived from a lower-extremity deep venous thrombus lodged in a pulmonary artery branch?
+Actual Answer: yes
+Model Answer: Yes.
+Starring Reasoning for Concept: lower-extremity
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that includes the femur bone?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that facilitates movement at the knee joint?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a part of the appendicular skeleton?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that is innervated by the tibial nerve?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that is supplied by the femoral artery?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Starring Reasoning for Concept: venous thrombus
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is a type of blood clot?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that forms due to stasis?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that primarily affects blood vessels?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for pain and swelling?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a condition that can lead to pulmonary embolism?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Starring Reasoning for Concept: deep
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is part of the skeletal system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that is involved in digestion?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that is closer to the center of the body?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for producing hormones?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that provides structural support?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object known to have a varying prevalence rate among different populations?
+Negative Reasoning Question: Does the object utilize host cell machinery for DNA replication?
+Negative Reasoning Question: Is the object more likely to infect individuals who are immunocompromised?
+Starring Reasoning for Concept: embolus
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that can cause blockage in blood vessels?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain something that is a type of blood clot?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that can lead to ischemia or infarction?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for obstructing blood flow by lodging in capillaries?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with deep vein thrombosis?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Is there something in the image related to joint mobility?
+Negative Reasoning Question: Does the image contain a structure associated with gout?
+Negative Reasoning Question: Is the object an example of dystrophic calcification?
+Starring Reasoning for Concept: pulmonary artery branch
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that transports oxygenated blood to the lungs?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that contributes to the circulatory system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image with smooth muscle and endothelial cells?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for nutrient delivery to the respiratory system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a vessel that branches from the pulmonary trunk?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: is edema lodged in a pulmonary artery branch?
+Answer:
+Question: is edema lodged in a pulmonary artery branch?
+Actual Answer: no
+Model Answer: No.
+Starring Reasoning for Concept: edema
+Positive Reasoning Question: The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{'reasoning_question': 'Is there an object in the image that disrupts fluid balance?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure affected by impaired lymphatic drainage?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that impairs tissue oxygenation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a condition characterized by swelling?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for increased capillary permeability?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object an example of dystrophic calcification?
+Negative Reasoning Question: Is there an object in the image that could indicate osteoarthritis?
+Negative Reasoning Question: Does the image contain a structure associated with gout?
+Starring Reasoning for Concept: pulmonary artery branch
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that transports oxygenated blood to the lungs?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that contributes to the circulatory system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image with smooth muscle and endothelial cells?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for nutrient delivery to the respiratory system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a vessel that branches from the pulmonary trunk?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: what is lodged in a pulmonary artery branch?
+Answer:
+Question: what is lodged in a pulmonary artery branch?
+Actual Answer: embolus
+Model Answer: A parasitic worm.
+Starring Reasoning for Concept: embolus
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that can cause blockage in blood vessels?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain something that is a type of blood clot?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that can lead to ischemia or infarction?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for obstructing blood flow by lodging in capillaries?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with deep vein thrombosis?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Negative Reasoning Question: Does the image contain a structure associated with gout?
+Negative Reasoning Question: Is there an object in the image that could indicate osteoarthritis?
+Negative Reasoning Question: Does the image show a condition due to accumulation of calcium pyrophosphate?
+Starring Reasoning for Concept: pulmonary artery branch
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that transports oxygenated blood to the lungs?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that contributes to the circulatory system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image with smooth muscle and endothelial cells?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for nutrient delivery to the respiratory system?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a vessel that branches from the pulmonary trunk?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a structure that is part of the circulatory system?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is there an object in the image that facilitates the exchange of gases?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: how is hyperplasia without atypia characterized?
+Answer:
+Question: how is hyperplasia without atypia characterized?
+Actual Answer: by nests of closely packed glands
+Model Answer: Increased gland density with normal gland architecture.
+Starring Reasoning for Concept: characterized
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that can be defined using specific attributes?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain an object with annotated features?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is classified based on certain qualities?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a structure responsible for grouping or categorizing?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that serves a role in analysis or evaluation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a virus that can be targeted by antiviral medications like ganciclovir?
+Negative Reasoning Question: Is there something in the image with envelope proteins as part of its structure?
+Negative Reasoning Question: Is the object responsible for symptoms such as fatigue and fever?
+Starring Reasoning for Concept: packed glands
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain an object that secretes hormones?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image part of the endocrine system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Could the object be responsible for regulating metabolism?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object composed of clusters or nodules?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with insulin production?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a cell type that expresses this protein?
+Negative Reasoning Question: The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Does the image contain a structure that provides mechanical stability to cells?
+Negative Reasoning Question: Is the object classified as an intermediate filament protein?
+Starring Reasoning for Concept: atypia
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that exhibits disorganized tissue architecture?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that shows abnormal nuclear morphology?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that has impaired cellular function?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for altered growth patterns?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a gland of the endocrine system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there an object in the image that is derived from the lymphoid cell lineage?
+Negative Reasoning Question: Is there something in the image that is associated with the presence of the Philadelphia chromosome?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Starring Reasoning for Concept: hyperplasia
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that has undergone an increase in cell number?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure characterized by enlarged nuclei?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be a result of hormonal imbalances?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for tissue repair through cell proliferation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a gland of the endocrine system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Prompt: You are a medical expert AI. Answer the following question based on the given medical image.
+Please do not provide explanatioin. Just provide only answer to the question.
+
+Question: is hyperplasia without atypia characterized by nests of closely packed glands?
+Answer:
+Question: is hyperplasia without atypia characterized by nests of closely packed glands?
+Actual Answer: yes
+Model Answer: Yes.
+Starring Reasoning for Concept: characterized
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that can be defined using specific attributes?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain an object with annotated features?', 'answer': 'yes', 'model_answer': 'no', 'is_correct': False}
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that is classified based on certain qualities?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image show a structure responsible for grouping or categorizing?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that serves a role in analysis or evaluation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there an object in the image that is part of the Herpesviridae family?
+Negative Reasoning Question: Is the object responsible for symptoms such as fatigue and fever?
+Negative Reasoning Question: Does the image contain a virus that can infect epithelial cells?
+Starring Reasoning for Concept: packed glands
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain an object that secretes hormones?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image part of the endocrine system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Could the object be responsible for regulating metabolism?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object composed of clusters or nodules?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure associated with insulin production?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is the object classified as an intermediate filament protein?
+Negative Reasoning Question: Is there something in the image that is involved in cell adhesion?
+Negative Reasoning Question: Does the image contain a cell type that expresses this protein?
+Starring Reasoning for Concept: atypia
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that exhibits disorganized tissue architecture?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure that shows abnormal nuclear morphology?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that has impaired cellular function?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for altered growth patterns?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a gland of the endocrine system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Does the image contain a structure that involves uncontrolled cell proliferation?
+Negative Reasoning Question: Is there something in the image that is associated with the presence of the Philadelphia chromosome?
+Negative Reasoning Question: Does the image show a condition that can manifest with fatigue and fever?
+Starring Reasoning for Concept: hyperplasia
+Positive Reasoning Question: {'reasoning_question': 'Is there an object in the image that has undergone an increase in cell number?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a structure characterized by enlarged nuclei?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is there something in the image that could be a result of hormonal imbalances?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Is the object responsible for tissue repair through cell proliferation?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Positive Reasoning Question: {'reasoning_question': 'Does the image contain a gland of the endocrine system?', 'answer': 'yes', 'model_answer': 'yes', 'is_correct': True}
+Negative Reasoning Question: Is there something in the image that has a role in nutrient exchange?
+Negative Reasoning Question: Does the image contain a part of the respiratory system?
+Negative Reasoning Question: Is the object responsible for oxygenation?
+Prompt: The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.

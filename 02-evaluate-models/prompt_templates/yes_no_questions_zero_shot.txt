@@ -1,7 +1,0 @@
-Instruction:
-You will be given an image and a question related to the image. 
-In addition the image, you have to use your own knowledge to answer.
-Please only provide an answer "yes" or "no" without explanation. 
-
-Question:
-{question}

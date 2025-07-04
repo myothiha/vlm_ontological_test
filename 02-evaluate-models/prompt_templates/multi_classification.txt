@@ -1,0 +1,2 @@
+The image may contain the following objects: {class_list}
+List only the objects you see in the image, using the exact class names.

@@ -54,7 +54,7 @@ for _, row in df.iterrows():
 
     print("🔄 Generating Knowledge for:", class_name)
     
-    prompt = manager.format("generate_knowledge_prompt1", class_name=class_name, questions_json=json.dumps(knowledge_questions, indent=2))
+    prompt = manager.format("02_generate_knowledge_prompt1s", class_name=class_name, questions_json=json.dumps(knowledge_questions, indent=2))
 
     response = llm(prompt, max_new_tokens=600)
     print("LLM Response", response)

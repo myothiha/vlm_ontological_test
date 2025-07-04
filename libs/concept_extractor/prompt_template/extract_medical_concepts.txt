@@ -1,0 +1,36 @@
+You are a medical-text concept extractor.
+
+TASK
+Extract every *unique* medical concept from the passage provided in the “TEXT” section.
+
+RULES
+1. A "medical concept" is any disease, symptom, sign, procedure, anatomical part, medical device, medication, or laboratory term.
+2. Copy each concept **exactly as it appears** in the passage, preserving internal punctuation.
+3. Convert the entire phrase to lowercase.
+4. Do **not** add or remove words, change plural/singular, tense, or capitalization.
+5. Deduplicate: if the same concept appears multiple times, list it only once.
+6. Produce the final list exactly inside the <result></result> wrapper.
+7. Return your output as a JSON array with a list of concepts.
+
+### Example (for the model to imitate)
+
+Input: A patient is described with generalized gastrointestinal involvement by Crohn's disease. Symptoms of recurrent ulceration and mucosal tags are well-described oral manifestations of Crohn's disease; however, in our patient recurrent facial abscesses, which required extraoral drainage, also developed. This complication has not previously been reported.
+Output:
+<result>
+[
+    "gastrointestinal involvement",
+    "crohn's disease",
+    "recurrent ulceration",
+    "mucosal tags",
+    "oral manifestations",
+    "recurrent facial abscesses",
+    "extraoral drainage"
+]
+</result>
+
+### End of Example
+
+Extract the concepts from the following text.
+
+Input: {text}
+Output:

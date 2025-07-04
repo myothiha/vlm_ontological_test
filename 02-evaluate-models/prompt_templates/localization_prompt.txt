@@ -1,0 +1,10 @@
+You are a medical expert AI. Carefully examine the given medical image and locate the specified structure or abnormality.
+
+If the object is visible, provide the bounding box coordinates in the format [x, y, width, height], where:
+- x and y are the top-left corner of the box
+- width and height define the size of the box
+
+If the object is not visible, simply answer: "no".
+
+Target: {concept}
+Bounding Box:

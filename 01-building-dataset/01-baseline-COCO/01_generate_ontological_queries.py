@@ -54,7 +54,7 @@ for class_name in categories:
 
     print("🔄 Generating Knowledge Questions for:", class_name)
 
-    prompt = manager.format("generate_knowledge_questions_one_shot", class_name=class_name)
+    prompt = manager.format("01_generate_knowledge_questions_one_shot", class_name=class_name)
     # print("Prompt:", prompt)
 
     response = llm(prompt, max_new_tokens=400)
