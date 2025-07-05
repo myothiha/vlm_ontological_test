@@ -1,6 +1,5 @@
 import sys
 import os
-import h5py
 from datasets import load_dataset
 import io
 import numpy as np

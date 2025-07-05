@@ -32,9 +32,6 @@ model = LVLMWrapper(model_id)
 # Load the prompt templates
 manager = PromptTemplateManager(prompt_dir="prompt_templates")
 
-# Make sure you download the NLTK data
-nltk.download('punkt')
-
 # def compute_bleu_score(reference, candidate):
 #     # Tokenize
 #     reference_tokens = [nltk.word_tokenize(reference.lower())]
@@ -95,80 +92,90 @@ for i, row in enumerate(dataset):
     print("Model Answer:", model_answer)
 
     reasoning_questions_and_answers = dict()
-
-    for concept, reasoning_questions in multiconcept_reasoning_questions.items():
-
-        print("Start Localization for Concept:", concept)
-        
-        localization_prompt = manager.format("localization_prompt", concept=concept)
-
-        model_localization_answer = model(image=image, prompt=localization_prompt).lower()
-
-        print("Starting Reasoning for Concept:", concept)
-
-        yes_questions = reasoning_questions.get("yes_questions", [])
-        no_questions = reasoning_questions.get("no_questions", [])
-        
-        positive_reasoning_results = []
-        positive_accuracy = 0
-        negative_accuracy = 0
-        for reasoning_question in yes_questions:
-
-            prompt = manager.format("yes_no_medical_questions_zero_shot", question=reasoning_question)
-            model_positive_reasoning_answer = model(image=image, prompt=prompt).lower()
-
-            if "yes" in model_positive_reasoning_answer.lower():
-                model_positive_reasoning_answer_cleaned = "yes"
-            elif "no" in model_positive_reasoning_answer.lower():
-                model_positive_reasoning_answer_cleaned = "no"
-            else:
-                model_positive_reasoning_answer_cleaned = "unknown"
-
-            if model_positive_reasoning_answer_cleaned == "yes":
-                positive_accuracy += 1
-
-            # Prepare the row for the result
-            positive_reasoning_result = {
-                "reasoning_question": reasoning_question,
-                "answer": "yes",
-                "model_answer": model_positive_reasoning_answer_cleaned,
-                "is_correct": model_positive_reasoning_answer_cleaned == "yes"
-            }
-            print("Positive Reasoning Question:", positive_reasoning_result)
-            positive_reasoning_results.append(positive_reasoning_result)
-
-        negative_reasoning_results = []
-        for reasoning_question in no_questions:
-            prompt = manager.format("yes_no_medical_questions_zero_shot", question=reasoning_question)
-            model_negative_reasoning_answer = model(image=image, prompt=prompt).lower()
-
-            if "yes" in model_negative_reasoning_answer.lower():
-                model_negative_reasoning_answer_cleaned = "yes"
-            elif "no" in model_negative_reasoning_answer.lower():
-                model_negative_reasoning_answer_cleaned = "no"
-            else:
-                model_negative_reasoning_answer_cleaned = "unknown"
-
-            if model_negative_reasoning_answer_cleaned == "no":
-                negative_accuracy += 1
-
-            # Prepare the row for the result
-            negative_reasoning_result = {
-                "reasoning_question": reasoning_question,
-                "answer": "no",
-                "model_answer": model_negative_reasoning_answer_cleaned,
-                "is_correct": model_negative_reasoning_answer_cleaned == "no"
-            }
-            print("Negative Reasoning Question:", reasoning_question)
-            negative_reasoning_results.append(negative_reasoning_result)
-
-        reasoning_questions_and_answers[concept] = {
-            "positive_accuracy": round(positive_accuracy / len(yes_questions) if yes_questions else 0, 2),
-            "negative_accuracy": round(negative_accuracy / len(no_questions) if no_questions else 0, 2),
-            "positive_reasoning_results": positive_reasoning_results,
-            "negative_reasoning_results": negative_reasoning_results
-        }
     
+    result_cache = dict()
+    for concept, reasoning_questions in multiconcept_reasoning_questions.items():
+        if concept in result_cache:
+            print("Using cached result for concept:", concept)
+            overall_reasoning_result = result_cache[concept]
+        else:
+            print("Start Localization for Concept:", concept)
+            
+            localization_prompt = manager.format("localization_prompt", concept=concept)
+
+            model_localization_answer = model(image=image, prompt=localization_prompt).lower()
+
+            print("Localization:", model_localization_answer)
+
+            print("Starting Reasoning for Concept:", concept)
+
+            yes_questions = reasoning_questions.get("yes_questions", [])
+            no_questions = reasoning_questions.get("no_questions", [])
+            
+            positive_reasoning_results = []
+            positive_accuracy = 0
+            negative_accuracy = 0
+            for reasoning_question in yes_questions:
+
+                prompt = manager.format("yes_no_medical_questions_zero_shot", question=reasoning_question)
+                model_positive_reasoning_answer = model(image=image, prompt=prompt).lower()
+
+                if "yes" in model_positive_reasoning_answer.lower():
+                    model_positive_reasoning_answer_cleaned = "yes"
+                elif "no" in model_positive_reasoning_answer.lower():
+                    model_positive_reasoning_answer_cleaned = "no"
+                else:
+                    model_positive_reasoning_answer_cleaned = "unknown"
+
+                if model_positive_reasoning_answer_cleaned == "yes":
+                    positive_accuracy += 1
+
+                # Prepare the row for the result
+                positive_reasoning_result = {
+                    "reasoning_question": reasoning_question,
+                    "answer": "yes",
+                    "model_answer": model_positive_reasoning_answer_cleaned,
+                    "is_correct": model_positive_reasoning_answer_cleaned == "yes"
+                }
+                print("Positive Reasoning Question:", positive_reasoning_result)
+                positive_reasoning_results.append(positive_reasoning_result)
+
+            negative_reasoning_results = []
+            for reasoning_question in no_questions:
+                prompt = manager.format("yes_no_medical_questions_zero_shot", question=reasoning_question)
+                model_negative_reasoning_answer = model(image=image, prompt=prompt).lower()
+
+                if "yes" in model_negative_reasoning_answer.lower():
+                    model_negative_reasoning_answer_cleaned = "yes"
+                elif "no" in model_negative_reasoning_answer.lower():
+                    model_negative_reasoning_answer_cleaned = "no"
+                else:
+                    model_negative_reasoning_answer_cleaned = "unknown"
+
+                if model_negative_reasoning_answer_cleaned == "no":
+                    negative_accuracy += 1
+
+                # Prepare the row for the result
+                negative_reasoning_result = {
+                    "reasoning_question": reasoning_question,
+                    "answer": "no",
+                    "model_answer": model_negative_reasoning_answer_cleaned,
+                    "is_correct": model_negative_reasoning_answer_cleaned == "no"
+                }
+                print("Negative Reasoning Question:", reasoning_question)
+                negative_reasoning_results.append(negative_reasoning_result)
+
+            overall_reasoning_result = {
+                "positive_accuracy": round(positive_accuracy / len(yes_questions) if yes_questions else 0, 2),
+                "negative_accuracy": round(negative_accuracy / len(no_questions) if no_questions else 0, 2),
+                "positive_reasoning_results": positive_reasoning_results,
+                "negative_reasoning_results": negative_reasoning_results
+            }
+            
+            result_cache[concept] = overall_reasoning_result
+
+        reasoning_questions_and_answers[concept] = overall_reasoning_result
+
     row['reasoning_result'] = json.dumps(reasoning_questions_and_answers)
     row['localization_answer'] = model_localization_answer
 
