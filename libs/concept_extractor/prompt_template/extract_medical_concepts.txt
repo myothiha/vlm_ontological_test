@@ -29,7 +29,7 @@ Output:
 </result>
 
 ### End of Example
-
+Please do not repeat the example.
 Extract the concepts from the following text.
 
 Input: {text}

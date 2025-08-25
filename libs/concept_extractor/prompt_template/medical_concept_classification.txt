@@ -1,0 +1,14 @@
+Determine whether the given concept is related to the biomedical field. Respond only with "true" or "false".
+
+## Examples
+
+concept: Heart
+answer: true
+
+concept: Computer
+answer: false
+
+## Task
+
+concept: {text}
+answer:

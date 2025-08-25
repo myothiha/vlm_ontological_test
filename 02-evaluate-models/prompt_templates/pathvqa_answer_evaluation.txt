@@ -12,7 +12,7 @@ Your output MUST be valid JSON with exactly two keys:
   
 Demonstrations:
 <result>
-Question: What’s the weather like?  
+Question: What’s the weather like?
 Reference answer: sunny
 Candidate answer: cloudy  
 Output: {{

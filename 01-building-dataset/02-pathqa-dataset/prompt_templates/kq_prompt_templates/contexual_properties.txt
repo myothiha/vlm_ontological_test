@@ -1,0 +1,76 @@
+You are an ontology-aware medical expert. Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
+
+These questions must focus exclusively on how the **properties** of the class — such as size, weight, color, composition, or measurable levels — **change in different conditions or situations**. For example, how the class appears or behaves physically during disease, stress, or other physiological states.
+
+Situational property change questions describe:
+- When the class becomes enlarged, reduced, discolored, or altered,
+- When its composition or structure changes,
+- When its measurable characteristics (e.g., enzyme levels, pressure, cell count) increase or decrease.
+
+Do **not** include:
+- Questions about what the class does (its function or behavior),
+- Relational or hierarchical questions (e.g., part-of, interacts with),
+- Binary yes/no questions,
+- Abstract or overly complex phrasing.
+
+Each question should be short, specific, and clearly describe a physical or measurable change under certain conditions.
+
+Your response must be a single JSON array of such questions.  
+Each question must be enclosed in double quotes.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Output: [
+  "When does the Liver become enlarged?",
+  "When does the Liver become fatty?",
+  "When does the Liver change color?",
+  "When does the Liver become heavier?",
+  "When does the Liver lose weight?",
+  "When does the Liver accumulate iron?",
+  "When does the Liver become fibrotic?",
+  "When does the Liver become scarred?",
+  "When does the Liver change texture?",
+  "When does the Liver become nodular?",
+  "When does the Liver show abnormal enzyme levels?",
+  "When does the Liver swell?",
+  "When does the Liver shrink?",
+  "When does the Liver change density?",
+  "When does the Liver develop abnormal tissue?",
+  "When does the Liver appear yellow?",
+  "When does the Liver contain more fat?",
+  "When does the Liver increase in volume?",
+  "When does the Liver develop unusual surface features?",
+  "When does the Liver show cellular changes?"
+]
+
+Input Class: "Blood"
+Output: [
+  "When does Blood become more acidic?",
+  "When does Blood change color?",
+  "When does Blood volume increase?",
+  "When does Blood volume decrease?",
+  "When does Blood become more viscous?",
+  "When does Blood become thinner?",
+  "When does Blood show high glucose levels?",
+  "When does Blood contain more lipids?",
+  "When does Blood pressure rise?",
+  "When does Blood pressure drop?",
+  "When does Blood show high enzyme levels?",
+  "When does Blood have excess white cells?",
+  "When does Blood have low red cells?",
+  "When does Blood contain abnormal proteins?",
+  "When does Blood become more oxygen-rich?",
+  "When does Blood lose oxygen?",
+  "When does Blood show high cholesterol?",
+  "When does Blood clot more easily?",
+  "When does Blood lose platelets?",
+  "When does Blood show changes in cell shape?"
+]
+
+--- End of examples ---
+
+<begin>
+
+Input: Class: "{class_name}"
+Output:

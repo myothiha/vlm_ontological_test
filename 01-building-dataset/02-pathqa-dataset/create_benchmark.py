@@ -59,36 +59,36 @@ for row in vqa_loader.sample(n=5):
         # Extract concepts from the question and answer
         combined_text = f"{question} {answer}"
         current_concepts = extractor.extract(combined_text)
-        print("current_concepts:", current_concepts)
 
         # Combine concepts from both question and answer
         current_concepts = [concept.text for concept in current_concepts]
         current_concepts = list(set(current_concepts))  # Remove duplicates
+
+        question_answer['extracted_concepts'] = current_concepts
     
-        multiconcept_reasoning_questions = dict()
-        for concept in current_concepts:
+    multiconcept_reasoning_questions = dict()
 
-            try:
-                exclude_concepts = [c for c in all_concepts if c != concept]
-                vlm_reasoning_questions = {
-                    "yes_questions": reasoningDataset.get_positive_questions(concept), 
-                    "no_questions": reasoningDataset.get_negative_questions(concept, exclude_concepts=exclude_concepts, num_concepts=1, num_questions=3),
-                }
+    for concept in all_concepts:
 
-                multiconcept_reasoning_questions[concept] = vlm_reasoning_questions
-            except Exception as e:
-                print(f"Error {e}")
-                continue
+        try:
+            exclude_concepts = [c for c in all_concepts if c != concept]
+            vlm_reasoning_questions = {
+                "yes_questions": reasoningDataset.get_positive_questions(concept), 
+                "no_questions": reasoningDataset.get_negative_questions(concept, exclude_concepts=exclude_concepts, num_concepts=1, num_questions=3),
+            }
 
-        new_row = dict()
-        new_row["image"] = row['image']
-        new_row['question'] = question
-        new_row['answer'] = answer
-        new_row['related_concepts'] = current_concepts
-        new_row['all_concepts'] = json.dumps(all_concepts)
-        new_row['multiconcept_reasoning_questions'] = json.dumps(multiconcept_reasoning_questions)
-        print("new_row:", new_row)
-        new_data.append(new_row)
+            multiconcept_reasoning_questions[concept] = vlm_reasoning_questions
+        except Exception as e:
+            print(f"Error {e}")
+            continue
+
+    new_row = dict()
+    new_row["image"] = row['image']
+    new_row['questions_and_answers'] = questions_and_answers
+    new_row['all_concepts'] = json.dumps(all_concepts)
+    new_row['multiconcept_reasoning_questions'] = json.dumps(multiconcept_reasoning_questions)
+    print("new_row:", new_row)
+    new_data.append(new_row)
 
 print("New Data", new_data)
 # Create new dataset with the new column

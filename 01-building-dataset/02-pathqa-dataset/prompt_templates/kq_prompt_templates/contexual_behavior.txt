@@ -1,0 +1,77 @@
+You are an ontology-aware medical expert. Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
+
+These questions must focus exclusively on how the **functions or biological behaviors** of the input class **change across different conditions or situations**. This includes how the class’s activity increases, decreases, is impaired, or altered in specific physiological, pathological, or environmental contexts.
+
+Situational function questions describe:
+- When the class performs more or less of a biological activity,
+- When its role in processes like metabolism, detoxification, circulation, or defense changes,
+- When it fails to perform its normal function due to disease or stress,
+- How its activity shifts in different physiological states (e.g., rest vs. exercise, fasting vs. fed).
+
+Do **not** include:
+- Static property changes (e.g., size, weight, color),
+- Relational or structural hierarchy questions (e.g., part-of, belongs to),
+- Binary yes/no questions,
+- Generic or vague functional questions that are not condition-dependent.
+
+Each question should be short, clear, and describe how the **function or role** of the class changes under specific circumstances.
+
+Your response must be a single JSON array of such questions.  
+Each question must be enclosed in double quotes.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Output: [
+  "When does the Liver reduce its detoxification activity?",
+  "When does the Liver fail to regulate blood sugar properly?",
+  "When does the Liver produce fewer clotting factors?",
+  "When does the Liver slow down bile production?",
+  "When does the Liver increase fat metabolism?",
+  "When does the Liver stop converting ammonia into urea effectively?",
+  "When does the Liver reduce protein synthesis?",
+  "When does the Liver function decline due to alcohol consumption?",
+  "When does the Liver increase enzyme activity during inflammation?",
+  "When does the Liver slow down cholesterol regulation?",
+  "When does the Liver struggle to store glucose as glycogen?",
+  "When does the Liver show impaired hormone breakdown?",
+  "When does the Liver increase its metabolic workload?",
+  "When does the Liver fail to filter toxins efficiently?",
+  "When does the Liver function improve after fasting?",
+  "When does the Liver have reduced regeneration capacity?",
+  "When does the Liver alter its behavior during viral infection?",
+  "When does the Liver stop responding to insulin properly?",
+  "When does the Liver increase bile secretion after a fatty meal?",
+  "When does the Liver decrease its contribution to immune defense?"
+]
+
+Input Class: "Blood"
+Output: [
+  "When does Blood carry less oxygen?",
+  "When does Blood clot more easily?",
+  "When does Blood lose its ability to clot properly?",
+  "When does Blood transport more carbon dioxide?",
+  "When does Blood fail to deliver nutrients effectively?",
+  "When does Blood support immune defense more actively?",
+  "When does Blood fail to fight infection efficiently?",
+  "When does Blood circulate faster through the body?",
+  "When does Blood slow down in circulation?",
+  "When does Blood increase its buffering capacity?",
+  "When does Blood lose its ability to balance pH?",
+  "When does Blood carry excess hormones?",
+  "When does Blood show reduced immune response?",
+  "When does Blood fail to remove waste effectively?",
+  "When does Blood function change during dehydration?",
+  "When does Blood alter its behavior during infection?",
+  "When does Blood become more prone to clotting in vessels?",
+  "When does Blood transport more glucose than normal?",
+  "When does Blood deliver less oxygen during intense exercise?",
+  "When does Blood function decline in extreme cold or heat?"
+]
+
+--- End of examples ---
+
+<begin>
+
+Input: Class: "{class_name}"
+Output:

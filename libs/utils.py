@@ -42,6 +42,23 @@ def extract_list_from_gpt(response):
     else:
         print("Error: No JSON array found.")
         return "Error: No JSON array found."
+    
+def extract_list_from_ollama_models(response):
+    # Find all JSON arrays in the string
+    arrays = re.findall(r"\[\s*\".*?\"\s*\]", response, re.DOTALL)
+
+    if arrays:
+        # Get the last array (the one for "Person")
+        person_json = arrays[0]
+        try:
+            questions = json.loads(person_json)
+            return questions
+        except json.JSONDecodeError as e:
+            print("Error: Failed to parse extracted JSON:")
+            return "Error: Failed to parse extracted JSON:"
+    else:
+        print("Error: No JSON array found.")
+        return "Error: No JSON array found."
 
 def extract_json_object(response):
     """
@@ -61,7 +78,7 @@ def extract_json_object(response):
         print("❌ Failed to parse extracted JSON object:", e)
         return None
 
-def extract_list(response):
+def extract_list_from_hf_models(response):
     """
     Extract the first JSON array that appears after the first '<begin>' in the response.
     This avoids regex and uses string manipulation + json.loads for robustness.
@@ -101,3 +118,16 @@ def extract_list(response):
     except Exception as e:
         print(f"Error: Failed to parse extracted JSON array: {e}")
         return []
+
+def clean_special_chars(text, replacement=" "):
+    """
+    Replace special characters in a string with a given replacement.
+    Keeps letters, numbers, and spaces by default.
+    """
+    if not isinstance(text, str):
+        return text
+    # Replace any character that is not a-z, A-Z, 0-9, or whitespace
+    cleaned = re.sub(r"[^a-zA-Z0-9\s]", replacement, text)
+    # Collapse multiple spaces into one
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return cleaned

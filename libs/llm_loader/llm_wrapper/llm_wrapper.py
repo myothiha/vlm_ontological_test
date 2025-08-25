@@ -53,6 +53,7 @@ class LLMWrapper:
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_path,
                 trust_remote_code=True,
+                attn_implementation="flash_attention_2",
                 device_map="auto",
                 torch_dtype=torch.bfloat16,
             )

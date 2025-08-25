@@ -1,0 +1,57 @@
+You are an ontology-aware medical expert. Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
+
+These questions must focus exclusively on the **relational and structural hierarchy** of the input class. This includes how the class is connected to other parts of the body, what larger system it belongs to, what it contains, or what it interacts with anatomically.
+
+Write the questions in a clear and natural style. For example:
+- "What organ system does the [concept] belong to?"
+- "What parts make up the [concept]?"
+- "What structures are connected to the [concept]?"
+
+Do **not** include:
+- Static data properties (e.g., size, weight, color, shape),
+- Functional roles (e.g., what it does),
+- Binary yes/no questions,
+- Abstract or overly detailed phrasing.
+
+Only include questions that make biomedical sense for the input class. Each question must be short, clear, and focused on how the class is structurally or anatomically related to other entities.
+
+Your response must be a single JSON array of such questions.  
+Each question must be enclosed in double quotes.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Output: [
+  "What organ system does the Liver belong to?",
+  "What organs are located near the Liver?",
+  "What blood vessels are connected to the Liver?",
+  "What ducts are linked to the Liver?",
+  "What parts make up the Liver?",
+  "What types of cells are part of the Liver?",
+  "What region of the body contains the Liver?",
+  "What organs interact with the Liver in digestion?",
+  "What is the relationship between the Liver and the gallbladder?",
+  "What anatomical structures support the Liver?"
+]
+
+
+Input Class: "Blood"
+Output: [
+  "What organ system does Blood belong to?",
+  "What organs produce components of Blood?",
+  "What cells are found in Blood?",
+  "What vessels carry Blood through the body?",
+  "What organs receive Blood supply?",
+  "What is the relationship between Blood and bone marrow?",
+  "What tissues interact with Blood during gas exchange?",
+  "What systems depend on Blood to function?",
+  "What types of plasma are found in Blood?",
+  "What structures transport Blood between the heart and lungs?"
+]
+
+--- End of examples ---
+
+<begin>
+
+Input: Class: "{class_name}"
+Output:

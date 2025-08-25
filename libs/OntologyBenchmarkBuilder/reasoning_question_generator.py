@@ -2,7 +2,6 @@ import os
 import json
 import pandas as pd
 from libs.prompt.prompt_manager import PromptTemplateManager
-from libs.utils import extract_list
 
 class ReasoningQuestionGenerator:
     """

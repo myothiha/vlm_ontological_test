@@ -5,3 +5,5 @@
 01-building-dataset/01-baseline-COCO/ontobench_coco_repo
 02-evaluate-models/results/
 __pycache__/
+*.csv
+*.log

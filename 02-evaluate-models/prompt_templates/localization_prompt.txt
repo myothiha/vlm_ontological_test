@@ -4,7 +4,7 @@ If the object is visible, provide the bounding box coordinates in the format [x,
 - x and y are the top-left corner of the box
 - width and height define the size of the box
 
-If the object is not visible, simply answer: "no".
+If the object is not present, simply answer: "no".
 
 Target: {concept}
 Bounding Box:

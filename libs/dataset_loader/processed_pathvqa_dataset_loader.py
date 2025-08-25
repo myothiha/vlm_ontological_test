@@ -44,7 +44,7 @@ class PathVQADatasetLoader:
         for qa in qa_list:
             question = qa.get("question", "").strip()
             answer = qa.get("answer", "").strip()
-            concatenated += f"{question} {answer}"
+            concatenated += f"{question} {answer} "
         return concatenated.strip()
 
 

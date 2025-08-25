@@ -8,7 +8,9 @@ class MedicalConceptExtractor(AbstractConceptExtractor):
 
     def extract(self, text) -> list:
         doc = self.nlp(text)
-        return list(doc.ents)
+        unique_concepts = set()
+        unique_concepts.update(ent.text for ent in doc.ents)
+        return list(unique_concepts)
     
     def extractUnique(self, text) -> list:
         doc = self.nlp(text)

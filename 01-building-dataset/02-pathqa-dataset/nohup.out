@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/dice/myothiha/thesis/01-building-dataset/02-pathqa-dataset/00_upload_text_to_labelbox_for_annotation.py", line 46, in <module>
+    project = client.get_project(PROJECT_UID)
+  File "/home/anaconda3/envs/myo_thesis/lib/python3.9/site-packages/labelbox/client.py", line 318, in get_project
+    return self._get_single(Entity.Project, project_id)
+  File "/home/anaconda3/envs/myo_thesis/lib/python3.9/site-packages/labelbox/client.py", line 301, in _get_single
+    raise ResourceNotFoundError(db_object_type, params)
+lbox.exceptions.ResourceNotFoundError: Resource 'Project' not found for params: {'param_0': 'Medical_Concept_Extraction'}

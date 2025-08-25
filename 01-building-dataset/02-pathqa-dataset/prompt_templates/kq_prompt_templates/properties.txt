@@ -1,0 +1,77 @@
+You are an ontology-aware medical expert. Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
+
+These questions must focus exclusively on the **data properties** of the input class. Data properties refer to the inherent, measurable, structural, chemical, or physiological characteristics of that class — such as size, weight, shape, color, composition, or concentration levels.
+
+Write questions in a simple, natural, and human-readable style. For example, use phrasing like:
+- "What is the normal size of the [concept]?"
+- "What types of cells are found in the [concept]?"
+- "What is the average weight of the [concept]?"
+
+Do **not** include:
+- Relational properties (e.g., what the class is part of or interacts with),
+- Hierarchical classifications (e.g., subclasses, superclasses),
+- Functional roles or behaviors (e.g., what the class does or how it acts),
+- Questions involving other concepts or entities,
+- Binary yes/no questions.
+
+Only include questions that make biomedical sense for the input class. Each question must focus solely on an intrinsic property of the class.
+
+Your response must be a single JSON array of such questions.  
+Each question must be enclosed in double quotes.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Output: [
+  "What is the normal size of the Liver?",
+  "What is the average weight of the Liver?",
+  "What is the typical color of the Liver?",
+  "What is the shape of the Liver?",
+  "What is the usual texture of the Liver?",
+  "What is the average volume of the Liver?",
+  "What types of cells are found in the Liver?",
+  "What is the fat content of the Liver?",
+  "What is the normal iron level in the Liver?",
+  "What enzymes are present in the Liver?",
+  "What proteins are produced by the Liver?",
+  "What is the glucose level in the Liver?",
+  "What is the oxygen level in the Liver?",
+  "What is the normal pH of the Liver?",
+  "What is the typical temperature of the Liver?",
+  "What is the water content of the Liver?",
+  "What is the cholesterol level in the Liver?",
+  "What is the color of Liver tissue?",
+  "What is the density of the Liver?",
+  "How many lobes does the Liver have?"
+]
+
+Input Class: "Blood"
+Output: [
+  "What is the normal volume of Blood in adults?",
+  "What is the average viscosity of Blood?",
+  "What is the typical color of Blood?",
+  "What is the normal pH level of Blood?",
+  "What is the temperature of Blood in the human body?",
+  "What types of cells are found in Blood?",
+  "What is the red blood cell count in healthy individuals?",
+  "What is the white blood cell count in healthy individuals?",
+  "What is the normal platelet count in Blood?",
+  "What is the typical glucose level in Blood?",
+  "What is the oxygen level in Blood?",
+  "What is the carbon dioxide level in Blood?",
+  "What is the hemoglobin concentration in Blood?",
+  "What proteins are found in Blood plasma?",
+  "What is the cholesterol level in Blood?",
+  "What is the iron level in Blood?",
+  "What is the sodium concentration in Blood?",
+  "What is the potassium concentration in Blood?",
+  "What is the calcium concentration in Blood?",
+  "What is the normal clotting time of Blood?"
+]
+
+--- End of examples ---
+
+<begin>
+
+Input: Class: "{class_name}"
+Output:

@@ -2,13 +2,12 @@ import os
 import json
 import pandas as pd
 from libs.prompt.prompt_manager import PromptTemplateManager
-from libs.utils import extract_list
 
 class KQGenerator:
     """
     A class to generate knowledge questions based on a given ontology.
     """
-    def __init__(self, llm, result_extract_func, prompt_dir="prompt_templates", prompt_template="01_few_shot_without_instruction", output_dir="results"):
+    def __init__(self, llm, result_extract_func, prompt_dir="prompt_templates", prompt_templates="01_few_shot_without_instruction", output_dir="results"):
         """
         Initializes the KQGenerator with a set of concepts, an LLM, and prompt manager.
         :param concepts: The concepts to generate questions from.
@@ -18,11 +17,30 @@ class KQGenerator:
         """
         self.llm = llm
         self.result_extract_func = result_extract_func
-        self.manager = PromptTemplateManager(prompt_dir=prompt_dir)
-        self.prompt_template = prompt_template
+        self.prompt_template_dir = prompt_templates
         self.output_dir = output_dir
         os.makedirs(self.output_dir, exist_ok=True)
         self.csv_filename = os.path.join(self.output_dir, "01_ontological_queries.csv")
+        
+        self._setup_templates()
+
+    def _setup_templates(self):
+        """
+        Loads the prompt templates from the specified directory.
+        """
+        prompt_dir = os.path.join("", self.prompt_template_dir)
+        print("Prompt Directory:", prompt_dir)
+        self.manager = PromptTemplateManager(prompt_dir=prompt_dir)
+
+        self.prompt_templates = []
+        
+        # load templates files.txt files from the prompt directory.
+        for filename in os.listdir(prompt_dir):
+            if filename.endswith(".txt"):
+                template_name = filename[:-4]
+                self.prompt_templates.append(template_name)
+
+        print(f"Loaded {len(self.prompt_templates)} prompt templates from {self.prompt_template_dir}")
 
     def generate_questions(self, concepts):
         """
@@ -38,13 +56,17 @@ class KQGenerator:
             pd.DataFrame(columns=["class", "knowledge_questions"]).to_csv(self.csv_filename, index=False)
 
         for class_name in concepts:
+    
             if class_name in generated_objects:
                 continue
-            print(f"🔄 Generating Knowledge Questions for: {class_name}")
-            prompt = self.manager.format(self.prompt_template, class_name=class_name)
-            response = self.llm(prompt, max_new_tokens=500)
-            print("Response", response)
-            knowledge_questions = self.result_extract_func(response)
+
+            for prompt_template in self.prompt_templates:    
+                print(f"🔄 Generating {prompt_template} Knowledge Questions for: {class_name}")
+
+                prompt = self.manager.format(prompt_template, class_name=class_name)
+                response = self.llm(prompt, max_new_tokens=500)
+                print("Response", response)
+                knowledge_questions = self.result_extract_func(response)
 
             if "Error" in knowledge_questions:
                 print(f"❌ Error extracting knowledge questions for {class_name}: {knowledge_questions}")
@@ -67,5 +89,6 @@ class KQGenerator:
             row_df.to_csv(self.csv_filename, mode='a', header=False, index=False)
 
             print(f"✅ Saved: {class_name}")
+            break
 
         return self.csv_filename

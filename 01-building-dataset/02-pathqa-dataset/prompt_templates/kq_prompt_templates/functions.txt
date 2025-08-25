@@ -1,0 +1,66 @@
+You are an ontology-aware medical expert. Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
+
+These questions must focus exclusively on the **functional roles and biological behaviors** of the input class. This includes the physiological tasks, dynamic processes, or regulatory activities that the class performs in the human body — such as detoxification, circulation, immune defense, or hormone transport.
+
+Write the questions in a clear and natural style. For example:
+- "What are the main functions of the [concept]?"
+- "How does the [concept] help with digestion?"
+- "What is the [concept]’s role in blood filtration?"
+
+Do **not** include:
+- Static data properties (e.g., size, weight, shape, molecular composition),
+- Relational or structural hierarchy (e.g., part-of, subclass-of),
+- Binary yes/no questions,
+- Questions about other entities unless directly linked to the function of the class.
+
+Only include questions that make biomedical sense for the input class. Each question must be short, simple, and focused only on what the class **does** in biological or clinical contexts.
+
+Your response must be a single JSON array of such questions.  
+Each question must be enclosed in double quotes.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Output: [
+  "What are the main functions of the Liver?",
+  "How does the Liver help in detoxification?",
+  "How does the Liver support digestion?",
+  "What is the Liver’s role in metabolism?",
+  "How does the Liver store nutrients?",
+  "How does the Liver regulate blood sugar levels?",
+  "What is the Liver’s role in producing bile?",
+  "How does the Liver help with fat processing?",
+  "What is the Liver’s role in protein synthesis?",
+  "How does the Liver break down hormones?",
+  "What is the Liver’s role in filtering the blood?",
+  "How does the Liver help with drug metabolism?",
+  "What is the Liver’s role in making blood clotting factors?",
+  "How does the Liver convert ammonia into urea?",
+  "What immune functions does the Liver perform?"
+]
+
+Input Class: "Blood"
+Output: [
+  "What are the main functions of Blood?",
+  "How does Blood carry oxygen to the body?",
+  "How does Blood remove carbon dioxide from the body?",
+  "How does Blood transport nutrients?",
+  "What is Blood’s role in hormone transport?",
+  "How does Blood support the immune system?",
+  "What is Blood’s role in fighting infections?",
+  "How does Blood help regulate body temperature?",
+  "How does Blood help in clotting after injury?",
+  "What is Blood’s role in pH balance?",
+  "How does Blood remove waste from tissues?",
+  "How does Blood deliver heat through the body?",
+  "What is the role of plasma in Blood?",
+  "How does Blood distribute minerals and salts?",
+  "What is the role of Blood in inflammation?"
+]
+
+--- End of examples ---
+
+<begin>
+
+Input: Class: "{class_name}"
+Output:
