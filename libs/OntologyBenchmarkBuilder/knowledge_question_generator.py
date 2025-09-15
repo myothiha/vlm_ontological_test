@@ -28,6 +28,7 @@ class KQGenerator:
         """
         Loads the prompt templates from the specified directory.
         """
+        print("Setting up prompt templates...", self.prompt_template_dir)
         prompt_dir = os.path.join("", self.prompt_template_dir)
         print("Prompt Directory:", prompt_dir)
         self.manager = PromptTemplateManager(prompt_dir=prompt_dir)
@@ -59,14 +60,15 @@ class KQGenerator:
     
             if class_name in generated_objects:
                 continue
-
+            
+            knowledge_questions = dict()
             for prompt_template in self.prompt_templates:    
                 print(f"🔄 Generating {prompt_template} Knowledge Questions for: {class_name}")
 
                 prompt = self.manager.format(prompt_template, class_name=class_name)
-                response = self.llm(prompt, max_new_tokens=500)
+                response = self.llm(prompt, max_new_tokens=2048)
                 print("Response", response)
-                knowledge_questions = self.result_extract_func(response)
+                knowledge_questions[prompt_template] = self.result_extract_func(response)
 
             if "Error" in knowledge_questions:
                 print(f"❌ Error extracting knowledge questions for {class_name}: {knowledge_questions}")
@@ -89,6 +91,26 @@ class KQGenerator:
             row_df.to_csv(self.csv_filename, mode='a', header=False, index=False)
 
             print(f"✅ Saved: {class_name}")
-            break
 
         return self.csv_filename
+    
+    def generate_questions_for_single_concept(self, concept):
+        knowledge_questions = dict()
+        for prompt_template in self.prompt_templates:    
+            print(f"🔄 Generating {prompt_template} Knowledge Questions for: {concept}")
+
+            prompt = self.manager.format(prompt_template, class_name=concept)
+            response = self.llm(prompt, max_new_tokens=2048)
+            print("Response", response)
+            knowledge_questions[prompt_template] = self.result_extract_func(response)
+
+        if "Error" in knowledge_questions:
+            print(f"❌ Error extracting knowledge questions for {concept}: {knowledge_questions}")
+        
+        if len(knowledge_questions) == 0:
+            print(f"❌ No knowledge questions generated for {concept}.")
+        
+        print("======Done======")
+        print("Knowledge Questions:", knowledge_questions)
+        
+        return knowledge_questions

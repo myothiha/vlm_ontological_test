@@ -43,12 +43,18 @@ class KnowledgeExtractor:
             knowledge_questions = json.loads(row["knowledge_questions"])
             if class_name in generated_objects:
                 continue
+
+            # Iterate the five dimension of conceptual KQs.
+            generated_knowledge = dict()
+            for knowledge_type, questions in knowledge_questions.items():
+                print(f"🔄 Generating {knowledge_type} Knowledge for: {class_name}")
+                prompt = self.manager.format(self.prompt_template, class_name=class_name, questions_json=json.dumps(questions, indent=2))
+                response = self.llm(prompt, max_new_tokens=2048)
+                print("LLM Response", response)
+                generated_knowledge[knowledge_type] = self.result_extract_func(response)
+                
             generated_objects.append(class_name)
-            print(f"🔄 Generating Knowledge for: {class_name}")
-            prompt = self.manager.format(self.prompt_template, class_name=class_name, questions_json=json.dumps(knowledge_questions, indent=2))
-            response = self.llm(prompt, max_new_tokens=600)
-            print("LLM Response", response)
-            generated_knowledge = self.result_extract_func(response)
+
             print("Generated Knowledge", generated_knowledge)
             row_df = pd.DataFrame([{
                 "class": class_name,
@@ -59,3 +65,15 @@ class KnowledgeExtractor:
             print(f"✅ Saved: {class_name}")
 
         return self.output_filename
+
+    def extract_knowledge_for_single_concept(self, concept, knowledge_questions):
+        # Iterate the five dimension of conceptual KQs.
+        generated_knowledge = dict()
+        for knowledge_type, questions in knowledge_questions.items():
+            print(f"🔄 Generating {knowledge_type} Knowledge for: {concept}")
+            prompt = self.manager.format(self.prompt_template, class_name=concept, questions_json=json.dumps(questions, indent=2))
+            response = self.llm(prompt, max_new_tokens=2048)
+            print("LLM Response", response)
+            generated_knowledge[knowledge_type] = self.result_extract_func(response)
+            
+        return generated_knowledge

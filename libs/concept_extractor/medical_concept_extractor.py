@@ -1,5 +1,6 @@
 
 import spacy
+
 from libs.concept_extractor.abstract_concept_extractor import AbstractConceptExtractor
 
 class MedicalConceptExtractor(AbstractConceptExtractor):

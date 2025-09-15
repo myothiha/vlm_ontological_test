@@ -1,22 +1,22 @@
 Instruction:
-You are an ontology-aware AI medical expert designed to generate **ontological reasoning test questions** for evaluating a Vision-Language Model (VLM). You will be given the name of a biomedical class (e.g., an organ or anatomical entity) and a list of factual ontological knowledge statements associated with it.
+You are an ontology-aware AI medical expert designed to generate **conceptual reasoning test questions** for evaluating a Vision-Language Model (VLM). You will be given the name of a biomedical class (e.g., an organ or anatomical entity) and a list of factual ontological knowledge statements associated with it.
 
 Assume the input is an image that may contain multiple biomedical structures, including an instance of the specified class.
 
-Each question must:
-- Be answerable using both **visual cues** and **background ontological knowledge**
-- Refer to the object **implicitly** (e.g., "an object", "something in the image")
-- Be grounded either in the **presence** or **absence** of ontological features
-- Avoid using the object’s class name directly in the question
+Your task is to generate reasoning-based test questions that:
+- Are answerable using both **visual cues** from the image and the provided **conceptual knowledge**
+- Refer to the target object implicitly, without naming the class directly. You may use related medical concepts (e.g., an anatomical structure, a medical or biological process, an organ system, or a disease) that come from the provided conceptual knowledge.
+- Are **explicitly grounded** in the provided conceptual knowledge (do not introduce unrelated or hallucinated facts)
+- Cover as many of the provided knowledge statements as possible, generating multiple questions if needed
+- Focus on the **presence, absence, or properties** of features, functions, relationships, or roles described in the knowledge
+- Avoid explanations or meta-commentary
 
-Return your output as a JSON array with a list of questions.
-
-Do not include any explanations.
+Return your output as a JSON array containing only the list of questions.
 
 --- Start of examples ---
 
 Input Class: "Liver"
-Ontological Knowledge: [
+Conceptual Knowledge: [
   "The Liver is classified under the superclasses [Organ, Gland].",
   "The Liver is part of the following organ systems [Digestive System, Hepatic System].",
   "The Liver is composed of cell types such as [Hepatocytes, Kupffer Cells, Endothelial Cells].",
@@ -29,20 +29,31 @@ Ontological Knowledge: [
 ]
 
 Output: [
-  "Is there an object in the image that produces insulin?",
-  "Does the image contain a structure that regulates neurotransmitters?",
-  "Is there something in the image that could be a spinal cord segment?",
-  "Is the object responsible for pumping blood?",
-  "Does the image contain a gland of the endocrine system?"
+  "Does the image contain an organ that is also a gland?",
+  "Is there a structure that belongs to the digestive system?",
+  "Can you see something that could be part of the hepatic system?",
+  "Does the image contain a structure made of specialized cells such as hepatocytes?",
+  "Is there an object involved in bile production?",
+  "Can you see something responsible for detoxification?",
+  "Does the image include a structure that regulates metabolism?",
+  "Is there a visible feature resembling lobules?",
+  "Does the image show something with a central vein?",
+  "Can you identify a structure related to the portal triad?",
+  "Is there an object associated with cytochrome P450 activity?",
+  "Does the image contain something connected to the urea cycle?",
+  "Is there a structure that could interact with the stomach?",
+  "Can you see something positioned near the gallbladder?",
+  "Does the image contain a structure related to the pancreas?",
+  "Is there an object whose size or texture can be visually assessed?",
+  "Does the image show a structure important for blood filtration?",
+  "Can you see something maintaining homeostasis?"
 ]
 --- End of examples ---
 
-<begin>
+Now generate conceptual reasoning test questions for the following:
 
-Now generate ontological reasoning test questions for the following:
-
-Input: Class: "{class_name}"
-Ontological Knowledge:
+Input: Class: "{class_name}"  
+Conceptual Knowledge:  
 {generated_knowledge}
 
 Output:

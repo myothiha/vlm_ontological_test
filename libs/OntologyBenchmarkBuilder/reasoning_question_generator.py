@@ -4,6 +4,7 @@ import pandas as pd
 from libs.prompt.prompt_manager import PromptTemplateManager
 
 class ReasoningQuestionGenerator:
+    
     """
     A class to generate reasoning questions based on a given ontology and previously generated knowledge.
     """
@@ -44,13 +45,20 @@ class ReasoningQuestionGenerator:
             generated_knowledge = json.loads(row["generated_knowledge"])
             if class_name in generated_objects:
                 continue
+            
+            vlm_reasoning_questions = dict()
+            for knowledge_type, knowledge in generated_knowledge.items():
+                print(f"🔄 Generating {knowledge_type} knowledge Reasoning Questions for: {class_name}")
+                print("Knowledge base:", knowledge)
+                prompt = self.manager.format(self.prompt_template, class_name=class_name, generated_knowledge=json.dumps(knowledge, indent=2))
+                response = self.llm(prompt, max_new_tokens=2048)
+                print("LLM Response", response)
+                vlm_reasoning_questions[knowledge_type] = self.result_extract_func(response)
+
             generated_objects.append(class_name)
-            print(f"🔄 Generating Reasoning Questions for: {class_name}")
-            prompt = self.manager.format(self.prompt_template, class_name=class_name, generated_knowledge=json.dumps(generated_knowledge, indent=2))
-            response = self.llm(prompt, max_new_tokens=600)
-            print("LLM Response", response)
-            vlm_reasoning_questions = self.result_extract_func(response)
+            
             print("Generated VLM Reasoning Questions", vlm_reasoning_questions)
+
             row_df = pd.DataFrame([{
                 "class": class_name,
                 "knowledge_questions": json.dumps(knowledge_questions),
@@ -61,3 +69,17 @@ class ReasoningQuestionGenerator:
             print(f"✅ Saved: {class_name}")
 
         return self.output_filename
+
+    def generate_reasoning_questions_for_single_concept(self, concept, generated_knowledge):
+        vlm_reasoning_questions = dict()
+        for knowledge_type, knowledge in generated_knowledge.items():
+            print(f"🔄 Generating {knowledge_type} knowledge Reasoning Questions for: {concept}")
+            print("Knowledge base:", knowledge)
+            prompt = self.manager.format(self.prompt_template, class_name=concept, generated_knowledge=json.dumps(knowledge, indent=2))
+            response = self.llm(prompt, max_new_tokens=2048)
+            print("LLM Response", response)
+            vlm_reasoning_questions[knowledge_type] = self.result_extract_func(response)
+        
+        print("Generated VLM Reasoning Questions", vlm_reasoning_questions)
+        
+        return vlm_reasoning_questions

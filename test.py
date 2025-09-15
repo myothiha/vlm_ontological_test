@@ -1,49 +1,33 @@
 from libs.concept_extractor.llm_based_medical_concept_extractor import LLMBasedMedicalConceptExtractor
 from libs.llm_loader.ollama.ollama_wrapper import OllamaWrapper
+from libs.llm_loader.llm_wrapper.gpt_llm_wrapper import GPTLLMWrapper
+from libs.OntologyBenchmarkBuilder.knowledge_question_generator import KQGenerator
+from libs.utils import extract_list_from_gpt, extract_list_from_ollama_models, extract_list_from_hf_models
 
-# conceptExtractor = LLMBasedMedicalConceptExtractor(model="Bio_GPT_Large")
-# conceptExtractor.extract("Hello, I have a headache and fever. I also have a sore throat and runny nose. My doctor prescribed ibuprofen and recommended rest. I will get a blood test tomorrow to check for any infections.")
+# llm = GPTLLMWrapper("gpt-4.1")
 
-model_name = "taozhiyuai/openbiollm-llama-3:70b_q2_k"
-print("Using model:", model_name)
+# Example usage
+# ollama = OllamaWrapper(model="llava:34b", multi_turn=True)
+# ollama.set_system_prompt("You are a helpful assistant.") # only for multi-turn mode
 
-stream = False
-multi_turn = True
-llm = OllamaWrapper(model=model_name, multi_turn=multi_turn)
+# print("Single-turn generation:")
+# response = ollama("What is the capital of France?", temperature=0.1)
+# print(response)
 
-query = "What is the role of the liver in the human body?"
-print("Query:", query)
+# print("\nMulti-turn chat:")
+# response = ollama("Hello, who won the World Cup in 2018?", temperature=0.1)
+# print(response)
+# response = ollama("Where was it held?", temperature=0.1)
+# print(response)
 
-if multi_turn:
-    # Multi Turn Mode
-    llm.set_system_prompt("You are a helpful medical assistant.")
-    questions = [
-        "What is the role of the liver in the human body?",
-        "What are the symptoms of liver disease?",
-        "How does the liver process toxins?",
-    ]
-    for question in questions:
-        print("Question:", question)
-        result = llm(question, stream=stream)
+from PIL import Image
+img = Image.open("example.jpg")
 
-        if stream:
-            for token in result:
-                print(token, end='', flush=True)
-        else:
-            print("Result:", result)
-
-        print("\nDone.")
-
-        print("History:")
-        print(llm.history)
-else:
-    # Single Turn Mode
-    result = llm(query, stream=stream)
-
-    if stream:
-        for token in result:
-            print(token, end='', flush=True)
-    else:
-        print("Result:", result)
-
-    print("\nDone.")
+ollama = OllamaWrapper(model="llava:34b")
+print("Image Type:", type(img))
+multimodal_response = ollama(
+    images=[img],
+    prompt="Describe the main object and its condition.",
+    # temperature=0.1
+)
+print(multimodal_response)

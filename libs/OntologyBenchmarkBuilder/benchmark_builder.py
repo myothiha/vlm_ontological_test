@@ -1,6 +1,8 @@
 import os
 import pandas as pd
 import sqlite3
+import json
+import re
 
 from libs.concept_extractor.abstract_concept_extractor import AbstractConceptExtractor
 from libs.dataset_loader.dataset import Dataset
@@ -8,6 +10,7 @@ from libs.OntologyBenchmarkBuilder.knowledge_question_generator import KQGenerat
 from libs.OntologyBenchmarkBuilder.knowledge_extractor import KnowledgeExtractor
 from libs.OntologyBenchmarkBuilder.reasoning_question_generator import ReasoningQuestionGenerator
 from libs.concept_extractor.medical_concept_classifier import MedicalConceptClassifier
+from libs.utils import clean_special_chars
 
 class BenchmarkBuilder:
     def __init__(self,dataset: Dataset, llm, result_extract_func, knowledge_question_prompt_templates, generate_knowledge_prompt_template, vlm_reasoning_prompt_template, concept_extractor: AbstractConceptExtractor, medical_concept_classifier: MedicalConceptClassifier, required_concept_extraction = False, output_dir: str = "results"):
@@ -43,15 +46,8 @@ class BenchmarkBuilder:
         # Step 0: Extract concepts if required
         concepts = self.get_concepts()
         print(f"Extracted {len(concepts)} unique concepts.")
-        print(f"Concepts: {concepts}")
+        # print(f"Concepts: {concepts}")
 
-        # for concept in concepts:
-        #     is_medical = self.medical_concept_classifier.classify(concept)
-
-        #     print(f"{concept}:", is_medical)
-            # print(f"Concept: {concept}")
-
-        """
         print("##########################################################################################")
         print("########################## Step 1: Knowledge Question Generation #########################")
         print("##########################################################################################")
@@ -65,7 +61,6 @@ class BenchmarkBuilder:
             output_dir=self.output_dir
         )
         query_csv = kq_generator.generate_questions(concepts=concepts)
-        
         
         print("##########################################################################################")
         print("########################## Step 2: Knowledge Extraction from LLM #########################")
@@ -81,6 +76,7 @@ class BenchmarkBuilder:
         )
         extracted_knowledge_csv = knowledge_extractor.extract_knowledge(queries_csv=query_csv)
         
+        
         print("##############################################################################################")
         print("########################## Step 3: VLM Reasoning Question Generation #########################")
         print("##############################################################################################")
@@ -95,7 +91,7 @@ class BenchmarkBuilder:
         reasoning_question_csv = reasoning_question_generator.generate_reasoning_questions(extracted_knowledge_csv)
         
         return reasoning_question_csv
-        """
+        
 
     def get_concepts(self) -> list:
         """
@@ -138,9 +134,19 @@ class BenchmarkBuilder:
 
                 # If the text has been already processed, use the cached concepts.
                 if text in processed_texts:
-                    concepts = current_df[current_df['text'] == text]['concepts'].to_list()
+                    raw_concepts = current_df[current_df['text'] == text]['concepts'].to_list()
+                    # print("Raw concepts:", raw_concepts[0])
+                    # concepts = json.loads(raw_concepts) if raw_concepts else []
+                    concepts = eval(raw_concepts[0]) if raw_concepts[0].startswith("[") else [raw_concepts[0]]
                 else:
                     concepts = self.concept_extractor.extract(text)
+
+                    for concept in concepts:
+                        is_medical = self.medical_concept_classifier.classify(concept)
+                        if not is_medical:
+                            print(f"{concept} is not a medical-concept. Removed.", flush=True)
+                            concepts.remove(concept)
+                        # print(f"{concept}:", is_medical)
 
                     log_row = pd.DataFrame([
                         {"text": text,
@@ -151,12 +157,17 @@ class BenchmarkBuilder:
                 unique_concepts.update(concepts)
 
                 # print("Input text:", text)
-                print(f"Extracted {len(concepts)}: {concepts}"  )
+                print(f"Extracted {len(concepts)}: {concepts}")
 
+            # Clean unique concepts: lower case, remove double space, remove special characters.
+            unique_concepts = {clean_special_chars(concept) for concept in unique_concepts}
+            unique_concepts = {concept.strip() for concept in unique_concepts}
+
+            unique_concepts = list(sorted(unique_concepts))
             # Save unique concepts to disk
             with open(output_file, "w") as f:
                 print(output_file)
-                for concept in sorted(unique_concepts):
+                for concept in unique_concepts:
                     f.write(concept + "\n")
 
             print(f"Extracted {len(unique_concepts)} unique concepts.")
@@ -169,7 +180,7 @@ class BenchmarkBuilder:
             # con.execute(f"CREATE INDEX IF NOT EXISTS idx_{table}_id ON {table}(id);")  # optional
             # con.close()
 
-            return list(sorted(unique_concepts))
+            return unique_concepts
         else:
             all_concepts = self.dataset.get_all_texts()
             unique_concepts = set()

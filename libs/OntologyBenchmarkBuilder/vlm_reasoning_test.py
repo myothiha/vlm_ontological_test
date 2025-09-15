@@ -7,17 +7,19 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 class VLMReasoningQuestionsLoader:
-    def __init__(self, file_path, llm_model_path = None):
+    def __init__(self, file_path, concept_bench = None, llm_model_path = None):
         self._load(file_path)
+        self.data_csv_path = file_path
         self.llm_model_path = llm_model_path
         self.tokenizer = None
         self.model = None
+        self.pipeline = concept_bench
 
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
     def _load(self, file_path):
-        df = pd.read_csv(file_path).set_index('class')
-        reasoning_questions = df.to_dict(orient="index")
+        self.df = pd.read_csv(file_path).set_index('class')
+        reasoning_questions = self.df.to_dict(orient="index")
         self.reasoning_questions = reasoning_questions
         return reasoning_questions
     
@@ -37,7 +39,14 @@ class VLMReasoningQuestionsLoader:
         """
         if not hasattr(self, 'reasoning_questions'):
             raise ValueError("Reasoning questions have not been loaded. Call load(path_to_csv) first.")
-        
+
+        if concept_class is not None and concept_class not in self.reasoning_questions.keys():
+            print(f"Concept class '{concept_class}' not found in reasoning questions.")
+            conceptual_reasoning_question_for_unknown_concept = self.pipeline(concept_class)
+            self.reasoning_questions[concept_class] = conceptual_reasoning_question_for_unknown_concept
+
+            pd.DataFrame([conceptual_reasoning_question_for_unknown_concept]).to_csv(self.data_csv_path, mode='a', index=False, header=False)
+
         # If a specific concept class is provided, filter the questions
         if concept_class:
             return json.loads(self.reasoning_questions[concept_class]['vlm_reasoning_questions'])
@@ -57,7 +66,8 @@ class VLMReasoningQuestionsLoader:
             raise ValueError("Reasoning questions have not been loaded. Call load(path_to_csv) first.")
         
         available_classes = self.get_negative_concepts(concept_class=concept_class, exclude_concepts=exclude_concepts)
-
+        # print("Available classes:", available_classes)
+        
         if len(available_classes) < num_concepts:
             raise ValueError("Not enough other concepts with questions to sample from.")
         
@@ -71,29 +81,42 @@ class VLMReasoningQuestionsLoader:
         
         print("Negative Concepts", sampled_classes)
 
-        negative_questions = []
+        negative_questions = dict()
         for c in sampled_classes:
             questions = self.reasoning_questions[c]["vlm_reasoning_questions"]
             # If questions is a stringified list, parse it
+
             if isinstance(questions, dict) and 'questions' in questions:
+                print("Hello what the hell is that?")
                 qlist = questions['questions']
+
             elif isinstance(questions, str):
                 try:
                     qlist = json.loads(questions)
                 except Exception:
-                    qlist = []
+                    qlist = dict()
             else:
                 qlist = questions
-            if isinstance(qlist, str):
-                try:
-                    qlist = json.loads(qlist)
-                except Exception:
-                    qlist = []
-            negative_questions.extend(random.sample(qlist, min(num_questions, len(qlist))))
+
+            print("Qlist:", qlist)
+
+            for knowledge_dimension, questions in qlist.items():
+                print("Knowledge Dimension:", knowledge_dimension)
+                print("Questions:", qlist[knowledge_dimension])
+                sample_negative_questions = random.sample(qlist[knowledge_dimension], min(num_questions, len(questions)))
+
+                if knowledge_dimension in negative_questions:
+                    negative_questions[knowledge_dimension].extend(sample_negative_questions)
+                else:
+                    negative_questions[knowledge_dimension] = sample_negative_questions
+
+            print("Negative Questions:", negative_questions)
+
+            # negative_questions.extend(random.sample(qlist, min(num_questions, len(qlist))))
 
         # If more than num_questions, randomly select num_questions
-        if len(negative_questions) > num_questions:
-            negative_questions = random.sample(negative_questions, num_questions)
+        # if len(negative_questions) > num_questions:
+        #     negative_questions = random.sample(negative_questions, num_questions)
         
         return negative_questions
 
@@ -121,20 +144,30 @@ class VLMReasoningQuestionsLoader:
         # Helper to check if a class has any questions (non-empty list after parsing)
         if isinstance(questions, dict) and 'questions' in questions:
             qlist = questions['questions']
+
         elif isinstance(questions, str):
             try:
                 qlist = json.loads(questions)
             except Exception:
                 return False
+            
         else:
             qlist = questions
+
         if isinstance(qlist, str):
             try:
                 qlist = json.loads(qlist)
             except Exception:
                 return False
-        return bool(qlist) and isinstance(qlist, list) and len(qlist) > 0
-    
+        
+        any_empty_list = False
+        for _, value in qlist.items():
+            if len(value) > 0:
+                any_empty_list = True
+                break
+
+        return bool(qlist) and isinstance(qlist, dict) and any_empty_list
+
 
     def get_embedding(self, text):
         # ensure model is loaded (and device is set)

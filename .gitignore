@@ -7,3 +7,5 @@
 __pycache__/
 *.csv
 *.log
+01-building-dataset/02-pathqa-dataset/results/
+02-evaluate-models/analysis_results/

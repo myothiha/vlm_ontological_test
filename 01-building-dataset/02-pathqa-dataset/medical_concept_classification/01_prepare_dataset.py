@@ -39,7 +39,7 @@ print(f"Found {len(concepts)} unique concepts")
 
 number_of_positive_label = len(concepts)
 
-llm = OllamaWrapper(model="gpt-oss:20b")
+llm = OllamaWrapper(model="qwen3:32b")
 
 prompt = f"""
 You are a helpful labeler. Your task is to generate a list of concepts that are clearly non-medical and unrelated to medicine, healthcare, or biology. 

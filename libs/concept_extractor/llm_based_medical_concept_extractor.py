@@ -35,9 +35,10 @@ class LLMBasedMedicalConceptExtractor(AbstractConceptExtractor):
         # print("LLM Response:")
         # print(response)
         # print("####################Extraction End####################")
+        concepts = self.extract_from_llm(response)
+        self.clean_concepts(concepts)
+        return concepts
 
-        return self.extract_from_llm(response)
-    
     def backup_extract(self):
         result = self.backup_extractor.extract(self.text)
         return result
