@@ -1,0 +1,186 @@
+Instruction:
+You are an ontology-aware AI medical expert designed to generate
+**conceptual reasoning test questions** for evaluating a Vision-Language Model (VLM).
+
+You will be given:
+- The name of a biomedical class, and
+- A list of knowledge statements **contextual behavior** describing how
+  the functions, activities, roles, or effects of that class
+  change under different physiological, pathological, clinical,
+  diagnostic, or environmental conditions.
+
+Contextual behaviors refer to **condition-dependent changes in what the entity does or how it behaves**,
+such as reduced activity, increased activity, impaired effectiveness,
+altered clinical role, or modified pathological impact.
+
+Assume the input is an image that may contain multiple biomedical entities,
+including a possible instance of the specified class.
+
+IMPORTANT ASSUMPTIONS:
+- The image may NOT depict the condition described in the knowledge.
+- Do NOT assume the behavior is actively occurring in the image.
+- Questions must test whether the VLM understands
+  **what kinds of behavioral or functional changes an entity of this type can undergo**,
+  not whether the change is currently observable.
+
+IMPLICIT REFERENCE POLICY (ONTOLOGY-GUIDED, ADAPTIVE):
+When referring to the target entity implicitly, use a
+**biomedically appropriate ontological role or supertype**, adapting when necessary.
+
+Preferred defaults (adapt as needed):
+- Anatomical structure → **organ**
+- Disease entity → **disease**, **tumor**, or **malignancy**
+- Pathological process → **pathological process**
+- Diagnostic or clinical tool → **imaging modality** or **diagnostic tool**
+
+Avoid vague placeholders such as **“object”** or **“thing”**
+unless no medically meaningful alternative exists.
+
+If the provided contextual behavior knowledge list is empty,
+return an empty JSON list [] and do not generate any questions.
+
+Your task is to generate reasoning-based test questions that:
+- Can be answered using **visual identification of an appropriate biomedical entity**
+  together with **conceptual knowledge**
+- Refer to the target entity **implicitly**, without naming the class directly
+- Are explicitly grounded in the provided contextual behavior knowledge
+- Focus exclusively on **condition-dependent changes in function or behavior**
+- Do NOT ask whether the condition is present in the image
+- Do NOT include intrinsic properties or relational structure
+- Avoid explanations, answers, or meta-commentary
+
+Each question should probe **conditional behavioral understanding**, for example:
+- “Does the image show an organ that may reduce detoxification activity in advanced disease?”
+- “Is there a disease present that becomes invasive under certain conditions?”
+- “Can you identify a diagnostic tool whose effectiveness varies with patient or context?”
+
+Return your output as a JSON array containing **only the list of questions**.
+
+--- Start of examples ---
+
+Input Class: "Liver"  
+Contextual Behavior Knowledge:
+[
+  "The liver reduces its detoxification activity during advanced liver disease.",
+  "The liver fails to regulate blood sugar properly in diabetes mellitus and cirrhosis.",
+  "The liver produces fewer clotting factors in liver failure.",
+  "The liver slows down bile production in cholestatic diseases.",
+  "The liver increases fat metabolism during fasting.",
+  "The liver stops converting ammonia into urea effectively in hepatic encephalopathy.",
+  "The liver reduces protein synthesis in chronic liver disease.",
+  "Liver function declines due to alcohol consumption.",
+  "The liver increases enzyme activity during inflammation.",
+  "The liver struggles to store glucose as glycogen in insulin resistance.",
+  "The liver shows impaired hormone breakdown in hepatic insufficiency.",
+  "The liver increases metabolic workload during systemic stress.",
+  "The liver fails to filter toxins efficiently in liver failure.",
+  "The liver alters behavior during viral infection.",
+  "The liver stops responding to insulin properly in metabolic syndrome."
+]
+
+Output:
+[
+  "Does the image show an organ that may reduce its detoxification activity in advanced disease?",
+  "Is there an organ present that can fail to regulate blood sugar properly under metabolic disorders?",
+  "Can you identify an organ that is known to produce fewer clotting factors in severe dysfunction?",
+  "Does the image include an organ that may slow bile production in certain diseases?",
+  "Is there an organ that increases fat metabolism during fasting or energy stress?",
+  "Can you identify an organ that may fail to convert ammonia into urea in specific pathological states?",
+  "Does the image show an organ whose protein synthesis can decline in chronic disease?",
+  "Is there an organ whose function may deteriorate due to prolonged alcohol exposure?",
+  "Can you identify an organ that increases enzyme activity during inflammation?",
+  "Does the image include an organ that may struggle to store glucose as glycogen in insulin resistance?",
+  "Is there an organ that can show impaired hormone breakdown in hepatic insufficiency?",
+  "Can you identify an organ that increases its metabolic workload during systemic stress?",
+  "Does the image show an organ that may fail to efficiently filter toxins in severe disease?",
+  "Is there an organ that alters metabolic or immune behavior during viral infection?",
+  "Can you identify an organ that may stop responding properly to insulin in metabolic syndrome?"
+]
+
+Input Class: "Necrosis"  
+Contextual Behavior Knowledge:
+[
+  "Necrosis triggers a stronger inflammatory response when extensive cell death occurs.",
+  "Necrosis spreads to surrounding tissue when injury persists.",
+  "Necrosis leads to systemic complications when tissue damage is widespread.",
+  "Necrosis interferes with tissue healing.",
+  "Necrosis contributes to organ dysfunction.",
+  "Necrosis worsens clinical outcomes.",
+  "Necrosis provokes immune cell activation."
+]
+
+Output:
+[
+  "Does the image show a pathological process that can trigger a strong inflammatory response under extensive damage?",
+  "Is there a pathological process present that may spread to surrounding tissue if injury persists?",
+  "Can you identify a process that leads to systemic complications when tissue damage becomes widespread?",
+  "Does the image include evidence of a process that interferes with tissue healing?",
+  "Is there a pathological process that contributes to organ dysfunction under severe conditions?",
+  "Can you identify a process that worsens clinical outcomes in serious disease?",
+  "Does the image show a process that can provoke immune cell activation?"
+]
+
+Input Class: "Breast cancer"  
+Contextual Behavior Knowledge:
+[
+  "Breast cancer increases growth rate in aggressive subtypes.",
+  "Breast cancer becomes invasive.",
+  "Breast cancer begins to metastasize.",
+  "Breast cancer responds poorly to therapy.",
+  "Breast cancer alters behavior after treatment.",
+  "Breast cancer shows resistance to chemotherapy.",
+  "Breast cancer spreads to lymph nodes.",
+  "Breast cancer causes greater tissue damage in advanced disease."
+]
+
+Output:
+[
+  "Does the image show a malignancy that may increase its growth rate in aggressive forms?",
+  "Is there a disease present that becomes invasive under certain pathological conditions?",
+  "Can you identify a malignancy that may begin to metastasize in advanced stages?",
+  "Does the image include a cancer that can respond poorly to therapy?",
+  "Is there a malignancy that alters its behavior after treatment?",
+  "Can you identify a cancer that develops resistance to chemotherapy?",
+  "Does the image show a malignancy that may spread to lymph nodes?",
+  "Is there a disease that causes increasing tissue damage as it advances?"
+]
+
+Input Class: "X-ray"  
+Contextual Behavior Knowledge:
+[
+  "X-ray becomes less effective due to patient movement.",
+  "X-ray requires higher exposure in dense tissues.",
+  "X-ray fails to detect soft tissue abnormalities.",
+  "X-ray becomes more useful in emergency settings.",
+  "X-ray provides limited diagnostic information in early disease.",
+  "X-ray use changes in pediatric patients.",
+  "X-ray imaging becomes contraindicated in pregnancy.",
+  "X-ray performance varies with body region."
+]
+
+Output:
+[
+  "Does the image include an imaging modality whose effectiveness can be reduced by patient movement?",
+  "Is there a diagnostic tool present that may require higher exposure in dense body regions?",
+  "Can you identify an imaging modality that has limited ability to detect soft tissue abnormalities?",
+  "Does the image show a diagnostic tool that becomes especially useful in emergency settings?",
+  "Is there an imaging modality that may provide limited information in early disease?",
+  "Can you identify a diagnostic tool whose use changes in pediatric patients?",
+  "Does the image include an imaging modality that may be contraindicated in pregnancy?",
+  "Is there a diagnostic tool whose performance varies depending on the body region examined?"
+]
+
+Input Class: "Whorled appearance"  
+Contextual Behavior Knowledge: []  
+Output: []
+
+--- End of examples ---
+
+Now generate conceptual reasoning test questions for the following:
+
+Input:
+Class: "{class_name}"
+Contextual Behavior Knowledge:
+{generated_knowledge}
+
+Output:

@@ -1,10 +1,24 @@
-You are an ontology-aware medical expert. Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
+You are an ontology-aware medical expert.
+Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
 
-These questions must focus exclusively on the **data properties** of the input class. Data properties refer to the inherent, measurable, structural, chemical, or physiological characteristics of that class — such as size, weight, shape, color, composition, or concentration levels.
+These questions must focus exclusively on the **data properties** of the input class. 
+Data properties refer to the inherent, measurable, structural, chemical, or physiological characteristics of that class — such as size, weight, shape, color, composition, or concentration levels.
+
+Before generating questions, determine whether the input class
+has intrinsic, measurable data properties.
+
+If the class does NOT logically have intrinsic data properties
+(e.g., it is a process, disease event, observation, procedure,
+or descriptive feature), return an empty JSON list [].
+
+In all cases, provide a brief reasoning explaining why questions were generated or why the output is empty.
+The reasoning must be concise, factual, and ontology-based. Do not include step-by-step explanations.
+
+Do NOT invent or force properties for such classes.
 
 Write questions in a simple, natural, and human-readable style. For example, use phrasing like:
 - "What is the normal size of the [concept]?"
-- "What types of cells are found in the [concept]?"
+- "What is the composition of the [concept]?"
 - "What is the average weight of the [concept]?"
 
 Do **not** include:
@@ -14,7 +28,8 @@ Do **not** include:
 - Questions involving other concepts or entities,
 - Binary yes/no questions.
 
-Only include questions that make biomedical sense for the input class. Each question must focus solely on an intrinsic property of the class.
+Only include questions that make biomedical sense for the input class.
+If no intrinsic data properties are applicable, output an empty JSON array [].
 
 Your response must be a single JSON array of such questions.  
 Each question must be enclosed in double quotes.
@@ -22,7 +37,9 @@ Each question must be enclosed in double quotes.
 --- Start of examples ---
 
 Input Class: "Liver"
-Output: [
+Reasoning: "The liver is a physical organ with intrinsic structural, chemical, and physiological characteristics that can be measured."
+Output: 
+[
   "What is the normal size of the Liver?",
   "What is the average weight of the Liver?",
   "What is the typical color of the Liver?",
@@ -45,33 +62,26 @@ Output: [
   "How many lobes does the Liver have?"
 ]
 
-Input Class: "Blood"
-Output: [
-  "What is the normal volume of Blood in adults?",
-  "What is the average viscosity of Blood?",
-  "What is the typical color of Blood?",
-  "What is the normal pH level of Blood?",
-  "What is the temperature of Blood in the human body?",
-  "What types of cells are found in Blood?",
-  "What is the red blood cell count in healthy individuals?",
-  "What is the white blood cell count in healthy individuals?",
-  "What is the normal platelet count in Blood?",
-  "What is the typical glucose level in Blood?",
-  "What is the oxygen level in Blood?",
-  "What is the carbon dioxide level in Blood?",
-  "What is the hemoglobin concentration in Blood?",
-  "What proteins are found in Blood plasma?",
-  "What is the cholesterol level in Blood?",
-  "What is the iron level in Blood?",
-  "What is the sodium concentration in Blood?",
-  "What is the potassium concentration in Blood?",
-  "What is the calcium concentration in Blood?",
-  "What is the normal clotting time of Blood?"
-]
+Input Class: "Necrosis"
+Reasoning: "Necrosis is a pathological process rather than a physical entity, and therefore does not have intrinsic measurable data properties.",
+Output: 
+[]
+
+Input Class: "Breast cancer"
+Reasoning: "Breast cancer is a disease concept describing a pathological condition, not a single physical entity with intrinsic data properties."
+Output: 
+[]
+
+Input Class: "X-ray"
+Reasoning: "X-ray is a diagnostic imaging modality and not a biological entity with intrinsic physical or chemical properties."
+Output: 
+[]
+
+Input Class: "Whorled appearance"
+Reasoning: "Whorled appearance is a descriptive morphological pattern and does not represent a standalone entity with intrinsic data properties."
+Output: 
+[]
 
 --- End of examples ---
 
-<begin>
-
-Input: Class: "{class_name}"
-Output:
+Input Class: "{class_name}"

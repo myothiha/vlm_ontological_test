@@ -1,57 +1,99 @@
-You are an ontology-aware medical expert. Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
+You are an ontology-aware medical expert. 
+Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
 
-These questions must focus exclusively on the **relational and structural hierarchy** of the input class. This includes how the class is connected to other parts of the body, what larger system it belongs to, what it contains, or what it interacts with anatomically.
+These questions must focus exclusively on the **relational knowledge** of the input class.
 
-Write the questions in a clear and natural style. For example:
-- "What organ system does the [concept] belong to?"
-- "What parts make up the [concept]?"
-- "What structures are connected to the [concept]?"
+Relational knowledge refers to how the class is connected to, associated with, contained within, affects, is affected by,
+or is used in relation to other biomedical entities in healthcare contexts.
+This includes anatomical, pathological, clinical, diagnostic, or structural relationships.
+
+Before generating questions, determine whether the input class
+has meaningful healthcare-related relationships with other biomedical entities.
+
+If the class does NOT logically have meaningful biomedical or healthcare-related relations
+(e.g., it is a purely descriptive visual pattern),
+return an empty JSON list [].
+
+Do NOT invent or force relations for such classes.
+
+Write questions in a simple, natural, and human-readable style. For example:
+- "What structures is the [concept] connected to?"
+- "What entities are affected by the [concept]?"
+- "What is the relationship between the [concept] and other biomedical entities?"
 
 Do **not** include:
 - Static data properties (e.g., size, weight, color, shape),
-- Functional roles (e.g., what it does),
+- Functional roles or behaviors (e.g., what the class does),
+- Hierarchical classifications unless they express a concrete biomedical relationship,
 - Binary yes/no questions,
-- Abstract or overly detailed phrasing.
+- Abstract, speculative, or overly detailed phrasing.
 
-Only include questions that make biomedical sense for the input class. Each question must be short, clear, and focused on how the class is structurally or anatomically related to other entities.
+Only include questions that make biomedical or healthcare sense for the input class
+and that focus on **relationships with other entities**, not intrinsic attributes or actions.
+If no relational questions are applicable, output an empty JSON array [].
 
-Your response must be a single JSON array of such questions.  
+Your response must be a single JSON array of such questions.
 Each question must be enclosed in double quotes.
 
 --- Start of examples ---
 
 Input Class: "Liver"
-Output: [
+Reasoning: "The liver is an anatomical organ with extensive structural and functional relationships to other organs, vessels, and systems."
+Output:
+[
   "What organ system does the Liver belong to?",
   "What organs are located near the Liver?",
   "What blood vessels are connected to the Liver?",
   "What ducts are linked to the Liver?",
-  "What parts make up the Liver?",
-  "What types of cells are part of the Liver?",
-  "What region of the body contains the Liver?",
-  "What organs interact with the Liver in digestion?",
+  "What anatomical regions contain the Liver?",
+  "What organs interact with the Liver during digestion?",
   "What is the relationship between the Liver and the gallbladder?",
-  "What anatomical structures support the Liver?"
+  "What structures support or anchor the Liver?",
+  "What tissues supply blood to the Liver?",
+  "What systems are influenced by the Liver?"
 ]
 
-
-Input Class: "Blood"
-Output: [
-  "What organ system does Blood belong to?",
-  "What organs produce components of Blood?",
-  "What cells are found in Blood?",
-  "What vessels carry Blood through the body?",
-  "What organs receive Blood supply?",
-  "What is the relationship between Blood and bone marrow?",
-  "What tissues interact with Blood during gas exchange?",
-  "What systems depend on Blood to function?",
-  "What types of plasma are found in Blood?",
-  "What structures transport Blood between the heart and lungs?"
+Input Class: "Necrosis"
+Reasoning: "Necrosis is a pathological process that involves relationships with affected tissues, surrounding cells, and inflammatory responses."
+Output:
+[
+  "What tissues are affected by Necrosis?",
+  "What is the relationship between Necrosis and inflammation?",
+  "How does Necrosis relate to surrounding viable tissue?",
+  "What organs can be impacted by Necrosis?",
+  "What pathological conditions are associated with Necrosis?",
+  "What immune cells interact with Necrosis sites?"
 ]
+
+Input Class: "Breast cancer"
+Reasoning: "Breast cancer is a disease entity with important anatomical, pathological, and clinical relationships to tissues and organs."  
+Output:
+[
+  "What tissues are affected by Breast cancer?",
+  "What is the relationship between Breast cancer and surrounding breast tissue?",
+  "What organs are common sites of Breast cancer metastasis?",
+  "What lymph nodes are associated with Breast cancer spread?",
+  "What is the relationship between Breast cancer and the lymphatic system?",
+  "What organs are affected by advanced Breast cancer?"
+]
+
+Input Class: "X-ray"
+Reasoning: "X-ray is a diagnostic modality with clinically meaningful relationships to anatomical structures, diseases, and diagnostic workflows."  
+Output:
+[
+  "What anatomical structures are commonly examined using X-ray?",
+  "What diseases or injuries are evaluated with X-ray?",
+  "What is the relationship between X-ray and bone imaging?",
+  "What body regions are frequently assessed using X-ray?",
+  "What clinical conditions require X-ray examination?",
+  "What diagnostic workflows involve X-ray imaging?"
+]
+
+Input Class: "Whorled appearance"
+Reasoning: "Whorled appearance is a descriptive morphological pattern and does not itself have independent biomedical relationships."  
+Output:
+[]
 
 --- End of examples ---
 
-<begin>
-
-Input: Class: "{class_name}"
-Output:
+Input Class: "{class_name}"

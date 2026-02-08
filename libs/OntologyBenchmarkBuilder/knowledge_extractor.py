@@ -16,11 +16,30 @@ class KnowledgeExtractor:
         """
         self.llm = llm
         self.result_extract_func = result_extract_func
-        self.manager = PromptTemplateManager(prompt_dir=prompt_dir)
+        self.prompt_template_dir = prompt_templates
         self.output_dir = output_dir
         os.makedirs(self.output_dir, exist_ok=True)
         self.output_filename = os.path.join(self.output_dir, "02_ontological_knowledge_one_shot.csv")
         self.prompt_template = prompt_template
+
+    def _setup_templates(self):
+        """
+        Loads the prompt templates from the specified directory.
+        """
+        print("Setting up prompt templates...", self.prompt_template_dir)
+        prompt_dir = os.path.join("", self.prompt_template_dir)
+        print("Prompt Directory:", prompt_dir)
+        self.manager = PromptTemplateManager(prompt_dir=prompt_dir)
+
+        self.prompt_templates = []
+        
+        # load templates files.txt files from the prompt directory.
+        for filename in os.listdir(prompt_dir):
+            if filename.endswith(".txt"):
+                template_name = filename[:-4]
+                self.prompt_templates.append(template_name)
+
+        print(f"Loaded {len(self.prompt_templates)} prompt templates from {self.prompt_template_dir}")
 
     def extract_knowledge(self, queries_csv):
         """

@@ -67,7 +67,11 @@ class OllamaWrapper:
                         yield json.loads(line)["response"]
             return stream_generator()
         else:
-            return response.json()["response"]
+            try:
+                return response.json()["response"]
+            except Exception as e:
+                print("Error in response:", response)
+                return ""
         
     def chat(self, prompt: str, stream: bool = False, **kwargs):
 
@@ -236,7 +240,7 @@ if __name__ == "__main__":
     print("\nMultimodal generation:")
     multimodal_response = ollama.generate_multimodal(
         prompt="Describe the main object and its condition.",
-        images="example.jpg",
+        images=["example.jpg"],
         options={"temperature": 0.1}
     )
     print(multimodal_response)

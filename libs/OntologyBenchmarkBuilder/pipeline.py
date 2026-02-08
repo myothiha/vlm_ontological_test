@@ -47,6 +47,10 @@ class OntoBenchPipeline:
             prompt_template=vlm_reasoning_prompt_template,
         )
 
+    def generate_knowledge(self, concept, knowledge_questions):
+        knowledge = self.knowledge_extractor.extract_knowledge_for_single_concept(concept, knowledge_questions)
+        return knowledge
+
     def __call__(self, concept):
         knowledge_questions = self.kq_generator.generate_questions_for_single_concept(concept)
         knowledge = self.knowledge_extractor.extract_knowledge_for_single_concept(concept, knowledge_questions)

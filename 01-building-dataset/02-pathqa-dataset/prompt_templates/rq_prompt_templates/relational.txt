@@ -1,0 +1,149 @@
+Instruction:
+You are an ontology-aware AI medical expert designed to generate
+**conceptual reasoning test questions** for evaluating a Vision-Language Model (VLM).
+
+You will be given:
+- The name of a biomedical class, and
+- A list of **generated factual knowledge statements** describing the
+  **relational knowledge** of that class.
+
+Relational knowledge refers to how the class is connected to other biomedical entities,
+including anatomical containment, adjacency, interaction, connectivity,
+association with systems, pathological involvement, or participation in
+diagnostic or clinical workflows.
+
+Assume the input is an image that may contain multiple biomedical entities,
+including a possible instance of the specified class.
+
+IMPORTANT ASSUMPTIONS:
+- The image may NOT explicitly show all related entities described in the knowledge.
+- Do NOT assume that a specific relationship is visible in the image.
+- Questions must test whether the VLM understands **what kinds of relationships an entity of this type is known to have**,
+  not whether a particular relationship is currently observable.
+
+IMPLICIT REFERENCE POLICY (ONTOLOGY-GUIDED, ADAPTIVE):
+When referring to the target class implicitly, you SHOULD use a
+**biomedically appropriate ontological supertype or role** whenever possible,
+and adapt when the class does not clearly fit a predefined category.
+
+Use the following as **preferred defaults**, adapting when necessary:
+- Anatomical structure → **organ**
+- Biological tissue or fluid → **tissue** or **biological fluid**
+- Cell or cellular component → **cell**
+- Disease entity → **disease**, **tumor**, or **malignancy**
+- Pathological process → **pathological process**
+- Diagnostic or clinical tool → **imaging modality**, **diagnostic imaging technique**, or **diagnostic tool**
+
+Avoid vague placeholders such as **“object”** or **“thing”**
+unless no medically meaningful alternative is reasonable.
+
+If the provided relational knowledge list is empty,
+return an empty JSON list [] and do not generate any questions.
+
+Your task is to generate reasoning-based test questions that:
+- Can be answered using **visual identification of an appropriate biomedical entity**
+  together with **conceptual knowledge**
+- Refer to the target entity **implicitly**, without naming the class directly
+- Follow the **ontology-guided implicit reference policy**, adapting when necessary
+- Are explicitly grounded in the provided relational knowledge
+- Focus exclusively on **relationships** (e.g., part-of, connected-to, interacts-with, associated-with)
+- Do NOT introduce intrinsic properties, functions, or behaviors
+- Avoid explanations, answers, or meta-commentary
+
+Return your output as a JSON array containing **only the list of questions**.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Conceptual Knowledge:
+[
+  "The liver belongs to the digestive system [digestive system].",
+  "Organs located near the liver include the stomach, gallbladder, pancreas, and right kidney [stomach, gallbladder, pancreas, right kidney].",
+  "Blood vessels connected to the liver include the portal vein, hepatic artery, and hepatic veins [portal vein, hepatic artery, hepatic veins].",
+  "Ducts linked to the liver include the hepatic ducts and bile ducts [hepatic ducts, bile ducts].",
+  "The liver is located in the right upper quadrant of the abdominal cavity [right upper quadrant, abdomen].",
+  "The liver interacts with the gallbladder, intestine, and pancreas during digestion [gallbladder, intestine, pancreas].",
+  "The liver is supported by ligaments such as the falciform ligament and coronary ligaments [falciform ligament, coronary ligament].",
+  "Blood is supplied to the liver by the portal vein and hepatic artery [portal vein, hepatic artery].",
+  "The liver influences the digestive, metabolic, and immune systems [digestive system, metabolic system, immune system]."
+]
+
+Output:
+[
+  "Does the image show an organ that is known to belong to the digestive system?",
+  "Is there an organ present that is typically located near the stomach and gallbladder?",
+  "Can you identify an organ that is known to be connected to major blood vessels such as the portal vein and hepatic artery?",
+  "Does the image contain an organ that is known to be linked to bile ducts?",
+  "Is there an organ that would normally be located in the right upper region of the abdominal cavity?",
+  "Can you see an organ that is known to interact with the gallbladder and pancreas?",
+  "Does the image include an organ that is typically supported by anatomical ligaments?",
+  "Is there an organ present that is known to receive blood from both venous and arterial sources?",
+  "Can you identify an organ that is known to influence multiple body systems such as digestion and metabolism?"
+]
+
+Input Class: "Necrosis"
+Conceptual Knowledge:
+[
+  "Necrosis affects tissues by causing irreversible cell death in the affected area [affected tissues].",
+  "Necrosis is closely associated with inflammation [inflammation].",
+  "Necrosis damages surrounding viable tissue [surrounding tissue damage].",
+  "Organs such as the heart, brain, kidney, and liver can be impacted by necrosis [heart, brain, kidney, liver].",
+  "Immune cells such as neutrophils and macrophages interact with necrotic tissue [neutrophils, macrophages]."
+]
+
+Output:
+[
+  "Does the image show tissue changes consistent with a pathological process that causes irreversible cell death?",
+  "Is there evidence of a pathological process that is known to be closely associated with inflammation?",
+  "Can you identify tissue that may be affected by a process known to damage surrounding viable tissue?",
+  "Does the image include an organ that is commonly impacted by a pathological process such as necrosis?",
+  "Is there evidence of interaction between damaged tissue and immune cells such as neutrophils or macrophages?"
+]
+
+Input Class: "Breast cancer"  
+Conceptual Knowledge:
+[
+  "Breast cancer affects breast epithelial tissue and surrounding stromal tissue [breast epithelium, stroma].",
+  "Common sites of breast cancer metastasis include bone, lung, liver, and brain [bone, lung, liver, brain].",
+  "Breast cancer spreads through the lymphatic system to regional lymph nodes [lymphatic system]."
+]
+
+Output:
+[
+  "Does the image show a disease that primarily affects breast epithelial tissue?",
+  "Is there evidence of a malignancy that is known to invade surrounding stromal tissue?",
+  "Can you identify signs of a disease that commonly spreads to organs such as bone or liver?",
+  "Does the image include features consistent with spread through the lymphatic system?"
+]
+
+Input Class: "X-ray"  
+Conceptual Knowledge:
+[
+  "X-ray is commonly used to examine bones, lungs, chest, and joints [bones, lungs, chest, joints].",
+  "Diseases and injuries evaluated with X-ray include fractures and pneumonia [fractures, pneumonia].",
+  "X-ray is closely related to bone imaging [bone imaging].",
+  "Diagnostic workflows involving X-ray include initial imaging assessment and follow-up monitoring [diagnostic workflow]."
+]
+
+Output:
+[
+  "Does the image include an imaging modality that is commonly used to examine bones and joints?",
+  "Is there a diagnostic imaging technique present that is often used to evaluate fractures?",
+  "Can you identify an imaging modality that is closely associated with bone imaging?",
+  "Does the image show a diagnostic tool that is typically part of an initial imaging workflow?"
+]
+
+Input Class: "Whorled appearance"  
+Conceptual Knowledge: []  
+Output: []
+
+--- End of examples ---
+
+Now generate conceptual reasoning test questions for the following:
+
+Input:
+Class: "{class_name}"
+Conceptual Knowledge:
+{generated_knowledge}
+
+Output:

@@ -1,0 +1,149 @@
+Instruction:
+You are an ontology-aware AI medical expert designed to generate
+**conceptual reasoning test questions** for evaluating a Vision-Language Model (VLM).
+
+You will be given:
+- The name of a biomedical class, and
+- A list of **functional knowledge statements** describing
+  the healthcare-related functions, roles, or biological behaviors
+  performed by that class.
+
+Functions include physiological roles, pathological effects,
+diagnostic uses, clinical roles, or healthcare-related activities
+(e.g., metabolism, detoxification, disease progression, diagnosis, monitoring).
+
+Assume the input is an image that may contain multiple biomedical entities,
+including a possible instance of the specified class.
+
+IMPORTANT ASSUMPTIONS:
+- The image may NOT show the function actively occurring.
+- Do NOT assume that the function is visually observable in the image.
+- Questions must test whether the VLM understands
+  **what kinds of functions an entity of this type is known to perform**,
+  not whether the function is currently happening.
+
+IMPLICIT REFERENCE POLICY (ONTOLOGY-GUIDED, ADAPTIVE):
+When referring to the target entity implicitly, use a
+**biomedically appropriate ontological role or supertype**,
+adapting when necessary.
+
+Preferred defaults (adapt as needed):
+- Anatomical structure → **organ**
+- Tissue or fluid → **tissue** or **biological fluid**
+- Disease entity → **disease**, **tumor**, or **malignancy**
+- Pathological process → **pathological process**
+- Diagnostic or clinical tool → **imaging modality**, **diagnostic tool**
+
+Avoid generic placeholders such as **“object”** or **“thing”**
+unless no medically meaningful alternative exists.
+
+If the provided functional knowledge list is empty,
+return an empty JSON list [] and do not generate any questions.
+
+Your task is to generate reasoning-based test questions that:
+- Can be answered using **visual identification of an appropriate biomedical entity**
+  together with **conceptual knowledge**
+- Refer to the target entity **implicitly**, without naming the class directly
+- Are explicitly grounded in the provided functional knowledge
+- Focus exclusively on **what the entity is known to do or be used for**
+- Do NOT ask whether the function is occurring in the image
+- Do NOT include intrinsic properties, contextual changes, or relational structure
+- Avoid explanations, answers, or meta-commentary
+
+Each question should probe **functional understanding**, for example:
+- “Does the image show an organ that performs detoxification?”
+- “Is there a disease present that is known to spread through lymphatic vessels?”
+- “Can you identify an imaging modality used to detect fractures?”
+
+Return your output as a JSON array containing **only the list of questions**.
+
+--- Start of examples ---
+
+Input Class: "Liver"  
+Functional Knowledge:
+[
+  "The liver performs essential functions including metabolism, detoxification, bile production, and nutrient storage.",
+  "The liver detoxifies harmful substances through enzymatic pathways.",
+  "The liver contributes to digestion by producing bile.",
+  "The liver regulates blood glucose levels.",
+  "The liver plays a role in protein synthesis and blood clotting.",
+  "The liver exhibits immune-related behaviors through resident immune cells."
+]
+
+Output:
+[
+  "Does the image show an organ that performs essential metabolic and detoxification functions?",
+  "Is there an organ present that is known to detoxify harmful substances through enzymatic pathways?",
+  "Can you identify an organ that contributes to digestion by producing bile?",
+  "Does the image include an organ that regulates blood glucose levels?",
+  "Is there an organ that plays a role in protein synthesis and blood clotting?",
+  "Can you identify an organ that participates in immune surveillance within the bloodstream?"
+]
+
+Input Class: "Necrosis"  
+Functional Knowledge:
+[
+  "Necrosis causes irreversible cell death and tissue injury.",
+  "Necrosis contributes to disease progression and organ dysfunction.",
+  "Necrosis triggers inflammatory responses.",
+  "Necrosis influences healing outcomes."
+]
+
+Output:
+[
+  "Does the image show evidence of a pathological process that causes irreversible cell death?",
+  "Is there a pathological process present that contributes to progressive tissue damage?",
+  "Can you identify a process that is known to trigger inflammation?",
+  "Does the image include tissue changes consistent with a process that interferes with healing?"
+]
+
+Input Class: "Breast cancer"  
+Functional Knowledge:
+[
+  "Breast cancer grows through uncontrolled cell proliferation.",
+  "Breast cancer invades surrounding tissues.",
+  "Breast cancer spreads through lymphatic and blood vessels.",
+  "Breast cancer disrupts normal tissue function."
+]
+
+Output:
+[
+  "Does the image show a malignancy characterized by uncontrolled cell proliferation?",
+  "Is there a disease present that is known to invade surrounding tissues?",
+  "Can you identify a malignancy that spreads through lymphatic or blood vessels?",
+  "Does the image include features consistent with a disease that disrupts normal tissue architecture?"
+]
+
+Input Class: "X-ray"  
+Functional Knowledge:
+[
+  "X-ray provides diagnostic imaging using ionizing radiation.",
+  "X-ray is used to detect bone fractures.",
+  "X-ray helps identify lung pathology.",
+  "X-ray supports clinical decision-making and disease monitoring."
+]
+
+Output:
+[
+  "Does the image include a diagnostic imaging modality that uses ionizing radiation?",
+  "Is there an imaging technique present that is commonly used to detect bone fractures?",
+  "Can you identify a diagnostic tool that helps evaluate lung pathology?",
+  "Does the image show an imaging modality used to support clinical decision-making?"
+]
+
+Input Class: "Whorled appearance"  
+Functional Knowledge: []  
+Output: []
+
+--- End of examples ---
+
+Now generate conceptual reasoning test questions for the following:
+
+<begin>
+
+Input:
+Class: "{class_name}"
+Functional Knowledge:
+{generated_knowledge}
+
+Output:

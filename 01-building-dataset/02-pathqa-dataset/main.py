@@ -14,10 +14,14 @@ from libs.dataset_loader.dataset import Dataset
 from libs.llm_loader.llm_wrapper.llm_wrapper import LLMWrapper
 from libs.llm_loader.llm_wrapper.gpt_llm_wrapper import GPTLLMWrapper
 from libs.llm_loader.ollama.ollama_wrapper import OllamaWrapper
-from libs.utils import extract_list_from_gpt, extract_list_from_ollama_models, extract_list_from_hf_models
+from libs.utils import extract_list_from_gpt, extract_list_from_ollama_models, extract_list_from_hf_models, setup_logger
 
 # Load PathVQA dataset
 vqa_loader = PathVQADatasetLoader(split="train")
+
+# Setup logger
+logger = setup_logger("Main", "results/main.log")
+logger.info("Starting dataset building...")
 
 # Load environment variables
 load_dotenv()
@@ -45,7 +49,7 @@ medical_concept_classifier = MedicalConceptClassifier(OllamaWrapper(model="gpt-o
 unique_concepts = set()
 
 # dataset = vqa_loader.get_all()
-dataset = vqa_loader.sample(n=100)
+dataset = vqa_loader.sample(n=1)
 
 benchmarkBuilder = BenchmarkBuilder(
     dataset=dataset,
@@ -56,8 +60,10 @@ benchmarkBuilder = BenchmarkBuilder(
     medical_concept_classifier=medical_concept_classifier,
     output_dir="results",
     knowledge_question_prompt_templates="prompt_templates/kq_prompt_templates",
-    generate_knowledge_prompt_template="02_generate_knowledge_prompt1",
-    vlm_reasoning_prompt_template="03_vlm_reasoning_questions_one_shot",
+    # generate_knowledge_prompt_template="02_generate_knowledge_prompt1",
+    # vlm_reasoning_prompt_template="03_vlm_reasoning_questions_one_shot",
+    generate_knowledge_prompt_template="prompt_templates/ck_prompt_templates",
+    vlm_reasoning_prompt_template="prompt_templates/rq_prompt_templates",
 )
 
 vlm_reasoning_questions_csv = benchmarkBuilder.build()

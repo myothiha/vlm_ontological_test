@@ -10,7 +10,7 @@ from libs.OntologyBenchmarkBuilder.knowledge_question_generator import KQGenerat
 from libs.OntologyBenchmarkBuilder.knowledge_extractor import KnowledgeExtractor
 from libs.OntologyBenchmarkBuilder.reasoning_question_generator import ReasoningQuestionGenerator
 from libs.concept_extractor.medical_concept_classifier import MedicalConceptClassifier
-from libs.utils import clean_special_chars
+from libs.utils import clean_special_chars, setup_logger
 
 class BenchmarkBuilder:
     def __init__(self,dataset: Dataset, llm, result_extract_func, knowledge_question_prompt_templates, generate_knowledge_prompt_template, vlm_reasoning_prompt_template, concept_extractor: AbstractConceptExtractor, medical_concept_classifier: MedicalConceptClassifier, required_concept_extraction = False, output_dir: str = "results"):
@@ -25,6 +25,9 @@ class BenchmarkBuilder:
         self.prompt2 = generate_knowledge_prompt_template
         self.prompt3 = vlm_reasoning_prompt_template
         os.makedirs(self.output_dir, exist_ok=True)
+        
+        # Setup logger
+        self.logger = setup_logger("BenchmarkBuilder", os.path.join(self.output_dir, "benchmark_builder.log"))
     
     def setConceptExtractor(self, concept_extractor: AbstractConceptExtractor):
         """
@@ -37,20 +40,20 @@ class BenchmarkBuilder:
 
     def build(self):
         # Placeholder for building the benchmark
-        print(f"Building benchmark....")
+        self.logger.info(f"Building benchmark....")
         
-        print("################################################################################")
-        print("########################## Step 0: Concept Extractions #########################")
-        print("################################################################################")
+        self.logger.info("################################################################################")
+        self.logger.info("########################## Step 0: Concept Extractions #########################")
+        self.logger.info("################################################################################")
         
         # Step 0: Extract concepts if required
         concepts = self.get_concepts()
-        print(f"Extracted {len(concepts)} unique concepts.")
+        self.logger.info(f"Extracted {len(concepts)} unique concepts.")
         # print(f"Concepts: {concepts}")
 
-        print("##########################################################################################")
-        print("########################## Step 1: Knowledge Question Generation #########################")
-        print("##########################################################################################")
+        self.logger.info("##########################################################################################")
+        self.logger.info("########################## Step 1: Knowledge Question Generation #########################")
+        self.logger.info("##########################################################################################")
         
         # Step 1: Generate knowledge questions
         kq_generator = KQGenerator(
@@ -62,33 +65,34 @@ class BenchmarkBuilder:
         )
         query_csv = kq_generator.generate_questions(concepts=concepts)
         
-        print("##########################################################################################")
-        print("########################## Step 2: Knowledge Extraction from LLM #########################")
-        print("##########################################################################################")
+        self.logger.info("##########################################################################################")
+        self.logger.info("########################## Step 2: Knowledge Extraction from LLM #########################")
+        self.logger.info("##########################################################################################")
 
         # Step 2: Extract ontological knowledge for each concept
         knowledge_extractor = KnowledgeExtractor(
             llm=self.llm,
             result_extract_func=self.result_extract_func,
-            prompt_dir="prompt_templates",
+            prompt_dir=self.prompt2,
             prompt_template=self.prompt2,
             output_dir=self.output_dir,
         )
         extracted_knowledge_csv = knowledge_extractor.extract_knowledge(queries_csv=query_csv)
         
         
-        print("##############################################################################################")
-        print("########################## Step 3: VLM Reasoning Question Generation #########################")
-        print("##############################################################################################")
-        # Step 3: Generate reasoning questions based on the extracted knowledge
-        reasoning_question_generator = ReasoningQuestionGenerator(
-            llm=self.llm,
-            result_extract_func=self.result_extract_func,
-            prompt_dir="prompt_templates",
-            prompt_template=self.prompt3,
-            output_dir=self.output_dir,
-        )
-        reasoning_question_csv = reasoning_question_generator.generate_reasoning_questions(extracted_knowledge_csv)
+        reasoning_question_csv = []
+        # print("##############################################################################################")
+        # print("########################## Step 3: VLM Reasoning Question Generation #########################")
+        # print("##############################################################################################")
+        # # Step 3: Generate reasoning questions based on the extracted knowledge
+        # reasoning_question_generator = ReasoningQuestionGenerator(
+        #     llm=self.llm,
+        #     result_extract_func=self.result_extract_func,
+        #     prompt_dir="prompt_templates",
+        #     prompt_template=self.prompt3,
+        #     output_dir=self.output_dir,
+        # )
+        # reasoning_question_csv = reasoning_question_generator.generate_reasoning_questions(extracted_knowledge_csv)
         
         return reasoning_question_csv
         
@@ -127,7 +131,7 @@ class BenchmarkBuilder:
                 raise ValueError("Concept extractor is not set.")
             
             # Extract unique concepts from the dataset
-            print("Extracting concepts...")
+            self.logger.info("Extracting concepts...")
             unique_concepts = set()
             for item in self.dataset:
                 text = item.get("text", "")
@@ -144,7 +148,7 @@ class BenchmarkBuilder:
                     for concept in concepts:
                         is_medical = self.medical_concept_classifier.classify(concept)
                         if not is_medical:
-                            print(f"{concept} is not a medical-concept. Removed.", flush=True)
+                            self.logger.info(f"{concept} is not a medical-concept. Removed.")
                             concepts.remove(concept)
                         # print(f"{concept}:", is_medical)
 
@@ -157,7 +161,7 @@ class BenchmarkBuilder:
                 unique_concepts.update(concepts)
 
                 # print("Input text:", text)
-                print(f"Extracted {len(concepts)}: {concepts}")
+                self.logger.info(f"Extracted {len(concepts)}: {concepts}")
 
             # Clean unique concepts: lower case, remove double space, remove special characters.
             unique_concepts = {clean_special_chars(concept) for concept in unique_concepts}
@@ -165,12 +169,13 @@ class BenchmarkBuilder:
 
             unique_concepts = list(sorted(unique_concepts))
             # Save unique concepts to disk
+            # Save unique concepts to disk
             with open(output_file, "w") as f:
-                print(output_file)
+                self.logger.info(output_file)
                 for concept in unique_concepts:
                     f.write(concept + "\n")
 
-            print(f"Extracted {len(unique_concepts)} unique concepts.")
+            self.logger.info(f"Extracted {len(unique_concepts)} unique concepts.")
 
             # table = "00_concept_extraction"
             # con = sqlite3.connect(output_log_db)
@@ -189,7 +194,7 @@ class BenchmarkBuilder:
 
             # Save unique concepts to disk
             with open(output_file, "w") as f:
-                print(output_file)
+                self.logger.info(output_file)
                 for concept in sorted(unique_concepts):
                     f.write(concept + "\n")
 

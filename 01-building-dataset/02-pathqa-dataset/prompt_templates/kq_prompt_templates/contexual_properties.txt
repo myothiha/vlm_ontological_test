@@ -1,19 +1,40 @@
-You are an ontology-aware medical expert. Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
+You are an ontology-aware medical expert. 
+Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
 
-These questions must focus exclusively on how the **properties** of the class — such as size, weight, color, composition, or measurable levels — **change in different conditions or situations**. For example, how the class appears or behaves physically during disease, stress, or other physiological states.
+These questions must focus exclusively on **contextual properties** of the input class.
 
-Situational property change questions describe:
-- When the class becomes enlarged, reduced, discolored, or altered,
-- When its composition or structure changes,
-- When its measurable characteristics (e.g., enzyme levels, pressure, cell count) increase or decrease.
+Contextual properties are **intrinsic, measurable properties of the class whose values change under different physiological, pathological, or clinical conditions**.
+This includes changes in size, weight, color, composition, structure, density, or measurable levels
+that occur due to disease, injury, stress, treatment, or other healthcare-related situations.
+
+Before generating questions, determine whether the input class
+has intrinsic properties that can meaningfully change under different conditions.
+
+If the class does NOT logically have intrinsic properties
+(e.g., it is a process, disease concept, diagnostic modality, procedure,
+or purely descriptive feature),
+return an empty JSON list [].
+
+Do NOT invent or force contextual properties for such classes.
+
+Write questions in a simple, natural, and human-readable style.
+Each question should clearly describe **a change in a physical or measurable property**
+and the **condition under which the change occurs**.
+
+For example:
+- "When does the [concept] become enlarged?"
+- "Under what conditions does the [concept] change color?"
+- "When does the [concept] show abnormal levels of [measurable property]?"
 
 Do **not** include:
-- Questions about what the class does (its function or behavior),
-- Relational or hierarchical questions (e.g., part-of, interacts with),
+- Questions about functions or behaviors (what the class does),
+- Relational or hierarchical questions (e.g., part-of, interacts-with),
+- Questions involving other concepts as independent entities,
 - Binary yes/no questions,
-- Abstract or overly complex phrasing.
+- Abstract or speculative phrasing.
 
-Each question should be short, specific, and clearly describe a physical or measurable change under certain conditions.
+Only include questions that make biomedical or healthcare sense for the input class.
+If no contextual property questions are applicable, output an empty JSON array [].
 
 Your response must be a single JSON array of such questions.  
 Each question must be enclosed in double quotes.
@@ -21,56 +42,47 @@ Each question must be enclosed in double quotes.
 --- Start of examples ---
 
 Input Class: "Liver"
-Output: [
+Reasoning: "The liver is a physical organ with intrinsic properties whose values change under various physiological and pathological conditions."
+Output:
+[
   "When does the Liver become enlarged?",
-  "When does the Liver become fatty?",
+  "When does the Liver accumulate excess fat?",
   "When does the Liver change color?",
-  "When does the Liver become heavier?",
-  "When does the Liver lose weight?",
-  "When does the Liver accumulate iron?",
   "When does the Liver become fibrotic?",
-  "When does the Liver become scarred?",
-  "When does the Liver change texture?",
-  "When does the Liver become nodular?",
+  "When does the Liver develop cirrhosis?",
   "When does the Liver show abnormal enzyme levels?",
   "When does the Liver swell?",
-  "When does the Liver shrink?",
-  "When does the Liver change density?",
-  "When does the Liver develop abnormal tissue?",
-  "When does the Liver appear yellow?",
-  "When does the Liver contain more fat?",
+  "When does the Liver shrink in size?",
+  "When does the Liver change texture?",
+  "When does the Liver become nodular?",
+  "When does the Liver accumulate excess iron?",
+  "When does the Liver show abnormal glucose levels?",
   "When does the Liver increase in volume?",
-  "When does the Liver develop unusual surface features?",
-  "When does the Liver show cellular changes?"
+  "When does the Liver develop abnormal tissue structure?",
+  "When does the Liver appear yellow?"
 ]
 
-Input Class: "Blood"
-Output: [
-  "When does Blood become more acidic?",
-  "When does Blood change color?",
-  "When does Blood volume increase?",
-  "When does Blood volume decrease?",
-  "When does Blood become more viscous?",
-  "When does Blood become thinner?",
-  "When does Blood show high glucose levels?",
-  "When does Blood contain more lipids?",
-  "When does Blood pressure rise?",
-  "When does Blood pressure drop?",
-  "When does Blood show high enzyme levels?",
-  "When does Blood have excess white cells?",
-  "When does Blood have low red cells?",
-  "When does Blood contain abnormal proteins?",
-  "When does Blood become more oxygen-rich?",
-  "When does Blood lose oxygen?",
-  "When does Blood show high cholesterol?",
-  "When does Blood clot more easily?",
-  "When does Blood lose platelets?",
-  "When does Blood show changes in cell shape?"
-]
+Input Class: "Necrosis"
+Reasoning: "Necrosis is a pathological process and does not have intrinsic measurable properties whose values vary with conditions."
+Output:
+[]
+
+Input Class: "Breast cancer"
+Reasoning: "Breast cancer is a disease concept rather than a single physical entity with intrinsic properties that can change in value."
+Output:
+[]
+
+Input Class: "X-ray"
+Reasoning: "X-ray is a diagnostic imaging modality and does not possess intrinsic physical or physiological properties as a biomedical entity."
+Output:
+[]
+
+Input Class: "Whorled appearance"
+Reasoning: "Whorled appearance is a descriptive morphological pattern and does not have intrinsic properties whose values change under conditions."
+Output:
+[]
 
 --- End of examples ---
 
-<begin>
 
-Input: Class: "{class_name}"
-Output:
+Input Class: "{class_name}"

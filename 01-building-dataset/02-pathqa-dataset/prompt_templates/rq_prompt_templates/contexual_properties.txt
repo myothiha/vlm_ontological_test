@@ -1,0 +1,128 @@
+Instruction:
+You are an ontology-aware AI medical expert designed to generate
+**conceptual reasoning test questions** for evaluating a Vision-Language Model (VLM).
+
+You will be given:
+- The name of a biomedical class, and
+- A list of knowledge statements regarding **contextual property** describing how
+  intrinsic, measurable properties of that class change under different
+  physiological, pathological, or clinical conditions.
+
+Contextual properties are **intrinsic characteristics** (e.g., size, volume,
+color, texture, structure, density, composition, concentration levels)
+whose values change depending on disease, injury, metabolic state,
+or other healthcare-related contexts.
+
+Assume the input is an image that may contain multiple biomedical entities,
+including a possible instance of the specified class.
+
+IMPORTANT ASSUMPTIONS:
+- The image may NOT depict the specific condition mentioned in the knowledge.
+- Do NOT assume that the described property change is visible in the image.
+- Questions must test whether the VLM understands
+  **what kinds of property changes an entity of this type can undergo**,
+  not whether a particular change is present.
+
+IMPLICIT REFERENCE POLICY (ONTOLOGY-GUIDED, ADAPTIVE):
+When referring to the target entity implicitly, use a
+**biomedically appropriate ontological role or supertype**, adapting when necessary.
+
+Preferred defaults (adapt as needed):
+- Anatomical structure → **organ**
+- Biological tissue or fluid → **tissue** or **biological fluid**
+- Disease entity → **disease**, **tumor**, or **malignancy**
+- Pathological process → **pathological process**
+- Diagnostic or clinical tool → **imaging modality** or **diagnostic tool**
+
+Avoid vague placeholders such as **“object”** or **“thing”**
+unless no medically meaningful alternative exists.
+
+If the provided contextual property knowledge list is empty,
+return an empty JSON list [] and do not generate any questions.
+
+Your task is to generate reasoning-based test questions that:
+- Can be answered using **visual identification of an appropriate biomedical entity**
+  together with **conceptual knowledge**
+- Refer to the target entity **implicitly**, without naming the class directly
+- Are explicitly grounded in the provided contextual property knowledge
+- Focus exclusively on **condition-dependent changes in intrinsic properties**
+- Do NOT ask whether the condition is present in the image
+- Do NOT include functional, behavioral, or relational reasoning
+- Avoid explanations, answers, or meta-commentary
+
+Each question should probe **conditional property understanding**, for example:
+- “Does the image show an organ that can become enlarged under certain diseases?”
+- “Is there a tissue that is known to change color in specific pathological states?”
+- “Can you identify an entity whose structure is known to alter in chronic disease?”
+
+Return your output as a JSON array containing **only the list of questions**.
+
+--- Start of examples ---
+
+Input Class: "Liver"  
+Contextual Property Knowledge:
+[
+  "The liver becomes enlarged in conditions such as hepatitis and fatty liver disease.",
+  "The liver accumulates excess fat during metabolic disorders such as obesity and chronic alcohol use.",
+  "The liver changes color in conditions like jaundice.",
+  "The liver becomes fibrotic in response to chronic injury.",
+  "The liver develops cirrhosis after long-standing chronic disease.",
+  "The liver shows abnormal enzyme levels during liver injury or inflammation.",
+  "The liver swells due to inflammation or congestion.",
+  "The liver shrinks in advanced cirrhosis.",
+  "The liver changes texture when fibrosis alters tissue architecture.",
+  "The liver becomes nodular in cirrhosis.",
+  "The liver accumulates excess iron in hemochromatosis.",
+  "The liver shows abnormal glucose levels in metabolic disorders.",
+  "The liver increases in volume during inflammation or fatty infiltration.",
+  "The liver develops abnormal tissue structure in chronic liver disease.",
+  "The liver appears yellow due to bilirubin accumulation."
+]
+
+Output:
+[
+  "Does the image show an organ that is known to become enlarged in conditions such as hepatitis or fatty liver disease?",
+  "Is there an organ present that can accumulate excess fat during metabolic disorders like obesity or chronic alcohol use?",
+  "Can you identify an organ that is known to change color in conditions associated with jaundice?",
+  "Does the image include an organ that can become fibrotic after chronic injury?",
+  "Is there an organ present that is known to develop cirrhosis after long-standing disease?",
+  "Can you identify an organ whose enzyme levels are known to become abnormal during injury or inflammation?",
+  "Does the image show an organ that may swell due to inflammation or congestion?",
+  "Is there an organ whose size is known to decrease in advanced stages of chronic disease?",
+  "Can you identify an organ whose texture is known to change when fibrosis alters tissue architecture?",
+  "Does the image include an organ that becomes nodular as a result of cirrhosis?",
+  "Is there an organ that is known to accumulate excess iron in certain genetic conditions?",
+  "Can you identify an organ whose glucose-related properties are altered in metabolic disorders?",
+  "Does the image show an organ that can increase in volume during inflammation or fatty infiltration?",
+  "Is there an organ whose internal structure is known to become abnormal in chronic disease?",
+  "Can you identify an organ that may appear yellow due to bilirubin accumulation?"
+]
+
+Input Class: "Necrosis"  
+Contextual Property Knowledge: []  
+Output: []
+
+Input Class: "Breast cancer"  
+Contextual Property Knowledge: []  
+Output: []
+
+Input Class: "X-ray"  
+Contextual Property Knowledge: []  
+Output: []
+
+Input Class: "Whorled appearance"  
+Contextual Property Knowledge: []  
+Output: []
+
+--- End of examples ---
+
+Now generate conceptual reasoning test questions for the following:
+
+<begin>
+
+Input:
+Class: "{class_name}"
+Contextual Property Knowledge:
+{generated_knowledge}
+
+Output:

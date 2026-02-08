@@ -1,0 +1,88 @@
+Instruction:
+You are an ontology-aware medical expert.
+You will be given the name of a biomedical class and a list of conceptual questions about it.
+
+The questions will be exclusively about the **contextual properties** of the input class.
+Contextual properties are intrinsic, measurable characteristics of the class whose values change under specific physiological, pathological, or clinical conditions
+(e.g., changes in size, color, composition, structure, density, or measurable levels).
+
+Your task is to generate short, factual answers to each question using correct biomedical knowledge.
+
+If the question list is empty, return an empty JSON list [] and do not attempt to generate answers.
+
+Each answer must:
+- Be a complete, standalone sentence.
+- Start naturally (e.g., “The liver becomes enlarged when …”, “Liver enzyme levels increase during …”).
+- Clearly describe **the condition** and **the resulting property change**.
+- Be concise, factual, and medically accurate.
+- Use natural English.
+- End with key conditions or property changes enclosed in square brackets, e.g., [alcoholic liver disease], [steatosis].
+
+Output formatting requirements:
+- Return your answers as a **JSON array of strings**, in the same order as the input questions.
+- Each sentence must be enclosed in **double quotes**.
+- Do **not** include explanations, reasoning, markdown, bullet points, or extra text.
+- Ensure strict JSON compliance: use only commas between items, and no trailing commas.
+- Do **not** restate the questions.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Questions: [
+  "When does the Liver become enlarged?",
+  "When does the Liver accumulate excess fat?",
+  "When does the Liver change color?",
+  "When does the Liver become fibrotic?",
+  "When does the Liver develop cirrhosis?",
+  "When does the Liver show abnormal enzyme levels?",
+  "When does the Liver swell?",
+  "When does the Liver shrink in size?",
+  "When does the Liver change texture?",
+  "When does the Liver become nodular?",
+  "When does the Liver accumulate excess iron?",
+  "When does the Liver show abnormal glucose levels?",
+  "When does the Liver increase in volume?",
+  "When does the Liver develop abnormal tissue structure?",
+  "When does the Liver appear yellow?"
+]
+
+Output: [
+  "The liver becomes enlarged in conditions such as hepatitis, fatty liver disease, and congestion [hepatitis, fatty liver disease].",
+  "The liver accumulates excess fat during metabolic disorders such as obesity and chronic alcohol use [hepatic steatosis].",
+  "The liver changes color in conditions like jaundice or advanced liver disease [jaundice].",
+  "The liver becomes fibrotic in response to chronic injury such as viral hepatitis or alcohol abuse [liver fibrosis].",
+  "The liver develops cirrhosis after long-standing chronic liver disease and fibrosis progression [cirrhosis].",
+  "The liver shows abnormal enzyme levels during liver injury or inflammation [elevated ALT, AST].",
+  "The liver swells due to inflammation, congestion, or acute injury [inflammation, congestion].",
+  "The liver shrinks in advanced cirrhosis due to extensive fibrosis and tissue loss [end-stage cirrhosis].",
+  "The liver changes texture when fibrosis or cirrhosis alters normal tissue architecture [fibrotic texture].",
+  "The liver becomes nodular in cirrhosis as regenerative nodules form [regenerative nodules].",
+  "The liver accumulates excess iron in conditions such as hemochromatosis [iron overload].",
+  "The liver shows abnormal glucose levels in metabolic disorders such as diabetes mellitus [altered glucose metabolism].",
+  "The liver increases in volume during inflammation or fatty infiltration [hepatomegaly].",
+  "The liver develops abnormal tissue structure in chronic liver diseases with fibrosis and cirrhosis [architectural distortion].",
+  "The liver appears yellow in jaundice due to bilirubin accumulation [bilirubin accumulation]."
+]
+
+Input Class: "Necrosis"
+Questions: []
+Output: []
+
+Input Class: "Breast cancer"
+Questions: []
+Output: []
+
+Input Class: "X-ray"
+Questions: []
+Output: []
+
+Input Class: "Whorled appearance"
+Questions: []
+Output: []
+
+--- End of examples ---
+
+Now perform the same task for "{class_name}":
+
+Input Class: "{class_name}"
+Questions: {questions_json}

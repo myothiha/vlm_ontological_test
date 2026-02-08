@@ -1,0 +1,122 @@
+Instruction:
+You are an ontology-aware medical expert.
+You will be given the name of a biomedical class and a list of conceptual questions about it.
+
+The questions will be exclusively about the **relational knowledge** of the input class.
+Relational knowledge refers to how the class is connected to, associated with, contained within, affects, or is affected by other biomedical entities in anatomical, pathological, clinical, or diagnostic contexts.
+
+Your task is to generate short, factual answers to each question using correct biomedical knowledge.
+
+If the question list is empty, return an empty JSON list [] and do not attempt to generate answers.
+
+Each answer must:
+- Be a complete, standalone sentence.
+- Start naturally (e.g., “The liver belongs to…”, “Necrosis affects…”, “X-ray is used to examine…”).
+- Be clear, factual, and medically accurate.
+- Use concise, natural English.
+- Focus strictly on **relationships with other entities**, not intrinsic properties or functions.
+- End with key related entities or relationships enclosed in square brackets, e.g., [portal vein, hepatic artery].
+
+Output formatting requirements:
+- Return your answers as a **JSON array of strings**, in the same order as the input questions.
+- Each sentence must be enclosed in **double quotes**.
+- Do **not** include explanations, reasoning, markdown, bullet points, or extra text.
+- Ensure strict JSON compliance: use only commas between items, and no trailing commas.
+- Do **not** restate the questions.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Questions: [
+  "What organ system does the Liver belong to?",
+  "What organs are located near the Liver?",
+  "What blood vessels are connected to the Liver?",
+  "What ducts are linked to the Liver?",
+  "What anatomical regions contain the Liver?",
+  "What organs interact with the Liver during digestion?",
+  "What is the relationship between the Liver and the gallbladder?",
+  "What structures support or anchor the Liver?",
+  "What tissues supply blood to the Liver?",
+  "What systems are influenced by the Liver?"
+]
+
+Output: [
+  "The liver belongs to the digestive system [digestive system].",
+  "Organs located near the liver include the stomach, gallbladder, pancreas, and right kidney [stomach, gallbladder, pancreas, right kidney].",
+  "Blood vessels connected to the liver include the portal vein, hepatic artery, and hepatic veins [portal vein, hepatic artery, hepatic veins].",
+  "Ducts linked to the liver include the hepatic ducts and bile ducts [hepatic ducts, bile ducts].",
+  "The liver is located in the right upper quadrant of the abdominal cavity [right upper quadrant, abdomen].",
+  "The liver interacts with the gallbladder, intestine, and pancreas during digestion [gallbladder, intestine, pancreas].",
+  "The liver produces bile that is stored and released by the gallbladder [liver–gallbladder connection].",
+  "The liver is supported by ligaments such as the falciform ligament and coronary ligaments [falciform ligament, coronary ligament].",
+  "Blood is supplied to the liver by the portal vein and hepatic artery [portal vein, hepatic artery].",
+  "The liver influences the digestive, metabolic, and immune systems [digestive system, metabolic system, immune system]."
+]
+
+Input Class: "Necrosis"
+Questions: [
+  "What tissues are affected by Necrosis?",
+  "What is the relationship between Necrosis and inflammation?",
+  "How does Necrosis relate to surrounding viable tissue?",
+  "What organs can be impacted by Necrosis?",
+  "What pathological conditions are associated with Necrosis?",
+  "What immune cells interact with Necrosis sites?"
+]
+
+Output: [
+  "Necrosis affects tissues by causing irreversible cell death in the affected area [affected tissues].",
+  "Necrosis is closely associated with inflammation due to the release of cellular contents [inflammation].",
+  "Necrosis damages surrounding viable tissue through inflammatory and ischemic effects [surrounding tissue damage].",
+  "Organs such as the heart, brain, kidney, and liver can be impacted by necrosis [heart, brain, kidney, liver].",
+  "Necrosis is associated with pathological conditions such as ischemia, infection, and trauma [ischemia, infection, trauma].",
+  "Immune cells such as neutrophils and macrophages interact with necrotic tissue [neutrophils, macrophages]."
+]
+
+Input Class: "Breast cancer"
+Questions: [
+  "What tissues are affected by Breast cancer?",
+  "What is the relationship between Breast cancer and surrounding breast tissue?",
+  "What organs are common sites of Breast cancer metastasis?",
+  "What lymph nodes are associated with Breast cancer spread?",
+  "What is the relationship between Breast cancer and the lymphatic system?",
+  "What organs are affected by advanced Breast cancer?"
+]
+
+Output: [
+  "Breast cancer affects breast epithelial tissue and surrounding stromal tissue [breast epithelium, stroma].",
+  "Breast cancer disrupts surrounding breast tissue by invading adjacent structures [local tissue invasion].",
+  "Common sites of breast cancer metastasis include bone, lung, liver, and brain [bone, lung, liver, brain].",
+  "Lymph nodes associated with breast cancer spread include axillary, supraclavicular, and internal mammary nodes [axillary nodes, supraclavicular nodes].",
+  "Breast cancer spreads through the lymphatic system to regional lymph nodes and distant sites [lymphatic system].",
+  "Advanced breast cancer can affect organs such as bone, liver, lung, and brain [bone, liver, lung, brain]."
+]
+
+Input Class: "X-ray"
+Questions: [
+  "What anatomical structures are commonly examined using X-ray?",
+  "What diseases or injuries are evaluated with X-ray?",
+  "What is the relationship between X-ray and bone imaging?",
+  "What body regions are frequently assessed using X-ray?",
+  "What clinical conditions require X-ray examination?",
+  "What diagnostic workflows involve X-ray imaging?"
+]
+
+Output: [
+  "X-ray is commonly used to examine bones, lungs, chest, and joints [bones, lungs, chest, joints].",
+  "Diseases and injuries evaluated with X-ray include fractures, pneumonia, and joint disorders [fractures, pneumonia].",
+  "X-ray is closely related to bone imaging because it clearly visualizes dense structures [bone imaging].",
+  "Body regions frequently assessed using X-ray include the chest, abdomen, and extremities [chest, abdomen, extremities].",
+  "Clinical conditions requiring X-ray examination include trauma, infection, and suspected fractures [trauma, infection, fractures].",
+  "Diagnostic workflows involving X-ray include initial imaging assessment and follow-up monitoring [diagnostic workflow]."
+]
+
+Input Class: "Whorled appearance"
+Questions: []  
+Output: []
+
+--- End of examples ---
+
+Now perform the same task for "{class_name}":
+
+Input Class: "{class_name}"
+Questions: {questions_json}

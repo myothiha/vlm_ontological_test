@@ -1,0 +1,96 @@
+Instruction:
+You are an ontology-aware medical expert. 
+You will be given the name of a biomedical class and a list of conceptual questions about it.
+
+The questions will be exclusively about the **data properties** of the input class.
+Data properties refer to intrinsic, measurable, structural, chemical, or physiological characteristics of the class itself (e.g., size, weight, shape, color, composition, concentration levels).
+
+Your task is to generate short, factual answers to each question using correct biomedical knowledge.
+
+If the question list is empty, return an empty JSON list [] and do not attempt to generate answers.
+
+Each answer must:
+- Be a complete, standalone sentence.
+- Start naturally (e.g., “The normal size of X is …”, “The shape of X is …”).
+- Be clear, factual, and medically accurate.
+- Use concise, natural English.
+- End with key values, entities, or concepts enclosed in square brackets, e.g., [15–17 cm], [hepatocytes, Kupffer cells].
+
+Output formatting requirements:
+- Return your answers as a **JSON array of strings**, in the same order as the input questions.
+- Each sentence must be enclosed in **double quotes**.
+- Do **not** include explanations, reasoning, markdown, bullet points, or extra text.
+- Ensure strict JSON compliance: use only commas between items, and no trailing commas.
+- Do **not** restate the questions.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Questions: [
+  "What is the normal size of the Liver?",
+  "What is the average weight of the Liver?",
+  "What is the typical color of the Liver?",
+  "What is the shape of the Liver?",
+  "What is the usual texture of the Liver?",
+  "What is the average volume of the Liver?",
+  "What types of cells are found in the Liver?",
+  "What is the fat content of the Liver?",
+  "What is the normal iron level in the Liver?",
+  "What enzymes are present in the Liver?",
+  "What proteins are produced by the Liver?",
+  "What is the glucose level in the Liver?",
+  "What is the oxygen level in the Liver?",
+  "What is the normal pH of the Liver?",
+  "What is the typical temperature of the Liver?",
+  "What is the water content of the Liver?",
+  "What is the cholesterol level in the Liver?",
+  "What is the color of Liver tissue?",
+  "What is the density of the Liver?",
+  "How many lobes does the Liver have?"
+]
+
+Output: [
+  "The normal size of the liver is about 15–17 cm in adults [15–17 cm].",
+  "The average weight of the liver is approximately 1.4–1.6 kilograms [1.4–1.6 kg].",
+  "The typical color of the liver is reddish-brown [reddish-brown].",
+  "The liver has a wedge-like, roughly triangular shape [wedge-shaped, triangular].",
+  "The usual texture of the liver is smooth and firm but pliable [smooth, firm].",
+  "The average volume of the liver is about 1.3–1.5 liters [1.3–1.5 L].",
+  "The liver contains hepatocytes, Kupffer cells, stellate cells, endothelial cells, and cholangiocytes [hepatocytes, Kupffer cells].",
+  "Normal fat content of the liver is less than 5 percent of liver weight [<5%].",
+  "Normal iron content in the liver is approximately 0.2–1.6 mg per gram of dry tissue [0.2–1.6 mg/g].",
+  "The liver contains enzymes such as ALT, AST, ALP, GGT, and cytochrome P450 enzymes [ALT, AST, ALP, GGT].",
+  "The liver produces proteins including albumin, clotting factors, transferrin, and complement proteins [albumin, clotting factors].",
+  "The glucose level in the liver is typically maintained near blood glucose levels [70–110 mg/dL].",
+  "Oxygen levels in the liver are typically lower than arterial blood due to mixed blood supply [30–40 mmHg].",
+  "The normal pH of liver tissue is approximately 7.2–7.4 [pH 7.2–7.4].",
+  "The typical temperature of the liver is close to core body temperature [~37 °C].",
+  "The water content of the liver is approximately 70–75 percent of its weight [70–75%].",
+  "The cholesterol content of the liver is typically around 3–5 mg per gram of tissue [3–5 mg/g].",
+  "Liver tissue is reddish-brown in color [reddish-brown].",
+  "The density of the liver is approximately 1.05–1.06 g/cm³ [1.05–1.06 g/cm³].",
+  "The liver has four anatomical lobes: right, left, caudate, and quadrate [right, left, caudate, quadrate]."
+]
+
+Input Class: "Necrosis"
+Questions: []  
+Output: []
+
+Input Class: "Breast cancer"
+Questions: []  
+Output: []
+
+Input Class: "X-ray"
+Questions: []  
+Output: []
+
+Input Class: "Whorled appearance"
+Questions: []  
+Output: []
+
+--- End of examples ---
+
+Now perform the same task for "{class_name}":
+
+Input Class: "{class_name}"
+Questions: {questions_json}

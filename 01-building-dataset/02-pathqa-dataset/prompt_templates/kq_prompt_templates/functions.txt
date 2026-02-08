@@ -1,19 +1,39 @@
-You are an ontology-aware medical expert. Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
+You are an ontology-aware medical expert. 
+Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
 
-These questions must focus exclusively on the **functional roles and biological behaviors** of the input class. This includes the physiological tasks, dynamic processes, or regulatory activities that the class performs in the human body — such as detoxification, circulation, immune defense, or hormone transport.
+These questions must focus exclusively on the **functions and behaviors** of the input class.
 
-Write the questions in a clear and natural style. For example:
-- "What are the main functions of the [concept]?"
-- "How does the [concept] help with digestion?"
-- "What is the [concept]’s role in blood filtration?"
+Functions and behaviors refer to any roles, actions, processes, or effects that the class performs or exhibits within biological, pathological, clinical, diagnostic, or healthcare-related contexts.
+
+This includes:
+- Biological or physiological activities,
+- Pathological or disease-related processes,
+- Clinical effects or consequences,
+- Diagnostic or instrumental uses in healthcare,
+- Dynamic behaviors or actions relevant to medical practice.
+
+Before generating questions, determine whether the input class
+performs or exhibits any meaningful healthcare-related function or behavior.
+
+If the class does NOT logically have any healthcare-related function or behavior
+(e.g., it is a purely descriptive visual or morphological pattern),
+return an empty JSON list [].
+
+Do NOT invent or force functions or behaviors for such classes.
+
+Write questions in a simple, natural, and human-readable style. For example:
+- "What functions does the [concept] perform in healthcare?"
+- "How does the [concept] behave in disease or injury?"
+- "How is the [concept] used in medical diagnosis or treatment?"
 
 Do **not** include:
-- Static data properties (e.g., size, weight, shape, molecular composition),
-- Relational or structural hierarchy (e.g., part-of, subclass-of),
-- Binary yes/no questions,
-- Questions about other entities unless directly linked to the function of the class.
+- Static data properties (e.g., size, weight, shape, concentration),
+- Structural or hierarchical relations (e.g., part-of, subclass-of),
+- Questions unrelated to healthcare or medical contexts,
+- Binary yes/no questions.
 
-Only include questions that make biomedical sense for the input class. Each question must be short, simple, and focused only on what the class **does** in biological or clinical contexts.
+Only include questions that make medical or healthcare sense for the input class.
+If no functional or behavioral questions are applicable, output an empty JSON array [].
 
 Your response must be a single JSON array of such questions.  
 Each question must be enclosed in double quotes.
@@ -21,46 +41,62 @@ Each question must be enclosed in double quotes.
 --- Start of examples ---
 
 Input Class: "Liver"
-Output: [
-  "What are the main functions of the Liver?",
-  "How does the Liver help in detoxification?",
-  "How does the Liver support digestion?",
-  "What is the Liver’s role in metabolism?",
-  "How does the Liver store nutrients?",
-  "How does the Liver regulate blood sugar levels?",
-  "What is the Liver’s role in producing bile?",
-  "How does the Liver help with fat processing?",
-  "What is the Liver’s role in protein synthesis?",
-  "How does the Liver break down hormones?",
-  "What is the Liver’s role in filtering the blood?",
-  "How does the Liver help with drug metabolism?",
-  "What is the Liver’s role in making blood clotting factors?",
-  "How does the Liver convert ammonia into urea?",
-  "What immune functions does the Liver perform?"
+Reasoning: "The liver is an organ that performs essential physiological and metabolic functions in healthcare and disease."
+Output:
+[
+  "What functions does the Liver perform in the human body?",
+  "How does the Liver detoxify harmful substances?",
+  "How does the Liver contribute to digestion?",
+  "What metabolic roles does the Liver perform?",
+  "How does the Liver regulate blood glucose levels?",
+  "How does the Liver produce bile?",
+  "What role does the Liver play in protein synthesis?",
+  "How does the Liver metabolize drugs?",
+  "How does the Liver support blood clotting?",
+  "What immune-related behaviors does the Liver exhibit?"
 ]
 
-Input Class: "Blood"
-Output: [
-  "What are the main functions of Blood?",
-  "How does Blood carry oxygen to the body?",
-  "How does Blood remove carbon dioxide from the body?",
-  "How does Blood transport nutrients?",
-  "What is Blood’s role in hormone transport?",
-  "How does Blood support the immune system?",
-  "What is Blood’s role in fighting infections?",
-  "How does Blood help regulate body temperature?",
-  "How does Blood help in clotting after injury?",
-  "What is Blood’s role in pH balance?",
-  "How does Blood remove waste from tissues?",
-  "How does Blood deliver heat through the body?",
-  "What is the role of plasma in Blood?",
-  "How does Blood distribute minerals and salts?",
-  "What is the role of Blood in inflammation?"
+Input Class: "Necrosis"
+Reasoning: "Necrosis is a pathological process with important effects on tissue damage and disease progression."
+Output:
+[
+  "What role does Necrosis play in tissue injury?",
+  "How does Necrosis contribute to disease progression?",
+  "How does Necrosis trigger inflammation?",
+  "What effects does Necrosis have on surrounding tissues?",
+  "How does Necrosis influence healing outcomes?",
+  "What clinical consequences are associated with Necrosis?"
 ]
+
+Input Class: "Breast cancer"
+Reasoning: "Breast cancer is a disease entity that exhibits pathological behaviors and clinical effects in healthcare."
+Output:
+[
+  "How does Breast cancer grow and spread within the body?",
+  "What pathological behaviors characterize Breast cancer?",
+  "How does Breast cancer invade surrounding tissues?",
+  "How does Breast cancer contribute to metastasis?",
+  "What effects does Breast cancer have on normal tissue function?",
+  "How does Breast cancer impact patient health outcomes?"
+]
+
+Input Class: "X-ray"
+Reasoning: "X-ray is a diagnostic modality that performs important functions in clinical imaging and healthcare."
+Output:
+[
+  "What functions does X-ray serve in medical diagnosis?",
+  "How is X-ray used to detect bone fractures?",
+  "How does X-ray help identify lung pathology?",
+  "How does X-ray assist in emergency medical evaluation?",
+  "What role does X-ray play in clinical decision-making?",
+  "How is X-ray used to monitor disease progression?"
+]
+
+Input Class: "Whorled appearance"
+Reasoning: "Whorled appearance is a descriptive morphological pattern and does not itself perform a healthcare-related function or behavior."
+Output:
+[]
 
 --- End of examples ---
 
-<begin>
-
-Input: Class: "{class_name}"
-Output:
+Input Class: "{class_name}"

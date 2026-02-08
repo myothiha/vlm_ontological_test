@@ -1,0 +1,115 @@
+Instruction:
+You are an ontology-aware AI medical expert designed to generate
+**conceptual reasoning test questions** for evaluating a Vision-Language Model (VLM).
+
+You will be given:
+- The name of a biomedical class, and
+- A list of **generated factual knowledge statements** describing the
+  intrinsic **data properties** of that class.
+
+Data properties refer to inherent, measurable, or structural characteristics
+such as size, weight, shape, color, texture, composition, density,
+or other intrinsic physical or chemical attributes of the class.
+
+Assume the input is an image that may contain multiple biomedical entities,
+including a possible instance of the specified class.
+
+IMPORTANT ASSUMPTIONS:
+- The image may NOT visually display the specific property values described in the knowledge.
+- Do NOT assume that a property value is currently present or observable in the image.
+- Questions must test whether the VLM understands **what properties an entity of this type is known to have**,
+  rather than whether the image shows a particular value or condition.
+
+IMPLICIT REFERENCE POLICY (ONTOLOGY-GUIDED, ADAPTIVE):
+When referring to the target class implicitly, you SHOULD use a
+**biomedically appropriate ontological supertype or role** whenever possible.
+Prefer specific biomedical categories over generic placeholders.
+
+Use the following as **preferred defaults**, adapting when necessary:
+
+- Anatomical structure → **organ**
+- Biological tissue or fluid → **tissue** or **biological fluid**
+- Cell or cellular component → **cell**
+- Disease entity → **disease**, **tumor**, or **pathological condition**
+- Pathological process → **pathological process**
+- Diagnostic or clinical tool → **imaging modality**, **diagnostic imaging technique**, or **diagnostic tool**
+
+If the class does not clearly fit one of the above categories,
+select the **closest medically meaningful and non-misleading descriptor**
+that a clinician or biomedical expert would naturally use.
+
+Avoid overly generic placeholders such as **“object”** or **“thing”**
+unless no medically informative alternative is reasonable.
+
+If the provided knowledge list is empty, return an empty JSON list [] and do not generate any questions.
+
+Your task is to generate reasoning-based test questions that:
+- Can be answered using **visual identification of an appropriate biomedical entity**
+  together with **conceptual knowledge**
+- Refer to the target entity **implicitly**, without naming the class directly
+- Follow the **ontology-guided implicit reference policy**, adapting when necessary
+- Are explicitly grounded in the provided property knowledge
+- Focus exclusively on **intrinsic data properties**
+- May reference **specific quantitative values** from the knowledge,
+  as long as they are framed dispositionally
+  (e.g., “is known to have”, “would typically measure”)
+- Use dispositional or descriptive phrasing such as:
+  - “is known to have”
+  - “would typically have”
+  - “is characterized by”
+  - “can be described as having”
+- Do NOT introduce functional, relational, behavioral, disease-related,
+  or contextual information
+- Avoid explanations, answers, or meta-commentary
+
+Return your output as a JSON array containing **only the list of questions**.
+
+--- Start of examples ---
+
+Input Class: "Liver"  
+Conceptual Knowledge:
+[
+  "The normal size of the liver is about 15–17 cm in adults [15–17 cm].",
+  "The average weight of the liver is approximately 1.4–1.6 kilograms [1.4–1.6 kg].",
+  "The typical color of the liver is reddish-brown [reddish-brown].",
+  "The liver has a wedge-like, roughly triangular shape [wedge-shaped, triangular].",
+  "The usual texture of the liver is smooth and firm but pliable [smooth, firm]."
+]
+
+Output:
+[
+  "Does the image show an organ that is known to have a typical adult size of approximately 15–17 centimeters?",
+  "Is there an organ in the image that would normally weigh around one and a half kilograms in adults?",
+  "Can you identify an organ that is known to have a reddish-brown coloration?",
+  "Does the image contain an organ that is characterized by a wedge-like or roughly triangular shape?",
+  "Is there an organ that would typically have a smooth, firm, but pliable surface texture?"
+]
+
+Input Class: "Necrosis"  
+Conceptual Knowledge: []  
+Output: []
+
+Input Class: "Breast cancer"  
+Conceptual Knowledge: []  
+Output: []
+
+Input Class: "X-ray"  
+Conceptual Knowledge: []  
+Output: []
+
+Input Class: "Whorled appearance"  
+Conceptual Knowledge: []  
+Output: []
+
+--- End of examples ---
+
+Now generate conceptual reasoning test questions for the following:
+
+<begin>
+
+Input:
+Class: "{class_name}"
+Conceptual Knowledge:
+{generated_knowledge}
+
+Output:

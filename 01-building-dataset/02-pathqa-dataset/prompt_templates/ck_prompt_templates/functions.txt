@@ -1,0 +1,123 @@
+Instruction:
+You are an ontology-aware medical expert.
+You will be given the name of a biomedical class and a list of conceptual questions about it.
+
+The questions will be exclusively about the **functions or behaviors** of the input class.
+Functions and behaviors refer to any biological, pathological, clinical, or diagnostic roles that the class performs or exhibits within healthcare contexts.
+
+Your task is to generate short, factual answers to each question using correct biomedical knowledge.
+
+If the question list is empty, return an empty JSON list [] and do not attempt to generate answers.
+
+Each answer must:
+- Be a complete, standalone sentence.
+- Start naturally (e.g., “The liver performs…”, “Necrosis contributes…”, “X-ray is used to…”).
+- Be clear, factual, and medically accurate.
+- Use concise, natural English.
+- Describe **what the class does or is used for** in healthcare.
+- End with key actions, roles, or outcomes enclosed in square brackets, e.g., [detoxification, metabolism].
+
+Output formatting requirements:
+- Return your answers as a **JSON array of strings**, in the same order as the input questions.
+- Each sentence must be enclosed in **double quotes**.
+- Do **not** include explanations, reasoning, markdown, bullet points, or extra text.
+- Ensure strict JSON compliance: use only commas between items, and no trailing commas.
+- Do **not** restate the questions.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Questions: [
+  "What functions does the Liver perform in the human body?",
+  "How does the Liver detoxify harmful substances?",
+  "How does the Liver contribute to digestion?",
+  "What metabolic roles does the Liver perform?",
+  "How does the Liver regulate blood glucose levels?",
+  "How does the Liver produce bile?",
+  "What role does the Liver play in protein synthesis?",
+  "How does the Liver metabolize drugs?",
+  "How does the Liver support blood clotting?",
+  "What immune-related behaviors does the Liver exhibit?"
+]
+
+Output: [
+  "The liver performs essential functions including metabolism, detoxification, bile production, and nutrient storage [metabolism, detoxification, bile production].",
+  "The liver detoxifies harmful substances by metabolizing toxins and drugs through enzymatic pathways [toxin metabolism, cytochrome P450].",
+  "The liver contributes to digestion by producing bile that aids in fat emulsification and absorption [bile production, fat digestion].",
+  "The liver performs metabolic roles involving carbohydrate, lipid, and protein metabolism [carbohydrate metabolism, lipid metabolism, protein metabolism].",
+  "The liver regulates blood glucose levels by storing glucose as glycogen and releasing it when needed [glycogen storage, glucose release].",
+  "The liver produces bile by secreting bile acids and pigments into the biliary system [bile acids, bilirubin].",
+  "The liver plays a role in protein synthesis by producing plasma proteins and clotting factors [albumin, clotting factors].",
+  "The liver metabolizes drugs through enzymatic systems that modify and eliminate pharmaceuticals [drug metabolism, detoxification].",
+  "The liver supports blood clotting by synthesizing clotting factors and regulatory proteins [clotting factor synthesis].",
+  "The liver exhibits immune-related behaviors by housing Kupffer cells that remove pathogens from the blood [immune surveillance, phagocytosis]."
+]
+
+Input Class: "Necrosis"
+Questions: [
+  "What role does Necrosis play in tissue injury?",
+  "How does Necrosis contribute to disease progression?",
+  "How does Necrosis trigger inflammation?",
+  "What effects does Necrosis have on surrounding tissues?",
+  "How does Necrosis influence healing outcomes?",
+  "What clinical consequences are associated with Necrosis?"
+]
+
+Output: [
+  "Necrosis plays a role in tissue injury by causing irreversible cell death and loss of tissue integrity [cell death, tissue damage].",
+  "Necrosis contributes to disease progression by expanding tissue damage and impairing organ function [disease progression, organ dysfunction].",
+  "Necrosis triggers inflammation by releasing intracellular contents that activate immune responses [inflammatory response].",
+  "Necrosis affects surrounding tissues by promoting edema, inflammation, and secondary injury [edema, secondary tissue injury].",
+  "Necrosis influences healing outcomes by delaying repair and increasing the likelihood of fibrosis or scarring [delayed healing, fibrosis].",
+  "Clinical consequences of necrosis include pain, infection risk, and potential organ failure [infection risk, organ failure]."
+]
+
+Input Class: "Breast cancer"
+Questions: [
+  "How does Breast cancer grow and spread within the body?",
+  "What pathological behaviors characterize Breast cancer?",
+  "How does Breast cancer invade surrounding tissues?",
+  "How does Breast cancer contribute to metastasis?",
+  "What effects does Breast cancer have on normal tissue function?",
+  "How does Breast cancer impact patient health outcomes?"
+]
+
+Output: [
+  "Breast cancer grows and spreads through uncontrolled cell proliferation and invasion of adjacent tissues [uncontrolled proliferation, invasion].",
+  "Pathological behaviors of breast cancer include abnormal growth, invasiveness, and metastatic potential [invasiveness, metastasis].",
+  "Breast cancer invades surrounding tissues by degrading extracellular matrix and penetrating normal structures [tissue invasion].",
+  "Breast cancer contributes to metastasis by spreading cancer cells through lymphatic and blood vessels [metastatic spread].",
+  "Breast cancer affects normal tissue function by disrupting tissue architecture and impairing organ performance [tissue disruption].",
+  "Breast cancer impacts patient health outcomes by increasing morbidity and mortality if untreated or advanced [morbidity, mortality]."
+]
+
+Input Class: "X-ray"
+Questions: [
+  "What functions does X-ray serve in medical diagnosis?",
+  "How is X-ray used to detect bone fractures?",
+  "How does X-ray help identify lung pathology?",
+  "How does X-ray assist in emergency medical evaluation?",
+  "What role does X-ray play in clinical decision-making?",
+  "How is X-ray used to monitor disease progression?"
+]
+
+Output: [
+  "X-ray serves diagnostic functions by imaging internal structures using ionizing radiation [medical imaging, diagnosis].",
+  "X-ray is used to detect bone fractures by visualizing disruptions in bone continuity [fracture detection].",
+  "X-ray helps identify lung pathology by revealing abnormalities such as consolidation or effusion [lung pathology detection].",
+  "X-ray assists in emergency medical evaluation by providing rapid imaging to guide urgent care [emergency imaging].",
+  "X-ray plays a role in clinical decision-making by supporting diagnosis and treatment planning [clinical decision support].",
+  "X-ray is used to monitor disease progression by comparing serial images over time [disease monitoring]."
+]
+
+Input Class: "Whorled appearance"
+Questions: []  
+Output: []
+
+--- End of examples ---
+
+Now perform the same task for "{class_name}":
+
+
+Input Class: "{class_name}"
+Questions: {questions_json}

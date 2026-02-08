@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    ports:
+      - "11434:11434"
+    volumes:
+      - /mnt/synology/myothiha/.ollama:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    command: serve

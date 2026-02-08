@@ -1,20 +1,40 @@
-You are an ontology-aware medical expert. Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
+You are an ontology-aware medical expert. 
+Your task is to generate a list of meaningful and medically valid questions about a given biomedical class.
 
-These questions must focus exclusively on how the **functions or biological behaviors** of the input class **change across different conditions or situations**. This includes how the class’s activity increases, decreases, is impaired, or altered in specific physiological, pathological, or environmental contexts.
+These questions must focus exclusively on **contextual behaviors** of the input class.
 
-Situational function questions describe:
-- When the class performs more or less of a biological activity,
-- When its role in processes like metabolism, detoxification, circulation, or defense changes,
-- When it fails to perform its normal function due to disease or stress,
-- How its activity shifts in different physiological states (e.g., rest vs. exercise, fasting vs. fed).
+Contextual behaviors refer to **changes in the functions, actions, roles, or effects** of the class that occur under different physiological, pathological, clinical, diagnostic, or environmental conditions.
+This includes situations where the class’s activity increases, decreases, becomes impaired, altered,
+or shifts depending on healthcare-related contexts.
+
+Before generating questions, determine whether the input class
+has healthcare-related functions or behaviors that can meaningfully change across conditions.
+
+If the class does NOT logically exhibit condition-dependent behaviors
+(e.g., it is a purely descriptive visual pattern),
+return an empty JSON list [].
+
+Do NOT invent or force contextual behaviors for such classes.
+
+Write questions in a simple, natural, and human-readable style.
+Each question must clearly describe:
+- **what function or behavior changes**, and
+- **under what condition or situation** the change occurs.
+
+For example:
+- "When does the [concept] reduce its normal activity?"
+- "Under what conditions does the [concept] fail to perform its usual role?"
+- "When does the [concept] increase its activity in response to stress or disease?"
 
 Do **not** include:
 - Static property changes (e.g., size, weight, color),
-- Relational or structural hierarchy questions (e.g., part-of, belongs to),
+- Generic function questions that are not condition-dependent,
+- Relational or hierarchical questions (e.g., part-of, belongs-to),
 - Binary yes/no questions,
-- Generic or vague functional questions that are not condition-dependent.
+- Abstract or speculative phrasing.
 
-Each question should be short, clear, and describe how the **function or role** of the class changes under specific circumstances.
+Only include questions that make biomedical or healthcare sense for the input class.
+If no contextual behavior questions are applicable, output an empty JSON array [].
 
 Your response must be a single JSON array of such questions.  
 Each question must be enclosed in double quotes.
@@ -22,7 +42,9 @@ Each question must be enclosed in double quotes.
 --- Start of examples ---
 
 Input Class: "Liver"
-Output: [
+Reasoning: "The liver performs healthcare-relevant functions whose activity changes under different physiological and pathological conditions."
+Output:
+[
   "When does the Liver reduce its detoxification activity?",
   "When does the Liver fail to regulate blood sugar properly?",
   "When does the Liver produce fewer clotting factors?",
@@ -32,46 +54,60 @@ Output: [
   "When does the Liver reduce protein synthesis?",
   "When does the Liver function decline due to alcohol consumption?",
   "When does the Liver increase enzyme activity during inflammation?",
-  "When does the Liver slow down cholesterol regulation?",
   "When does the Liver struggle to store glucose as glycogen?",
   "When does the Liver show impaired hormone breakdown?",
   "When does the Liver increase its metabolic workload?",
   "When does the Liver fail to filter toxins efficiently?",
-  "When does the Liver function improve after fasting?",
-  "When does the Liver have reduced regeneration capacity?",
   "When does the Liver alter its behavior during viral infection?",
-  "When does the Liver stop responding to insulin properly?",
-  "When does the Liver increase bile secretion after a fatty meal?",
-  "When does the Liver decrease its contribution to immune defense?"
+  "When does the Liver stop responding to insulin properly?"
 ]
 
-Input Class: "Blood"
-Output: [
-  "When does Blood carry less oxygen?",
-  "When does Blood clot more easily?",
-  "When does Blood lose its ability to clot properly?",
-  "When does Blood transport more carbon dioxide?",
-  "When does Blood fail to deliver nutrients effectively?",
-  "When does Blood support immune defense more actively?",
-  "When does Blood fail to fight infection efficiently?",
-  "When does Blood circulate faster through the body?",
-  "When does Blood slow down in circulation?",
-  "When does Blood increase its buffering capacity?",
-  "When does Blood lose its ability to balance pH?",
-  "When does Blood carry excess hormones?",
-  "When does Blood show reduced immune response?",
-  "When does Blood fail to remove waste effectively?",
-  "When does Blood function change during dehydration?",
-  "When does Blood alter its behavior during infection?",
-  "When does Blood become more prone to clotting in vessels?",
-  "When does Blood transport more glucose than normal?",
-  "When does Blood deliver less oxygen during intense exercise?",
-  "When does Blood function decline in extreme cold or heat?"
+Input Class: "Necrosis"
+Reasoning: "Necrosis is a pathological process whose effects and roles vary depending on severity, location, and clinical context."
+Output:
+[
+  "When does Necrosis trigger a stronger inflammatory response?",
+  "When does Necrosis spread to surrounding tissue?",
+  "When does Necrosis lead to systemic complications?",
+  "When does Necrosis interfere with tissue healing?",
+  "When does Necrosis contribute to organ dysfunction?",
+  "When does Necrosis worsen clinical outcomes?",
+  "When does Necrosis provoke immune cell activation?"
 ]
+
+Input Class: "Breast cancer"
+Reasoning: "Breast cancer exhibits pathological and clinical behaviors that change across disease stages and treatment conditions."
+Output:
+[
+  "When does Breast cancer increase its rate of growth?",
+  "When does Breast cancer become invasive?",
+  "When does Breast cancer begin to metastasize?",
+  "When does Breast cancer respond poorly to therapy?",
+  "When does Breast cancer alter its behavior after treatment?",
+  "When does Breast cancer show resistance to chemotherapy?",
+  "When does Breast cancer spread to lymph nodes?",
+  "When does Breast cancer cause greater tissue damage?"
+]
+
+Input Class: "X-ray"
+Reasoning: "X-ray has healthcare-related diagnostic functions whose effectiveness and use change under different clinical conditions."
+Output:
+[
+  "When does X-ray become less effective due to patient movement?",
+  "When does X-ray require higher exposure settings?",
+  "When does X-ray fail to detect soft tissue abnormalities?",
+  "When does X-ray become more useful in emergency settings?",
+  "When does X-ray provide limited diagnostic information?",
+  "When does X-ray use change in pediatric patients?",
+  "When does X-ray imaging become contraindicated?",
+  "When does X-ray performance vary with body region?"
+]
+
+Input Class: "Whorled appearance"
+Reasoning: "Whorled appearance is a descriptive morphological pattern and does not exhibit condition-dependent behaviors."
+Output:
+[]
 
 --- End of examples ---
 
-<begin>
-
-Input: Class: "{class_name}"
-Output:
+Input Class: "{class_name}"

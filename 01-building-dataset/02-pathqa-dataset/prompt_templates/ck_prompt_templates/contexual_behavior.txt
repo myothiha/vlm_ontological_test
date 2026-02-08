@@ -1,0 +1,143 @@
+Instruction:
+You are an ontology-aware medical expert.
+You will be given the name of a biomedical class and a list of conceptual questions about it.
+
+The questions will be exclusively about **contextual behaviors** of the input class.
+Contextual behaviors describe how the functions, actions, roles, or effects of the class change under specific physiological, pathological, clinical, diagnostic, or environmental conditions.
+
+Your task is to generate short, factual answers to each question using correct biomedical knowledge.
+
+If the question list is empty, return an empty JSON list [] and do not attempt to generate answers.
+
+Each answer must:
+- Be a complete, standalone sentence.
+- Start naturally (e.g., “The liver reduces…”, “Necrosis triggers…”, “X-ray becomes less effective…”).
+- Clearly describe **the condition** and **the resulting behavioral change**.
+- Be concise, factual, and medically accurate.
+- Use natural English.
+- End with key conditions, behaviors, or outcomes enclosed in square brackets, e.g., [alcoholic liver disease], [reduced detoxification].
+
+Output formatting requirements:
+- Return your answers as a **JSON array of strings**, in the same order as the input questions.
+- Each sentence must be enclosed in **double quotes**.
+- Do **not** include explanations, reasoning, markdown, bullet points, or extra text.
+- Ensure strict JSON compliance: use only commas between items, and no trailing commas.
+- Do **not** restate the questions.
+
+--- Start of examples ---
+
+Input Class: "Liver"
+Questions: [
+  "When does the Liver reduce its detoxification activity?",
+  "When does the Liver fail to regulate blood sugar properly?",
+  "When does the Liver produce fewer clotting factors?",
+  "When does the Liver slow down bile production?",
+  "When does the Liver increase fat metabolism?",
+  "When does the Liver stop converting ammonia into urea effectively?",
+  "When does the Liver reduce protein synthesis?",
+  "When does the Liver function decline due to alcohol consumption?",
+  "When does the Liver increase enzyme activity during inflammation?",
+  "When does the Liver struggle to store glucose as glycogen?",
+  "When does the Liver show impaired hormone breakdown?",
+  "When does the Liver increase its metabolic workload?",
+  "When does the Liver fail to filter toxins efficiently?",
+  "When does the Liver alter its behavior during viral infection?",
+  "When does the Liver stop responding to insulin properly?"
+]
+
+Output: [
+  "The liver reduces its detoxification activity during advanced liver disease and hepatic failure [reduced detoxification].",
+  "The liver fails to regulate blood sugar properly in conditions such as diabetes mellitus and liver cirrhosis [impaired glucose regulation].",
+  "The liver produces fewer clotting factors in liver failure and severe hepatic injury [reduced clotting factor synthesis].",
+  "The liver slows down bile production in cholestatic liver diseases [reduced bile secretion].",
+  "The liver increases fat metabolism during fasting and increased energy demand [enhanced fat metabolism].",
+  "The liver stops converting ammonia into urea effectively in hepatic encephalopathy [impaired urea cycle].",
+  "The liver reduces protein synthesis in chronic liver disease and malnutrition [reduced protein synthesis].",
+  "Liver function declines due to alcohol consumption in alcoholic liver disease [alcohol-induced liver dysfunction].",
+  "The liver increases enzyme activity during inflammation and acute hepatic injury [elevated enzyme activity].",
+  "The liver struggles to store glucose as glycogen in insulin resistance and liver disease [impaired glycogen storage].",
+  "The liver shows impaired hormone breakdown in hepatic insufficiency [impaired hormone metabolism].",
+  "The liver increases its metabolic workload during infection or systemic stress [increased metabolic demand].",
+  "The liver fails to filter toxins efficiently in liver failure [toxin accumulation].",
+  "The liver alters its behavior during viral infection by changing metabolic and immune activity [viral hepatitis].",
+  "The liver stops responding to insulin properly in insulin resistance and metabolic syndrome [insulin resistance]."
+]
+
+Input Class: "Necrosis"
+Questions: [
+  "When does Necrosis trigger a stronger inflammatory response?",
+  "When does Necrosis spread to surrounding tissue?",
+  "When does Necrosis lead to systemic complications?",
+  "When does Necrosis interfere with tissue healing?",
+  "When does Necrosis contribute to organ dysfunction?",
+  "When does Necrosis worsen clinical outcomes?",
+  "When does Necrosis provoke immune cell activation?"
+]
+
+Output: [
+  "Necrosis triggers a stronger inflammatory response when extensive cell death releases intracellular contents [strong inflammation].",
+  "Necrosis spreads to surrounding tissue when injury or ischemia persists [progressive tissue damage].",
+  "Necrosis leads to systemic complications when widespread tissue damage causes systemic inflammation [systemic complications].",
+  "Necrosis interferes with tissue healing when necrotic debris delays repair processes [delayed healing].",
+  "Necrosis contributes to organ dysfunction when a large portion of functional tissue is destroyed [organ dysfunction].",
+  "Necrosis worsens clinical outcomes in severe injury or infection [poor prognosis].",
+  "Necrosis provokes immune cell activation when damage-associated signals attract inflammatory cells [immune activation]."
+]
+
+Input Class: "Breast cancer"
+Questions: [
+  "When does Breast cancer increase its rate of growth?",
+  "When does Breast cancer become invasive?",
+  "When does Breast cancer begin to metastasize?",
+  "When does Breast cancer respond poorly to therapy?",
+  "When does Breast cancer alter its behavior after treatment?",
+  "When does Breast cancer show resistance to chemotherapy?",
+  "When does Breast cancer spread to lymph nodes?",
+  "When does Breast cancer cause greater tissue damage?"
+]
+
+Output: [
+  "Breast cancer increases its rate of growth in aggressive subtypes or advanced stages [rapid tumor growth].",
+  "Breast cancer becomes invasive when malignant cells breach the basement membrane [invasive carcinoma].",
+  "Breast cancer begins to metastasize when cancer cells disseminate through lymphatic or blood vessels [metastasis].",
+  "Breast cancer responds poorly to therapy in resistant or advanced disease [treatment resistance].",
+  "Breast cancer alters its behavior after treatment due to selective pressure on tumor cells [therapy-induced changes].",
+  "Breast cancer shows resistance to chemotherapy after genetic or molecular adaptations [chemotherapy resistance].",
+  "Breast cancer spreads to lymph nodes during regional disease progression [lymph node involvement].",
+  "Breast cancer causes greater tissue damage in advanced or aggressive disease [tissue destruction]."
+]
+
+Input Class: "X-ray"
+Questions: [
+  "When does X-ray become less effective due to patient movement?",
+  "When does X-ray require higher exposure settings?",
+  "When does X-ray fail to detect soft tissue abnormalities?",
+  "When does X-ray become more useful in emergency settings?",
+  "When does X-ray provide limited diagnostic information?",
+  "When does X-ray use change in pediatric patients?",
+  "When does X-ray imaging become contraindicated?",
+  "When does X-ray performance vary with body region?"
+]
+
+Output: [
+  "X-ray becomes less effective when patient movement causes motion artifacts [motion artifacts].",
+  "X-ray requires higher exposure settings in obese patients or dense body regions [increased exposure].",
+  "X-ray fails to detect soft tissue abnormalities due to low soft tissue contrast [limited soft tissue contrast].",
+  "X-ray becomes more useful in emergency settings because it provides rapid imaging [emergency imaging].",
+  "X-ray provides limited diagnostic information in early disease or subtle pathology [limited sensitivity].",
+  "X-ray use changes in pediatric patients to minimize radiation exposure [dose reduction].",
+  "X-ray imaging becomes contraindicated in pregnancy unless absolutely necessary [pregnancy risk].",
+  "X-ray performance varies with body region due to differences in tissue density [tissue density variation]."
+]
+
+Input Class: "Whorled appearance"
+Questions: []
+Output: []
+
+--- End of examples ---
+
+Now perform the same task for "{class_name}":
+
+Input:
+Class: "{class_name}"
+Questions: {questions_json}
