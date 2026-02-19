@@ -7,7 +7,7 @@ class KQGenerator:
     """
     A class to generate knowledge questions based on a given ontology.
     """
-    def __init__(self, llm, result_extract_func, prompt_dir="prompt_templates", prompt_templates="01_few_shot_without_instruction", output_dir="results"):
+    def __init__(self, llm, result_extract_func, prompt_templates="01_few_shot_without_instruction", output_dir="results"):
         """
         Initializes the KQGenerator with a set of concepts, an LLM, and prompt manager.
         :param concepts: The concepts to generate questions from.
@@ -62,7 +62,7 @@ class KQGenerator:
                 continue
             
             knowledge_questions = dict()
-            for prompt_template in self.prompt_templates:    
+            for prompt_template in self.prompt_templates:
                 print(f"🔄 Generating {prompt_template} Knowledge Questions for: {class_name}")
 
                 prompt = self.manager.format(prompt_template, class_name=class_name)

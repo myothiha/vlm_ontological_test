@@ -4,16 +4,19 @@ import os
 import json
 import re
 from libs.prompt.prompt_manager import PromptTemplateManager
+from libs.utils import setup_logger
 
 class LLMBasedMedicalConceptExtractor(AbstractConceptExtractor):
-    def __init__(self, model, backup_extractor=None):
+    def __init__(self, model, backup_extractor=None, concept_classifier=None):
         self.llm = model
         self.backup_extractor: AbstractConceptExtractor = backup_extractor
+        self.concept_classifier = concept_classifier
 
         self.current_dir = Path(__file__).resolve().parent
         prompt_dir = os.path.join(self.current_dir, "prompt_template")
 
         self.prompt_manager = PromptTemplateManager(prompt_dir=prompt_dir)
+        self.logger = setup_logger("MedicalConceptExtractor", os.path.join("results/logs", "medical_concept_extraction.log"))
 
     def extract(self, text) -> list:
         """
@@ -34,9 +37,18 @@ class LLMBasedMedicalConceptExtractor(AbstractConceptExtractor):
         # print("####################Extraction Start####################")
         # print("LLM Response:")
         # print(response)
+
         # print("####################Extraction End####################")
         concepts = self.extract_from_llm(response)
-        self.clean_concepts(concepts)
+
+        if self.concept_classifier:
+            for concept in concepts:
+                is_qualified = self.concept_classifier.classify(concept)
+                if not is_qualified:
+                    self.logger.info(f"{concept} is not a qualified-concept. Removed.")
+                    concepts.remove(concept)
+
+        concepts = self.clean_concepts(concepts)
         return concepts
 
     def backup_extract(self):

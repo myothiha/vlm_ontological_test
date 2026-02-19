@@ -29,22 +29,19 @@ class OntoBenchPipeline:
         self.kq_generator = KQGenerator(
             llm=llm,
             result_extract_func=extract_list_from_gpt,
-            prompt_dir=knowledge_question_prompt_templates,
             prompt_templates=knowledge_question_prompt_templates,
         )
 
         self.knowledge_extractor = KnowledgeExtractor(
             llm=llm,
             result_extract_func=extract_list_from_gpt,
-            prompt_dir="prompt_templates",
-            prompt_template=generate_knowledge_prompt_template,
+            prompt_templates=generate_knowledge_prompt_template,
         )
 
         self.rq_generator = ReasoningQuestionGenerator(
             llm=llm,
             result_extract_func=extract_list_from_gpt,
-            prompt_dir="prompt_templates",
-            prompt_template=vlm_reasoning_prompt_template,
+            prompt_templates=vlm_reasoning_prompt_template,
         )
 
     def generate_knowledge(self, concept, knowledge_questions):

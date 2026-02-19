@@ -25,6 +25,9 @@ class BenchmarkBuilder:
         self.prompt2 = generate_knowledge_prompt_template
         self.prompt3 = vlm_reasoning_prompt_template
         os.makedirs(self.output_dir, exist_ok=True)
+
+        self.knowledge_base_export_dir = os.path.join(self.output_dir, "knowledge_base")
+        os.makedirs(self.knowledge_base_export_dir, exist_ok=True)
         
         # Setup logger
         self.logger = setup_logger("BenchmarkBuilder", os.path.join(self.output_dir, "benchmark_builder.log"))
@@ -59,12 +62,12 @@ class BenchmarkBuilder:
         kq_generator = KQGenerator(
             llm=self.llm,
             result_extract_func=self.result_extract_func,
-            prompt_dir=self.prompt1,
             prompt_templates=self.prompt1,
             output_dir=self.output_dir
         )
         query_csv = kq_generator.generate_questions(concepts=concepts)
-        
+        self.create_knowledge_base(query_csv, "knowledge_questions")
+
         self.logger.info("##########################################################################################")
         self.logger.info("########################## Step 2: Knowledge Extraction from LLM #########################")
         self.logger.info("##########################################################################################")
@@ -73,29 +76,62 @@ class BenchmarkBuilder:
         knowledge_extractor = KnowledgeExtractor(
             llm=self.llm,
             result_extract_func=self.result_extract_func,
-            prompt_dir=self.prompt2,
-            prompt_template=self.prompt2,
+            prompt_templates=self.prompt2,
             output_dir=self.output_dir,
         )
         extracted_knowledge_csv = knowledge_extractor.extract_knowledge(queries_csv=query_csv)
-        
+        self.create_knowledge_base(extracted_knowledge_csv, "generated_knowledge")
         
         reasoning_question_csv = []
-        # print("##############################################################################################")
-        # print("########################## Step 3: VLM Reasoning Question Generation #########################")
-        # print("##############################################################################################")
-        # # Step 3: Generate reasoning questions based on the extracted knowledge
-        # reasoning_question_generator = ReasoningQuestionGenerator(
-        #     llm=self.llm,
-        #     result_extract_func=self.result_extract_func,
-        #     prompt_dir="prompt_templates",
-        #     prompt_template=self.prompt3,
-        #     output_dir=self.output_dir,
-        # )
-        # reasoning_question_csv = reasoning_question_generator.generate_reasoning_questions(extracted_knowledge_csv)
+        self.logger.info("##############################################################################################")
+        self.logger.info("########################## Step 3: VLM Reasoning Question Generation #########################")
+        self.logger.info("##############################################################################################")
+
+        # Step 3: Generate reasoning questions based on the extracted knowledge
+        reasoning_question_generator = ReasoningQuestionGenerator(
+            llm=self.llm,
+            result_extract_func=self.result_extract_func,
+            prompt_templates=self.prompt3,
+            output_dir=self.output_dir,
+        )
+        reasoning_question_csv = reasoning_question_generator.generate_reasoning_questions(extracted_knowledge_csv)
+        self.create_knowledge_base(reasoning_question_csv, "vlm_reasoning_questions")
         
         return reasoning_question_csv
-        
+    
+    def create_knowledge_base(self, knowledge_base_csv, pipeline_stage):
+        knowledge_base_df = pd.read_csv(knowledge_base_csv)
+        for _, row  in knowledge_base_df.iterrows():
+            print("row", row)
+            concept = row["class"]
+
+            # Inside knowledge_base_dir create a folder for each concept.
+            concept_dir = os.path.join(self.knowledge_base_export_dir, concept, pipeline_stage)
+            os.makedirs(concept_dir, exist_ok=True)
+            
+            vlm_reasoning_questions = json.loads(row[pipeline_stage])
+
+            conceptual_record = {}
+            conceptual_record["concept"] = concept
+            for knowledge_type, questions in vlm_reasoning_questions.items():
+                output_file = os.path.abspath(os.path.join(concept_dir, f"{knowledge_type}.csv"))
+                knowledge_content = {"content": questions}
+                pd.DataFrame(knowledge_content).to_csv(output_file, index=False)
+
+                # only store relative path in csv record.
+                output_file_relative_path = os.path.join(concept, pipeline_stage, f"{knowledge_type}.csv")
+                # self.logger.info(f"output_file: %s", output_file_relative_path)
+                conceptual_record[knowledge_type] = output_file_relative_path
+
+            concept_csv = os.path.abspath(os.path.join(self.knowledge_base_export_dir, f"concept_{pipeline_stage}.csv"))
+
+            if os.path.exists(concept_csv):
+                current_concept_df = pd.read_csv(concept_csv)
+                current_concept_df = pd.concat([current_concept_df, pd.DataFrame([conceptual_record])], ignore_index=True)
+                current_concept_df.to_csv(concept_csv, index=False)
+            else:
+                pd.DataFrame([conceptual_record]).to_csv(concept_csv, index=False)
+            
 
     def get_concepts(self) -> list:
         """
@@ -107,6 +143,7 @@ class BenchmarkBuilder:
 
         # create text, concepts pair for human annotation for concept extraction
         output_log_csv = os.path.abspath(os.path.join(self.output_dir, "00_concept_extraction.csv"))
+
         # output_log_db  = os.path.abspath(os.path.join(self.output_dir, "result.db"))
 
         if self.required_concept_extraction:
@@ -133,6 +170,7 @@ class BenchmarkBuilder:
             # Extract unique concepts from the dataset
             self.logger.info("Extracting concepts...")
             unique_concepts = set()
+
             for item in self.dataset:
                 text = item.get("text", "")
 
@@ -144,13 +182,6 @@ class BenchmarkBuilder:
                     concepts = eval(raw_concepts[0]) if raw_concepts[0].startswith("[") else [raw_concepts[0]]
                 else:
                     concepts = self.concept_extractor.extract(text)
-
-                    for concept in concepts:
-                        is_medical = self.medical_concept_classifier.classify(concept)
-                        if not is_medical:
-                            self.logger.info(f"{concept} is not a medical-concept. Removed.")
-                            concepts.remove(concept)
-                        # print(f"{concept}:", is_medical)
 
                     log_row = pd.DataFrame([
                         {"text": text,
@@ -164,8 +195,9 @@ class BenchmarkBuilder:
                 self.logger.info(f"Extracted {len(concepts)}: {concepts}")
 
             # Clean unique concepts: lower case, remove double space, remove special characters.
+            # also replace all space with _
             unique_concepts = {clean_special_chars(concept) for concept in unique_concepts}
-            unique_concepts = {concept.strip() for concept in unique_concepts}
+            unique_concepts = {concept.strip().replace(" ", "_") for concept in unique_concepts}
 
             unique_concepts = list(sorted(unique_concepts))
             # Save unique concepts to disk

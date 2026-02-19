@@ -41,15 +41,17 @@ llm = GPTLLMWrapper("gpt-4.1")
 
 
 # extractor = MedicalConceptExtractor("en_core_sci_scibert") # Load the SciBERT model for medical concept extraction
-extractor = LLMBasedMedicalConceptExtractor(model=OllamaWrapper(model="gpt-oss:20b"),
-                                            backup_extractor=MedicalConceptExtractor("en_core_sci_scibert"))  # Load the LLM for medical concept extraction
 
 medical_concept_classifier = MedicalConceptClassifier(OllamaWrapper(model="gpt-oss:20b"))
+extractor = LLMBasedMedicalConceptExtractor(model=OllamaWrapper(model="gpt-oss:20b"),
+                                            backup_extractor=MedicalConceptExtractor("en_core_sci_scibert"),
+                                            concept_classifier=medical_concept_classifier)  # Load the LLM for medical concept extraction
+
 
 unique_concepts = set()
 
 # dataset = vqa_loader.get_all()
-dataset = vqa_loader.sample(n=1)
+dataset = vqa_loader.sample(n=10)
 
 benchmarkBuilder = BenchmarkBuilder(
     dataset=dataset,
@@ -60,10 +62,9 @@ benchmarkBuilder = BenchmarkBuilder(
     medical_concept_classifier=medical_concept_classifier,
     output_dir="results",
     knowledge_question_prompt_templates="prompt_templates/kq_prompt_templates",
-    # generate_knowledge_prompt_template="02_generate_knowledge_prompt1",
-    # vlm_reasoning_prompt_template="03_vlm_reasoning_questions_one_shot",
     generate_knowledge_prompt_template="prompt_templates/ck_prompt_templates",
     vlm_reasoning_prompt_template="prompt_templates/rq_prompt_templates",
 )
 
 vlm_reasoning_questions_csv = benchmarkBuilder.build()
+
