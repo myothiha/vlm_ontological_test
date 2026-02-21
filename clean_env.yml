@@ -1,0 +1,8 @@
+name: myo_thesis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - ipykernel
+prefix: /home/anaconda3/envs/myo_thesis
