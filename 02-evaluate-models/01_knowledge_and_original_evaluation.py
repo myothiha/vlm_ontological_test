@@ -31,12 +31,12 @@ load_dotenv()
 # model_id = os.getenv("LLaVA")
 # model = LVLMWrapper(model_id)
 models = {
-    "llava_34b": OllamaWrapper(model="llava:34b"),
-    "gemma3_27b": OllamaWrapper(model="gemma3:27b-it-q4_K_M"),
+    # "llava_34b": OllamaWrapper(model="llava:34b"),
+    # "gemma3_27b": OllamaWrapper(model="gemma3:27b-it-q4_K_M"),
     "llava_med_v1.5_mistral_7b": OllamaWrapper(model="z-uo/llava-med-v1.5-mistral-7b_f32:latest"),
-    "mistral_small3.2_24b": OllamaWrapper(model="mistral-small3.2:24b"),
-    "qwen2.5vl_72b": OllamaWrapper(model="qwen2.5vl:72b"),
-    "llama3.2_vision_11b_instruct": OllamaWrapper(model="llama3.2-vision:11b-instruct-fp16"),
+    # "mistral_small3.2_24b": OllamaWrapper(model="mistral-small3.2:24b"),
+    # "qwen2.5vl_72b": OllamaWrapper(model="qwen2.5vl:72b"),
+    # "llama3.2_vision_11b_instruct": OllamaWrapper(model="llama3.2-vision:11b-instruct-fp16"),
 }
 
 # Load the prompt templates
