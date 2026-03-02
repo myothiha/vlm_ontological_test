@@ -5,7 +5,6 @@ import torch
 from transformers import (
     AutoProcessor,
     BitsAndBytesConfig,
-    Gemma3ForConditionalGeneration,
     pipeline,
     AutoModelForImageTextToText,
 )
@@ -51,6 +50,10 @@ class LVLMWrapper:
         self.processor = AutoProcessor.from_pretrained(self.model_path)
 
     def __call__(self, image: str, prompt: str, **generate_kwargs):
+        # Check GPU temperature and pause if it exceeds 80 degrees
+        from libs.nvidia_usage_info.gpu_info import cooldown_gpu
+        cooldown_gpu(threshold=80, cooldown_time=120)
+
         if self.model is None or self.processor is None:
             self._load()
 

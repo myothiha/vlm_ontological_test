@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Iterable, List, Optional, Union
 
 class OllamaWrapper:
-    def __init__(self, model: str, multi_turn: bool = False):
+    def __init__(self, model: str, multi_turn: bool = False, num_ctx: int = 4096):
         load_dotenv()
         
         host_url = os.getenv("ollama_host")
@@ -20,6 +20,7 @@ class OllamaWrapper:
         self.base_url = host_url.rstrip("/")
         self.model = model
         self.multi_turn = multi_turn
+        self.num_ctx = num_ctx
         self.system_prompt = None
         self.history = []
 
@@ -34,6 +35,10 @@ class OllamaWrapper:
         self.multi_turn = multi_turn
 
     def __call__(self, prompt: str, images = None, stream: bool = False, **kwargs):
+        # Check GPU temperature and pause if it exceeds 80 degrees
+        from libs.nvidia_usage_info.gpu_info import cooldown_gpu
+        cooldown_gpu(threshold=80, cooldown_time=60)
+
         if images is None:
             if self.multi_turn:
                 # print("Using multi-turn mode")
@@ -52,10 +57,13 @@ class OllamaWrapper:
 
     def generate(self, prompt: str, stream: bool = False, **kwargs):
         url = f"{self.base_url}/api/generate"
+        options = kwargs.pop("options", {})
+        options.setdefault("num_ctx", self.num_ctx)
         payload = {
             "model": self.model,
             "prompt": prompt,
             "stream": stream,
+            "options": options,
             **kwargs
         }
         response = requests.post(url, json=payload, stream=stream)
@@ -79,10 +87,13 @@ class OllamaWrapper:
 
         self.history.append({"role": "user", "content": prompt})
 
+        options = kwargs.pop("options", {})
+        options.setdefault("num_ctx", self.num_ctx)
         payload = {
             "model": self.model,
             "messages": self.history,
             "stream": stream,
+            "options": options,
             **kwargs
         }
         response = requests.post(url, json=payload, stream=stream)
@@ -162,15 +173,16 @@ class OllamaWrapper:
         if not b64_images:
             raise ValueError("At least one image must be provided.")
 
+        options = kwargs.pop("options", {})
+        options.setdefault("num_ctx", self.num_ctx)
         payload = {
             "model": self.model,
             "prompt": prompt,
             "images": b64_images,
             "stream": stream,
+            "options": options,
             **kwargs
         }
-        # if options:
-        #     payload["options"] = options
         if keep_alive is not None:
             payload["keep_alive"] = keep_alive
 
