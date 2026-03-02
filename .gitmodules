@@ -1,0 +1,3 @@
+[submodule "libs/llm_loader"]
+	path = libs/llm_loader
+	url = https://github.com/myothiha/llm_wrapper.git
