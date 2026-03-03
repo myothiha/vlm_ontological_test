@@ -1,3 +1,6 @@
 [submodule "libs/llm_loader"]
 	path = libs/llm_loader
 	url = https://github.com/myothiha/llm_wrapper.git
+[submodule "libs/nvidia_usage_info"]
+	path = libs/nvidia_usage_info
+	url = https://github.com/myothiha/nvidia_usage_info.git

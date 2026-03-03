@@ -55,10 +55,10 @@ def extract_list_from_ollama_models(response):
             return questions
         except json.JSONDecodeError as e:
             print("Error: Failed to parse extracted JSON:")
-            return "Error: Failed to parse extracted JSON:"
+            return []
     else:
         print("Error: No JSON array found.")
-        return "Error: No JSON array found."
+        return []
 
 def extract_json_object(response):
     """
