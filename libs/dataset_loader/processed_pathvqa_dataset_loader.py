@@ -1,4 +1,5 @@
 import os
+import random
 from datasets import load_dataset
 from libs.dataset_loader.dataset import Dataset
 from PIL import Image
@@ -47,22 +48,27 @@ class PathVQADatasetLoader:
             concatenated += f"{question} {answer} "
         return concatenated.strip()
 
-
     def get_all(self):
         """Return all items as a list of dicts."""
         data = [self[i] for i in range(len(self))]
         dataset = Dataset(data)
         return dataset
 
-    def sample(self, n=1, seed=None):
-        """Return the first n rows from the dataset as a list of dicts."""
-        data = [self[i] for i in range(min(n, len(self)))]
+    def sample(self, n=1, seed=42):
+        """Randomly sample n rows from the dataset. Same seed + same n = same result."""
+        rng = random.Random(seed)
+        n = min(n, len(self))
+        indices = rng.sample(range(len(self)), n)
+        data = [self[i] for i in indices]
         dataset = Dataset(data)
         return dataset
     
-    def sample_original_dataset(self, n=1, seed=None):
-        """Return the first n rows from the original HuggingFace dataset as a list of dicts (raw format)."""
-        data = [self.dataset[i] for i in range(min(n, len(self.dataset)))]
+    def sample_original_dataset(self, n=1, seed=42):
+        """Randomly sample n rows from the original HuggingFace dataset (raw format). Same seed + same n = same result."""
+        rng = random.Random(seed)
+        n = min(n, len(self.dataset))
+        indices = rng.sample(range(len(self.dataset)), n)
+        data = [self.dataset[i] for i in indices]
         return data
 
     def get_image_hash_from_pil(self, pil_image, hash_func=None):

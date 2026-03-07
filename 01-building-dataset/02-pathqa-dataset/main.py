@@ -25,6 +25,7 @@ logger.info("Starting dataset building...")
 
 # Load environment variables
 load_dotenv()
+
 # model_path = os.getenv("Llama3_OpenBioLLM_70B")
 model_path = "gpt-oss:20b"
 
@@ -39,7 +40,6 @@ model_path = "gpt-oss:20b"
 # api model
 llm = GPTLLMWrapper("gpt-4.1")
 
-
 # extractor = MedicalConceptExtractor("en_core_sci_scibert") # Load the SciBERT model for medical concept extraction
 
 medical_concept_classifier = MedicalConceptClassifier(OllamaWrapper(model="gpt-oss:20b"))
@@ -47,11 +47,10 @@ extractor = LLMBasedMedicalConceptExtractor(model=OllamaWrapper(model="gpt-oss:2
                                             backup_extractor=MedicalConceptExtractor("en_core_sci_scibert"),
                                             concept_classifier=medical_concept_classifier)  # Load the LLM for medical concept extraction
 
-
 unique_concepts = set()
 
 # dataset = vqa_loader.get_all()
-dataset = vqa_loader.sample(n=10)
+dataset = vqa_loader.sample(n=100)
 
 benchmarkBuilder = BenchmarkBuilder(
     dataset=dataset,

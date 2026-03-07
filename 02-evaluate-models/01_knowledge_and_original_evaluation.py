@@ -9,6 +9,21 @@ from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from bert_score import score as bert_score
 import time
 from statistics import mean 
+import logging
+
+# Ensure logs directory exists
+os.makedirs(os.path.join(os.path.dirname(__file__), "logs"), exist_ok=True)
+
+# Configure logger
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler(os.path.join(os.path.dirname(__file__), "logs", "01_knowledge_and_original_evaluation.log")),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 # Add the parent folder to Python's search path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -19,25 +34,12 @@ from datasets import load_dataset
 from huggingface_hub import login
 
 from dotenv import load_dotenv
-from libs.llm_loader.llm_wrapper.lvlm_wrapper import LVLMWrapper
-from libs.llm_loader.ollama.ollama_wrapper import OllamaWrapper
 from libs.prompt.prompt_manager import PromptTemplateManager
 from libs.hugging_face.DatasetManager import HuggingFaceDatasetManager
+from models_config import models
 
 # Load Env Variables
 load_dotenv()
-
-# Load Model
-# model_id = os.getenv("LLaVA")
-# model = LVLMWrapper(model_id)
-models = {
-    # "llava_34b": OllamaWrapper(model="llava:34b"),
-    # "gemma3_27b": OllamaWrapper(model="gemma3:27b-it-q4_K_M"),
-    "llava_med_v1.5_mistral_7b": OllamaWrapper(model="z-uo/llava-med-v1.5-mistral-7b_f32:latest"),
-    # "mistral_small3.2_24b": OllamaWrapper(model="mistral-small3.2:24b"),
-    # "qwen2.5vl_72b": OllamaWrapper(model="qwen2.5vl:72b"),
-    # "llama3.2_vision_11b_instruct": OllamaWrapper(model="llama3.2-vision:11b-instruct-fp16"),
-}
 
 # Load the prompt templates
 manager = PromptTemplateManager(prompt_dir="prompt_templates")
@@ -46,7 +48,7 @@ manager = PromptTemplateManager(prompt_dir="prompt_templates")
 # Paste your token here (or load from environment variable)
 hf_token = os.getenv("HF_ACCESS_TOKEN")
 login(token=hf_token)
-cache_dir = "/mnt/synology/myothiha/HF_CACHE"
+cache_dir = os.getenv("HF_CACHE_DIR")
 dataset = load_dataset("myothiha/conceptbench_path_vqa", split="train", cache_dir=cache_dir)
 
 # Output result file setup
@@ -62,7 +64,7 @@ for model_name, model in models.items():
 
     start = time.time()
     
-    print(f"Evaluating model: {model_name}")
+    logger.info(f"Evaluating model: {model_name}")
     result = []
     hf_output_file = f"myothiha/conceptbench_path_vqa_result_2_{model_name}"
 
@@ -79,16 +81,16 @@ for model_name, model in models.items():
             #     print("Using cached result for concept:", concept)
             #     overall_reasoning_result = result_cache[concept]
             # else:
-            print("Start Localization for Concept:", concept)
+            logger.info(f"Start Localization for Concept: {concept}")
             
             localization_prompt = manager.format("localization_prompt", concept=concept)
             
-            print("Image Type:", type(image))
+            logger.info(f"Image Type: {type(image)}")
             model_localization_answer = model(images=[image], prompt=localization_prompt).lower()
 
-            print("Localization:", model_localization_answer)
+            logger.info(f"Localization: {model_localization_answer}")
 
-            print("Starting Reasoning for Concept:", concept)
+            logger.info(f"Starting Reasoning for Concept: {concept}")
 
             yes_questions = reasoning_questions.get("yes_questions", {})
             no_questions = reasoning_questions.get("no_questions", {})
@@ -128,7 +130,7 @@ for model_name, model in models.items():
                         "model_answer": model_positive_reasoning_answer_cleaned,
                         "is_correct": model_positive_reasoning_answer_cleaned == "yes"
                     }
-                    print("Positive Reasoning Question:", positive_reasoning_result)
+                    logger.info(f"Positive Reasoning Question: {positive_reasoning_result}")
                     positive_reasoning_results[dimension].append(positive_reasoning_result)
 
             negative_reasoning_results = {}
@@ -166,7 +168,7 @@ for model_name, model in models.items():
                         "model_answer": model_negative_reasoning_answer_cleaned,
                         "is_correct": model_negative_reasoning_answer_cleaned == "no"
                     }
-                    print("Negative Reasoning Question:", reasoning_question)
+                    logger.info(f"Negative Reasoning Question: {negative_reasoning_result}")
                     negative_reasoning_results[dimension].append(negative_reasoning_result)
 
             # positive_accuracy_for_each_dimension = dict()
@@ -190,14 +192,14 @@ for model_name, model in models.items():
                 for dim, acc_list in negative_accuracy.items()
                 if acc_list
             }
-            # compute average accuracy            
-            avg_positive_accuracy = mean(positive_accuracy_for_each_dimension.values())
-            avg_negative_accuracy = mean(negative_accuracy_for_each_dimension.values())
+            # compute average accuracy (None when no questions exist, so pandas skips it)
+            avg_positive_accuracy = mean(positive_accuracy_for_each_dimension.values()) if positive_accuracy_for_each_dimension else None
+            avg_negative_accuracy = mean(negative_accuracy_for_each_dimension.values()) if negative_accuracy_for_each_dimension else None
 
             overall_reasoning_result = {
                 "localization": model_localization_answer,
-                "positive_accuracy": round(avg_positive_accuracy, 2),
-                "negative_accuracy": round(avg_negative_accuracy, 2),
+                "positive_accuracy": round(avg_positive_accuracy, 2) if avg_positive_accuracy is not None else None,
+                "negative_accuracy": round(avg_negative_accuracy, 2) if avg_negative_accuracy is not None else None,
                 "positive_accuracy_details": positive_accuracy_for_each_dimension,
                 "negative_accuracy_details": negative_accuracy_for_each_dimension,
                 "positive_reasoning_results": positive_reasoning_results,
@@ -232,7 +234,6 @@ for model_name, model in models.items():
                 "reasoning_result": json.dumps(current_reasoning_result),
             }
             result.append(new_row)
-        # break
     
     end = time.time()
     processed_time = end - start

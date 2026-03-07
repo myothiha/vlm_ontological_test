@@ -171,13 +171,17 @@ class KnowledgeBaseLoader:
                 return True
         return False
 
-    def get_positive_questions(self, concept):
+    def get_positive_questions(self, concept, num_questions=10):
         """
         Get positive VLM reasoning questions for a concept (questions whose
         expected answer is "Yes" because the concept is present in the image).
 
         If the concept is unknown but a pipeline is available, generate on-the-fly
         and save into the knowledge base folder structure.
+
+        Args:
+            concept: The concept to get questions for.
+            num_questions: Max number of questions to return per dimension.
 
         Returns: dict[dimension_name] -> list[str]
         """
@@ -190,7 +194,12 @@ class KnowledgeBaseLoader:
             else:
                 return {dim: [] for dim in KNOWLEDGE_DIMENSIONS}
 
-        return self._load_concept_questions(concept)
+        all_qs = self._load_concept_questions(concept)
+        # Cap each dimension to num_questions
+        return {
+            dim: random.sample(qs, min(num_questions, len(qs))) if qs else []
+            for dim, qs in all_qs.items()
+        }
 
     def get_negative_questions(self, concept, exclude_concepts=None, num_concepts=3, num_questions=10):
         """
@@ -231,6 +240,11 @@ class KnowledgeBaseLoader:
                 sample_size = min(num_questions, len(dim_qs))
                 if sample_size > 0:
                     negative_questions[dim].extend(random.sample(dim_qs, sample_size))
+
+        # Cap each dimension to num_questions total
+        for dim in KNOWLEDGE_DIMENSIONS:
+            if len(negative_questions[dim]) > num_questions:
+                negative_questions[dim] = random.sample(negative_questions[dim], num_questions)
 
         return negative_questions
 
@@ -350,7 +364,7 @@ if __name__ == "__main__":
 
     # ── Build the benchmark ──────────────────────────────────────────────
     new_data = []
-    for row in vqa_loader.sample(n=1):
+    for row in vqa_loader.sample(n=100):
         img_hash = imagehash.phash(row["image"])
         questions_and_answers = row["questions_and_answers"]
         text = row["text"]
@@ -380,14 +394,14 @@ if __name__ == "__main__":
                 exclude_concepts = [c for c in all_concepts if c != concept]
 
                 # Get positive questions (concept IS in the image → answer = Yes)
-                positive_questions = kb_loader.get_positive_questions(concept)
+                positive_questions = kb_loader.get_positive_questions(concept, num_questions=10)
 
                 # Get negative questions (concept NOT in the image → answer = No)
                 negative_questions = kb_loader.get_negative_questions(
                     concept,
                     exclude_concepts=exclude_concepts,
-                    num_concepts=10,
-                    num_questions=15,
+                    num_concepts=3,
+                    num_questions=10,
                 )
 
                 vlm_reasoning_questions = {

@@ -11,3 +11,7 @@ __pycache__/
 02-evaluate-models/analysis_results/
 .venv/
 01-building-dataset/02-pathqa-dataset/logs/main.log
+
+# Per-server model configuration (not tracked in git)
+02-evaluate-models/models_config.py
+01-building-dataset/02-pathqa-dataset/quality_check/

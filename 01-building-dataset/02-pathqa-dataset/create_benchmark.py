@@ -50,6 +50,7 @@ concept_extractor = LLMBasedMedicalConceptExtractor(model=OllamaWrapper(model="g
 
 # Setup pipeline to generate questions for concepts that are not exist.
 llm = GPTLLMWrapper("gpt-4.1")
+
 # llm = OllamaWrapper(model="gpt-oss:20b")
 
 concept_bench_pipeline = OntoBenchPipeline(
