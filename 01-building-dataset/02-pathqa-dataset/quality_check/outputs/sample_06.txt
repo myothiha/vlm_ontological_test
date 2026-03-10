@@ -1,0 +1,469 @@
+VLM Reasoning Questions – Quality Check Sample
+File 6 | Concepts 51–60
+======================================================================
+
+======================================================================
+  CONCEPT: INCREASED NUMBER OF MEGAKARYOCYTES
+======================================================================
+
+  [Relational]
+    1. Does the image show a tissue where an increased number of a specific cell type is commonly associated with diseases such as myeloproliferative neoplasms or essential thrombocythemia?
+    2. Is there evidence in the tissue of a pathological process that is a key feature in conditions like myelofibrosis or reactive marrow changes?
+    3. Can you identify a tissue where an increased number of a particular cell is linked to hematological disorders such as polycythemia vera or chronic myeloid leukemia?
+    4. Does the image include a tissue in which an increased number of a certain cell type is related to elevated platelet production and thrombocytosis?
+    5. Is there evidence of changes in a tissue where an increased number of a specific cell type can affect other precursors such as erythroid and myeloid cells due to an altered environment?
+
+======================================================================
+  CONCEPT: INFLAMMATORY REACTIONS
+======================================================================
+
+  [Functions]
+    1. Does the image show evidence of a pathological process that initiates and coordinates the immune response by recruiting immune cells to sites of injury or infection?
+    2. Is there a process present that contributes to the body's defense by promoting pathogen elimination and clearance of damaged tissue?
+    3. Can you identify a pathological process that plays a role in tissue repair and regeneration by supporting debris removal?
+    4. Does the image include a process that, when unresolved, can sustain tissue damage and promote fibrosis in chronic diseases?
+    5. Is there evidence of a process that affects surrounding tissues by causing redness, swelling, heat, pain, or loss of function?
+    6. Can you identify a process that manifests as clinical signs such as fever, edema, erythema, or elevated inflammatory markers?
+    7. Does the image show a pathological process that can lead to excessive tissue damage, autoimmunity, or chronic inflammation?
+    8. Is there a process present that may be characterized by rapid onset and neutrophil predominance in acute cases, or prolonged duration with lymphocyte and macrophage infiltration in chronic cases?
+    9. Can you identify a process that modulates adaptive immunity and influences cytokine signaling networks?
+    10. Does the image include a process that is commonly targeted by anti-inflammatory therapies or immunomodulatory drugs to reduce harmful effects?
+
+  [Relational]
+    1. Does the image show a pathological process that is known to affect tissues such as skin, mucosa, or joints?
+    2. Is there evidence of a process involving immune cells like neutrophils or macrophages?
+    3. Can you identify a pathological process that is a component of the immune response to injury or infection?
+    4. Does the image include organs such as the lungs or liver that are commonly impacted by this type of pathological process?
+    5. Is there evidence of a process associated with diseases such as rheumatoid arthritis or asthma?
+    6. Can you identify a pathological process that involves the release of mediators like cytokines or histamine?
+    7. Does the image show features consistent with a process triggered by infection to contain pathogens?
+    8. Is there evidence of interaction between a pathological process and healing or tissue repair?
+    9. Can you identify signs of a process that may lead to systemic effects such as fever or leukocytosis?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that may become exaggerated in autoimmune diseases due to immune system dysfunction?
+    2. Is there a pathological process present that can fail to resolve after infection when persistent pathogens or defective resolution mechanisms are involved?
+    3. Can you identify a process that increases in response to tissue injury as immune cells are recruited to the damaged site?
+    4. Does the image include a pathological process that becomes suppressed during immunosuppressive therapy?
+    5. Is there a process that contributes to chronic disease progression when ongoing inflammation leads to tissue remodeling and fibrosis?
+    6. Can you identify a pathological process whose activity decreases in elderly patients due to reduced immune responsiveness?
+    7. Does the image show a process that becomes dysregulated in sepsis, resulting in an overwhelming systemic response?
+    8. Is there a pathological process that may lead to tissue damage instead of healing when inflammation is excessive or prolonged?
+    9. Can you identify a process that subsides after removal of the triggering factor as the stimulus is eliminated?
+    10. Does the image include a pathological process that becomes insufficient to control infection in cases of immunodeficiency or overwhelming pathogen load?
+
+======================================================================
+  CONCEPT: INTESTINE
+======================================================================
+
+  [Properties]
+    1. Does the image show an organ that is known to have a total length of approximately 7–8 meters in adults?
+    2. Is there an organ present that would typically have a small segment measuring 2.5–3 centimeters in diameter and a large segment measuring 5–7 centimeters in diameter?
+    3. Can you identify an organ that is characterized by an average adult weight of about 1.5–2 kilograms?
+    4. Does the image contain an organ that is known to have a pinkish to light red coloration due to its rich blood supply?
+    5. Is there an organ that would typically have a wall composed of mucosa, submucosa, muscularis propria, and serosa layers?
+    6. Can you identify an organ that is characterized by an internal pH ranging from 6 to 7.4?
+    7. Is there an organ present that is known to have a water content of approximately 75–80 percent of its weight?
+    8. Does the image show an organ with a mucosal layer that typically measures about 0.5–1.5 millimeters in thickness?
+    9. Is there an organ that would usually have a soft, pliable, and smooth serosal surface texture?
+    10. Can you identify an organ that is characterized by a temperature close to core body temperature, around 37 degrees Celsius?
+    11. Is there an organ present that is known to have a density of approximately 1.04–1.06 grams per cubic centimeter?
+    12. Does the image contain an organ that would typically include enterocytes, goblet cells, Paneth cells, enteroendocrine cells, and stem cells?
+    13. Is there an organ that is characterized by a lipid content of about 2–4 percent of its dry weight?
+    14. Can you identify an organ that would typically have a protein concentration of 15–20 percent of its dry weight?
+    15. Is there an organ present that is known to have a carbohydrate content generally less than 5 percent of its dry weight?
+
+  [Functions]
+    1. Does the image show an organ that performs digestion, nutrient absorption, and waste elimination?
+    2. Is there an organ present that absorbs nutrients and water through specialized epithelial cells?
+    3. Can you identify an organ that plays a role in immune defense by housing gut-associated lymphoid tissue?
+    4. Does the image include an organ that contributes to enzymatic and microbial breakdown of food?
+    5. Is there an organ that interacts with gut microbiota to support digestion, vitamin synthesis, and immune modulation?
+    6. Can you identify an organ that exhibits coordinated muscular contractions to propel contents through the digestive tract?
+    7. Does the image show an organ that initiates inflammation and tissue repair in response to injury or disease?
+    8. Is there an organ present whose dysfunction can lead to malabsorption, malnutrition, or systemic complications?
+    9. Can you identify an organ that compacts undigested material and moves waste toward excretion?
+    10. Does the image include an organ whose disorders may result in gastrointestinal symptoms such as abdominal pain, diarrhea, or constipation?
+
+  [Relational]
+    1. Does the image show an organ that is known to belong to the digestive system?
+    2. Is there an organ present that is typically connected to the stomach and rectum?
+    3. Can you identify an organ that is supplied by major blood vessels such as the superior and inferior mesenteric arteries?
+    4. Does the image include an organ that is associated with lymphatic structures like mesenteric lymph nodes?
+    5. Is there an organ that would normally be located within the abdominal or pelvic regions?
+    6. Can you see an organ that interacts with the pancreas, liver, or gallbladder during nutrient absorption?
+    7. Does the image contain an organ that is innervated by the vagus nerve or the enteric nervous system?
+    8. Is there an organ present that is commonly associated with diseases such as Crohn's disease or ulcerative colitis?
+    9. Can you identify an organ that is known to have a symbiotic relationship with the gut microbiota?
+
+  [Contexual Properties]
+    1. Does the image show a tissue that is known to become inflamed in conditions such as inflammatory bowel disease or infection?
+    2. Is there a tissue present that can increase in length in congenital conditions or in response to chronic obstruction?
+    3. Can you identify a tissue that is known to become thickened during chronic inflammation, infection, or neoplastic infiltration?
+    4. Does the image include a tissue that may develop ulcers in diseases like Crohn's disease, ulcerative colitis, or certain infections?
+    5. Is there a tissue present that is known to change color in cases of ischemia, infarction, or severe inflammation?
+    6. Can you identify a tissue that can become narrowed due to chronic inflammation, fibrosis, or tumor growth?
+    7. Does the image show a tissue that is known to accumulate gas in cases of obstruction, bacterial overgrowth, or paralytic ileus?
+    8. Is there a tissue present that can become dilated proximal to an obstruction or in cases of paralytic ileus?
+    9. Can you identify a tissue whose motility patterns are known to become abnormal in certain disorders or after surgery?
+    10. Does the image include a tissue that may develop strictures as a result of chronic inflammation, fibrosis, or previous surgery?
+    11. Is there a tissue present that is known to become edematous during acute inflammation, infection, or ischemia?
+    12. Can you identify a tissue whose permeability is known to increase in inflammatory, autoimmune, or infectious conditions?
+    13. Does the image show a tissue that can lose its normal mucosal pattern in severe inflammation, infection, or neoplastic infiltration?
+    14. Is there a tissue present that is known to develop polyps in hereditary syndromes, chronic inflammation, or with age?
+    15. Can you identify a tissue that may become perforated due to severe inflammation, ulceration, trauma, or malignancy?
+
+  [Contexual Behavior]
+    1. Does the image show an organ that may slow its motility under conditions like ileus, opioid use, or hypothyroidism?
+    2. Is there an organ present that can increase nutrient absorption after fasting or in response to certain hormones?
+    3. Can you identify an organ that reduces its barrier function during inflammatory or infectious diseases?
+    4. Does the image include an organ that may fail to absorb water properly in diarrheal or inflamed states?
+    5. Is there an organ that increases secretion in response to infection by certain bacteria or viruses?
+    6. Can you identify an organ that alters its microbiome composition during antibiotic use, dietary changes, or disease?
+    7. Does the image show an organ that may exhibit impaired peristalsis after surgery or in neuropathic disorders?
+    8. Is there an organ that becomes more permeable during inflammation such as in Crohn's disease or celiac disease?
+    9. Can you identify an organ that decreases enzyme production in chronic pancreatitis, mucosal atrophy, or malnutrition?
+    10. Does the image include an organ that increases immune activity in response to pathogens?
+    11. Is there an organ that reduces its digestive efficiency in diseases like celiac disease or short bowel syndrome?
+    12. Can you identify an organ whose absorption changes due to disease in conditions such as Crohn's disease, celiac disease, or intestinal resection?
+
+======================================================================
+  CONCEPT: INTRADUCTAL PAPILLOMATOSIS
+======================================================================
+
+  [Functions]
+    1. Does the image show a breast lesion characterized by the proliferation of multiple papillary structures within the ducts?
+    2. Is there a pathological process present that causes epithelial overgrowth and multifocal papillary formations in breast ducts?
+    3. Can you identify a breast lesion that is known to give rise to benign or atypical papillary growths, potentially presenting as palpable masses or nipple discharge?
+    4. Does the image include a pathological process that increases the risk of atypia or carcinoma compared to solitary papillary lesions?
+    5. Is there evidence of a breast lesion associated with clinical effects such as nipple discharge or palpable masses?
+    6. Can you identify a pathological process that presents as multiple intraductal masses or complex cystic lesions on imaging or histopathology?
+    7. Does the image show a breast lesion that often requires careful evaluation for atypia or malignancy and may necessitate surgical excision?
+
+  [Relational]
+    1. Does the image show a pathological process that affects the mammary ducts within an organ of the breast?
+    2. Is there evidence of a process involving proliferation within the breast ductal system?
+    3. Can you identify tissue changes involving the ductal epithelium and surrounding breast stroma?
+    4. Does the image include a pathological process that is associated with atypical hyperplasia or an increased risk of breast carcinoma?
+    5. Is there evidence of a process that impacts the breast and is linked to an elevated risk of developing breast cancer?
+    6. Can you see changes in anatomical structures adjacent to affected areas, such as lobules, connective tissue, or blood vessels of the breast?
+    7. Does the image show clinical findings such as nipple discharge or palpable masses that are related to a pathological process in the breast?
+
+  [Contexual Behavior]
+    1. Does the image show a disease that increases its risk of progressing to malignancy when atypia or multiple lesions are present?
+    2. Is there a disease present that can cause more pronounced nipple discharge when lesions are large or involve multiple ducts?
+    3. Can you identify a disease that becomes symptomatic when lesions grow large enough to cause palpable masses or noticeable discharge?
+    4. Does the image include a disease that shows increased recurrence after treatment if excision is incomplete or multiple ducts are involved?
+    5. Is there a disease that can lead to ductal obstruction when papillary growths block the ductal lumen?
+    6. Can you identify a disease that becomes more difficult to detect on imaging when lesions are small or diffusely distributed within the ducts?
+    7. Does the image show a disease whose clinical presentation may change between premenopausal and postmenopausal women due to hormonal influences?
+    8. Is there a disease that increases its proliferative activity in the presence of hormonal stimulation or genetic predisposition?
+
+======================================================================
+  CONCEPT: KIDNEY
+======================================================================
+
+  [Properties]
+    1. Does the image show an organ that is known to have a typical adult size of approximately 10–12 centimeters in length, 5–7 centimeters in width, and 3–4 centimeters in thickness?
+    2. Is there an organ in the image that would normally weigh around 120–170 grams in adults?
+    3. Can you identify an organ that is known to have a reddish-brown coloration?
+    4. Does the image contain an organ that is characterized by a bean-shaped structure?
+    5. Is there an organ that would typically have a smooth and firm surface texture?
+    6. Does the image show an organ with an average adult volume of about 150–180 milliliters?
+    7. Is there an organ present that is known to have a water content of approximately 80–83 percent of its weight?
+    8. Can you identify an organ that would typically have a fat content of less than 2 percent of its weight?
+    9. Is there an organ in the image that is characterized by a normal tissue pH of around 7.2–7.4?
+    10. Does the image show an organ with a density of approximately 1.05–1.07 grams per cubic centimeter?
+    11. Is there an organ that would typically have a protein concentration of about 60–80 grams per kilogram of tissue?
+    12. Can you identify an organ that is known to have a sodium concentration of approximately 40–70 millimoles per kilogram wet weight?
+    13. Does the image contain an organ with a potassium concentration of about 70–100 millimoles per kilogram wet weight?
+    14. Is there an organ present that is characterized by an oxygen level of typically 10–20 mmHg in the cortex and lower in the medulla?
+    15. Can you identify an organ that would typically have a glucose level similar to blood glucose, around 70–110 milligrams per deciliter?
+    16. Is there an organ in the image that is known to have a typical temperature close to core body temperature, around 37 degrees Celsius?
+    17. Does the image show an organ that contains approximately 1 to 1.5 million nephrons?
+    18. Is there an organ present that would typically have a calcium content of about 0.1–0.2 milligrams per gram of tissue?
+    19. Can you identify an organ that is characterized by an iron content of approximately 0.2–0.5 milligrams per gram of tissue?
+    20. Does the image contain an organ that is known to include cell types such as podocytes, tubular epithelial cells, mesangial cells, endothelial cells, and interstitial fibroblasts?
+
+  [Functions]
+    1. Does the image show an organ that performs essential blood filtration and waste excretion functions?
+    2. Is there an organ present that regulates fluid and electrolyte balance in the body?
+    3. Can you identify an organ responsible for removing toxins and metabolic waste products from the bloodstream?
+    4. Does the image include an organ that contributes to blood pressure regulation through sodium and water balance and hormone secretion?
+    5. Is there an organ that helps maintain acid-base balance by reabsorbing bicarbonate and excreting hydrogen ions?
+    6. Can you identify an organ that produces hormones such as erythropoietin and renin?
+    7. Does the image show an organ involved in metabolic activities like gluconeogenesis and vitamin D activation?
+    8. Is there an organ present that initiates repair mechanisms and inflammatory responses following injury or disease?
+    9. Can you identify an organ that participates in immune modulation through antigen presentation and cytokine production?
+    10. Does the image include an organ whose dysfunction can lead to fluid overload, electrolyte imbalances, toxin accumulation, anemia, or increased cardiovascular risk?
+
+  [Relational]
+    1. Does the image show an organ that is known to belong to the urinary system?
+    2. Is there an organ present that is typically connected to major blood vessels such as the renal artery and renal vein?
+    3. Can you identify an organ that is usually adjacent to anatomical structures like the adrenal gland or psoas major muscle?
+    4. Does the image include an organ that is associated with ducts such as the ureter and renal pelvis?
+    5. Is there an organ that interacts with other components of the urinary system, such as the bladder and urethra?
+    6. Can you see an organ that is located in close proximity to the adrenal gland?
+    7. Does the image contain an organ that receives blood supply from the renal artery and its branches?
+    8. Is there an organ present that is related to lymphatic structures such as the renal lymph nodes?
+    9. Can you identify an organ that is contained within the retroperitoneal space of the abdominal cavity?
+    10. Does the image show an organ that is known to influence the urinary, endocrine, and cardiovascular systems?
+
+  [Contexual Properties]
+    1. Does the image show an organ that is known to become enlarged in conditions such as acute infection, hydronephrosis, or polycystic disease?
+    2. Is there an organ present that can shrink in size during chronic disease due to progressive scarring and tissue loss?
+    3. Can you identify an organ that is known to develop cysts in certain genetic or acquired disorders?
+    4. Does the image include an organ that may accumulate excess fat in specific pathological conditions?
+    5. Is there an organ present that can change color in cases of infarction, hemorrhage, or severe infection, resulting in a pale, red, or mottled appearance?
+    6. Can you identify an organ that becomes scarred after repeated episodes of infection or chronic inflammation?
+    7. Does the image show an organ whose density may appear abnormal on imaging in the presence of stones, tumors, or chronic scarring?
+    8. Is there an organ present that can develop abnormal tissue structure in conditions such as glomerulosclerosis or congenital anomalies?
+    9. Can you identify an organ that may swell due to inflammation during acute infection or glomerulonephritis?
+    10. Does the image include an organ that can accumulate excess fluid in cases of hydronephrosis or acute urinary tract obstruction?
+    11. Is there an organ present that becomes fibrotic in chronic disease or after prolonged inflammation and injury?
+    12. Can you identify an organ that increases in weight during acute inflammation, congestion, or polycystic disease?
+    13. Does the image show an organ whose creatinine-related properties are known to become abnormal in acute or chronic failure?
+    14. Is there an organ present that can develop calcifications in chronic infections, nephrocalcinosis, or after repeated stone formation?
+    15. Can you identify an organ whose texture is known to change when fibrosis, scarring, or cyst formation alters the normal parenchyma?
+
+  [Contexual Behavior]
+    1. Does the image show an organ that may reduce its filtration rate in acute or chronic disease?
+    2. Is there an organ present that can fail to concentrate urine effectively in certain pathological conditions?
+    3. Can you identify an organ that increases sodium reabsorption in response to low blood volume or hormonal activation?
+    4. Does the image include an organ that may decrease its ability to excrete waste products in advanced insufficiency?
+    5. Is there an organ that alters hormone production to adapt to changes in blood pressure?
+    6. Can you identify an organ that becomes less responsive to antidiuretic hormone in specific disorders?
+    7. Does the image show an organ that increases erythropoietin secretion during hypoxia or anemia?
+    8. Is there an organ that may show impaired acid-base regulation in chronic disease or tubular dysfunction?
+    9. Can you identify an organ that loses its ability to regulate electrolyte balance in end-stage disease?
+    10. Does the image include an organ whose function can decline due to dehydration and reduced blood volume?
+    11. Is there an organ that increases renin release during hypotension to restore blood pressure?
+    12. Can you identify an organ that may fail to maintain fluid balance in chronic conditions such as heart failure?
+    13. Does the image show an organ that alters its function in response to medication toxicity by reducing filtration or causing injury?
+    14. Is there an organ that becomes unable to remove excess potassium in advanced failure?
+    15. Can you identify an organ whose filtration barrier becomes more permeable to proteins in certain glomerular diseases?
+
+======================================================================
+  CONCEPT: LACERATIONS
+======================================================================
+
+  [Functions]
+    1. Does the image show a pathological process that initiates inflammation, tissue repair, and scar formation during healing?
+    2. Is there evidence of a tissue injury that disrupts tissue integrity and may result in bleeding or delayed healing?
+    3. Can you identify a process that increases infection risk by providing an entry point for pathogens into underlying tissues?
+    4. Does the image include a pathological process associated with pain, bleeding, infection, scarring, or loss of function?
+    5. Is there a tissue injury present that causes blood vessel damage and triggers clot formation to stop blood loss?
+    6. Can you identify a process that exposes nerve endings and leads to pain or functional impairment?
+    7. Does the image show an injury that serves as an indicator for trauma assessment and guides wound management interventions?
+
+  [Relational]
+    1. Does the image show tissue injury that commonly affects the skin or subcutaneous tissue?
+    2. Is there evidence of a pathological process that is frequently found in anatomical regions such as the scalp, face, or hands?
+    3. Can you identify tissue damage that is known to expose or injure structures like nerves or blood vessels?
+    4. Does the image include evidence of disruption to blood vessels that could lead to bleeding or hematoma formation?
+    5. Is there a tissue injury present that, if deep, could compromise organs such as the liver or lungs depending on its location?
+    6. Can you see evidence of an injury that is often associated with other injuries such as contusions or fractures?
+    7. Does the image show tissue changes where complications like infection or impaired wound healing may arise in adjacent areas?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that may heal more slowly in the presence of underlying medical conditions such as diabetes or vascular disease?
+    2. Is there a pathological process present that becomes more prone to infection when contaminated with dirt or bacteria?
+    3. Can you identify a pathological process that may bleed excessively in patients with clotting disorders?
+    4. Does the image include a pathological process that may require surgical intervention when deep, irregular, or involving vital structures?
+    5. Is there a pathological process that shows delayed healing in immunocompromised individuals due to impaired immune response?
+    6. Can you identify a pathological process that increases the risk of scarring when wound edges are not well approximated or healing is prolonged?
+    7. Does the image show a pathological process that may fail to close properly due to wound tension or contamination, leading to wound dehiscence?
+    8. Is there a pathological process that can result in impaired function of the affected area when involving tendons, nerves, or joints?
+    9. Can you identify a pathological process that becomes complicated by foreign body retention when debris or objects remain in the wound?
+    10. Does the image include a pathological process that may trigger a stronger inflammatory response when there is extensive tissue damage or infection?
+
+======================================================================
+  CONCEPT: LANGHANS GIANT CELLS
+======================================================================
+
+  [Properties]
+    1. Can you identify a cell that is known to have a typical diameter ranging from 40 to 100 micrometers?
+    2. Is there a cell present that would typically contain 10 to 20 or more nuclei?
+    3. Does the image show a cell that is generally round to oval in shape?
+    4. Can you find a cell whose nuclei are characteristically arranged in a horseshoe or peripheral ring pattern?
+    5. Is there a cell that is described as having abundant, pale eosinophilic, and finely granular cytoplasm?
+    6. Does the image contain a cell that, when stained with hematoxylin and eosin, would show pink cytoplasm and dark blue nuclei?
+    7. Can you identify a cell that would typically have an average diameter of approximately 50 to 60 micrometers?
+    8. Is there a cell that, under light microscopy, appears with pale pink cytoplasm and dark blue to purple nuclei?
+    9. Does the image show a cell whose volume is estimated to be between 33,500 and 523,600 cubic micrometers?
+    10. Can you find a cell that is characterized by a low nuclear-to-cytoplasmic ratio due to abundant cytoplasm?
+
+  [Functions]
+    1. Does the image show a cell type that participates in the containment and organization of persistent pathogens within granulomatous inflammation?
+    2. Is there a cell present that contributes to the immune response against infections such as tuberculosis by helping sequester pathogens within granulomas?
+    3. Can you identify a cell that serves as a central component in the formation of granulomas to wall off infectious agents or non-degradable substances?
+    4. Does the image include a cell type that interacts with lymphocytes and macrophages to sustain chronic inflammatory responses?
+    5. Is there a cell present that contributes to the formation of organized granulomatous lesions, thereby affecting tissue structure during chronic inflammation?
+    6. Can you identify a cell involved in mediating granulomatous inflammation in diseases such as tuberculosis, sarcoidosis, or certain fungal infections?
+
+  [Relational]
+    1. Does the image show cells that are typically associated with granulomatous tissue?
+    2. Is there evidence of cells that are a hallmark of granulomatous inflammation within granulomas?
+    3. Can you identify cells that are commonly found in diseases such as tuberculosis or sarcoidosis?
+    4. Does the image include cells that interact with immune cells like macrophages and T lymphocytes?
+    5. Is there evidence of cells involved in pathological conditions such as fungal infections or foreign body reactions?
+    6. Can you see cells that may be present in organs such as the lungs, lymph nodes, or spleen during certain disease states?
+
+  [Contexual Properties]
+    1. Does the image show a type of tissue cell that is known to increase in number during granulomatous inflammation such as tuberculosis or sarcoidosis?
+    2. Is there a tissue cell present whose size can change depending on the intensity and chronicity of granulomatous inflammation?
+    3. Can you identify a tissue cell that may display abnormal nuclear arrangement in atypical granulomas or altered immune reactions?
+    4. Does the image include a tissue cell that can accumulate more cytoplasmic inclusions in chronic infections or when engulfing persistent pathogens?
+    5. Is there a tissue cell whose shape is known to change under varying inflammatory conditions or due to the fusion of multiple macrophages?
+    6. Can you identify a tissue cell that may display altered staining properties in the presence of certain infectious agents or due to necrosis within granulomas?
+    7. Does the image show a tissue cell that can become multinucleated with more nuclei than usual during intense or prolonged granulomatous responses?
+    8. Is there a tissue cell present whose density is known to increase in samples from active granulomatous diseases such as tuberculosis or leprosy?
+
+  [Contexual Behavior]
+    1. Does the image show a cell type that increases in number during granulomatous inflammation with persistent antigenic stimulation?
+    2. Is there a cellular component present that becomes more prominent in response to tuberculosis infection?
+    3. Can you identify a cell type that may fail to form in immune-compromised patients due to inadequate T-cell-mediated responses?
+    4. Does the image include a cellular entity that alters its structure depending on the pathogen encountered?
+    5. Is there a cell type that contributes to tissue damage in chronic inflammation by sustaining granuloma formation?
+    6. Can you identify a cellular component whose numbers decrease following effective treatment of granulomatous diseases?
+    7. Does the image show a cell type that may exhibit impaired function in sarcoidosis due to altered immune regulation?
+
+======================================================================
+  CONCEPT: LAYERS OF SQUAMOUS EPITHELIUM
+======================================================================
+
+  [Properties]
+    1. Can you identify a tissue that is known to have between one and twenty layers, depending on whether it is simple or stratified?
+    2. Is there a tissue present that would typically have a thickness ranging from 50 to 500 micrometers, depending on keratinization?
+    3. Does the image show a tissue in which a single layer is known to be approximately 5 to 10 micrometers in height?
+    4. Can you identify a tissue where the average cell size is about 10 to 15 micrometers in diameter?
+    5. Is there a tissue that is characterized by a normal cell density of approximately 1,000 to 2,000 cells per square millimeter?
+    6. Does the image contain a tissue that is typically composed of squamous epithelial cells, with possible presence of keratin and desmosomes?
+    7. Can you identify a tissue that is known for having tightly packed cells arranged in parallel layers, with flattened cells at the surface?
+    8. Is there a tissue present whose width typically ranges from a few millimeters to several centimeters, depending on the anatomical location?
+    9. Does the image show a tissue where the stratum corneum is typically 10 to 40 micrometers thick in non-palmar skin and can reach up to 600 micrometers in thick skin?
+    10. Can you identify a tissue that is characterized by a water content of approximately 60 to 70 percent by weight?
+
+  [Relational]
+    1. Does the image show tissue that is known to be present in anatomical structures such as the epidermis or oral cavity?
+    2. Is there tissue present that typically lines organs like the esophagus or cervix?
+    3. Can you identify tissue that is known to protect organs such as the skin and vagina?
+    4. Does the image include tissue that is commonly associated with diseases such as squamous cell carcinoma or psoriasis?
+    5. Is there tissue visible that is separated from underlying connective tissue by a basement membrane?
+    6. Can you see tissue that may be affected by pathological conditions such as infections or neoplasia?
+    7. Does the image show tissue that contains cell types such as basal cells or keratinocytes?
+
+  [Contexual Properties]
+    1. Does the image show a tissue whose layers can increase in thickness in response to chronic irritation or inflammation?
+    2. Is there a tissue present that is known to become thinner in atrophic conditions such as postmenopausal atrophy or lichen sclerosus?
+    3. Can you identify a tissue whose layers may become hyperplastic during chronic irritation, infection, or inflammatory skin diseases?
+    4. Does the image include a tissue that can show abnormal keratinization in disorders such as psoriasis or actinic keratosis?
+    5. Is there a tissue whose normal stratification can be lost in dysplastic or precancerous conditions?
+    6. Can you identify a tissue that may become dysplastic in lesions such as cervical intraepithelial neoplasia or actinic keratosis?
+    7. Does the image show a tissue where the number of cell layers can change in response to hormonal changes, chronic irritation, or neoplastic transformation?
+    8. Is there a tissue present whose layers may show increased cellular atypia in dysplastic or neoplastic conditions?
+    9. Can you identify a tissue whose layers can develop parakeratosis in conditions like psoriasis or chronic dermatitis?
+
+======================================================================
+  CONCEPT: LESIONS
+======================================================================
+
+  [Properties]
+    1. Does the image contain a pathological condition that is known to range in size from a few millimeters to several centimeters?
+    2. Can you identify a pathological condition that would typically have a shape described as round, oval, irregular, or linear?
+    3. Is there a pathological condition present that is known to have coloration such as red, white, brown, black, or skin-colored?
+    4. Does the image show a pathological condition that can be described as having a smooth, rough, scaly, or verrucous texture?
+    5. Is there a pathological condition that is characterized by a composition including cellular tissue, fluid, blood, pus, or necrotic material?
+    6. Can you identify a pathological condition that would typically have a volume ranging from less than 1 cubic centimeter to over 100 cubic centimeters?
+    7. Does the image contain a pathological condition that is known to be hypodense, isodense, or hyperdense relative to surrounding tissue on imaging studies?
+    8. Is there a pathological condition present that can be described as having well-defined or poorly defined borders?
+    9. Can you identify a pathological condition that is characterized by a consistency that may be soft, firm, hard, or fluctuant?
+    10. Does the image show a pathological condition that would typically have a surface appearance described as smooth, ulcerated, crusted, or papillomatous?
+
+  [Functions]
+    1. Does the image show a tissue abnormality that develops as a result of injury, infection, inflammation, or abnormal cell growth?
+    2. Is there a pathological change present that exhibits cellular degeneration, necrosis, inflammation, or abnormal proliferation within tissue?
+    3. Can you identify a localized tissue alteration that disrupts normal structure and impairs physiological function?
+    4. Does the image include a disease manifestation that plays a role in disease progression or increases the risk of complications?
+    5. Is there a tissue abnormality present that contributes to clinical symptoms such as pain, swelling, or loss of function?
+    6. Can you identify a visible or detectable abnormality that serves as a diagnostic marker for underlying disease?
+    7. Does the image show a pathological change that may regress, heal, persist, or worsen in response to treatment?
+    8. Is there a tissue alteration present that can influence disease severity, risk of complications, or patient recovery potential?
+
+  [Relational]
+    1. Does the image show tissue that is affected by a localized structural or functional abnormality?
+    2. Is there evidence of an abnormality that can develop in organs such as the skin, liver, or brain?
+    3. Can you identify a tissue abnormality that is commonly associated with diseases like cancer or infections?
+    4. Does the image include a tissue change that is known to disrupt surrounding healthy tissue by causing inflammation or invasion?
+    5. Is there an abnormality present in anatomical regions such as the mucous membranes or gastrointestinal tract?
+    6. Can you see evidence of cells such as inflammatory or neoplastic cells within or around a localized tissue abnormality?
+    7. Does the image show features consistent with clinical conditions characterized by the presence of localized tissue abnormalities, such as multiple sclerosis or melanoma?
+    8. Is there evidence of a tissue abnormality that would typically be identified using imaging, biopsy, or endoscopy?
+    9. Can you identify a localized abnormality that is often associated with an inflammatory response due to tissue injury or infection?
+    10. Does the image include a tissue abnormality that could lead to complications such as hemorrhage, infection, or organ dysfunction?
+
+  [Contexual Properties]
+    1. Does the image show a pathological process that is known to increase in size during active disease progression or ongoing inflammation?
+    2. Is there a pathological process present that can change color in response to bleeding, infection, or changes in vascularity?
+    3. Can you identify a pathological process that may become raised or indurated in chronic inflammation, neoplastic growth, or fibrosis?
+    4. Does the image include a pathological process that is known to ulcerate or break down due to ischemia, infection, or malignancy?
+    5. Is there a pathological process that can become more numerous in disseminated infections, metastatic cancer, or widespread inflammatory diseases?
+    6. Can you identify a pathological process whose texture is known to change when fibrosis, necrosis, or edema alters tissue structure?
+    7. Does the image show a pathological process that may become necrotic when blood supply is compromised or in aggressive infections and malignancies?
+    8. Is there a pathological process present that can develop irregular borders in malignant transformation or invasive growth?
+    9. Can you identify a pathological process that is known to become hemorrhagic when blood vessels rupture due to trauma, malignancy, or vascular disorders?
+    10. Does the image include a pathological process that may show increased density on imaging when it undergoes calcification or fibrosis?
+    11. Is there a pathological process present that can calcify in chronic inflammation, granulomatous disease, or certain tumors?
+    12. Can you identify a pathological process that may become edematous in response to acute inflammation, allergic reactions, or trauma?
+    13. Does the image show a pathological process whose composition is known to change when necrosis, hemorrhage, or cystic degeneration occurs?
+    14. Is there a pathological process present that can show abnormal metabolic activity on imaging in malignancy, infection, or active inflammation?
+    15. Can you identify a pathological process that is known to shrink or resolve after successful treatment, immune response, or spontaneous regression?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological finding that may increase in size or number as a disease progresses?
+    2. Is there a pathological finding present that can heal more slowly in immunocompromised patients due to impaired immune response?
+    3. Can you identify a pathological finding that may become more painful under conditions such as inflammation, infection, or nerve involvement?
+    4. Does the image include a pathological finding that shows increased inflammation during infection?
+    5. Is there a pathological finding that may fail to resolve despite treatment in cases of drug resistance or persistent disease?
+    6. Can you identify a pathological finding that changes its appearance in response to therapy, such as shrinking or altering in color and texture?
+    7. Does the image show a pathological finding that becomes more prone to secondary infection when skin integrity is compromised?
+    8. Is there a pathological finding that may bleed more easily in the presence of coagulopathy due to impaired clotting?
+    9. Can you identify a pathological finding that develops necrosis in ischemic conditions when blood supply is insufficient?
+    10. Does the image include a pathological finding that can regress spontaneously in certain clinical scenarios such as viral warts or benign tumors?
+
+======================================================================
+  CONCEPT: LYMPHOBLASTIC LYMPHOMA
+======================================================================
+
+  [Functions]
+    1. Does the image show a malignancy characterized by rapid proliferation of immature lymphoid cells infiltrating lymphoid tissues or organs?
+    2. Is there a disease present that exhibits uncontrolled growth and a tendency to invade surrounding tissues?
+    3. Can you identify a malignancy that causes enlargement and architectural disruption of lymphoid tissues, potentially leading to loss of normal function?
+    4. Does the image include a disease known to impair immune responses by replacing normal immune cells?
+    5. Is there a malignancy present that contributes to clinical symptoms such as painless lymph node swelling and systemic effects due to tumor burden?
+    6. Can you identify a disease that often responds to chemotherapy but carries a risk of relapse or resistance?
+    7. Does the image show a malignancy that infiltrates the bone marrow and suppresses normal blood cell production, leading to cytopenias?
+    8. Is there a disease present that influences patient prognosis and outcomes based on stage, therapy response, and age, with potential for both cure and relapse?
+
+  [Relational]
+    1. Does the image show a malignancy that primarily affects lymphoid tissues such as lymph nodes or extranodal sites?
+    2. Is there evidence of a disease that commonly involves organs like the thymus, bone marrow, or mediastinum?
+    3. Can you identify a malignancy arising from precursor lymphoid cells within the lymphatic system?
+    4. Does the image include features associated with precursor T or B lymphoblasts?
+    5. Is there a malignancy present that typically appears in anatomical sites such as the mediastinum or bone marrow?
+    6. Can you see evidence of a disease that is related to acute lymphoblastic leukemia or other non-Hodgkin lymphomas?
+    7. Does the image show involvement of lymph nodes such as mediastinal, cervical, or supraclavicular nodes by a malignancy?
+    8. Is there evidence of a malignancy that can secondarily affect organs like the liver, spleen, central nervous system, or testes?
+
+  [Contexual Behavior]
+    1. Does the image show a malignancy that may increase its proliferation rate in high-grade or advanced stages?
+    2. Is there a tumor present that can become resistant to chemotherapy after repeated exposure or due to genetic mutations?
+    3. Can you identify a malignancy that may spread to the central nervous system by infiltrating the meninges or brain tissue?
+    4. Does the image include a tumor that can relapse after initial treatment due to surviving malignant cells?
+    5. Is there a malignancy that alters its progression or clinical presentation in the context of immunosuppression?
+    6. Can you identify a tumor that may cause bone marrow failure when it extensively infiltrates hematopoietic tissue?
+    7. Does the image show a malignancy that can progress aggressively in pediatric patients or with unfavorable genetic features?
+    8. Is there a tumor that may reduce its sensitivity to targeted therapies after developing resistance mechanisms?
+    9. Can you identify a malignancy that presents with different symptoms depending on the organ involved, such as mediastinal mass or CNS symptoms?
+    10. Does the image include a tumor that increases the risk of systemic complications when it disseminates widely or causes tumor lysis syndrome?
+

@@ -1,0 +1,314 @@
+VLM Reasoning Questions – Quality Check Sample
+File 7 | Concepts 61–70
+======================================================================
+
+======================================================================
+  CONCEPT: M MITOTIC PHASE
+======================================================================
+
+  [Functions]
+    1. Does the image show a cellular process responsible for dividing replicated chromosomes into two daughter cells?
+    2. Is there evidence of a biological process that enables tissue growth and regeneration by producing new cells through mitosis?
+    3. Can you identify a process whose dysregulation leads to uncontrolled cell proliferation in cancer development?
+    4. Does the image include a cellular phase that allows rapid and unchecked proliferation of abnormal cells in disease?
+    5. Is there a process present that is targeted by cancer therapies aiming to inhibit cell division?
+    6. Can you identify a cellular phase whose disruption can cause cell cycle arrest, apoptosis, or genomic instability?
+    7. Does the image show features that are used in clinical diagnostics to assess proliferative disorders by evaluating mitotic activity?
+
+======================================================================
+  CONCEPT: MELANOMA
+======================================================================
+
+  [Functions]
+    1. Does the image show a malignancy that arises from melanocytes and is characterized by malignant transformation and uncontrolled proliferation?
+    2. Is there a disease present that exhibits rapid growth, invasiveness, and resistance to programmed cell death?
+    3. Can you identify a malignancy that invades surrounding tissues by degrading the extracellular matrix and infiltrating adjacent skin structures?
+    4. Does the image include a malignancy known to metastasize to distant organs such as lymph nodes, lungs, or brain via lymphatic and blood vessels?
+    5. Is there a disease present that causes local tissue destruction and can impair the function of distant organs when metastatic?
+    6. Can you identify a malignancy that evades immune detection by downregulating antigen presentation and secreting immunosuppressive factors?
+    7. Does the image show a disease whose progression may result in ulceration, bleeding, increased infection risk, or life-threatening metastases?
+    8. Is there a malignancy present that may demonstrate resistance to chemotherapy but can respond to targeted therapies or immunotherapy?
+    9. Can you identify a disease that, when diagnosed at an advanced stage, significantly reduces patient survival and prognosis?
+
+  [Relational]
+    1. Does the image show a malignancy that primarily affects the epidermis and can invade deeper skin layers such as the dermis and subcutaneous tissue?
+    2. Is there evidence of a tumor that is known to metastasize to organs such as the lungs, liver, brain, or bone?
+    3. Can you identify a malignancy that typically spreads through the lymphatic system to regional or distant lymph nodes?
+    4. Does the image include features consistent with involvement of sentinel or regional lymph nodes by a tumor?
+    5. Is there a malignancy present that most commonly involves the skin of the trunk, extremities, or head and neck regions?
+    6. Can you see evidence of a tumor that is known to invade surrounding skin structures such as hair follicles, sweat glands, or blood vessels?
+    7. Does the image show a malignancy that may be associated with pathological conditions such as dysplastic nevi or familial atypical mole syndrome?
+
+  [Contexual Behavior]
+    1. Does the image show a malignancy that may increase its rate of growth in aggressive subtypes or during certain growth phases?
+    2. Is there a tumor present that can become more invasive when malignant cells penetrate deeper into surrounding tissues?
+    3. Can you identify a malignancy that may begin to metastasize to other organs when tumor cells enter lymphatic or blood vessels?
+    4. Does the image include a cancer that can show resistance to immunotherapy due to genetic mutations or immune evasion mechanisms?
+    5. Is there a malignancy that alters its behavior after treatment by developing resistant cell populations or changing growth patterns?
+    6. Can you identify a tumor that may respond poorly to targeted therapy when resistance mutations develop?
+    7. Does the image show a malignancy that can change its pigmentation under conditions such as regression, inflammation, or therapy-induced effects?
+    8. Is there a tumor that may evade immune system detection by downregulating antigen presentation or expressing immune checkpoint molecules?
+    9. Can you identify a malignancy that causes greater tissue destruction in advanced or ulcerated lesions?
+    10. Does the image include a tumor that may exhibit rapid progression in immunocompromised patients due to reduced immune surveillance?
+    11. Is there a malignancy that can recur after surgical removal when residual tumor cells persist or new mutations arise?
+    12. Can you identify a tumor that displays atypical clinical features in certain variants or unusual anatomical locations?
+
+======================================================================
+  CONCEPT: METAPHASE
+======================================================================
+
+  [Functions]
+    1. Does the image show a cellular process that aligns chromosomes at the equatorial plate during cell division?
+    2. Is there a stage of cell division present that ensures proper attachment of sister chromatids to spindle fibers for accurate chromosome segregation?
+    3. Can you identify a cellular phase characterized by condensed chromosomes aligned at the metaphase plate and attached to spindle microtubules?
+    4. Does the image include a cellular process that is assessed in cytogenetic analysis for detecting chromosomal abnormalities?
+    5. Is there a stage of cell division present where abnormalities can lead to aneuploidy and contribute to genetic instability?
+    6. Can you identify a cellular process that is targeted by chemotherapeutic agents to induce mitotic arrest and inhibit cell division?
+
+======================================================================
+  CONCEPT: MICROGNATHIA
+======================================================================
+
+  [Relational]
+    1. Does the image show an anatomical abnormality that affects the mandible or lower jaw structures?
+    2. Is there evidence of a craniofacial abnormality that is commonly associated with syndromes such as Pierre Robin sequence or Treacher Collins syndrome?
+    3. Can you identify an anatomical change that is related to airway obstruction due to posterior displacement of the tongue?
+    4. Does the image include features of a craniofacial abnormality that is often seen with cleft palate or retrognathia?
+    5. Is there an abnormality present that impacts the oral cavity, pharynx, or tongue?
+    6. Can you see evidence of a developmental disorder affecting jaw growth or associated with genetic syndromes?
+    7. Does the image show changes in dental or oral structures such as the teeth, dental arches, or occlusion patterns that are influenced by a craniofacial abnormality?
+
+======================================================================
+  CONCEPT: MYOCARDIAL INFARCTION
+======================================================================
+
+  [Functions]
+    1. Does the image show evidence of a pathological process that impairs the heart's ability to contract and pump blood effectively?
+    2. Is there a pathological process present that involves coronary artery occlusion, ischemia, and subsequent necrosis of cardiac tissue?
+    3. Can you identify a process that leads to tissue damage in the heart by depriving myocardial cells of oxygen and causing cell death?
+    4. Does the image include a pathological process associated with clinical consequences such as chest pain, arrhythmias, or heart failure?
+    5. Is there evidence of a process that contributes to the development of heart failure by weakening the heart muscle?
+    6. Can you identify a pathological process that disrupts electrical conduction pathways and plays a role in arrhythmia formation?
+    7. Does the image show a process that influences patient prognosis by increasing the risk of morbidity and mortality?
+    8. Is there a pathological process present that initiates structural changes in the heart, such as ventricular dilation and fibrosis?
+    9. Can you identify a process that triggers inflammatory responses in the heart by activating immune cells and cytokine production?
+    10. Does the image include evidence of a pathological process that increases the risk of recurrent cardiac events and long-term cardiovascular complications?
+
+  [Relational]
+    1. Does the image show a pathological process that primarily affects the muscular tissue of the heart?
+    2. Is there evidence of a pathological process that is known to result from obstruction of the coronary arteries?
+    3. Can you identify an organ that may be impacted by a process leading to reduced cardiac output, such as the heart, brain, or kidneys?
+    4. Does the image include features consistent with a pathological process associated with conditions like atherosclerosis or heart failure?
+    5. Is there involvement of specific anatomical regions of the heart, such as the left ventricle or interventricular septum, by a pathological process?
+    6. Can you see evidence of a process related to major blood vessels such as the left anterior descending artery or right coronary artery?
+    7. Is there indication of complications in organs like the brain or kidneys that can result from a cardiac pathological process?
+    8. Does the image suggest abnormalities in the cardiac conduction system that could lead to arrhythmias?
+    9. Is there evidence of a clinical syndrome such as acute coronary syndrome or sudden cardiac death associated with a pathological process affecting the heart?
+    10. Can you identify signs of a pathological process that may lead to impaired cardiac function and heart failure?
+
+  [Contexual Behavior]
+    1. Does the image show a disease that may cause more extensive heart muscle damage when coronary artery occlusion is prolonged or complete?
+    2. Is there a disease present that can lead to impaired heart pumping function when a significant portion of the ventricular wall is affected?
+    3. Can you identify a disease that may trigger life-threatening arrhythmias during acute ischemia or in the presence of electrical instability?
+    4. Does the image include a disease that results in heart failure symptoms when loss of functional myocardium compromises ventricular performance?
+    5. Is there a disease that provokes a stronger inflammatory response in cases of large infarct size or reperfusion injury?
+    6. Can you identify a disease that increases the risk of recurrent cardiac events in patients with persistent risk factors or incomplete revascularization?
+    7. Does the image show a disease that alters the electrical conduction of the heart when scar tissue disrupts normal pathways?
+    8. Is there a disease present that can cause complications such as cardiogenic shock when extensive myocardial damage severely impairs cardiac output?
+    9. Can you identify a disease that affects the healing process of heart tissue by initiating inflammation, granulation, and scar formation?
+    10. Does the image include a disease that may lead to the formation of a ventricular aneurysm when the infarcted wall becomes thin and bulges outward?
+    11. Is there a disease that impairs the heart's ability to respond to physical stress due to reduced contractile reserve?
+    12. Can you identify a disease that results in reduced oxygen delivery to other organs when cardiac output is significantly decreased?
+
+======================================================================
+  CONCEPT: NEWBORN CORD AROUND NECK
+======================================================================
+
+  [Functions]
+    1. Does the image show a birth complication that increases the risk of neonatal asphyxia and requires additional monitoring?
+    2. Is there a perinatal condition present that may lead to respiratory distress or low Apgar scores in a newborn?
+    3. Can you identify a complication that raises the likelihood of fetal distress and the need for assisted delivery during birth?
+    4. Does the image include a perinatal event associated with intermittent cord compression and transient hypoxia?
+    5. Is there a condition that can intermittently restrict blood and oxygen supply to the fetus, impacting fetal oxygenation?
+    6. Can you identify a complication known to cause variable heart rate decelerations and contribute to neonatal distress during labor?
+    7. Does the image show a situation that is managed clinically by careful monitoring and timely intervention if fetal compromise is detected?
+
+  [Relational]
+    1. Does the image show a clinical scenario involving anatomical structures such as the umbilical cord and fetal neck?
+    2. Is there evidence of a perinatal complication that is known to be associated with hypoxia or respiratory distress in the newborn?
+    3. Can you identify a situation that increases the risk of fetal distress during labor?
+    4. Does the image suggest a clinical condition that may be linked to birth asphyxia or meconium-stained amniotic fluid?
+    5. Is there a perinatal finding that is associated with maternal or fetal factors such as excessive fetal movement or polyhydramnios?
+    6. Can you see a scenario that may influence delivery outcomes, such as increased rates of assisted delivery or neonatal resuscitation?
+    7. Is there evidence of a situation that would typically require monitoring procedures like continuous fetal heart rate monitoring or intrapartum ultrasound?
+
+  [Contexual Behavior]
+    1. Does the image show a perinatal complication that may interfere with normal breathing at birth due to airway compression?
+    2. Is there a birth-related condition present that can cause reduced oxygen delivery during labor when compressed between the fetus and birth canal?
+    3. Can you identify a perinatal complication that leads to abnormal fetal heart rate patterns when cord compression occurs?
+    4. Does the image include a condition that increases the risk of birth complications when tightly wrapped or involving multiple loops?
+    5. Is there a perinatal complication that may require immediate clinical intervention if signs of fetal distress or compromised breathing are present at delivery?
+    6. Can you identify a birth-related condition that results in impaired blood flow to the newborn when the cord is tightly constricted?
+    7. Does the image show a perinatal complication that can alter the newborn's Apgar score due to respiratory distress or poor muscle tone?
+    8. Is there a birth-related condition that affects the need for neonatal resuscitation when significant asphyxia or compromised breathing occurs immediately after birth?
+
+======================================================================
+  CONCEPT: NODULAR SCLEROSING HODGKINS DISEASE
+======================================================================
+
+  [Functions]
+    1. Does the image show a disease that is characterized by fibrous bands, nodular architecture, and the presence of Reed-Sternberg cells within lymph nodes?
+    2. Is there a malignancy present that spreads through the lymphatic system, often progressing from one lymph node region to adjacent nodes?
+    3. Can you identify a disease that disrupts normal lymph node structure by causing sclerosis and nodularity?
+    4. Does the image include a malignancy known to impair immune system function by reducing effective lymphocyte activity?
+    5. Is there a disease present that is associated with painless lymphadenopathy, mediastinal masses, and increased risk of infection?
+    6. Can you identify a malignancy that typically responds well to chemotherapy and radiotherapy, often achieving high rates of remission?
+    7. Does the image show a disease that contributes to systemic symptoms such as fever, night sweats, and weight loss due to cytokine release?
+    8. Is there a malignancy present that frequently leads to the development of mediastinal masses through lymph node enlargement?
+    9. Can you identify a disease that generally has a favorable prognosis with high remission rates but carries a risk of relapse in some cases?
+
+  [Relational]
+    1. Does the image show a malignancy that commonly affects mediastinal or cervical lymph nodes?
+    2. Is there evidence of a disease process that disrupts the lymphatic system by causing abnormal lymph node enlargement and fibrosis?
+    3. Can you identify a malignancy that involves both lymphoid tissue and fibrous connective tissue within lymph nodes?
+    4. Does the image include organs such as the spleen or bone marrow that can be secondarily affected by this type of disease?
+    5. Is there a malignancy present that is associated with cellular components such as Reed-Sternberg cells and lacunar cells within lesions?
+    6. Can you see a disease that is classified as a distinct subtype of Hodgkin's lymphoma, separate from other subtypes?
+    7. Does the image show tissue infiltrated by immune cells such as lymphocytes, eosinophils, plasma cells, or histiocytes?
+    8. Is there evidence of a malignancy commonly involving anatomical regions such as the mediastinum or supraclavicular area?
+
+  [Contexual Behavior]
+    1. Does the image show a malignancy that may cause increased lymph node enlargement during active progression or relapse?
+    2. Is there a disease present that can become resistant to standard chemotherapy after repeated treatment?
+    3. Can you identify a malignancy that presents with impaired immune function when extensive lymph node involvement occurs?
+    4. Does the image include a disease that may relapse after initial remission due to residual malignant cells?
+    5. Is there a malignancy that causes more severe systemic symptoms in advanced or widespread stages?
+    6. Can you identify a disease that alters its clinical presentation in younger patients, often involving mediastinal or bulky disease?
+    7. Does the image show a malignancy that may show reduced response to radiation therapy in cases of bulky or radioresistant tumors?
+    8. Is there a disease that can increase its rate of progression in aggressive subtypes or when left untreated?
+    9. Can you identify a malignancy that leads to complications such as secondary infections when immune function is compromised?
+    10. Does the image include a disease that changes its histological features during treatment due to therapy-induced alterations?
+
+======================================================================
+  CONCEPT: NORMAL OVARY
+======================================================================
+
+  [Properties]
+    1. Does the image show a tissue that is known to have a typical size of 3–5 centimeters in length, 1.5–3 centimeters in width, and 0.5–1.5 centimeters in thickness in reproductive-age women?
+    2. Is there a tissue present that would typically weigh approximately 5–8 grams?
+    3. Can you identify a tissue that is characterized by an oval or almond-shaped appearance?
+    4. Does the image contain a tissue that is known to have a whitish to grayish-pink coloration?
+    5. Is there a tissue that would typically have an average volume of about 6–10 milliliters in reproductive-age women?
+    6. Can you identify a tissue that is described as firm but slightly elastic with a smooth surface?
+    7. Does the image show a tissue that is known to contain 5–10 antral follicles in reproductive-age women?
+    8. Is there a tissue present that would typically have physiologic concentrations of estradiol, progesterone, and inhibin B depending on the menstrual cycle phase?
+    9. Can you identify a tissue that is characterized by a blood flow rate of approximately 5–15 milliliters per minute per 100 grams of tissue?
+    10. Does the image contain a tissue that is known to have a pH of about 7.2–7.4?
+    11. Is there a tissue that would typically have a water content of approximately 70–75 percent of its weight?
+    12. Can you identify a tissue that is characterized by a lipid content of about 10–15 percent of its dry weight?
+    13. Does the image show a tissue that is known to contain structural proteins, enzymes, and hormones such as collagen, actin, and steroidogenic enzymes?
+    14. Is there a tissue present that would typically have a density of approximately 1.05–1.07 grams per cubic centimeter?
+    15. Can you identify a tissue that is characterized by the presence of trace amounts of minerals such as calcium, phosphorus, potassium, and magnesium?
+
+  [Functions]
+    1. Does the image show an organ that produces oocytes and regulates the menstrual cycle?
+    2. Is there an organ present that synthesizes and releases estrogen and progesterone in response to pituitary signals?
+    3. Can you identify an organ that coordinates follicular development, ovulation, and corpus luteum formation as part of the menstrual cycle?
+    4. Does the image include an organ that contributes to fertility by producing viable oocytes and supporting reproductive hormone balance?
+    5. Is there an organ that supports folliculogenesis and the process of ovulation?
+    6. Can you identify an organ with endocrine functions such as secretion of sex steroids and inhibins to regulate reproductive physiology?
+    7. Does the image show an organ that interacts with the hypothalamus and pituitary gland through hormonal feedback mechanisms?
+    8. Is there an organ present that exhibits immune surveillance and regulated cell turnover as protective mechanisms against disease?
+
+  [Relational]
+    1. Does the image show an organ that is typically adjacent to structures such as the fallopian tube and uterus?
+    2. Is there an organ present that is known to be supplied by the ovarian artery and ovarian vein?
+    3. Can you identify an organ that is connected to ligaments such as the ovarian ligament or the suspensory ligament of the ovary?
+    4. Does the image include an organ that is usually located near the urinary bladder and rectum?
+    5. Is there an organ that has a close anatomical relationship with the fallopian tube for oocyte transport?
+    6. Can you see an organ that is surrounded by peritoneum and pelvic connective tissue?
+    7. Does the image show an organ that interacts with the reproductive, endocrine, and vascular systems?
+    8. Is there an organ present that is functionally connected to the fallopian tube despite lacking direct ducts or passages?
+
+  [Contexual Properties]
+    1. Does the image show an organ that is known to increase in size during ovulation and certain phases of the menstrual cycle?
+    2. Is there an organ present that decreases in size after menopause due to reduced follicular activity?
+    3. Can you identify an organ whose volume changes throughout the menstrual cycle, increasing around ovulation and decreasing after menopause?
+    4. Does the image include an organ that develops cystic structures during the formation of physiological follicles and corpus luteum?
+    5. Is there an organ whose echogenicity on imaging changes depending on the phase of the menstrual cycle and the presence of developing follicles?
+    6. Can you identify an organ that shows a decrease in follicle count with age, especially as menopause approaches?
+    7. Does the image show an organ whose texture alters during different phases of the menstrual cycle due to follicular development and corpus luteum formation?
+    8. Is there an organ present that may transiently accumulate fluid during ovulation when a follicle ruptures?
+    9. Can you identify an organ whose weight changes with age, being heavier in reproductive years and lighter after menopause?
+    10. Does the image include an organ that changes color during ovulation due to increased vascularity and follicular rupture?
+
+  [Contexual Behavior]
+    1. Does the image show an organ that increases hormone production during specific phases of the menstrual cycle?
+    2. Is there an organ present that may reduce ovulation in response to physical or psychological stress or acute illness?
+    3. Can you identify an organ that alters its function by ceasing regular ovulation and hormone secretion during menopause?
+    4. Does the image include an organ that decreases estrogen secretion as the ovarian reserve declines with age?
+    5. Is there an organ that may fail to release an egg under conditions of hormonal imbalance such as in certain endocrine disorders?
+    6. Can you identify an organ that changes its activity during pregnancy by suppressing new follicle development and ovulation?
+    7. Does the image show an organ that suppresses follicle development in response to exogenous hormone feedback from contraceptive use?
+    8. Is there an organ that increases progesterone production after ovulation through the formation of a specialized structure?
+    9. Can you identify an organ that may show impaired function due to metabolic disorders such as obesity, diabetes, or thyroid disease?
+
+======================================================================
+  CONCEPT: NOSOGASTRIC TUBE
+======================================================================
+
+  [Properties]
+    1. Does the image show a medical device that is known to have a typical length ranging from 40 to 120 centimeters depending on patient age and indication?
+    2. Can you identify a medical device that would usually have a diameter between 8 and 18 French gauge?
+    3. Is there a medical device present that is commonly made from materials such as polyurethane, silicone, or polyvinyl chloride?
+    4. Does the image contain a medical device whose flexibility is known to vary depending on whether it is made of silicone, polyurethane, or polyvinyl chloride?
+    5. Is there a medical device that would typically weigh less than 20 grams?
+    6. Can you identify a medical device that is usually clear, white, or light blue in color, and may sometimes have radiopaque stripes?
+    7. Does the image show a medical device with a wall thickness generally between 0.5 and 1 millimeter?
+    8. Is there a medical device present that would typically have a volume capacity ranging from 5 to 30 milliliters depending on its diameter and length?
+    9. Can you identify a medical device that is designed to withstand tensile forces of approximately 10 to 20 newtons before breaking?
+    10. Does the image contain a medical device that is characterized by a smooth surface texture to minimize mucosal irritation?
+
+  [Functions]
+    1. Does the image include a medical device used to deliver nutrition or medications directly into the stomach?
+    2. Is there a clinical tool present that assists in decompressing the stomach by removing air or fluid?
+    3. Can you identify a device that is used to manage gastrointestinal obstruction by draining gastric contents?
+    4. Does the image show a tool that enables aspiration of gastric contents for diagnostic purposes?
+    5. Is there a medical device present that facilitates removal of ingested toxins or secretions from the stomach?
+    6. Can you identify a device used to prevent aspiration and support nutrition in acute care settings?
+    7. Does the image include a clinical tool commonly used in patients with impaired swallowing or bowel obstruction?
+
+  [Relational]
+    1. Does the image show a medical device that is known to pass through the nostril, nasal cavity, and esophagus to reach the stomach?
+    2. Is there a device present that provides access to the stomach or upper small intestine for clinical procedures?
+    3. Can you identify a device that is commonly used for gastric decompression or enteral feeding?
+    4. Does the image include a medical device whose use can lead to complications involving the lungs or nasal mucosa?
+    5. Is there evidence of a device that is typically placed in patients with conditions such as bowel obstruction or impaired swallowing?
+    6. Can you see a device that is directly related to the gastrointestinal tract for drainage or medication delivery?
+    7. Does the image show a device whose placement is guided by anatomical landmarks such as the nostril, ear, or xiphoid process?
+    8. Is there a medical device present that can affect both the digestive and respiratory systems?
+
+  [Contexual Behavior]
+    1. Does the image include a medical device that may become blocked or obstructed during use when secretions or feeds accumulate?
+    2. Is there a clinical tool present that can fail to deliver nutrition effectively if it is malpositioned or blocked?
+    3. Can you identify a device that increases the risk of aspiration in patients with impaired swallowing or reduced consciousness?
+    4. Does the image show a medical device that may cause nasal or esophageal injury under conditions of prolonged use or improper insertion?
+    5. Is there a clinical device that requires repositioning due to patient movement or coughing, which can lead to displacement?
+    6. Can you identify a device whose drainage function becomes impaired when it is kinked, blocked, or incorrectly positioned?
+    7. Does the image include a medical device that increases the risk of infection in immunocompromised patients with prolonged use?
+    8. Is there a clinical tool whose effectiveness decreases in patients with altered gastric anatomy, such as after surgery?
+    9. Can you identify a device that may need to be removed due to intolerance or complications like discomfort or bleeding?
+    10. Does the image show a medical device whose placement becomes more challenging in critically ill patients due to altered anatomy or airway devices?
+
+======================================================================
+  CONCEPT: OPENED LARYNX
+======================================================================
+
+  [Relational]
+    1. Does the image show an organ that, when opened, exposes anatomical structures such as the vocal cords and epiglottis?
+    2. Is there an organ present in which tissues like mucosa, cartilage, and intrinsic muscles become visible when it is opened?
+    3. Can you identify an organ that is closely related to adjacent neck structures such as the pharynx and trachea?
+    4. Does the image include an organ through which access to the lower respiratory tract or upper digestive tract is possible?
+    5. Is there evidence of an organ that is commonly involved in surgical procedures such as laryngectomy or laryngeal biopsy?
+    6. Can you see an organ where opening it would place nearby vessels or nerves, such as the superior laryngeal nerve or superior thyroid artery, at risk?
+

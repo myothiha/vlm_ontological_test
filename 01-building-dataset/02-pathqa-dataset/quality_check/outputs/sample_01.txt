@@ -1,0 +1,317 @@
+VLM Reasoning Questions – Quality Check Sample
+File 1 | Concepts 1–10
+======================================================================
+
+======================================================================
+  CONCEPT: ACROCYANOSIS
+======================================================================
+
+  [Functions]
+    1. Does the image show a clinical sign characterized by persistent vasoconstriction leading to reduced oxygen delivery and bluish discoloration of the extremities?
+    2. Is there a clinical finding present that manifests as painless, symmetrical bluish discoloration of the hands, feet, or face, often accompanied by coldness and sweating?
+    3. Can you identify a clinical indicator of impaired peripheral circulation that decreases blood flow to the skin of the extremities without causing tissue damage?
+    4. Does the image include a clinical sign that typically worsens with cold exposure and improves with warming, reflecting temperature-dependent color change?
+    5. Is there a clinical feature present that serves as an indicator of possible underlying vascular or autonomic disorders and helps differentiate benign from pathological causes of cyanosis?
+    6. Can you identify a clinical sign that may impact patient quality of life by causing cosmetic concerns and discomfort due to persistent coldness, though it is usually benign?
+    7. Does the image show a localized, non-hypoxemic form of cyanosis that is persistent, symmetrical, painless, and limited to the extremities?
+
+  [Relational]
+    1. Does the image show a pathological process that primarily affects the extremities such as the hands or feet?
+    2. Is there evidence of a condition that involves small arteries, arterioles, or capillaries in the peripheral circulation?
+    3. Can you identify signs of a process that is commonly associated with connective tissue disorders or Raynaud phenomenon?
+    4. Does the image include features consistent with persistent vasoconstriction and reduced blood flow to distal tissues?
+    5. Is there evidence of a clinical syndrome, such as Raynaud syndrome or dysautonomia, that may include this pathological process as a feature?
+    6. Can you see signs that are often accompanied by coldness, sweating, or swelling of the extremities?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that becomes more pronounced in cold environments due to increased vasoconstriction?
+    2. Is there a pathological process present that improves with warming of the extremities as blood flow is restored?
+    3. Can you identify a process that worsens in the presence of underlying vascular disease when circulation is impaired?
+    4. Does the image include a pathological process that decreases during physical activity because of enhanced peripheral perfusion?
+    5. Is there a process that may persist despite removal of triggering factors in chronic vascular disorders?
+    6. Can you identify a pathological process that becomes less responsive to standard treatments in severe or refractory cases?
+    7. Does the image show a process that may indicate a more serious underlying condition when accompanied by pain or systemic symptoms?
+    8. Is there a pathological process that can fluctuate with emotional stress due to autonomic effects on circulation?
+
+======================================================================
+  CONCEPT: ACUTE CELLULAR REJECTION OF A KIDNEY GRAFT
+======================================================================
+
+  [Functions]
+    1. Does the image show a pathological process involving T-cell mediated immune attack against a transplanted organ?
+    2. Is there evidence of a process that impairs graft function through tubular damage and vascular inflammation?
+    3. Can you identify a pathological process characterized by lymphocyte infiltration and cytotoxic T-cell activation targeting a transplanted tissue?
+    4. Does the image include features consistent with a process that leads to decreased filtration capacity in a transplanted organ?
+    5. Is there a pathological process present that increases the risk of graft loss and necessitates intensified immunosuppression?
+    6. Can you identify a process that requires prompt medical intervention and adjustment of immunosuppressive therapy in transplant recipients?
+    7. Does the image show a process that plays a critical role in early graft dysfunction and potential failure of a transplanted organ?
+    8. Is there evidence of a pathological process that impacts transplant patient management by requiring close monitoring and tailored immunosuppressive strategies?
+
+  [Relational]
+    1. Does the image show a pathological process that affects the renal tubules, interstitium, and vascular endothelium of a transplanted organ?
+    2. Is there evidence of a pathological process involving immune cells such as T lymphocytes, macrophages, or natural killer cells in a transplanted organ?
+    3. Can you identify a process that targets a transplanted organ and leads to immune-mediated injury of graft tissue?
+    4. Does the image include changes in an organ that are associated with active involvement of the immune system?
+    5. Is there evidence of pathological changes such as interstitial inflammation, tubulitis, or endarteritis in a transplanted organ?
+    6. Can you see signs of a process resulting from the recipient's immune system recognizing and attacking donor antigens in a graft?
+    7. Does the image show blood vessels such as renal arteries, arterioles, or peritubular capillaries being affected by a pathological process in a transplanted organ?
+    8. Is there evidence of clinical conditions such as graft dysfunction or acute renal failure associated with a pathological process in a transplanted organ?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that may become more severe after transplantation if immunosuppression is inadequate?
+    2. Is there a pathological process present that can respond poorly to therapy in cases of high immunologic risk or resistant immune responses?
+    3. Can you identify a pathological process that causes rapid loss of graft function when extensive immune-mediated injury occurs?
+    4. Does the image include a process that shows increased immune cell infiltration during episodes of heightened alloimmune response?
+    5. Is there a pathological process that leads to decreased urine output when inflammation impairs renal function?
+    6. Can you identify a process that becomes resistant to steroid treatment in certain clinical scenarios?
+    7. Does the image show a pathological process that results in elevated serum creatinine levels when renal inflammation is present?
+    8. Is there a process that can trigger systemic inflammatory responses during severe rejection episodes?
+    9. Can you identify a pathological process that may subside after adjustment of immunosuppressive therapy?
+    10. Does the image include a process that can progress to chronic rejection if repeated or unresolved episodes occur?
+
+======================================================================
+  CONCEPT: ADENOMYOSIS
+======================================================================
+
+  [Functions]
+    1. Does the image show a disease that disrupts normal uterine contractility and leads to an enlarged, tender uterus?
+    2. Is there a pathological process present that involves invasion of endometrial tissue into the myometrium and chronic inflammation?
+    3. Can you identify a disease that contributes to abnormal uterine bleeding by increasing vascularity and disrupting the endometrial-myometrial interface?
+    4. Does the image include a pathological process that causes menstrual pain through myometrial inflammation and increased uterine contractions?
+    5. Is there a disease present that impacts fertility by impairing embryo implantation and increasing the risk of miscarriage?
+    6. Can you identify a pathological process that alters the myometrium by causing thickening, fibrosis, and loss of normal muscle architecture?
+    7. Does the image show a disease associated with chronic pelvic pain, heavy menstrual bleeding, and anemia?
+    8. Is there a pathological process that interacts with other gynecological conditions, potentially exacerbating symptoms and complicating management?
+    9. Can you identify a disease that causes persistent inflammation and nerve sensitization within the uterus, leading to chronic pelvic pain?
+
+  [Relational]
+    1. Does the image show a pathological process that affects both the endometrial and myometrial tissues of a reproductive organ?
+    2. Is there evidence of a condition characterized by the presence of endometrial tissue within the wall of the uterus, specifically the myometrium?
+    3. Can you identify a pathological process that primarily impacts the uterus?
+    4. Does the image include features consistent with gynecological disorders such as endometriosis or uterine fibroids?
+    5. Is there involvement of anatomical structures such as the endometrium, myometrium, or junctional zone of the uterus by a pathological process?
+    6. Can you see evidence of endometrial tissue invading and proliferating within the myometrium?
+    7. Does the image suggest a pathological process commonly associated with other gynecological disorders like leiomyomas?
+    8. Is there a reproductive organ present that may influence or be influenced by conditions affecting the uterus, ovaries, or fallopian tubes due to an altered uterine environment?
+
+  [Contexual Behavior]
+    1. Does the image show a disease that may increase menstrual pain severity during menstruation due to heightened inflammation and uterine contractions?
+    2. Is there a disease present that can cause heavier menstrual bleeding when ectopic tissue disrupts the normal uterine lining?
+    3. Can you identify a disease that may worsen infertility symptoms by interfering with normal uterine function and embryo implantation?
+    4. Does the image include a disease that can lead to chronic pelvic pain when persistent inflammation and tissue invasion occur?
+    5. Is there a disease that becomes more symptomatic during hormonal changes such as perimenopause or hormonal therapy?
+    6. Can you identify a disease that may respond poorly to medical therapy in cases of extensive involvement or hormonal treatment resistance?
+    7. Does the image show a disease that can cause uterine enlargement due to myometrial hypertrophy from ectopic tissue?
+    8. Is there a disease that typically reduces its symptoms after menopause due to decreased estrogen levels?
+    9. Can you identify a disease that contributes to anemia when excessive menstrual bleeding leads to significant blood loss?
+    10. Does the image include a disease that may rarely increase symptoms or cause complications such as pain or miscarriage during pregnancy?
+
+======================================================================
+  CONCEPT: ADENOSIS
+======================================================================
+
+  [Functions]
+    1. Does the image show a tissue abnormality characterized by an increase in the number or size of glandular components within breast lobules?
+    2. Is there a benign proliferation of glandular tissue present that can cause architectural distortion in breast tissue?
+    3. Can you identify a breast tissue abnormality that may present as a palpable lump or area of increased density on imaging studies?
+    4. Does the image include a tissue process that alters the normal architecture of the breast while generally preserving glandular function?
+    5. Is there a breast tissue abnormality that is typically identified through histopathological examination or imaging modalities such as mammography or ultrasound?
+    6. Can you identify a benign glandular proliferation that may slightly increase the risk of developing other breast conditions, especially when associated with atypia?
+
+  [Relational]
+    1. Does the image show a tissue abnormality that is known to affect glandular epithelial tissue by increasing the number or size of glandular units?
+    2. Is there evidence of a process characterized by proliferation or enlargement of glandular structures within affected tissue?
+    3. Can you identify a tissue change that commonly occurs in organs such as the breast, prostate, or salivary glands?
+    4. Does the image include features consistent with a pathological condition associated with fibrocystic changes or benign proliferative disorders?
+    5. Is there evidence of interaction between proliferative glandular tissue and surrounding stromal tissue, such as localized expansion or stromal reaction?
+    6. Can you see tissue changes that are linked to diseases such as sclerosing adenosis or fibrocystic breast disease?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that may increase glandular activity in response to hormonal stimulation or elevated estrogen levels?
+    2. Is there a process present that exhibits increased glandular proliferation and secretory changes during pregnancy or lactation?
+    3. Can you identify a pathological process that becomes more pronounced in the presence of hormonal imbalances such as excess estrogen or progesterone?
+    4. Does the image include a process that contributes to abnormal tissue growth under pathological conditions like fibrocystic breast changes?
+    5. Is there a pathological process that can lead to clinical symptoms such as breast pain or tenderness during menstrual cycle fluctuations?
+    6. Can you identify a process that increases the risk of developing benign breast conditions such as sclerosing adenosis or fibrocystic changes?
+    7. Does the image show a pathological process whose histological features change in response to chronic inflammation, resulting in increased fibrosis and glandular distortion?
+
+======================================================================
+  CONCEPT: ALCOHOLIC CIRRHOSIS
+======================================================================
+
+  [Functions]
+    1. Does the image show a disease that causes irreversible scarring of an organ responsible for metabolic and detoxification functions?
+    2. Is there a pathological process present that leads to chronic inflammation, hepatocyte death, and fibrous tissue deposition within an organ?
+    3. Can you identify a disease that contributes to the development of organ failure by progressively destroying functional tissue and disrupting normal processes?
+    4. Does the image include a disease associated with clinical consequences such as jaundice, ascites, or hepatic encephalopathy?
+    5. Is there a disease present that increases the risk of complications like portal hypertension and ascites by obstructing blood flow?
+    6. Can you identify a disease that impairs metabolism and detoxification by reducing an organ’s capacity to process nutrients, drugs, and toxins?
+    7. Does the image show a disease that affects coagulation and blood clotting by decreasing synthesis of clotting factors and increasing bleeding risk?
+    8. Is there a disease present that alters immune response by impairing immune surveillance and increasing susceptibility to infections?
+    9. Can you identify a pathological process characterized by progressive fibrosis, declining organ function, and increased risk of complications over time?
+    10. Does the image include a disease that negatively affects prognosis and management, often necessitating transplantation in advanced cases?
+
+  [Relational]
+    1. Does the image show a disease that primarily affects the liver but may also impact organs such as the spleen or kidneys?
+    2. Is there evidence of a pathological process characterized by chronic scarring and dysfunction of an organ due to prolonged alcohol exposure?
+    3. Can you identify a disease that is known to alter blood vessels such as the portal vein and hepatic artery, leading to changes in blood flow?
+    4. Does the image include signs of a disease that can cause complications in other organ systems, such as renal failure or pulmonary hypertension?
+    5. Is there evidence of pathological changes involving hepatic parenchyma, fibrous tissue, or vascular structures within an organ?
+    6. Can you identify a disease that is a major cause of portal hypertension due to increased resistance to portal blood flow?
+    7. Does the image show features consistent with diseases commonly associated with this condition, such as hepatocellular carcinoma or ascites?
+    8. Is there evidence of anatomical alterations involving structures like liver lobules, portal tracts, or hepatic sinusoids?
+    9. Can you identify a disease that is a leading cause of hepatic encephalopathy due to impaired detoxification?
+    10. Does the image include evidence of a clinical entity that influences the risk of liver failure, coagulopathy, or infections?
+
+  [Contexual Behavior]
+    1. Does the image show a disease that worsens liver function during ongoing alcohol consumption?
+    2. Is there a disease present that leads to increased risk of hepatic encephalopathy when detoxification capacity declines?
+    3. Can you identify a disease that impairs blood clotting under stress or injury due to reduced synthesis of clotting factors?
+    4. Does the image include a disease that reduces the liver's ability to detoxify medications as enzyme activity diminishes?
+    5. Is there a disease that causes fluid accumulation in the abdomen during progression due to portal hypertension and hypoalbuminemia?
+    6. Can you identify a disease that increases susceptibility to infections as immune function becomes compromised?
+    7. Does the image show a disease whose progression alters after alcohol abstinence, slowing advancement and reducing complications?
+    8. Is there a disease that leads to portal hypertension complications when scarring obstructs blood flow through the liver?
+    9. Can you identify a disease that decreases bile production in advanced stages as hepatocyte function deteriorates?
+    10. Does the image include a disease that impairs glucose metabolism during acute illness due to disrupted hepatic glucose regulation?
+
+======================================================================
+  CONCEPT: ALPHA SMOOTH MUSCLE ACTIN IMMUNOHISTOCHEMICAL
+======================================================================
+
+  [Functions]
+    1. Does the image include a diagnostic staining technique used to detect smooth muscle cells and myofibroblasts in tissue samples?
+    2. Is there a staining modality present that specifically labels actin filaments to identify smooth muscle cells?
+    3. Can you identify a diagnostic tool that helps differentiate tissue types by highlighting cells with smooth muscle or myofibroblastic differentiation?
+    4. Does the image show a staining method utilized in tumor assessment to determine the presence of smooth muscle or myofibroblastic components?
+    5. Is there a diagnostic technique present that confirms cell lineage in neoplastic and non-neoplastic lesions?
+    6. Can you identify a staining modality that contributes to the evaluation of fibrotic processes by detecting activated myofibroblasts?
+
+  [Relational]
+    1. Does the image include a diagnostic tool that is used to identify cells such as smooth muscle cells or myofibroblasts?
+    2. Is there evidence of a diagnostic technique that assists in the diagnosis of diseases like leiomyoma or desmoid tumor?
+    3. Can you identify a diagnostic tool that is used to detect myofibroblasts by highlighting their cytoskeletal components?
+    4. Does the image show a diagnostic technique that is associated with pathological conditions such as fibrotic disorders or reactive stromal changes?
+    5. Is there a diagnostic tool present that is commonly used alongside markers such as desmin or vimentin?
+    6. Can you see evidence of a diagnostic imaging technique that is used to evaluate anatomical structures like blood vessel walls or the uterus?
+
+======================================================================
+  CONCEPT: AMYLOID ANGIOPATHY
+======================================================================
+
+  [Functions]
+    1. Does the image show a disease process that causes amyloid protein deposition in cerebral blood vessel walls, leading to vessel fragility?
+    2. Is there a pathological process present that increases the risk of intracerebral hemorrhage by weakening blood vessel walls?
+    3. Can you identify a disease that impairs cerebral blood flow through vascular dysfunction and microvascular occlusion?
+    4. Does the image include a pathological process known to promote cognitive decline by reducing cerebral perfusion and causing microbleeds?
+    5. Is there evidence of a disease that exacerbates neurodegeneration by promoting vascular injury in the brain?
+    6. Can you identify a pathological process that commonly acts as a comorbidity in Alzheimer's disease, worsening vascular pathology and disease severity?
+
+  [Relational]
+    1. Does the image show a pathological process that affects small- and medium-sized blood vessels, particularly cerebral arteries and arterioles?
+    2. Is there evidence of a pathological process that increases the risk of cerebral hemorrhage, especially lobar intracerebral hemorrhage?
+    3. Can you identify a pathological process that commonly involves the cerebral cortex and leptomeninges?
+    4. Does the image include features consistent with a disease process associated with Alzheimer's disease or other forms of dementia?
+    5. Is there evidence of a pathological process that is frequently found in patients with Alzheimer's disease due to amyloid-beta deposition in cerebral vessels?
+    6. Can you see signs of a pathological process that impacts cerebral blood vessel walls and adjacent brain parenchyma?
+    7. Does the image show a pathological process that is linked to clinical complications such as intracerebral hemorrhage or cognitive impairment?
+    8. Is there evidence of a pathological process characterized by amyloid-beta deposition, vessel wall degeneration, or microbleeds?
+
+  [Contexual Behavior]
+    1. Does the image show a disease that increases the risk of cerebral hemorrhage when blood vessels are weakened by abnormal deposits, especially in elderly individuals?
+    2. Is there a pathological process present that can impair normal blood vessel function in the brain due to disrupted vascular integrity?
+    3. Can you identify a disease that may worsen cognitive decline when recurrent microbleeds and ischemic injury occur?
+    4. Does the image include a pathological process that contributes to microbleeds under anticoagulant therapy because of increased vessel fragility?
+    5. Is there a disease that can lead to blood-brain barrier disruption as a result of damage to endothelial cells and vessel walls?
+    6. Can you identify a pathological process that may be exacerbated during hypertension due to increased risk of vessel rupture and hemorrhage?
+    7. Does the image show a disease that alters its clinical presentation in elderly patients by causing more frequent hemorrhages and cognitive symptoms?
+    8. Is there a pathological process that can reduce cerebral perfusion when vessel narrowing and occlusion impair blood flow?
+    9. Can you identify a disease that increases susceptibility to ischemic events when affected vessels become occluded or poorly responsive to autoregulation?
+    10. Does the image include a pathological process that shows accelerated progression in the presence of Alzheimer's disease due to overlapping pathology?
+
+======================================================================
+  CONCEPT: AMYLOID ANGIOPATHY R
+======================================================================
+
+  [Functions]
+    1. Does the image show a disease that contributes to vascular dysfunction in the brain by depositing abnormal proteins in vessel walls?
+    2. Is there a pathological process present that increases vessel fragility and impairs cerebral blood flow?
+    3. Can you identify a disease that plays a role in the development of cerebral hemorrhage by weakening blood vessels?
+    4. Does the image include a pathological process that causes microvascular damage leading to cognitive decline and neurological deficits?
+    5. Is there evidence of a disease that is associated with amyloid deposition and vessel wall pathology in cerebral vessels?
+    6. Can you identify a pathological process that increases the risk of stroke or cerebral microbleeds by promoting small vessel rupture?
+    7. Does the image show a disease that is clinically associated with intracerebral hemorrhage and cognitive impairment?
+    8. Is there a pathological process present that often co-occurs with neurodegenerative diseases such as Alzheimer's disease and exacerbates neurodegeneration?
+    9. Can you identify a disease that disrupts blood-brain barrier integrity by promoting vascular leakage into brain tissue?
+
+  [Relational]
+    1. Does the image show a pathological process that affects small- and medium-sized blood vessels, particularly in the brain?
+    2. Is there evidence of a condition that is associated with an increased risk of lobar intracerebral hemorrhage?
+    3. Can you identify involvement of brain regions such as the cerebral cortex or leptomeninges by a vascular pathological process?
+    4. Does the image include features of a disease that is commonly associated with Alzheimer's disease or other forms of dementia?
+    5. Is there evidence of a vascular pathology characterized by amyloid beta deposition in vessel walls?
+    6. Can you see signs of a process that may be linked to neurological symptoms such as cognitive impairment or recurrent hemorrhagic stroke?
+    7. Does the image suggest coexistence of a vascular pathology with neurodegenerative diseases like Alzheimer's disease?
+    8. Is there evidence of imaging findings such as lobar microbleeds or cortical superficial siderosis that are associated with a vascular pathological process?
+    9. Can you identify a pathological process in the brain that may lead to complications such as recurrent intracerebral hemorrhage or progressive cognitive decline?
+
+  [Contexual Behavior]
+    1. Does the image show a disease that increases the risk of cerebral hemorrhage when amyloid deposits weaken vessel walls?
+    2. Is there a disease present that can impair normal blood vessel function due to disrupted vascular integrity?
+    3. Can you identify a disease that worsens cognitive decline when recurrent microbleeds or ischemia damage brain tissue?
+    4. Does the image include a disease that contributes to cerebral microbleeds as fragile vessels rupture easily?
+    5. Is there a disease that becomes more severe with age due to progressive amyloid deposition in cerebral vessels?
+    6. Can you identify a disease that alters its behavior in the presence of hypertension by increasing hemorrhagic risk?
+    7. Does the image show a disease that increases the risk of stroke when vessel fragility and occlusion occur?
+    8. Is there a disease that leads to impaired clearance of amyloid from blood vessels when drainage pathways are compromised?
+    9. Can you identify a disease that shows increased amyloid deposition after traumatic brain injury?
+    10. Does the image include a disease that causes greater disruption of the blood-brain barrier as amyloid accumulates?
+
+======================================================================
+  CONCEPT: ANAPHASE
+======================================================================
+
+  [Functions]
+    1. Does the image show a stage of cell division that ensures the separation of sister chromatids toward opposite poles?
+    2. Is there a cellular process present that contributes to the accurate segregation of chromosomes during mitosis?
+    3. Can you identify a mitotic phase whose abnormal behavior may result in aneuploidy and genomic instability?
+    4. Does the image include evidence of a process whose disruption can lead to pathological conditions such as cancer through improper chromosome segregation?
+    5. Is there a mitotic figure present that is assessed in the clinical diagnosis of cell proliferation disorders by evaluating abnormal cell division?
+
+======================================================================
+  CONCEPT: ANAPLASTIC ADENOCARCINOMA
+======================================================================
+
+  [Functions]
+    1. Does the image show a malignancy characterized by aggressive growth and marked cellular atypia?
+    2. Is there a tumor present that is known for rapid proliferation and early invasion of adjacent tissues?
+    3. Can you identify a malignancy that invades surrounding tissues by breaking down the extracellular matrix?
+    4. Does the image include a disease that disrupts normal tissue function and impairs organ performance?
+    5. Is there a malignancy present that contributes to metastatic spread through lymphatic and blood vessels?
+    6. Can you identify a tumor associated with rapid disease progression and increased risk of organ failure?
+    7. Does the image show a malignancy known to cause high morbidity and mortality rates?
+    8. Is there evidence of a tumor that often responds poorly to conventional medical therapies due to treatment resistance?
+
+  [Relational]
+    1. Does the image show a malignancy that primarily affects glandular epithelial tissue?
+    2. Is there evidence of a tumor that can arise in organs such as the lung, pancreas, or colon?
+    3. Can you identify a malignancy that is known for aggressive local invasion and destruction of surrounding tissue structures?
+    4. Does the image include a tumor that is commonly associated with involvement of regional or mediastinal lymph nodes?
+    5. Is there evidence of a malignancy that is related to other cancer types such as poorly differentiated or undifferentiated carcinoma?
+    6. Can you identify a tumor that is known to metastasize to organs such as the liver, bone, or brain?
+    7. Does the image show a malignancy that typically spreads through the lymphatic system to distant lymph nodes?
+    8. Is there evidence of a tumor that may invade adjacent organs, soft tissue, or serosal surfaces near the primary site?
+    9. Can you identify a malignancy that is associated with pathological conditions such as rapid progression, necrosis, or extensive tissue destruction?
+
+  [Contexual Behavior]
+    1. Does the image show a malignancy that may increase its proliferation rate in the presence of aggressive genetic alterations or growth factor signaling?
+    2. Is there a tumor present that can become more resistant to chemotherapy after acquiring drug resistance mutations or upregulating efflux pumps?
+    3. Can you identify a malignancy that shows increased invasiveness when epithelial-to-mesenchymal transition is activated?
+    4. Does the image include a tumor whose metastatic potential can increase due to molecular changes promoting cell motility and invasion?
+    5. Is there a malignancy that may respond poorly to targeted therapies when it harbors mutations bypassing targeted pathways?
+    6. Can you identify a tumor that changes its behavior after radiation treatment by selecting for radioresistant cell populations?
+    7. Does the image show a malignancy that may exhibit rapid progression under immunosuppression due to reduced immune surveillance?
+    8. Is there a tumor that displays increased angiogenesis in hypoxic conditions by upregulating pro-angiogenic factors?
+    9. Can you identify a malignancy that causes more severe clinical symptoms in advanced stages or when vital organs are involved?
+    10. Does the image include a tumor that becomes less differentiated in response to genetic mutations disrupting cellular differentiation pathways?
+

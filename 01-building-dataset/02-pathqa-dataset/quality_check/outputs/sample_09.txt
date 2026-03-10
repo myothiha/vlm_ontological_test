@@ -1,0 +1,453 @@
+VLM Reasoning Questions – Quality Check Sample
+File 9 | Concepts 81–90
+======================================================================
+
+======================================================================
+  CONCEPT: RESTING PHASE INTERPHASE THE G0 PHASE
+======================================================================
+
+  [Functions]
+    1. Does the image include a cellular state that regulates proliferation by allowing cells to exit the active cell cycle and remain quiescent?
+    2. Is there evidence of a process that contributes to tissue homeostasis by maintaining a reserve of non-dividing cells for potential repair or regeneration?
+    3. Can you identify a cellular state that enables cells to re-enter the cell cycle in response to injury or disease signals?
+    4. Does the image show a process whose dysregulation is significant in cancer development, either by enabling uncontrolled proliferation or by conferring therapy resistance through cellular dormancy?
+    5. Is there a cellular state present that influences the effectiveness of treatments such as chemotherapy by making non-dividing cells less susceptible to therapy?
+    6. Can you identify a process where cells transition in response to growth-inhibitory signals or nutrient deprivation, with potential dysregulation in pathological conditions?
+
+  [Contexual Behavior]
+    1. Does the image show a cell population that may experience a prolonged quiescent phase during aging or in tissues with low proliferative demand?
+    2. Is there evidence of cells that enter a quiescent state more frequently in response to cellular stress such as DNA damage or oxidative stress?
+    3. Can you identify cell types in which the quiescent phase becomes irreversible, leading to permanent cell cycle exit as seen in neurons or cardiac muscle cells?
+    4. Does the image include cells whose quiescent phase may shorten during tissue regeneration, allowing them to re-enter the cell cycle?
+    5. Is there a cell population that increases the duration of its quiescent phase due to nutrient deprivation, remaining inactive until conditions improve?
+    6. Can you identify cells in which the quiescent phase is disrupted, resulting in uncontrolled proliferation as observed in cancer?
+    7. Does the image show cells that may exit the quiescent phase in response to growth signals such as mitogens, re-entering the active cell cycle?
+    8. Is there evidence of cells that fail to maintain quiescence in disease states like cancer or chronic inflammation, leading to inappropriate proliferation?
+
+======================================================================
+  CONCEPT: SEVERE ACUTE REJECTION
+======================================================================
+
+  [Functions]
+    1. Does the image show a pathological process that causes intense immune-mediated injury and vascular inflammation in a transplanted organ?
+    2. Is there evidence of a process affecting a transplanted organ that leads to rapid loss of graft function and extensive tissue destruction?
+    3. Can you identify a pathological process that results in graft failure and increases the risk of infection following transplantation?
+    4. Does the image include features consistent with a process that manifests as sudden organ dysfunction and inflammatory symptoms after transplantation?
+    5. Is there a pathological process present that is driven by activated T lymphocytes and antibodies targeting donor antigens?
+    6. Can you identify a process that accelerates irreversible damage and decreases graft survival in a transplanted organ?
+    7. Does the image show a pathological process that increases morbidity, risk of retransplantation, or mortality in transplant recipients?
+    8. Is there evidence of a process that is managed clinically with high-dose immunosuppressive therapy and antibody treatments to preserve graft function?
+
+  [Relational]
+    1. Does the image show a pathological process that is known to affect transplanted organs such as the kidney or heart?
+    2. Is there evidence of a process that targets transplanted tissues and leads to immune-mediated injury?
+    3. Can you identify signs of a pathological process involving immune cells such as T lymphocytes and macrophages?
+    4. Does the image include features consistent with interstitial inflammation or vascular injury in a transplanted organ?
+    5. Is there evidence of a pathological process that can result in graft dysfunction or organ failure?
+    6. Can you see indications of a process that is managed with intensified immunosuppressive therapy to prevent further graft damage?
+    7. Does the image show findings that might be linked to elevated inflammatory markers or histological evidence of cellular infiltration in a transplanted organ?
+    8. Is there evidence of a process that puts transplanted organs such as the liver or lung at risk of failure?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that can cause rapid loss of graft function due to extensive immune-mediated tissue damage?
+    2. Is there a pathological process present that may trigger intense immune activation during strong alloimmune responses against a transplanted organ?
+    3. Can you identify a pathological process that leads to increased tissue inflammation when immune effectors infiltrate a graft?
+    4. Does the image include a process that may result in failure of immunosuppressive therapy when standard treatment is ineffective?
+    5. Is there a pathological process that can accelerate graft destruction during uncontrolled immune attack?
+    6. Can you identify a process that causes heightened risk of organ failure when persistent rejection impairs function?
+    7. Does the image show a pathological process that alters the response to anti-rejection treatments when the immune response becomes refractory?
+    8. Is there a process that provokes systemic inflammatory responses when inflammatory mediators enter the circulation?
+
+======================================================================
+  CONCEPT: SHOCK
+======================================================================
+
+  [Functions]
+    1. Does the image show evidence of a pathological process that causes decreased blood pressure and impaired tissue perfusion?
+    2. Is there a pathological process present that is known to reduce oxygen and nutrient delivery to organs, leading to organ dysfunction or failure?
+    3. Can you identify a pathological process characterized by circulatory collapse, inflammation, or metabolic disturbance?
+    4. Does the image include features consistent with a process that decreases cardiac output and causes poor tissue perfusion to vital organs?
+    5. Is there a pathological process present that can result in altered mental status, cold extremities, or rapid heart rate?
+    6. Can you identify a process that, if untreated, may progress to irreversible organ damage, multi-organ failure, or death?
+    7. Does the image show evidence of a pathological process that activates compensatory mechanisms such as increased heart rate or vasoconstriction?
+    8. Is there a pathological process present that increases the risk of morbidity, prolonged hospitalization, or mortality in critical care settings?
+    9. Can you identify a process that plays a role in the development of multi-organ dysfunction by sustaining inadequate perfusion and oxygenation?
+
+  [Relational]
+    1. Does the image show evidence of a pathological process that can affect organs such as the brain, heart, kidneys, or liver due to inadequate blood flow?
+    2. Is there tissue present that may experience decreased perfusion during a pathological process affecting the cardiovascular system?
+    3. Can you identify signs of a pathological process that is directly related to impaired circulation and decreased cardiac output?
+    4. Does the image include organ systems that are at risk of failure during a pathological process involving the renal, hepatic, respiratory, or central nervous systems?
+    5. Is there evidence of clinical conditions such as sepsis, trauma, myocardial infarction, or hemorrhage that are associated with the development of a pathological process affecting blood pressure regulation?
+    6. Can you identify features consistent with a failure of blood pressure regulation leading to hypotension and inadequate tissue perfusion?
+    7. Does the image show organs that are commonly monitored in patients with a pathological process affecting the heart, kidneys, brain, or lungs?
+    8. Is there evidence of impaired tissue oxygenation due to reduced delivery of oxygenated blood as seen in certain pathological processes?
+    9. Can you identify complications such as acute kidney injury, liver dysfunction, respiratory failure, or encephalopathy that may arise as a result of a pathological process affecting multiple organs?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that can cause decreased tissue perfusion when circulatory volume or cardiac output is inadequate?
+    2. Is there a pathological process present that may lead to impaired organ function due to hypoperfusion?
+    3. Can you identify a process that worsens in the setting of ongoing blood loss, such as uncontrolled hemorrhage?
+    4. Does the image include a pathological process that triggers compensatory cardiovascular responses like tachycardia and vasoconstriction in its early stages?
+    5. Is there a process that can result in metabolic acidosis when tissue hypoxia leads to anaerobic metabolism?
+    6. Can you identify a pathological process that may become refractory to fluid resuscitation in severe or prolonged cases?
+    7. Does the image show a process whose clinical presentation varies depending on the underlying cause, such as warm or cold extremities?
+    8. Is there a pathological process that can progress to multi-organ failure when hypoperfusion is prolonged?
+    9. Can you identify a process that improves with timely interventions such as fluid resuscitation or control of bleeding?
+    10. Does the image include a pathological process that may cause changes in mental status due to cerebral hypoperfusion?
+    11. Is there a process that increases the risk of cardiac arrhythmias when myocardial perfusion is compromised?
+    12. Can you identify a pathological process that leads to decreased urine output as renal perfusion drops?
+
+======================================================================
+  CONCEPT: SJOGRENS SYNDROME
+======================================================================
+
+  [Functions]
+    1. Does the image show a disease characterized by chronic lymphocytic infiltration and destruction of exocrine glands?
+    2. Is there a pathological process present that impairs exocrine gland function, leading to reduced secretion of saliva and tears?
+    3. Can you identify a disease known for autoantibody production and aberrant activation of B and T lymphocytes?
+    4. Does the image include a disease that causes dryness of the mouth and eyes by damaging salivary and lacrimal glands?
+    5. Is there a disease present that can have systemic effects such as fatigue, joint pain, or involvement of multiple organs?
+    6. Can you identify a disease that increases the risk of developing other autoimmune conditions due to immune dysregulation?
+    7. Does the image show a disease that impacts quality of life through chronic discomfort, fatigue, and complications from persistent dryness?
+    8. Is there a disease present that is associated with an increased risk of lymphoma due to chronic B-cell activation?
+    9. Can you identify a disease known to exhibit periods of progression and flare-ups alternating with phases of stability?
+    10. Does the image include a disease that leads to clinical manifestations such as dry mouth, dry eyes, dental caries, difficulty swallowing, or increased infection risk?
+
+  [Relational]
+    1. Does the image show a disease that is known to affect organs such as the eyes, mouth, or lungs?
+    2. Is there evidence of a disease that commonly involves glands like the salivary or lacrimal glands?
+    3. Can you identify a disease that is classified as autoimmune and often associated with other autoimmune conditions?
+    4. Does the image include tissue changes consistent with involvement of exocrine glandular tissue, especially salivary or lacrimal glands?
+    5. Is there a disease present that is commonly associated with conditions such as rheumatoid arthritis or systemic lupus erythematosus?
+    6. Can you see evidence of a disease that may cause complications in organs like the kidneys, liver, or peripheral nerves?
+    7. Is there a disease that is known to cause chronic inflammation and dysfunction of the salivary glands?
+    8. Does the image show features consistent with inflammation and reduced secretion from the lacrimal glands?
+    9. Can you identify a disease process involving immune cells such as T lymphocytes, B lymphocytes, or plasma cells?
+    10. Is there evidence of a disease that can cause systemic manifestations affecting multiple organ systems beyond the exocrine glands?
+
+  [Contexual Behavior]
+    1. Does the image show a disease that may increase autoimmune activity during flares or exposure to environmental triggers?
+    2. Is there a disease present that worsens glandular dysfunction as the autoimmune process progresses?
+    3. Can you identify a disease that leads to more severe dryness symptoms during periods of increased inflammation or advanced stages?
+    4. Does the image include a disease that can cause extraglandular manifestations when the autoimmune response extends beyond the salivary and lacrimal glands?
+    5. Is there a disease that impairs immune regulation due to chronic lymphocytic infiltration and immune pathway dysregulation?
+    6. Can you identify a disease that increases the risk of lymphoma development in long-standing or persistent cases?
+    7. Does the image show a disease whose clinical presentation may worsen during infection, with increased dryness and systemic symptoms?
+    8. Is there a disease that further reduces saliva and tear production as glandular tissue becomes more damaged?
+    9. Can you identify a disease that exacerbates joint pain and fatigue during flares or increased systemic inflammation?
+    10. Does the image include a disease that becomes more resistant to standard therapies in refractory or advanced cases?
+
+======================================================================
+  CONCEPT: SMALL INTESTINE
+======================================================================
+
+  [Properties]
+    1. Does the image show an organ that is known to have a normal adult length of approximately 6 to 7 meters?
+    2. Is there an organ in the image that would typically have a diameter ranging from 2.5 to 3 centimeters?
+    3. Can you identify an organ that is characterized by a weight of about 600 to 800 grams?
+    4. Does the image contain an organ that is known to have a pinkish to light red coloration?
+    5. Is there an organ present that would typically be described as long, coiled, and tubular in structure?
+    6. Can you identify an organ that is characterized by an average surface area of 30 to 40 square meters due to the presence of villi and microvilli?
+    7. Is there an organ in the image that would typically have an internal pH level ranging from 6 to 7.4?
+    8. Does the image show an organ whose tissue is known to contain approximately 75 to 80 percent water by weight?
+    9. Can you identify an organ that is described as having a soft, pliable texture with a velvety mucosal surface?
+    10. Is there an organ present that is composed of mucosa, submucosa, muscularis externa, and serosa layers?
+    11. Does the image contain an organ whose wall thickness is typically about 2 to 3 millimeters?
+    12. Is there an organ in the image that would normally have a temperature close to core body temperature, around 37 degrees Celsius?
+    13. Can you identify an organ that is known to contain enterocytes, goblet cells, Paneth cells, enteroendocrine cells, and stem cells?
+    14. Is there an organ present that would typically have high concentrations of disaccharidases and peptidases among its enzymes?
+    15. Does the image show an organ whose villi density is approximately 20 to 40 villi per square millimeter?
+    16. Can you identify an organ that is characterized by a mucus layer produced mainly by goblet cells covering its mucosa?
+    17. Is there an organ in the image that would typically contain high levels of glucose, amino acids, and fatty acids after meals?
+    18. Does the image show an organ whose oxygen level is lower than arterial blood, typically around 30 to 40 mmHg?
+    19. Is there an organ present that would typically have a tissue density of approximately 1.04 to 1.06 grams per cubic centimeter?
+
+  [Functions]
+    1. Does the image show an organ that performs essential functions in digestion and nutrient absorption?
+    2. Is there an organ present that transports digested carbohydrates, proteins, fats, vitamins, and minerals into the bloodstream?
+    3. Can you identify an organ that facilitates enzymatic breakdown of food using its own and pancreatic enzymes?
+    4. Does the image include an organ that regulates the movement of food through coordinated muscular contractions such as peristalsis?
+    5. Is there an organ that contributes to immune surveillance by housing gut-associated lymphoid tissue and producing immune cells?
+    6. Can you identify an organ that influences the gut microbiome by providing a habitat and nutrients for microbial populations?
+    7. Does the image show an organ that initiates tissue repair and inflammatory responses following injury or disease?
+    8. Is there an organ present whose dysfunction can lead to malabsorption and nutrient deficiencies?
+
+  [Relational]
+    1. Does the image show an organ that is known to belong to the digestive system?
+    2. Is there an organ present that is typically connected to the stomach and large intestine?
+    3. Can you identify an organ that receives blood supply from the superior mesenteric artery?
+    4. Does the image include an organ that is associated with ducts such as the common bile duct and pancreatic duct?
+    5. Is there an organ located in the central or lower regions of the abdominal cavity?
+    6. Can you see an organ that connects to the large intestine at the ileocecal junction?
+    7. Does the image show an organ that is supported or anchored by the mesentery?
+    8. Is there an organ present that interacts with the pancreas, liver, or gallbladder during digestion?
+    9. Can you identify an organ that is related to lymphatic structures such as Peyer's patches or mesenteric lymph nodes?
+    10. Does the image include an organ that is adjacent to tissues such as the peritoneum or omentum?
+
+  [Contexual Properties]
+    1. Does the image show an organ that can become dilated in conditions such as bowel obstruction or paralytic ileus?
+    2. Is there an organ present whose wall is known to thicken during inflammatory diseases like Crohn's disease or infections?
+    3. Can you identify an organ that is known to change color in cases of ischemia, hemorrhage, or severe inflammation?
+    4. Does the image include an organ that may develop ulcers or erosions in diseases such as Crohn's disease, celiac disease, or after certain medication use?
+    5. Is there an organ present that can show increased permeability in conditions like celiac disease, inflammatory bowel disease, or infections?
+    6. Can you identify an organ whose length may decrease after surgical resection or in congenital syndromes?
+    7. Does the image show an organ that can accumulate excess fluid during obstruction, infection, or severe inflammation?
+    8. Is there an organ present that may become narrowed or stenotic in chronic inflammatory conditions or after radiation therapy?
+    9. Can you identify an organ that is known to show abnormal mucosal patterns in diseases like celiac disease or lymphatic disorders?
+    10. Does the image include an organ that may develop villous atrophy in certain malabsorptive diseases?
+    11. Is there an organ present that can increase in weight due to edema, inflammation, or tumor infiltration?
+    12. Can you identify an organ whose levels of digestive enzymes may become abnormal in specific enzyme deficiencies?
+    13. Does the image show an organ that can become inflamed in conditions such as Crohn's disease, infections, or autoimmune processes?
+    14. Is there an organ present that may develop strictures in chronic inflammatory diseases or after surgical injury?
+    15. Can you identify an organ whose tissue composition is known to become abnormal in infiltrative diseases such as amyloidosis, lymphoma, or eosinophilic infiltration?
+
+  [Contexual Behavior]
+    1. Does the image show an organ that may reduce its nutrient absorption capacity in certain diseases?
+    2. Is there an organ present that can increase its motility to expel pathogens during infection?
+    3. Can you identify an organ that may fail to digest fats properly when there is pancreatic or bile acid deficiency?
+    4. Does the image include an organ that can slow down peristalsis during obstruction or severe inflammation?
+    5. Is there an organ that alters its enzyme secretion in response to dietary changes?
+    6. Can you identify an organ that becomes less effective at absorbing vitamins due to chronic disease?
+    7. Does the image show an organ that may increase water secretion during diarrheal illness?
+    8. Is there an organ that can show impaired barrier function in inflammatory conditions?
+    9. Can you identify an organ that adapts its absorptive function after surgical resection by increasing villus height and enzyme activity?
+    10. Does the image include an organ that increases its immune activity during infection by activating local immune cells?
+
+======================================================================
+  CONCEPT: SPLEEN
+======================================================================
+
+  [Properties]
+    1. Does the image show an organ that is known to have a typical adult length of about 12 centimeters?
+    2. Is there an organ present that would normally weigh approximately 150 to 200 grams in adults?
+    3. Can you identify an organ that is characterized by a purplish-red coloration?
+    4. Does the image contain an organ that is known to have an ovoid and flattened shape?
+    5. Is there an organ that would typically have a soft and friable texture?
+    6. Can you identify an organ that is known to have an average volume of about 200 to 250 milliliters?
+    7. Does the image show an organ that contains red pulp cells, white pulp lymphocytes, macrophages, dendritic cells, and endothelial cells?
+    8. Is there an organ present that is characterized by an iron content of approximately 0.3 to 1.0 milligrams per gram of tissue?
+    9. Can you identify an organ that would typically have a pH around 7.2 to 7.4?
+    10. Does the image contain an organ that is known to have a water content of about 75 to 80 percent of its weight?
+    11. Is there an organ present that would typically have a density of approximately 1.04 to 1.06 grams per cubic centimeter?
+    12. Can you identify an organ that does not have distinct anatomical lobes?
+    13. Does the image show an organ whose oxygen level is typically lower than arterial blood, around 30 to 40 mmHg?
+    14. Is there an organ present that is characterized by a protein composition including immunoglobulins, complement proteins, actin, and myosin?
+    15. Can you identify an organ that would typically have a lipid content of less than 5 percent of its weight?
+
+  [Functions]
+    1. Does the image show an organ that performs blood filtration and immune surveillance?
+    2. Is there an organ present that contributes to immune system activity by producing lymphocytes and facilitating immune responses?
+    3. Can you identify an organ that filters blood by removing cellular debris, microorganisms, and abnormal blood cells?
+    4. Does the image include an organ that removes old or damaged red blood cells through phagocytosis?
+    5. Is there an organ present that responds to infections by activating lymphocytes and producing antibodies?
+    6. Can you identify an organ whose dysfunction increases susceptibility to infections and impairs blood cell regulation?
+    7. Does the image show an organ that serves as a reservoir for platelets and certain white blood cells?
+    8. Is there an organ present that may rupture during trauma, causing internal bleeding or release of stored blood cells?
+    9. Can you identify an organ that supports B cell maturation and facilitates antibody production?
+    10. Does the image include an organ whose removal or damage increases the risk of severe infections and impairs immune responses?
+
+  [Relational]
+    1. Does the image show an organ that is known to belong to the lymphatic system?
+    2. Can you identify an organ that is typically connected to blood vessels such as the splenic artery and splenic vein?
+    3. Is there an organ present that is usually located near the stomach and pancreas?
+    4. Does the image include an organ that is a major component of the lymphatic system and supports immune responses?
+    5. Can you see an organ that receives its blood supply from a branch of the celiac trunk?
+    6. Is there an organ present that is typically supported by anatomical ligaments such as the gastrosplenic ligament?
+    7. Does the image show an organ that is closely related to the immune system by producing lymphocytes?
+    8. Can you identify an organ that interacts with the liver and bone marrow in blood filtration?
+    9. Is there an organ associated with lymph nodes such as the splenic hilar lymph nodes?
+    10. Does the image include an organ that may be affected by diseases such as lymphoma or leukemia?
+
+  [Contexual Properties]
+    1. Does the image show an organ that is known to become enlarged in conditions such as infections, liver cirrhosis, or hematologic malignancies?
+    2. Is there an organ present that can decrease in size after infarction, fibrosis, or in chronic sickle cell disease?
+    3. Can you identify an organ that is known to change color in cases of infarction, congestion, or hemorrhage?
+    4. Does the image include an organ that may increase in weight during infections, hematologic disorders, or portal hypertension?
+    5. Is there an organ whose tissue density is known to become abnormal on imaging in cases of infiltration, infarction, or neoplastic involvement?
+    6. Can you identify an organ that develops abnormal texture in chronic congestion, fibrosis, or infiltrative diseases?
+    7. Does the image show an organ that can accumulate excess blood during acute or chronic venous congestion, such as in portal hypertension?
+    8. Is there an organ present that becomes fibrotic in chronic inflammatory or infiltrative diseases, or after repeated infarctions?
+    9. Can you identify an organ that is known to show abnormal iron deposition in conditions like hemolytic anemia or hemochromatosis?
+    10. Does the image include an organ that can develop infarcts in conditions causing vascular occlusion, such as embolism or sickle cell disease?
+    11. Is there an organ that becomes congested in portal hypertension or right-sided heart failure?
+    12. Can you identify an organ whose cellular composition is known to become abnormal in hematologic malignancies, infections, or storage diseases?
+    13. Does the image show an organ that can increase in volume during infections, hematologic disorders, or portal hypertension?
+    14. Is there an organ present that develops nodules in granulomatous diseases, neoplasms, or after infarcts?
+    15. Can you identify an organ that becomes softer in acute congestion or infection and firmer in chronic fibrosis or infiltration?
+
+  [Contexual Behavior]
+    1. Does the image show an organ that increases its filtering activity during infection by removing more pathogens and abnormal cells?
+    2. Is there an organ present that reduces its immune response in immunodeficiency conditions due to impaired lymphocyte function?
+    3. Can you identify an organ that may enlarge in response to chronic diseases such as cirrhosis or hematologic disorders?
+    4. Does the image include an organ that can fail to remove damaged red blood cells effectively in cases of dysfunction or after surgical removal?
+    5. Is there an organ that increases platelet sequestration during disorders like hypersplenism or portal hypertension?
+    6. Can you identify an organ whose phagocytic activity decreases in conditions such as asplenia or severe injury?
+    7. Does the image show an organ that alters its function after trauma by reducing or losing its filtering and immune capabilities?
+    8. Is there an organ that becomes less effective in producing immune cells during bone marrow suppression or advanced hematologic disease?
+    9. Can you identify an organ that contributes to anemia in pathological states by excessively destroying red blood cells?
+    10. Does the image include an organ whose filtering capacity changes during sepsis due to impaired function or atrophy?
+
+======================================================================
+  CONCEPT: STILLBORN
+======================================================================
+
+  [Relational]
+    1. Does the image show an outcome that is known to be associated with maternal conditions such as hypertension or preeclampsia?
+    2. Is there evidence of a fetal outcome that is often linked to chromosomal abnormalities or congenital malformations?
+    3. Can you identify an outcome that may be related to placental pathologies such as placental abruption or placenta previa?
+    4. Does the image include features consistent with an outcome that can result from infections like syphilis or cytomegalovirus?
+    5. Is there evidence of an outcome that is more common at later gestational ages but can occur after 20 weeks of gestation?
+    6. Can you identify an outcome that is associated with obstetric complications such as umbilical cord accidents or uterine rupture?
+    7. Does the image suggest a situation in which healthcare interventions such as induction of labor or fetal autopsy might be relevant?
+    8. Is there evidence of an outcome that has a strong relationship with inadequate prenatal care quality?
+
+======================================================================
+  CONCEPT: SUPERIOR VENA CAVA
+======================================================================
+
+  [Properties]
+    1. Does the image show a vessel that is known to have a normal diameter of approximately 15–22 millimeters in adults?
+    2. Is there a vessel present that would typically have an average length of about 7 centimeters?
+    3. Can you identify a vessel that is characterized by a wall thickness of 1–2 millimeters?
+    4. Does the image contain a vessel that is described as short, wide, and cylindrical in shape?
+    5. Is there a vessel that is known to have a wall composed of three layers: tunica intima, tunica media (mainly smooth muscle and elastic fibers), and tunica adventitia (connective tissue)?
+    6. Can you identify a vessel that would normally contain approximately 100–150 milliliters of blood?
+    7. Is there a vessel that is typically bluish in color due to deoxygenated blood?
+    8. Does the image show a vessel that is highly elastic, allowing it to accommodate changes in venous return?
+    9. Is there a vessel present that would be relatively light, weighing only a few grams?
+    10. Can you identify a vessel that would typically have a cross-sectional area of about 2–3 square centimeters?
+    11. Is there a vessel that is characterized by a tissue density of approximately 1.06 grams per cubic centimeter?
+    12. Does the image contain a vessel whose tissue is known to have a water content of about 70–75 percent of its weight?
+
+  [Functions]
+    1. Does the image show a blood vessel that transports deoxygenated blood from the upper body to the right atrium of the heart?
+    2. Is there a vessel present that provides a low-resistance pathway for venous blood returning from the head, neck, upper limbs, and upper torso?
+    3. Can you identify a vessel that plays a central role in collecting venous blood from major veins of the upper body and channeling it into the heart?
+    4. Does the image include a vessel whose obstruction can lead to impaired cardiovascular function and venous congestion in the upper body?
+    5. Is there a vessel present that, when compromised, may result in clinical signs such as facial swelling and distended neck veins due to impaired venous drainage?
+    6. Can you identify a vessel that contributes to the regulation of central venous pressure by affecting the volume and pressure of blood entering the right atrium?
+    7. Does the image show a vessel that influences cardiac preload by determining the amount of venous blood delivered to the right side of the heart?
+
+  [Relational]
+    1. Does the image show a vessel that is known to drain blood from the head, neck, and upper limbs?
+    2. Is there a vessel present that is formed by the convergence of the right and left brachiocephalic veins?
+    3. Can you identify a vessel that empties directly into the right atrium of the heart?
+    4. Does the image include a vessel that is typically adjacent to structures such as the ascending aorta and trachea?
+    5. Is there a vessel present that is associated with clinical conditions such as superior vena cava syndrome or thrombosis?
+    6. Can you see a vessel that is located near lymphatic structures like the right paratracheal and mediastinal lymph nodes?
+    7. Does the image show a vessel that returns deoxygenated blood from the upper body to the systemic circulation?
+    8. Is there a vessel present that receives blood from tributaries such as the azygos vein and pericardial veins?
+
+  [Contexual Properties]
+    1. Does the image show a vessel that is known to become dilated in response to increased central venous pressure or downstream obstruction?
+    2. Is there a vessel present that can be compressed by external masses such as tumors, lymphadenopathy, or aneurysms?
+    3. Can you identify a vessel that is susceptible to developing thrombosis in conditions like hypercoagulability, indwelling catheters, or malignancy?
+    4. Does the image include a vessel whose pressure is known to increase in cases of right-sided heart failure, pulmonary hypertension, or obstruction?
+    5. Is there a vessel that can change its diameter due to variations in intrathoracic pressure, volume status, or pathological obstruction?
+    6. Can you identify a vessel that may become obstructed by thrombosis, external compression, or tumor invasion?
+    7. Does the image show a vessel whose wall can thicken as a result of chronic inflammation, fibrosis, or repeated catheterization?
+    8. Is there a vessel present that may exhibit abnormal blood flow velocity during obstruction, thrombosis, or external compression?
+    9. Can you identify a vessel that is known to develop calcification in chronic inflammatory conditions or after long-standing catheter placement?
+    10. Does the image include a vessel that can become narrowed due to fibrosis, external compression, or intraluminal thrombus?
+
+  [Contexual Behavior]
+    1. Does the image show a vessel that may experience reduced blood flow due to external compression from mediastinal masses or enlarged lymph nodes?
+    2. Is there a vessel present that can develop impaired venous return when thrombosis occurs within its lumen?
+    3. Can you identify a vessel that increases its pressure in response to heart failure due to elevated right atrial pressure?
+    4. Does the image include a vessel that may fail to drain blood efficiently during a syndrome characterized by venous congestion?
+    5. Is there a vessel whose flow dynamics can be altered by the presence of mediastinal tumors compressing or invading its wall?
+    6. Can you identify a vessel that may become obstructed due to intravascular devices such as central venous catheters or pacemaker leads?
+    7. Does the image show a vessel that can exhibit impaired function during complications of central venous catheterization such as malposition or vessel injury?
+
+======================================================================
+  CONCEPT: THE VILLI
+======================================================================
+
+  [Properties]
+    1. Does the image show a tissue structure that is known to have projections with an average length of about 0.5 to 1.6 millimeters?
+    2. Is there a tissue in the image that would typically have projections ranging from 0.1 to 0.3 millimeters in width?
+    3. Can you identify a tissue that is characterized by finger-like or leaf-shaped projections extending from its mucosal surface?
+    4. Does the image contain a tissue whose projections are known to contribute to an absorptive surface area of approximately 30 to 40 square meters?
+    5. Is there a tissue structure present that would typically have a density of about 10 to 40 projections per square millimeter of surface?
+    6. Can you identify a tissue whose projections are known to have a pale pink coloration due to vascularity?
+    7. Does the image show a tissue structure whose projections contain enterocytes, goblet cells, enteroendocrine cells, and Paneth cells?
+    8. Is there a tissue in the image with an epithelial layer on its projections that is typically about 20 to 30 micrometers thick?
+    9. Can you identify a tissue whose projections are known to have about 1 to 3 capillaries per projection?
+    10. Does the image contain a tissue structure whose projections have a normal height-to-width ratio typically between 3:1 and 5:1?
+    11. Is there a tissue whose individual projections would typically have a volume of approximately 0.01 to 0.05 cubic millimeters?
+    12. Can you identify a tissue structure whose projections are known to have a water content of about 70 to 80 percent by weight?
+
+  [Functions]
+    1. Does the image show a tissue structure that increases the absorptive surface area of the small intestine?
+    2. Is there a tissue present that facilitates efficient nutrient absorption by providing a large, vascularized surface?
+    3. Can you identify a structure that projects finger-like extensions into the intestinal lumen to enhance surface area?
+    4. Does the image include a tissue that contributes to nutrient transport into the bloodstream through capillaries and lacteals?
+    5. Is there a tissue present whose damage can lead to impaired nutrient absorption and digestive dysfunction?
+    6. Can you identify a structure that forms a barrier and supports immune defense in the intestinal lining?
+
+  [Relational]
+    1. Does the image show a tissue structure that is connected to the intestinal mucosa and projects from the surface of the small intestine?
+    2. Is there a tissue present that is contained within the mucosal layer of the small intestine?
+    3. Can you identify a tissue that forms finger-like projections arising from the intestinal mucosa?
+    4. Does the image include a tissue that is associated with capillaries and arterioles supplying its core?
+    5. Is there a tissue structure present that facilitates nutrient absorption by increasing the surface area of the intestinal lining?
+    6. Can you see a tissue that may be affected by diseases such as celiac disease or tropical sprue?
+    7. Does the image show a tissue that contains specialized cells such as enterocytes and goblet cells?
+    8. Is there a tissue present that contains central lacteals as part of the lymphatic system?
+    9. Can you identify a tissue that interacts with the gut microbiota by providing a surface for microbial colonization?
+    10. Does the image include a tissue that is functionally related to organs such as the pancreas and liver in the digestive process?
+
+  [Contexual Properties]
+    1. Is there a tissue present that is known to become blunted in certain gastrointestinal diseases?
+    2. Can you identify a tissue whose height decreases during chronic inflammatory disorders?
+    3. Does the image show a tissue that can increase in width in response to edema or inflammatory cell infiltration?
+    4. Is there a tissue that is known to undergo atrophy in malabsorptive disorders?
+    5. Can you identify a tissue that may become hypertrophic in hyperplastic conditions or as a compensatory response to injury?
+    6. Does the image include a tissue whose density changes in diseases causing loss or regeneration?
+    7. Is there a tissue present that can lose its normal structure in severe mucosal injury or chronic enteropathies?
+    8. Can you identify a tissue that may become fused in advanced inflammatory conditions?
+    9. Does the image show a tissue whose cellular composition can become abnormal due to increased immune cell infiltration?
+    10. Is there a tissue that is known to become shortened in chronic enteropathies?
+    11. Can you identify a tissue that may become flattened in severe cases of mucosal injury?
+    12. Does the image include a tissue that can show increased infiltration by immune cells in autoimmune or infectious enteropathies?
+
+  [Contexual Behavior]
+    1. Does the image show an anatomical structure that may decrease its nutrient absorption capacity in certain gastrointestinal diseases?
+    2. Is there an anatomical structure present that can become blunted or atrophied in response to chronic inflammation or autoimmune conditions?
+    3. Can you identify an anatomical structure that increases its surface area for absorption during periods of growth or increased nutrient demand?
+    4. Does the image include an anatomical structure that may fail to perform its barrier function effectively when damaged by toxins or infections?
+    5. Is there an anatomical structure that has the ability to regenerate after injury or damage during the healing phase?
+    6. Can you identify an anatomical structure that may lose its ability to transport nutrients during inflammation due to disruption of epithelial integrity?
+    7. Does the image show an anatomical structure whose function can be impaired by autoimmune-mediated damage in diseases such as celiac disease?
+    8. Is there an anatomical structure that can recover its normal activity after removal of the underlying injurious cause?
+    9. Can you identify an anatomical structure that may alter its structure and become flattened or fused in response to chronic infection, leading to reduced absorptive capacity?
+
+======================================================================
+  CONCEPT: THECOMA WITH YELLOW FOCI
+======================================================================
+
+  [Properties]
+    1. Can you identify a tumor that is known to have a typical diameter ranging from 5 to 10 centimeters?
+    2. Is there a tumor in the image that would typically weigh between 100 and 500 grams?
+    3. Does the image show a tumor that is characterized by a yellow to yellowish-white coloration due to its lipid content?
+    4. Can you identify a tumor that is known to be composed of lipid-laden theca cells, fibrous stroma, and occasional collagen?
+    5. Is there a tumor present that would typically have moderate to high cellularity with abundant plump spindle or polygonal cells?
+    6. Does the image contain a tumor that is characterized by a high lipid content accounting for its yellow coloration?
+    7. Can you identify a tumor that would typically have a firm to rubbery texture, sometimes focally soft due to lipid accumulation?
+    8. Is there a tumor in the image that is known to be round to oval in shape and well-circumscribed?
+    9. Does the image show a tumor that is characterized by a generally low mitotic index, with fewer than 4 mitoses per 10 high-power fields?
+    10. Can you identify a tumor that would typically have a moderate water content, similar to other soft tissue tumors?
+
+  [Contexual Properties]
+    1. Does the image show a tumor that is known to increase in size as it progresses?
+    2. Is there a tumor present that can change color due to increased lipid accumulation or hemorrhage?
+    3. Can you identify a tumor that may develop areas of necrosis when it outgrows its blood supply or grows rapidly?
+    4. Does the image include a tumor that becomes more fibrotic with chronicity or stromal reaction?
+    5. Is there a tumor that can show increased cellularity in cases of higher proliferative activity or cellular variants?
+    6. Can you identify a tumor that accumulates more lipid content as steroid-producing cells increase?
+    7. Does the image show a tumor whose texture can change when fibrosis, edema, or cystic degeneration occurs?
+    8. Is there a tumor present that can become cystic due to degenerative changes or fluid accumulation?
+    9. Can you identify a tumor that may show calcification in long-standing cases or after degenerative changes?
+    10. Does the image include a tumor that can decrease in size after effective surgical removal or medical therapy?
+

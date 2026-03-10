@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VLM Question Quality Labeler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <style>
+        /* ── Reset & Tokens ───────────────────────────────────────────── */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #0d1117;
+            --surface: #161b22;
+            --card: #21262d;
+            --border: #30363d;
+            --border2: #3d444d;
+            --primary: #818cf8;
+            --text: #e6edf3;
+            --muted: #7d8590;
+            --dim: #9ca3af;
+
+            /* Issue label colours */
+            --incoherence: #f59e0b;
+            --incoherence-bg: rgba(245, 158, 11, .13);
+            --incoherence-ring: rgba(245, 158, 11, .30);
+            --misalignment: #f87171;
+            --misalignment-bg: rgba(248, 113, 113, .13);
+            --misalignment-ring: rgba(248, 113, 113, .30);
+            --textbias: #a78bfa;
+            --textbias-bg: rgba(167, 139, 250, .13);
+            --textbias-ring: rgba(167, 139, 250, .30);
+
+            --good: #22c55e;
+            --good-bg: rgba(34, 197, 94, .10);
+
+            --radius: 10px;
+            --sidebar-w: 260px;
+            --header-h: 46px;
+        }
+
+        html,
+        body {
+            height: auto;
+            min-height: 100%;
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+        }
+
+        /* ── Sticky header ────────────────────────────────────────────── */
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 200;
+            width: 100%;
+            height: var(--header-h);
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 0 20px;
+        }
+
+        .header-logo {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .header-logo span {
+            color: var(--text);
+            font-weight: 400;
+        }
+
+        .saving-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--good);
+            flex-shrink: 0;
+            opacity: 0;
+        }
+
+        .saving-dot.pulse {
+            animation: pulse-dot .8s ease;
+        }
+
+        @keyframes pulse-dot {
+            0% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: .5;
+                transform: scale(1.4);
+            }
+
+            100% {
+                opacity: 0;
+                transform: scale(1);
+            }
+        }
+
+        .header-progress {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-left: auto;
+        }
+
+        .progress-bar-wrap {
+            flex: 1;
+            max-width: 340px;
+            height: 5px;
+            background: var(--border);
+            border-radius: 99px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            border-radius: 99px;
+            background: linear-gradient(90deg, var(--incoherence), var(--textbias));
+            transition: width .4s ease;
+        }
+
+        .progress-label {
+            font-size: 11.5px;
+            color: var(--muted);
+            white-space: nowrap;
+        }
+
+        /* ── Body layout ──────────────────────────────────────────────── */
+        .body-layout {
+            display: flex;
+            align-items: flex-start;
+            min-height: calc(100vh - var(--header-h));
+        }
+
+        /* ── Sidebar ──────────────────────────────────────────────────── */
+        .sidebar {
+            position: sticky;
+            top: var(--header-h);
+            width: var(--sidebar-w);
+            flex-shrink: 0;
+            height: calc(100vh - var(--header-h));
+            background: var(--surface);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .sidebar-search {
+            padding: 10px 10px 7px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .sidebar-search input {
+            width: 100%;
+            padding: 6px 10px;
+            background: var(--card);
+            border: 1px solid var(--border2);
+            border-radius: var(--radius);
+            color: var(--text);
+            font-size: 12.5px;
+            font-family: inherit;
+            outline: none;
+            transition: border-color .2s;
+        }
+
+        .sidebar-search input:focus {
+            border-color: var(--primary);
+        }
+
+        .sidebar-search input::placeholder {
+            color: var(--muted);
+        }
+
+        .sidebar-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 5px 7px;
+        }
+
+        .sidebar-list::-webkit-scrollbar {
+            width: 3px;
+        }
+
+        .sidebar-list::-webkit-scrollbar-thumb {
+            background: var(--border2);
+            border-radius: 99px;
+        }
+
+        .concept-item {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            padding: 7px 9px;
+            border-radius: 8px;
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: background .15s, border-color .15s;
+            margin-bottom: 2px;
+        }
+
+        .concept-item:hover {
+            background: var(--card);
+        }
+
+        .concept-item.active {
+            background: rgba(129, 140, 248, .12);
+            border-color: rgba(129, 140, 248, .30);
+        }
+
+        .concept-item-name {
+            flex: 1;
+            font-size: 12px;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: var(--text);
+        }
+
+        .concept-item.active .concept-item-name {
+            color: var(--primary);
+        }
+
+        .concept-badge {
+            font-size: 10px;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 99px;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        .badge-none {
+            background: var(--card);
+            color: var(--muted);
+        }
+
+        .badge-issues {
+            background: rgba(245, 158, 11, .15);
+            color: var(--incoherence);
+        }
+
+        /* ── Main panel ───────────────────────────────────────────────── */
+        .main {
+            flex: 1;
+            padding: 20px 28px 48px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            min-width: 0;
+        }
+
+        /* ── Concept header ───────────────────────────────────────────── */
+        .concept-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .concept-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .concept-meta {
+            display: flex;
+            gap: 7px;
+            flex-wrap: wrap;
+        }
+
+        .meta-chip {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 99px;
+            font-weight: 600;
+        }
+
+        .chip-total {
+            background: var(--card);
+            color: var(--dim);
+            border: 1px solid var(--border2);
+        }
+
+        .chip-good {
+            background: var(--good-bg);
+            color: var(--good);
+        }
+
+        .chip-incoherence {
+            background: var(--incoherence-bg);
+            color: var(--incoherence);
+        }
+
+        .chip-misalignment {
+            background: var(--misalignment-bg);
+            color: var(--misalignment);
+        }
+
+        .chip-textbias {
+            background: var(--textbias-bg);
+            color: var(--textbias);
+        }
+
+        /* ── Tip bar ──────────────────────────────────────────────────── */
+        .kbd-hint {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 6px 12px;
+            font-size: 11.5px;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+
+        .kbd {
+            background: var(--card);
+            border: 1px solid var(--border2);
+            border-radius: 4px;
+            padding: 1px 5px;
+            font-family: monospace;
+            font-size: 10.5px;
+            color: var(--dim);
+        }
+
+        /* ── Dimension section ────────────────────────────────────────── */
+        .dimension-section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 11px;
+            overflow: hidden;
+        }
+
+        .dimension-header {
+            padding: 8px 14px;
+            background: var(--card);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .dimension-icon {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .dim-properties {
+            background: #818cf8;
+        }
+
+        .dim-functions {
+            background: #34d399;
+        }
+
+        .dim-relational {
+            background: #fb923c;
+        }
+
+        .dim-contextual-props {
+            background: #f472b6;
+        }
+
+        .dim-contextual-beh {
+            background: #60a5fa;
+        }
+
+        .dimension-name {
+            font-size: 12.5px;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .dimension-count {
+            margin-left: auto;
+            font-size: 11px;
+            color: var(--muted);
+            font-weight: 500;
+        }
+
+        /* ── Question row ─────────────────────────────────────────────── */
+        .question-list {
+            padding: 3px 0;
+        }
+
+        .question-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 7px 14px;
+            border-bottom: 1px solid var(--border);
+            transition: background .15s;
+        }
+
+        .question-row:last-child {
+            border-bottom: none;
+        }
+
+        .question-row:hover {
+            background: rgba(255, 255, 255, .022);
+        }
+
+        .question-row.has-issues {
+            background: rgba(245, 158, 11, .04);
+        }
+
+        .q-index {
+            font-size: 10.5px;
+            font-weight: 600;
+            color: var(--muted);
+            min-width: 20px;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .q-text {
+            flex: 1;
+            font-size: 12.5px;
+            line-height: 1.5;
+            color: var(--dim);
+            transition: color .2s;
+        }
+
+        .q-text.flagged {
+            color: var(--text);
+        }
+
+        /* ── Issue buttons ────────────────────────────────────────────── */
+        .q-buttons {
+            display: flex;
+            gap: 5px;
+            flex-shrink: 0;
+            margin-top: 1px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        .btn-issue {
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1.5px solid var(--border2);
+            color: var(--muted);
+            background: transparent;
+            font-family: inherit;
+            transition: all .15s;
+            white-space: nowrap;
+        }
+
+        /* Incoherence — amber */
+        .btn-incoherence:hover {
+            border-color: var(--incoherence);
+            color: var(--incoherence);
+            background: var(--incoherence-bg);
+        }
+
+        .btn-incoherence.active {
+            border-color: var(--incoherence);
+            color: var(--incoherence);
+            background: var(--incoherence-bg);
+            box-shadow: 0 0 0 3px var(--incoherence-ring);
+        }
+
+        /* Misalignment — red */
+        .btn-misalignment:hover {
+            border-color: var(--misalignment);
+            color: var(--misalignment);
+            background: var(--misalignment-bg);
+        }
+
+        .btn-misalignment.active {
+            border-color: var(--misalignment);
+            color: var(--misalignment);
+            background: var(--misalignment-bg);
+            box-shadow: 0 0 0 3px var(--misalignment-ring);
+        }
+
+        /* Language Bias — purple */
+        .btn-languagebias:hover {
+            border-color: var(--textbias);
+            color: var(--textbias);
+            background: var(--textbias-bg);
+        }
+
+        .btn-languagebias.active {
+            border-color: var(--textbias);
+            color: var(--textbias);
+            background: var(--textbias-bg);
+            box-shadow: 0 0 0 3px var(--textbias-ring);
+        }
+
+        /* ── Placeholder ──────────────────────────────────────────────── */
+        .placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+            gap: 14px;
+            color: var(--muted);
+        }
+
+        .placeholder-icon {
+            font-size: 44px;
+            opacity: .4;
+        }
+
+        .placeholder-text {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--dim);
+        }
+
+        .placeholder-sub {
+            font-size: 12px;
+            color: var(--muted);
+            text-align: center;
+            max-width: 320px;
+        }
+
+        /* ── Toast ────────────────────────────────────────────────────── */
+        .toast {
+            position: fixed;
+            bottom: 22px;
+            right: 22px;
+            background: var(--card);
+            border: 1px solid var(--border2);
+            border-radius: 9px;
+            padding: 9px 14px;
+            font-size: 12px;
+            color: var(--text);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, .5);
+            opacity: 0;
+            transform: translateY(8px);
+            transition: all .25s;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ── Legend ───────────────────────────────────────────────────── */
+        .legend {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 6px 12px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 11px;
+            color: var(--muted);
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .legend-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ── Sticky Header ───────────────────────────────────────────────── -->
+    <header class="header">
+        <div class="header-logo">VLM QA <span>Labeler</span></div>
+        <div class="saving-dot" id="savingDot"></div>
+        <div class="header-progress">
+            <div class="progress-bar-wrap">
+                <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+            </div>
+            <div class="progress-label" id="progressLabel">Loading…</div>
+        </div>
+    </header>
+
+    <!-- ── Body ───────────────────────────────────────────────────────── -->
+    <div class="body-layout">
+
+        <!-- ── Sticky Sidebar ─────────────────────────────────────────── -->
+        <aside class="sidebar">
+            <div class="sidebar-search">
+                <input type="text" id="searchInput" placeholder="Search concept…" autocomplete="off" />
+            </div>
+            <div class="sidebar-list" id="conceptList"></div>
+        </aside>
+
+        <!-- ── Main (grows freely) ────────────────────────────────────── -->
+        <main class="main" id="mainPanel">
+            <div class="placeholder">
+                <div class="placeholder-icon">🔬</div>
+                <div class="placeholder-text">Select a concept to start labeling</div>
+                <div class="placeholder-sub">Tag each question with one or more issues. Questions with no tags are
+                    considered <strong>good</strong>.</div>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // ── State ───────────────────────────────────────────────────────────
+        let concepts = [];
+        let currentName = null;
+
+        const ISSUES = ["incoherence", "misalignment", "language-bias"];
+
+        const DIM_COLORS = {
+            "Properties": "dim-properties",
+            "Functions": "dim-functions",
+            "Relational": "dim-relational",
+            "Contextual Properties": "dim-contextual-props",
+            "Contextual Behavior": "dim-contextual-beh",
+        };
+
+        // ── Boot ────────────────────────────────────────────────────────────
+        (async () => {
+            await loadConcepts();
+            await updateGlobalProgress();
+        })();
+
+        // ── Data loading ────────────────────────────────────────────────────
+        async function loadConcepts() {
+            const res = await fetch("/api/concepts");
+            if (!res.ok) { showToast("Error loading concepts"); return; }
+            concepts = await res.json();
+            renderSidebar(concepts);
+        }
+
+        async function selectConcept(name) {
+            currentName = name;
+            markActive(name);
+            const res = await fetch(`/api/concept/${name}`);
+            const data = await res.json();
+            renderMain(data);
+        }
+
+        // ── Sidebar ─────────────────────────────────────────────────────────
+        function renderSidebar(list) {
+            const el = document.getElementById("conceptList");
+            el.innerHTML = "";
+            list.forEach(c => el.appendChild(buildConceptItem(c)));
+        }
+
+        function buildConceptItem(c) {
+            const div = document.createElement("div");
+            div.className = "concept-item";
+            div.dataset.name = c.name;
+
+            const hasFlagged = c.flagged > 0;
+            const badgeCls = hasFlagged ? "badge-issues" : "badge-none";
+            const badgeTxt = hasFlagged ? `⚑ ${c.flagged} flagged` : `${c.total} q`;
+
+            div.innerHTML = `
+    <span class="concept-item-name" title="${c.display_name}">${c.display_name}</span>
+    <span class="concept-badge ${badgeCls}">${badgeTxt}</span>`;
+            div.addEventListener("click", () => selectConcept(c.name));
+            return div;
+        }
+
+        function markActive(name) {
+            document.querySelectorAll(".concept-item").forEach(el =>
+                el.classList.toggle("active", el.dataset.name === name));
+        }
+
+        // ── Main panel render ───────────────────────────────────────────────
+        function renderMain(data) {
+            const panel = document.getElementById("mainPanel");
+            if (!data.dimensions || data.dimensions.length === 0) {
+                panel.innerHTML = `<div class="placeholder"><div class="placeholder-icon">📭</div>
+      <div class="placeholder-text">No questions found</div></div>`;
+                return;
+            }
+
+            // Compute counts for header chips
+            let total = 0, flagged = 0, incoherence = 0, misalignment = 0, textbias = 0;
+            data.dimensions.forEach(d => d.questions.forEach(q => {
+                total++;
+                const labels = q.labels || [];
+                if (labels.length > 0) flagged++;
+                if (labels.includes("incoherence")) incoherence++;
+                if (labels.includes("misalignment")) misalignment++;
+                if (labels.includes("language-bias")) textbias++;
+            }));
+            const good = total - flagged;
+
+            const html = [];
+
+            // Concept header
+            html.push(`
+    <div class="concept-header">
+      <h1 class="concept-title">${data.display_name}</h1>
+      <div class="concept-meta" id="headerMeta">
+        <span class="meta-chip chip-total"     id="chipTotal">${total} questions</span>
+        <span class="meta-chip chip-good"      id="chipGood">✓ ${good} good</span>
+        <span class="meta-chip chip-incoherence" id="chipIncoherence">⚑ ${incoherence} incoherence</span>
+        <span class="meta-chip chip-misalignment"id="chipMisalignment">⚑ ${misalignment} misalignment</span>
+        <span class="meta-chip chip-textbias"  id="chipTextbias">⚑ ${textbias} language-bias</span>
+      </div>
+    </div>`);
+
+            // Legend + tip
+            html.push(`
+    <div class="legend">
+      <span style="font-weight:600;color:var(--dim)">Issue labels:</span>
+      <span class="legend-item"><span class="legend-dot" style="background:var(--incoherence)"></span>Incoherence</span>
+      <span class="legend-item"><span class="legend-dot" style="background:var(--misalignment)"></span>Misalignment</span>
+      <span class="legend-item"><span class="legend-dot" style="background:var(--textbias)"></span>Language Bias</span>
+      <span style="margin-left:auto;color:var(--muted)">Click to toggle · multiple allowed · no tag = 
+        <span style="color:var(--good);font-weight:600">good</span></span>
+    </div>`);
+
+            // Dimension sections
+            data.dimensions.forEach((dim, di) => {
+                const colorCls = DIM_COLORS[dim.name] || "dim-properties";
+                const dimFlagged = dim.questions.filter(q => (q.labels || []).length > 0).length;
+
+                html.push(`
+      <div class="dimension-section" id="dim-${di}">
+        <div class="dimension-header">
+          <div class="dimension-icon ${colorCls}"></div>
+          <span class="dimension-name">${dim.name}</span>
+          <span class="dimension-count" id="dimCount-${di}">${dimFlagged} flagged / ${dim.questions.length}</span>
+        </div>
+        <div class="question-list">
+          ${dim.questions.map((q, qi) => buildQuestionRow(data.name, dim.name, q, di, qi)).join("")}
+        </div>
+      </div>`);
+            });
+
+            panel.innerHTML = html.join("");
+
+            // Attach handlers
+            panel.querySelectorAll(".btn-issue").forEach(btn =>
+                btn.addEventListener("click", onIssueClick));
+        }
+
+        function buildQuestionRow(concept, dimName, q, di, qi) {
+            const labels = q.labels || [];
+            const hasFl = labels.length > 0;
+            const rowCls = hasFl ? "question-row has-issues" : "question-row";
+            const textCls = hasFl ? "q-text flagged" : "q-text";
+
+            const iBtn = (issue, cls, label) =>
+                `<button class="btn-issue ${cls}${labels.includes(issue) ? " active" : ""}"
+       data-concept="${concept}" data-dim="${dimName}"
+       data-q="${escAttr(q.text)}" data-issue="${issue}"
+       data-di="${di}" data-qi="${qi}">${label}</button>`;
+
+            return `
+    <div class="${rowCls}" id="qrow-${di}-${qi}">
+      <span class="q-index">${qi + 1}.</span>
+      <span class="${textCls}" id="qtext-${di}-${qi}">${escHtml(q.text)}</span>
+      <div class="q-buttons">
+        ${iBtn("incoherence", "btn-incoherence", "Incoherence")}
+        ${iBtn("misalignment", "btn-misalignment", "Misalignment")}
+        ${iBtn("language-bias", "btn-languagebias", "Language Bias")}
+      </div>
+    </div>`;
+        }
+
+        // ── Issue click handler ──────────────────────────────────────────────
+        async function onIssueClick(e) {
+            const btn = e.currentTarget;
+            const concept = btn.dataset.concept;
+            const dim = btn.dataset.dim;
+            const q = btn.dataset.q;
+            const issue = btn.dataset.issue;
+            const di = btn.dataset.di;
+            const qi = btn.dataset.qi;
+
+            // Toggle this button
+            btn.classList.toggle("active");
+
+            // Collect all active issues for this question from the DOM
+            const row = document.getElementById(`qrow-${di}-${qi}`);
+            const activeIssues = [...row.querySelectorAll(".btn-issue.active")]
+                .map(b => b.dataset.issue);
+
+            // Update row appearance
+            const hasIssues = activeIssues.length > 0;
+            row.classList.toggle("has-issues", hasIssues);
+            const textEl = document.getElementById(`qtext-${di}-${qi}`);
+            if (textEl) textEl.className = hasIssues ? "q-text flagged" : "q-text";
+
+            // Update all counters
+            updateHeaderCounts();
+            updateDimCount(di);
+            updateSidebarBadge(concept);
+
+            // Persist
+            flashSaving();
+            await fetch("/api/label", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ concept, dimension: dim, question: q, labels: activeIssues }),
+            });
+            await updateGlobalProgress();
+        }
+
+        // ── Counter updates ──────────────────────────────────────────────────
+        function updateHeaderCounts() {
+            let total = 0, flagged = 0, incoherence = 0, misalignment = 0, textbias = 0;
+            // Each question has 3 buttons; iterate row-by-row
+            document.querySelectorAll(".question-row").forEach(row => {
+                total++;
+                const active = [...row.querySelectorAll(".btn-issue.active")];
+                if (active.length > 0) flagged++;
+                active.forEach(b => {
+                    if (b.dataset.issue === "incoherence") incoherence++;
+                    if (b.dataset.issue === "misalignment") misalignment++;
+                    if (b.dataset.issue === "language-bias") textbias++;
+                });
+            });
+            const good = total - flagged;
+            setText("chipTotal", `${total} questions`);
+            setText("chipGood", `✓ ${good} good`);
+            setText("chipIncoherence", `⚑ ${incoherence} incoherence`);
+            setText("chipMisalignment", `⚑ ${misalignment} misalignment`);
+            setText("chipTextbias", `⚑ ${textbias} language-bias`);
+        }
+
+        function updateDimCount(di) {
+            const section = document.getElementById(`dim-${di}`);
+            const countEl = document.getElementById(`dimCount-${di}`);
+            if (!section || !countEl) return;
+            const rows = section.querySelectorAll(".question-row");
+            const total = rows.length;
+            let flagged = 0;
+            rows.forEach(row => { if (row.querySelectorAll(".btn-issue.active").length > 0) flagged++; });
+            countEl.textContent = `${flagged} flagged / ${total}`;
+        }
+
+        function updateSidebarBadge(name) {
+            const sideItem = document.querySelector(`.concept-item[data-name="${name}"]`);
+            if (!sideItem) return;
+
+            let flagged = 0, total = 0;
+            document.querySelectorAll(".question-row").forEach(row => {
+                total++;
+                if (row.querySelectorAll(".btn-issue.active").length > 0) flagged++;
+            });
+
+            const badge = sideItem.querySelector(".concept-badge");
+            if (!badge) return;
+
+            if (flagged > 0) {
+                badge.className = "concept-badge badge-issues";
+                badge.textContent = `⚑ ${flagged} flagged`;
+            } else {
+                badge.className = "concept-badge badge-none";
+                badge.textContent = `${total} q`;
+            }
+
+            const c = concepts.find(x => x.name === name);
+            if (c) { c.flagged = flagged; c.total = total; }
+        }
+
+        // ── Global progress ──────────────────────────────────────────────────
+        async function updateGlobalProgress() {
+            const res = await fetch("/api/progress");
+            const data = await res.json();
+            const pct = data.total ? Math.round(data.flagged / data.total * 100) : 0;
+            document.getElementById("progressFill").style.width = pct + "%";
+            document.getElementById("progressLabel").textContent =
+                `${data.flagged} questions flagged across ${data.concepts_flagged} concepts`;
+        }
+
+        // ── Search ───────────────────────────────────────────────────────────
+        document.getElementById("searchInput").addEventListener("input", e => {
+            const q = e.target.value.toLowerCase();
+            const filtered = q
+                ? concepts.filter(c => c.name.includes(q) || c.display_name.toLowerCase().includes(q))
+                : concepts;
+            renderSidebar(filtered);
+            if (currentName) markActive(currentName);
+        });
+
+        // ── Helpers ──────────────────────────────────────────────────────────
+        function flashSaving() {
+            const dot = document.getElementById("savingDot");
+            dot.classList.remove("pulse"); void dot.offsetWidth; dot.classList.add("pulse");
+        }
+        function showToast(msg) {
+            const t = document.getElementById("toast");
+            t.textContent = msg; t.classList.add("show");
+            setTimeout(() => t.classList.remove("show"), 2500);
+        }
+        function setText(id, txt) { const el = document.getElementById(id); if (el) el.textContent = txt; }
+        function escHtml(s) {
+            return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+        }
+        function escAttr(s) { return s.replace(/"/g, "&quot;"); }
+    </script>
+</body>
+
+</html>

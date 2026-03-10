@@ -14,4 +14,4 @@ __pycache__/
 
 # Per-server model configuration (not tracked in git)
 02-evaluate-models/models_config.py
-01-building-dataset/02-pathqa-dataset/quality_check/
+01-building-dataset/02-pathqa-dataset/quality_check/login.txt

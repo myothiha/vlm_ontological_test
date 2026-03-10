@@ -1,0 +1,449 @@
+VLM Reasoning Questions – Quality Check Sample
+File 2 | Concepts 11–20
+======================================================================
+
+======================================================================
+  CONCEPT: APOPTOSIS
+======================================================================
+
+  [Functions]
+    1. Does the image show evidence of a biological process that maintains tissue homeostasis by eliminating unnecessary or aged cells?
+    2. Is there a cellular process present that removes damaged or abnormal cells through programmed cell death pathways?
+    3. Can you identify a process that regulates immune function by deleting autoreactive lymphocytes and resolving immune responses?
+    4. Does the image include a biological process that influences disease progression by preventing abnormal cell accumulation or contributing to tissue loss?
+    5. Is there a process present that suppresses tumor formation and mediates the effects of anticancer therapies?
+    6. Can you identify a biological process whose dysregulation is associated with cancer, autoimmune disorders, or degenerative diseases?
+    7. Does the image show a process involved in degenerative diseases by causing excessive loss of functional cells and organ dysfunction?
+    8. Is there a cellular process present that participates in developmental tissue remodeling by removing superfluous cells during embryogenesis?
+    9. Can you identify a process that limits inflammation and facilitates tissue repair by resolving tissue injury?
+
+  [Relational]
+    1. Does the image show a process that affects a wide range of cells, such as epithelial cells or neurons?
+    2. Is there evidence of a process that limits damage to surrounding tissue by containing cellular breakdown?
+    3. Can you identify a process that is associated with diseases like cancer or neurodegenerative disorders?
+    4. Does the image include signs of a process that interacts with immune system components such as phagocytes?
+    5. Is there evidence of a process that influences tissue remodeling or immune regulation?
+    6. Can you identify a process that is generally non-inflammatory but may lead to secondary inflammation if clearance is defective?
+    7. Does the image show an organ, such as the brain or liver, that can be impacted by dysregulated cell death processes?
+
+  [Contexual Behavior]
+    1. Does the image show a cellular process that increases in response to stressors such as DNA damage or toxin exposure?
+    2. Is there a process present that may become impaired during disease progression in cancer or chronic inflammation?
+    3. Can you identify a process that may fail to eliminate damaged cells when its pathways are disrupted or inhibited?
+    4. Does the image include a process that becomes excessive in neurodegenerative disorders like Alzheimer's or Parkinson's disease?
+    5. Is there a cellular process that decreases in cancer cells due to mutations or enhanced survival signaling?
+    6. Can you identify a process that can be activated by immune signaling through cytokines such as TNF-alpha or Fas ligand?
+    7. Does the image show a process that contributes to tissue atrophy when cell loss exceeds regeneration?
+    8. Is there a process that becomes dysregulated in autoimmune diseases, leading to inappropriate cell death or survival?
+    9. Can you identify a process that plays a protective role during infection by eliminating infected or damaged cells?
+    10. Does the image include a process that can be suppressed by viral proteins to allow viral persistence?
+
+======================================================================
+  CONCEPT: BONE CLIVUS
+======================================================================
+
+  [Properties]
+    1. Does the image show a cranial bone that is known to have a typical length of about 4–6 centimeters and a width of 2–3 centimeters in adults?
+    2. Is there a cranial bone in the image that would typically have a thickness of approximately 1–1.5 centimeters?
+    3. Can you identify a cranial bone that is characterized by a sloped, triangular shape forming part of the skull base?
+    4. Does the image contain a cranial bone that is known to have a bone density similar to other cranial bones, around 1.2–1.6 grams per cubic centimeter?
+    5. Is there a cranial bone that would typically be composed of cortical and cancellous bone, with hydroxyapatite and collagen as main components?
+    6. Can you identify a cranial bone that is estimated to weigh only a few grams due to its small size?
+    7. Does the image show a cranial bone that is primarily composed of calcium and phosphate in the form of hydroxyapatite?
+    8. Is there a cranial bone in the image that would typically have an off-white to light yellow coloration, similar to other cranial bones?
+
+  [Functions]
+    1. Does the image show a bony structure that provides structural support to the brainstem and contributes to cranial base stability?
+    2. Is there an anatomical structure present that acts as a barrier protecting neural tissues at the cranial base?
+    3. Can you identify a bony region that may serve as a pathway or barrier for the spread of cranial base tumors?
+    4. Does the image include a structure whose involvement in disease can lead to neurological impairment or brainstem compression?
+    5. Is there an anatomical region that is commonly evaluated with imaging modalities such as MRI or CT for assessment of lesions, fractures, or infiltration at the skull base?
+    6. Can you identify a bony structure whose injury or disease may result in cranial nerve deficits or brainstem dysfunction?
+
+  [Relational]
+    1. Does the image show an anatomical structure that is adjacent to both the sphenoid bone and the foramen magnum?
+    2. Is there an anatomical structure present that articulates anteriorly with the sphenoid bone and posteriorly with the occipital bone?
+    3. Can you identify an anatomical structure that is closely related to neurovascular structures such as the basilar artery and abducens nerve?
+    4. Does the image include an anatomical structure that is commonly affected by diseases such as chordoma or osteomyelitis?
+    5. Is there an anatomical structure that is located anterior to the brainstem and forms part of the cranial base supporting it?
+    6. Can you see an anatomical structure that is contained within the posterior cranial fossa and the central skull base?
+    7. Is there evidence of an anatomical structure that may be accessed using surgical approaches such as the transclival or endoscopic endonasal approach?
+    8. Does the image show an anatomical structure located near sinuses or cavities such as the sphenoid sinus and cavernous sinus?
+
+  [Contexual Properties]
+    1. Does the image show a bone that is known to decrease in density in conditions such as osteoporosis, metastatic disease, or chronic infection?
+    2. Is there a bone present that can become eroded in cases of invasive tumors, chronic infection, or aggressive inflammatory processes?
+    3. Can you identify a bone that is known to increase in thickness in disorders like Paget's disease or fibrous dysplasia?
+    4. Does the image include a bone that may show abnormal mineralization in metabolic bone diseases such as osteomalacia or hyperparathyroidism?
+    5. Is there a bone present that can develop lytic lesions in the presence of metastatic cancer, multiple myeloma, or primary bone tumors?
+    6. Can you identify a bone that is known to become sclerotic in response to chronic inflammation, metastatic prostate cancer, or Paget's disease?
+    7. Does the image show a bone whose shape can change due to congenital anomalies, chronic pressure from adjacent masses, or bone remodeling disorders?
+    8. Is there a bone present that may show abnormal signal intensity on imaging when affected by tumors, infection, or marrow infiltration?
+    9. Can you identify a bone that is known to become infiltrated by tumor in cases of nasopharyngeal carcinoma, chordoma, or metastatic disease?
+    10. Does the image include a bone that may show signs of fracture following trauma, metastatic weakening, or pathological bone loss?
+
+======================================================================
+  CONCEPT: BORDERLINE SEROUS CYSTADENOMA
+======================================================================
+
+  [Properties]
+    1. Does the image show a tumor that is known to have a typical diameter ranging from 5 to 20 centimeters?
+    2. Is there a tumor present that would often weigh between 100 and 1000 grams?
+    3. Can you identify a tumor that is characterized by a unilocular or multilocular cystic shape with smooth or slightly irregular contours?
+    4. Does the image contain a tumor that is known to have a translucent, pale yellow, or grayish coloration?
+    5. Is there a tumor that would typically be composed of cystic fluid, fibrous stroma, and a lining of serous epithelial cells with papillary structures?
+    6. Can you identify a tumor that is known to contain clear, watery, serous fluid?
+    7. Does the image show a tumor that would typically have non-ciliated, columnar to cuboidal serous epithelial cells with mild to moderate atypia?
+    8. Is there a tumor present that is characterized by a low mitotic index, typically less than 4 mitoses per 10 high-power fields?
+    9. Can you identify a tumor that would typically exhibit mild to moderate nuclear atypia without severe pleomorphism?
+    10. Does the image contain a tumor that is known to have numerous and complex papillary projections?
+    11. Is there a tumor present that would typically have a thin, fibrous connective tissue stroma?
+    12. Can you identify a tumor that is characterized by a cyst wall thickness of 1 to 5 millimeters?
+    13. Does the image show a tumor in which calcifications, such as psammoma bodies, are occasionally present?
+    14. Is there a tumor that would typically have a low protein concentration in its cyst fluid, usually less than 3 grams per deciliter?
+
+  [Functions]
+    1. Does the image show a tumor characterized by epithelial proliferation and mild nuclear atypia without stromal invasion?
+    2. Is there a neoplasm present that can affect ovarian tissue function by causing mass effect or disrupting normal ovarian architecture?
+    3. Can you identify a tumor that is associated with a low but present risk of recurrence and rare potential for malignant transformation?
+    4. Does the image include a neoplasm that expands locally but typically does not invade the ovarian stroma or adjacent organs?
+    5. Is there a tumor present that may clinically manifest as abdominal pain, a pelvic mass, or be detected incidentally?
+    6. Can you identify a neoplasm that presents as a multilocular cystic ovarian mass with papillary projections and stratified epithelium in imaging or pathology?
+    7. Does the image show a tumor generally associated with an indolent course and favorable prognosis after surgical removal?
+
+  [Relational]
+    1. Does the image show a tumor that primarily affects the ovary?
+    2. Is there evidence of a neoplasm that involves the ovarian surface epithelium and underlying stromal tissue?
+    3. Can you identify a tumor that is classified as an epithelial ovarian neoplasm?
+    4. Does the image include a tumor that is typically found adjacent to structures such as the fallopian tube or uterus?
+    5. Is there a neoplasm present that is associated with other ovarian tumors such as serous carcinoma?
+    6. Can you see a tumor that may impact anatomical regions like the pelvic or abdominal cavity?
+    7. Is there evidence of a neoplasm that may compress or invade surrounding ovarian tissue without destructive stromal invasion?
+    8. Does the image show a tumor that may involve pelvic or para-aortic lymph nodes in its spread?
+
+  [Contexual Properties]
+    1. Does the image show a tumor that is known to increase in size over time due to continued cystic fluid accumulation and epithelial proliferation?
+    2. Is there a tumor present that can develop papillary projections as a result of increased epithelial proliferation and stratification?
+    3. Can you identify a tumor whose cyst fluid composition is known to change in the presence of hemorrhage, infection, or increased protein content?
+    4. Does the image include a tumor that may exhibit mural nodules when localized epithelial proliferation or early malignant transformation occurs?
+    5. Is there a tumor present whose internal structure can change with the development of papillary projections, septations, or solid areas?
+    6. Can you identify a tumor that becomes multilocular when multiple cystic spaces form due to septation within the lesion?
+    7. Does the image show a tumor that is known to display increased cellular atypia during progression toward higher-grade lesions or early malignant transformation?
+    8. Is there a tumor present that can develop calcifications as a result of chronicity or degenerative changes within the cyst wall or papillae?
+    9. Can you identify a tumor whose wall thickness is known to change due to fibrosis, inflammation, or tumor progression?
+
+  [Contexual Behavior]
+    1. Does the image show a tumor that may increase its proliferative activity in response to hormonal stimulation or periods of rapid growth?
+    2. Is there a tumor present that has a higher risk of recurrence after surgery if excision is incomplete or tumor spillage occurs?
+    3. Can you identify a tumor that, in rare cases, may progress toward invasive carcinoma with additional genetic alterations or prolonged disease duration?
+    4. Does the image include a tumor whose behavior may change during hormonal fluctuations, such as pregnancy or hormone therapy, potentially increasing in size?
+    5. Is there a tumor that can exhibit more aggressive features under certain genetic mutations like KRAS or BRAF?
+    6. Can you identify a tumor that becomes symptomatic when it grows large enough to cause abdominal pain, bloating, or pressure effects?
+    7. Does the image show a tumor that may display increased mitotic activity in areas with higher cellular atypia or during active growth?
+    8. Is there a tumor that can demonstrate atypical cellular behavior, such as reactive changes or increased proliferation, in response to inflammation?
+
+======================================================================
+  CONCEPT: BRAIN
+======================================================================
+
+  [Properties]
+    1. Does the image show an organ that is known to have a typical adult length of about 15–17 centimeters?
+    2. Is there an organ in the image that would normally weigh approximately 1,300–1,400 grams in adults?
+    3. Can you identify an organ that is characterized by a pinkish-gray coloration?
+    4. Does the image contain an organ with an ovoid, convoluted shape featuring gyri and sulci?
+    5. Is there an organ that would typically have a volume of about 1,200–1,400 milliliters in adults?
+    6. Can you identify an organ that is known to have a water content of approximately 75–80 percent of its weight?
+    7. Does the image show an organ with a lipid content of about 10–12 percent of its wet weight?
+    8. Is there an organ present that would typically have a protein composition of roughly 8–10 percent of its wet weight?
+    9. Can you identify an organ that is characterized by a glucose concentration of 0.7–2.5 mmol/L in its tissue?
+    10. Does the image contain an organ with an oxygen consumption rate of about 3.5 mL per 100 grams per minute in adults?
+    11. Is there an organ that would typically have a density of approximately 1.03–1.05 grams per cubic centimeter?
+    12. Can you identify an organ with a normal pH around 7.1–7.3?
+    13. Does the image show an organ that is known to have a temperature typically between 36.5 and 38 degrees Celsius?
+    14. Is there an organ present that would typically have a soft and gelatinous texture?
+    15. Can you identify an organ that is characterized by having four major lobes in each hemisphere: frontal, parietal, temporal, and occipital?
+
+  [Functions]
+    1. Does the image show an organ that performs essential functions such as processing sensory information and enabling cognition?
+    2. Is there an organ present that regulates bodily processes and homeostasis by integrating signals and coordinating autonomic and endocrine responses?
+    3. Can you identify an organ that supports learning, reasoning, and memory formation?
+    4. Does the image include an organ responsible for controlling movement and coordination through motor command generation?
+    5. Is there an organ that processes sensory information by receiving and interpreting signals from the environment?
+    6. Can you identify an organ that exhibits neuroplasticity and compensatory reorganization in response to injury or disease?
+    7. Does the image show an organ that contributes to emotional regulation through specialized neural structures?
+    8. Is there an organ present that manages involuntary functions such as heart rate, respiration, and digestion?
+    9. Can you identify an organ that enables language processing and communication through specialized cortical regions?
+    10. Does the image include an organ capable of adapting or recovering after neurological injury by forming new neural connections?
+
+  [Relational]
+    1. Does the image show an organ that is connected to the nervous, endocrine, and circulatory systems?
+    2. Is there an organ present that is supplied by major blood vessels such as the internal carotid arteries and vertebral arteries?
+    3. Can you identify an organ that is protected by structures like the skull and meninges?
+    4. Does the image include an organ associated with cranial nerves and spinal nerves originating from the brainstem?
+    5. Is there an organ that is directly connected to the spinal cord, forming part of the central nervous system?
+    6. Can you see an organ surrounded by tissues such as the dura mater, arachnoid mater, and pia mater?
+    7. Does the image show an organ that communicates directly with other organs like the eyes, ears, or pituitary gland?
+    8. Is there evidence of an organ that is commonly affected by diseases such as stroke or brain tumors?
+    9. Can you identify an organ that is separated from other tissues by barriers like the blood-brain barrier and meninges?
+
+  [Contexual Properties]
+    1. Does the image show an organ that is known to increase in size due to fluid accumulation or swelling in certain pathological conditions?
+    2. Is there an organ present that can decrease in volume as a result of neurodegenerative diseases?
+    3. Can you identify an organ that may exhibit abnormal accumulation of fluid in specific disease states?
+    4. Does the image include an organ that can develop areas of calcification in congenital infections or metabolic disorders?
+    5. Is there an organ whose density is known to change on imaging during hemorrhage, infarction, or demyelinating diseases?
+    6. Can you identify an organ that may exhibit swelling in response to trauma, infection, or ischemic injury?
+    7. Does the image show an organ that can lose gray matter in certain neurodegenerative conditions?
+    8. Is there an organ present that may develop abnormal tissue structure in the setting of tumors, malformations, or chronic injury?
+    9. Can you identify an organ that is known to accumulate abnormal protein deposits in diseases such as Alzheimer's or Parkinson's disease?
+    10. Does the image include an organ whose white matter integrity can change in demyelinating or vascular disorders?
+    11. Is there an organ that can become atrophic in chronic neurodegenerative conditions or after prolonged hypoxia?
+    12. Can you identify an organ that may display abnormal iron accumulation in certain neurodegenerative disorders?
+    13. Does the image show an organ that can develop lesions visible on imaging in conditions such as multiple sclerosis, stroke, or tumors?
+    14. Is there an organ whose weight is known to change due to atrophy in chronic disease or swelling in acute injury?
+    15. Can you identify an organ that may exhibit abnormal levels of neurotransmitters in specific neurological or psychiatric disorders?
+
+  [Contexual Behavior]
+    1. Does the image show an organ that may reduce its cognitive processing during severe illness or infection?
+    2. Is there an organ present that increases its activity in response to stress by activating hormonal pathways?
+    3. Can you identify an organ that may fail to regulate body temperature properly in cases of injury or dysfunction?
+    4. Does the image include an organ whose neurotransmitter release can be altered by certain medications?
+    5. Is there an organ that shows impaired memory function after injury such as trauma or stroke?
+    6. Can you identify an organ that decreases its oxygen consumption during anesthesia due to suppressed activity?
+    7. Does the image show an organ that increases blood flow during mental tasks to meet higher metabolic demands?
+    8. Is there an organ that may lose its ability to coordinate movement in specific neurological diseases?
+    9. Can you identify an organ that changes its electrical activity during sleep, showing distinct patterns?
+    10. Does the image include an organ that exhibits abnormal signaling during seizures with excessive neuronal firing?
+    11. Is there an organ that adapts its functions after injury through reorganization of neural circuits?
+    12. Can you identify an organ that becomes more sensitive to pain in chronic pain conditions?
+    13. Does the image show an organ whose response to stimuli diminishes with aging due to neuronal loss?
+    14. Is there an organ that compensates for sensory loss by enhancing other sensory modalities or reorganizing itself?
+    15. Can you identify an organ whose plasticity increases after injury to support recovery and reorganization?
+
+======================================================================
+  CONCEPT: CALVARIUM
+======================================================================
+
+  [Properties]
+    1. Is there a bone structure in the image that is known to have a normal adult thickness ranging from 4 to 8 millimeters?
+    2. Can you identify a bone structure that would typically weigh approximately 400 to 500 grams in adults?
+    3. Does the image show a bone structure that is characterized by a dome-like and oval shape?
+    4. Is there a bone structure present that is known to have a cranial vault circumference typically between 54 and 58 centimeters in adults?
+    5. Can you identify a bone structure with a typical bone density of about 1.3 to 1.7 grams per cubic centimeter?
+    6. Is there a bone structure that is composed primarily of compact and spongy bone, consisting of hydroxyapatite, collagen, and water?
+    7. Does the image contain a bone structure that is known to have an off-white to pale yellow coloration?
+    8. Is there a bone structure that would typically enclose a volume of about 1,200 to 1,500 milliliters in adults?
+    9. Can you identify a bone structure whose mineral content is mainly calcium and phosphate in the form of hydroxyapatite?
+    10. Is there a bone structure that is known to have a water content of approximately 10 to 20 percent by weight?
+    11. Does the image show a bone structure with a typical surface area of approximately 900 to 1,000 square centimeters in adults?
+    12. Is there a bone structure that would typically have a cortical bone thickness of about 1 to 2 millimeters?
+
+  [Functions]
+    1. Does the image show a bony structure that provides protection for the brain by forming a rigid enclosure?
+    2. Is there an anatomical structure present that contributes to the structural integrity and stability of the cranial vault?
+    3. Can you identify a bony structure that shields intracranial contents from trauma by absorbing and dispersing impact forces?
+    4. Does the image include a skeletal component that participates in bone healing and regeneration after cranial injury or surgery?
+    5. Is there an anatomical structure whose defects or fractures are associated with increased risk of brain injury and infection?
+    6. Can you identify a bony structure that interacts with other cranial components during growth by accommodating brain expansion and fusing at sutures?
+    7. Does the image show a skeletal region that serves as a site for neurosurgical access, such as craniotomy procedures?
+
+  [Relational]
+    1. Does the image show a bone that is connected to other cranial bones such as the frontal, parietal, and occipital bones?
+    2. Is there a bone present that contains anatomical structures like the brain and cerebral blood vessels?
+    3. Can you identify a bone that is adjacent to the scalp externally and the meninges internally?
+    4. Does the image include a bone that is separated from the brain by the meninges lining its inner surface?
+    5. Is there a bone associated with blood vessels such as the middle meningeal artery and diploic veins?
+    6. Can you see a bone that forms the roof and sides of the cranial cavity, enclosing its contents?
+    7. Is there a bone present that is characterized by sutures such as the coronal, sagittal, and lambdoid sutures?
+    8. Does the image show a bone that lies directly beneath the scalp and provides structural support?
+    9. Can you identify a bone that is commonly affected by injuries or diseases such as skull fractures or bone tumors?
+
+  [Contexual Properties]
+    1. Does the image show a bony structure that is known to become thickened in conditions such as Paget's disease of bone or chronic anemia?
+    2. Is there a bony structure present that can become thinned in disorders like osteoporosis, hyperparathyroidism, or with prolonged steroid use?
+    3. Can you identify a bony structure whose density is known to become abnormal in metabolic bone diseases such as osteopetrosis or osteomalacia?
+    4. Does the image include a bony structure that may develop lytic lesions in cases of multiple myeloma, metastatic cancer, or Langerhans cell histiocytosis?
+    5. Is there a bony structure that is known to show increased porosity in conditions like hyperparathyroidism or thalassemia?
+    6. Can you identify a bony structure that may become deformed in congenital disorders such as craniosynostosis or in rickets?
+    7. Does the image show a bony structure that can develop sclerotic changes in diseases like osteopetrosis or metastatic prostate cancer?
+    8. Is there a bony structure present whose shape is known to change in response to premature suture closure or chronic increased intracranial pressure?
+    9. Can you identify a bony structure that may show abnormal mineralization in conditions such as rickets, osteomalacia, or chronic kidney disease?
+    10. Does the image include a bony structure that can develop fractures due to trauma or underlying bone weakness from osteoporosis or metastatic disease?
+    11. Is there a bony structure present that may develop abnormal growths or masses in cases of primary bone tumors, metastases, or meningioma en plaque?
+    12. Can you identify a bony structure whose inner or outer surfaces are known to become irregular in disorders such as fibrous dysplasia or following trauma?
+
+======================================================================
+  CONCEPT: CANALS OF HERING
+======================================================================
+
+  [Properties]
+    1. Can you identify a ductular structure in the image that is known to have a typical diameter of approximately 10–15 micrometers?
+    2. Is there a short, narrow, and tortuous tubular structure that would typically measure between 50 and 200 micrometers in length?
+    3. Does the image show a transitional duct that is characterized by a mixed epithelial lining composed of both cuboidal cholangiocytes and flattened hepatocytes?
+    4. Can you find a ductular structure that is known to contain both hepatocytes and cholangiocytes within its lining?
+    5. Is there a structure present that would typically have a wall thickness of about 1–2 micrometers?
+    6. Does the image contain a ductular structure that is usually located at the interface between bile canaliculi and interlobular bile ducts, near the periportal region of a liver lobule?
+    7. Can you identify a ductular structure that is typically present in numbers of about 3–6 per liver lobule?
+
+  [Functions]
+    1. Does the image show a hepatic structure that connects bile canaliculi to bile ductules to facilitate bile flow?
+    2. Is there a liver tissue component present that serves as a conduit for bile transport from hepatocytes toward intrahepatic bile ducts?
+    3. Can you identify a hepatic structure that plays a role in liver regeneration by housing progenitor cells?
+    4. Does the image include a liver microenvironment that supports the activation and proliferation of hepatic progenitor cells during injury?
+    5. Is there a hepatic structure present that participates in ductular reaction and may be involved in the initiation of certain liver diseases?
+    6. Can you identify a liver tissue component whose dysfunction can lead to impaired bile flow and compromised regeneration?
+
+  [Relational]
+    1. Does the image show a tissue structure that connects bile canaliculi of liver cells to interlobular bile ducts?
+    2. Is there a tissue present that serves as a transitional duct linking bile canaliculi to intrahepatic bile ducts?
+    3. Can you identify a tissue interface between hepatocytes and the biliary system that facilitates bile flow?
+    4. Does the image include a tissue structure associated with both hepatocytes and cholangiocytes?
+    5. Is there evidence of a tissue that is known to be involved in pathological processes such as primary biliary cholangitis or other cholestatic liver diseases?
+    6. Can you see a tissue structure that contains hepatic progenitor cells and is involved in liver regeneration?
+
+  [Contexual Properties]
+    1. Does the image show a bile duct structure that is known to become dilated in conditions where bile flow is impaired?
+    2. Is there a ductal structure present that can exhibit increased fibrosis during chronic biliary injury or autoimmune disease?
+    3. Can you identify a bile duct component that is known to become obstructed in certain congenital or acquired conditions?
+    4. Does the image include a ductal structure whose diameter can change in response to injury or cholestatic disease?
+    5. Is there a bile duct structure that may show abnormal cellular composition during regenerative or reactive processes?
+    6. Can you identify a ductal entity that becomes proliferative when hepatic progenitor cells are activated in chronic injury?
+    7. Does the image show a bile duct structure that can exhibit inflammatory changes in autoimmune or infectious conditions?
+    8. Is there a ductal component present whose structure is known to alter in chronic liver diseases with ongoing injury and regeneration?
+
+  [Contexual Behavior]
+    1. Does the image show an anatomical structure that may reduce its role in bile transport when damaged by fibrosis in liver disease?
+    2. Is there an anatomical structure present that can become impaired in chronic cholestasis due to persistent obstruction and inflammation?
+    3. Can you identify an anatomical structure that increases its regenerative activity by activating hepatic progenitor cells after liver injury?
+    4. Does the image include an anatomical structure that may fail to support bile flow in cirrhosis when disrupted by fibrotic changes?
+    5. Is there an anatomical structure that alters its function during hepatic inflammation by increasing progenitor cell activation and participating in repair?
+    6. Can you identify an anatomical structure that contributes to impaired liver regeneration when its progenitor cell niche is damaged or depleted?
+    7. Does the image show an anatomical structure that exhibits increased progenitor cell activation in response to liver damage as part of the ductular reaction?
+
+======================================================================
+  CONCEPT: CARCINOMA METASTATIC LUNG
+======================================================================
+
+  [Functions]
+    1. Does the image show a malignancy that spreads to other organs by disseminating malignant cells through the bloodstream or lymphatic system?
+    2. Is there a disease present that exhibits aggressive invasion, uncontrolled proliferation, and the ability to colonize distant tissues?
+    3. Can you identify a malignancy that affects lung function by obstructing airways and reducing gas exchange?
+    4. Does the image include a disease that can cause respiratory distress and increase the risk of organ failure?
+    5. Is there a malignancy present that contributes to disease progression by facilitating further metastasis and increasing overall tumor burden?
+    6. Can you identify a disease that is associated with poor prognosis and reduced survival rates?
+    7. Does the image show a malignancy known to evade immune surveillance or induce immunosuppression?
+    8. Is there a disease present that plays a role in the development of respiratory symptoms such as cough, hemoptysis, or shortness of breath?
+    9. Can you identify a malignancy that influences oncology treatment strategies by necessitating systemic therapies and palliative care approaches?
+
+  [Relational]
+    1. Does the image show a malignancy that is known to commonly metastasize to organs such as the brain, bone, or liver?
+    2. Is there evidence of a tumor that affects both lung tissue and tissues at distant metastatic sites?
+    3. Can you identify a malignancy that is known to involve regional and distant lymph nodes during its spread?
+    4. Does the image include a tumor whose dissemination typically involves blood vessels and lymphatic vessels?
+    5. Is there evidence of a malignancy that can impact multiple body systems such as the respiratory, nervous, skeletal, or hepatic systems?
+    6. Can you identify a tumor that originates in the lung and is known to spread to other organs?
+    7. Does the image show a malignancy that can secondarily affect distant organs including the adrenal glands?
+    8. Is there evidence of a tumor whose spread involves the pulmonary veins and systemic circulation to reach distant capillary beds?
+
+  [Contexual Behavior]
+    1. Does the image show a malignancy that may increase its rate of metastasis to other organs when exposed to pro-metastatic environments or after acquiring additional mutations?
+    2. Is there a cancer present that can become resistant to targeted therapies after developing secondary genetic alterations or activating alternative signaling pathways?
+    3. Can you identify a malignancy that alters its growth pattern after chemotherapy by selecting for resistant cell clones or inducing phenotypic changes?
+    4. Does the image include a tumor that shows increased invasiveness under hypoxic conditions due to upregulation of specific pathways?
+    5. Is there a malignancy that may reduce its response to immunotherapy when tumor cells evade immune detection or create an immunosuppressive environment?
+    6. Can you identify a cancer that changes its metastatic behavior in response to hormonal changes by altering receptor expression or signaling pathways?
+    7. Does the image show a malignancy that can exhibit accelerated progression in immunocompromised patients due to reduced immune surveillance?
+    8. Is there a cancer that decreases its proliferation after radiation therapy as a result of DNA damage and cell cycle arrest?
+    9. Can you identify a malignancy that modifies its metastatic potential due to genetic mutations affecting cell adhesion, motility, or invasion?
+    10. Does the image include a tumor that becomes less detectable by imaging following treatment when tumor burden decreases or lesions become less conspicuous?
+
+======================================================================
+  CONCEPT: CARCINOMATOSIS
+======================================================================
+
+  [Functions]
+    1. Does the image show a disease characterized by widespread dissemination of malignant cells along serosal surfaces?
+    2. Is there a pathological process present that exhibits multifocal tumor implantation and aggressive invasion?
+    3. Can you identify a malignancy that is known to cause obstruction, effusion, or impaired organ function?
+    4. Does the image include a disease associated with pain, ascites, effusions, or increased risk of organ failure?
+    5. Is there evidence of a malignancy that indicates advanced disease with poor prognosis?
+    6. Can you identify a pathological process that often requires systemic therapy and limits the effectiveness of surgical intervention?
+    7. Does the image show a disease that significantly impacts patient quality of life through symptom burden and reduced functional status?
+
+  [Relational]
+    1. Does the image show a malignancy that is known to commonly affect organs such as the peritoneum, liver, or pleura?
+    2. Is there evidence of a disease process characterized by dissemination of malignant cells from primary tumors to distant sites?
+    3. Can you identify a pathological process that involves anatomical spaces such as the peritoneal or pleural cavities?
+    4. Does the image include signs of a malignancy that infiltrates serosal surfaces or connective tissue?
+    5. Is there evidence of a disease that is strongly associated with widespread secondary tumor deposits?
+    6. Can you see involvement of body cavities such as the meningeal or peritoneal cavity by a malignancy?
+    7. Does the image suggest a clinical condition related to peritoneal or pleural spread of malignancy?
+    8. Is there evidence of a pathological process characterized by peritoneal dissemination, often associated with gastrointestinal or ovarian cancers?
+    9. Can you identify a malignancy that involves lymphatic structures such as regional lymph nodes or lymphatic vessels to facilitate tumor spread?
+
+  [Contexual Behavior]
+    1. Does the image show a malignancy that may progress more rapidly in patients with aggressive tumor biology or compromised immune systems?
+    2. Is there a disease present that can lead to organ dysfunction when metastatic deposits extensively infiltrate vital organs?
+    3. Can you identify a malignancy that becomes resistant to standard therapies after repeated exposure to chemotherapy or targeted agents?
+    4. Does the image include a disease that may cause increased fluid accumulation in body cavities when tumor cells disrupt serosal surfaces?
+    5. Is there a malignancy that can alter its pattern of spread in response to treatment by selecting for resistant tumor clones or changing metastatic routes?
+    6. Can you identify a disease that results in more severe systemic symptoms as tumor burden increases and paraneoplastic syndromes develop?
+    7. Does the image show a malignancy that impairs normal tissue function when tumor infiltration disrupts organ architecture and physiology?
+    8. Is there a disease that increases the risk of secondary complications such as infection, bowel obstruction, or thromboembolism in advanced stages?
+    9. Can you identify a malignancy that becomes less responsive to chemotherapy after the development of multidrug resistance or tumor heterogeneity?
+    10. Does the image include a disease that may accelerate following surgical intervention due to tumor cell dissemination or changes in the tumor microenvironment?
+
+======================================================================
+  CONCEPT: CARDIOVASCULAR
+======================================================================
+
+  [Functions]
+    1. Does the image show a system responsible for circulating blood to deliver oxygen, nutrients, and hormones throughout the body?
+    2. Is there a physiological system present that regulates blood flow and oxygen delivery by adjusting heart rate and vessel diameter?
+    3. Can you identify a system that maintains blood pressure through coordinated actions of the heart and blood vessels?
+    4. Does the image include a system that adapts to physical activity or stress by increasing cardiac output to meet metabolic demands?
+    5. Is there a system present that contributes to the removal of metabolic waste by transporting carbon dioxide to excretory organs?
+    6. Can you identify a system that may exhibit dysfunctions such as arrhythmias, hypertension, or heart failure during disease states?
+    7. Does the image show a system that coordinates blood supply and supports metabolic needs through interactions with other organ systems?
+    8. Is there a system present whose dysfunction can lead to ischemia, organ failure, or edema?
+    9. Can you identify a system that adapts to changes in body position or volume status by altering vascular tone and heart rate?
+    10. Does the image include a system that transports hormones and nutrients via the bloodstream to target tissues?
+
+======================================================================
+  CONCEPT: CELL CYCLE
+======================================================================
+
+  [Functions]
+    1. Does the image include a biological process that coordinates DNA replication, cell growth, and division in normal physiology?
+    2. Is there a process present that regulates cell proliferation through tightly controlled phases and checkpoints?
+    3. Can you identify a process that enables tissue growth and repair by producing new cells to replace damaged or lost tissue?
+    4. Does the image show a process whose dysregulation contributes to diseases such as cancer by permitting uncontrolled cell proliferation?
+    5. Is there evidence of a process that is targeted in cancer therapy to inhibit tumor cell division?
+    6. Can you identify a process that uses checkpoints to prevent abnormal cell division in response to DNA damage?
+    7. Does the image include a process that activates repair mechanisms or induces arrest when DNA damage is detected?
+    8. Is there a process present that exhibits permanent arrest during cellular senescence, contributing to aging or tumor suppression?
+    9. Can you identify a process that influences the effectiveness of chemotherapy by determining the sensitivity of rapidly dividing cells?
+    10. Does the image show a process that can be assessed in clinical diagnostics or research to evaluate cellular proliferation status?
+
+  [Relational]
+    1. Does the image show a cellular process that regulates events such as DNA replication and mitosis?
+    2. Is there evidence of a process that is known to interact with molecules like cyclins and cyclin-dependent kinases to control cell division?
+    3. Can you identify a process whose disruption is associated with diseases such as cancer or genetic disorders?
+    4. Does the image include features consistent with a process that, when dysregulated, is closely related to cancer development?
+    5. Is there a cellular process present that involves structures such as the nucleus, centrosomes, or mitotic spindle?
+    6. Can you see evidence of a process that includes checkpoints interacting with DNA repair mechanisms to maintain genomic integrity?
+    7. Is there a process influenced by signaling pathways such as the p53 or Rb pathways?
+    8. Does the image show cells that may have altered regulation of a process commonly affected in cancer or genetic mutations?
+
+  [Contexual Behavior]
+    1. Does the image show a biological process that may slow down in response to DNA damage when repair pathways are activated?
+    2. Is there a process present that can become arrested during nutrient deprivation due to insufficient resources for division?
+    3. Can you identify a process that accelerates in cancerous cells because of loss of normal regulatory controls?
+    4. Does the image include a process that may fail to progress due to checkpoint activation when errors or damage are detected?
+    5. Is there a biological process that becomes dysregulated in genetic disorders affecting regulatory proteins?
+    6. Can you identify a process that pauses during cellular stress to prevent propagation of damaged cells?
+    7. Does the image show a process that resumes after removal of inhibitory signals such as growth suppressors or DNA damage?
+    8. Is there a biological process that becomes impaired by exposure to toxins that damage DNA or disrupt regulatory proteins?
+    9. Can you identify a process that increases its activity during tissue regeneration to replace lost or damaged cells?
+    10. Does the image include a process that halts in response to chemotherapy targeting rapidly dividing cells?
+

@@ -1,0 +1,454 @@
+VLM Reasoning Questions – Quality Check Sample
+File 4 | Concepts 31–40
+======================================================================
+
+======================================================================
+  CONCEPT: ELECTRON MICROSCOPY
+======================================================================
+
+  [Functions]
+    1. Does the image include a diagnostic imaging modality that provides high-resolution visualization of cellular and subcellular structures?
+    2. Is there an imaging technique present that is used to identify ultrastructural features of diseases by visualizing organelles and pathological changes at the nanometer scale?
+    3. Can you identify a diagnostic tool that assists in the evaluation of renal disorders by revealing glomerular basement membrane changes and immune deposits?
+    4. Does the image show an imaging modality that plays a role in detecting viral infections by directly visualizing viral particles within tissues or cells?
+    5. Is there a diagnostic technique present that is utilized in pathology for analyzing tissue ultrastructure beyond the capabilities of light microscopy?
+    6. Can you identify an imaging modality that contributes to the study of cellular organelles in disease by enabling detailed examination of mitochondria and lysosomes?
+    7. Does the image include a diagnostic tool that is used to differentiate between similar disease processes by identifying distinct ultrastructural patterns?
+    8. Is there an imaging modality present that provides diagnostic advantages by offering unparalleled resolution and the ability to detect subtle pathological changes?
+
+  [Relational]
+    1. Does the image include a diagnostic imaging technique that is commonly used to examine cellular structures such as mitochondria or nuclei?
+    2. Is there a diagnostic tool present that is essential for identifying ultrastructural abnormalities in cells and tissues?
+    3. Can you identify an imaging modality that is frequently used to analyze kidney, nerve, or muscle tissue in clinical practice?
+    4. Does the image show a diagnostic imaging technique that is involved in the evaluation of renal biopsies or tumor classification?
+    5. Is there a diagnostic tool present that is commonly used to investigate infectious agents such as viral particles?
+    6. Can you identify an imaging modality that is used to assist in the diagnosis of diseases like glomerular diseases or neuromuscular disorders?
+    7. Does the image include a diagnostic technique that is typically applied to specimens such as tissue biopsies or blood cells?
+
+  [Contexual Behavior]
+    1. Does the image include an imaging modality that provides enhanced diagnostic detail when ultrastructural resolution is needed to visualize subcellular components?
+    2. Is there a diagnostic tool present that becomes less effective if tissue fixation is inadequate or autolysis occurs?
+    3. Can you identify an imaging modality that reveals ultrastructural changes in disease conditions when cellular organelles or membranes are altered?
+    4. Does the image show a diagnostic tool that may fail to distinguish between similar pathological features when different diseases produce overlapping ultrastructural patterns?
+    5. Is there an imaging modality whose use increases in the investigation of rare diseases when conventional methods are inconclusive?
+    6. Can you identify a diagnostic tool that becomes necessary for confirming a clinical diagnosis when definitive identification of specific organelle or pathogen morphology is required?
+    7. Does the image include an imaging modality whose sensitivity decreases due to technical artifacts introduced during sample preparation?
+    8. Is there a diagnostic tool that offers unique insights during infectious disease outbreaks by enabling direct visualization of viral particles or microbial structures?
+
+======================================================================
+  CONCEPT: ENDOCRINE SYSTEM
+======================================================================
+
+  [Properties]
+    1. Does the image contain a collection of glands that is known to have a combined weight of approximately 100–150 grams in adults?
+    2. Is there a system of glands in the image that would typically be distributed throughout the brain, neck, abdomen, and pelvis?
+    3. Can you identify a group of glands that is characterized by including the pituitary, thyroid, adrenal, pancreas, and gonads?
+    4. Does the image show glands that are known to produce hormones such as insulin, cortisol, thyroxine, growth hormone, estrogen, testosterone, or adrenaline?
+    5. Is there a system of glands whose typical hormone concentrations range from picograms to nanograms per milliliter?
+    6. Can you identify glands that would typically have a density similar to soft tissue, approximately 1.03–1.06 grams per cubic centimeter?
+    7. Does the image contain glands that are known to have a water content of about 70–80 percent of their weight?
+    8. Is there a system of glands whose combined glandular volume would normally be less than 200 milliliters?
+
+  [Functions]
+    1. Does the image show an organ system that produces and secretes hormones to regulate metabolism, growth, and homeostasis?
+    2. Is there an organ system present that controls hormone production and secretion through feedback mechanisms involving the hypothalamus and pituitary gland?
+    3. Can you identify an organ system responsible for maintaining metabolic balance by regulating glucose and lipid metabolism?
+    4. Does the image include an organ system that influences growth and development through the release of specific hormones?
+    5. Is there an organ system present that responds to stress by activating hormonal pathways such as the hypothalamic-pituitary-adrenal axis?
+    6. Can you identify an organ system that regulates reproductive processes, including menstrual cycles and gamete production, through hormone secretion?
+    7. Does the image show an organ system that coordinates physiological responses across multiple body systems to maintain internal balance?
+    8. Is there an organ system present that, when dysfunctional, can exhibit hormone overproduction or deficiency leading to clinical syndromes?
+    9. Can you identify an organ system whose dysfunction contributes to disease progression by disrupting metabolic control and organ function?
+    10. Does the image include an organ system whose abnormalities are associated with clinical conditions such as diabetes, thyroid disorders, or infertility?
+
+  [Relational]
+    1. Does the image show an organ system that includes glands such as the pituitary, thyroid, and adrenal glands?
+    2. Is there evidence of a system that produces hormones like insulin, cortisol, or thyroid hormones?
+    3. Can you identify an organ system that interacts with the nervous system through neuroendocrine signaling?
+    4. Does the image include a system known to regulate tissues such as muscle, liver, or adipose tissue?
+    5. Is there an organ system present that is associated with diseases such as diabetes mellitus or Cushing's syndrome?
+    6. Can you see glands that are known to interact through hormonal feedback loops within a larger system?
+    7. Does the image show a system that influences the cardiovascular, reproductive, or skeletal systems through hormone secretion?
+    8. Is there evidence of feedback mechanisms, such as negative or positive feedback loops, involving hormones like cortisol or insulin?
+    9. Can you identify blood vessels that typically supply glands belonging to a hormone-secreting system?
+    10. Does the image include a system responsible for regulating metabolism through hormones such as insulin and glucagon?
+
+  [Contexual Properties]
+    1. Does the image show an organ system that can increase in overall size due to hyperplasia or hormone-secreting tumors?
+    2. Is there an organ system present that may decrease in mass as a result of autoimmune destruction or chronic suppression of gland activity?
+    3. Can you identify an organ system whose hormone levels are known to become abnormal in disorders such as hyperthyroidism or Cushing's syndrome?
+    4. Does the image include an organ system that can exhibit structural changes in diseases like multinodular goiter or adenomas?
+    5. Is there an organ system present that may display altered tissue composition in conditions such as amyloidosis, fibrosis, or fatty infiltration?
+    6. Can you identify an organ system that becomes infiltrated by abnormal cells in malignancies such as lymphoma or metastatic cancer?
+    7. Does the image show an organ system that can develop nodules or masses in conditions like thyroid nodules or pituitary tumors?
+    8. Is there an organ system present that may show changes in density on imaging due to calcification, cyst formation, or hemorrhage within glands?
+    9. Can you identify an organ system that demonstrates abnormal vascularity in tumors or inflammatory processes?
+    10. Does the image include an organ system that can accumulate excess fat or fluid in disorders such as fatty infiltration or cystic degeneration of glands?
+
+  [Contexual Behavior]
+    1. Does the image show a physiological system that increases hormone secretion in response to stress?
+    2. Is there a system present that may reduce hormone production during glandular failure or hypopituitarism?
+    3. Can you identify a system that can fail to maintain metabolic balance in disorders such as diabetes mellitus or thyroid dysfunction?
+    4. Does the image include a system that alters its regulatory functions by adjusting hormone levels in chronic illness?
+    5. Is there a physiological system that becomes overactive in autoimmune conditions like Graves' disease or Hashimoto's thyroiditis?
+    6. Can you identify a system that may show impaired feedback control in disorders such as Cushing's syndrome or primary hyperparathyroidism?
+    7. Does the image show a system that adapts its activity during puberty by increasing secretion of sex hormones and growth factors?
+    8. Is there a system that decreases hormone output with aging due to reduced glandular function?
+    9. Can you identify a physiological system that may respond abnormally to medication affecting hormone synthesis or receptor sensitivity?
+    10. Does the image include a system that can fail to regulate blood glucose levels in diabetes mellitus or insulin resistance?
+
+======================================================================
+  CONCEPT: EPITHELIOID CELLS
+======================================================================
+
+  [Properties]
+    1. Does the image contain a cell that is known to have a typical diameter ranging from 20 to 30 micrometers?
+    2. Can you identify a cell that would typically have a polygonal to oval shape with abundant cytoplasm?
+    3. Is there a cell present that is characterized by eosinophilic cytoplasm containing lysosomes and endoplasmic reticulum?
+    4. Does the image show a cell with a low nuclear-to-cytoplasmic ratio, meaning abundant cytoplasm relative to the nucleus?
+    5. Can you find a cell that is known to have pink cytoplasm and a pale to dark-staining nucleus when stained with hematoxylin and eosin?
+    6. Is there a cell that would typically have one to two nucleoli per nucleus?
+    7. Does the image contain a cell with moderate to high mitochondrial content, reflecting active metabolism?
+    8. Can you identify a cell that is generally known to have low lipid content under normal conditions?
+    9. Is there a cell present that would typically express proteins such as vimentin, cytokeratins, and sometimes epithelial membrane antigen?
+    10. Does the image show a cell that is characterized by surface marker expression including CD68, HLA-DR, and sometimes cytokeratin markers?
+    11. Can you find a cell that would typically have a volume of approximately 4,000 to 14,000 cubic micrometers?
+    12. Is there a cell present that is known to have moderate granularity due to the presence of lysosomes and cytoplasmic organelles?
+    13. Does the image contain a cell whose cytoplasmic pH is typically around 7.2?
+    14. Can you identify a cell that is characterized by diploid DNA content, corresponding to a normal somatic cell?
+
+  [Functions]
+    1. Does the image show a type of immune cell that participates in the containment and response to persistent pathogens or foreign materials?
+    2. Is there a cell type present that contributes to granuloma formation by aggregating and forming a barrier around infectious agents?
+    3. Can you identify an immune cell that plays a role in sustaining chronic inflammation and organizing cellular aggregates?
+    4. Does the image include a cell type known to interact with pathogens or foreign materials through phagocytosis and antigen presentation?
+    5. Is there a cell present that affects tissue remodeling or repair by releasing cytokines and growth factors?
+    6. Can you identify an immune cell that influences the progression of infectious diseases by localizing infection and limiting pathogen spread through granuloma formation?
+    7. Does the image show a specialized immune cell distinguished by its role in granuloma formation and reduced phagocytic activity?
+
+  [Relational]
+    1. Does the image show a cell type that commonly infiltrates tissues such as lymph nodes or lungs?
+    2. Is there evidence of a cell that is a key component of granulomas, forming their central structure?
+    3. Can you identify a cell that is typically associated with diseases such as tuberculosis or sarcoidosis?
+    4. Does the image include a cell that interacts with immune cells like lymphocytes or multinucleated giant cells in pathological conditions?
+    5. Is there a cell present that is known to be found in lesions affecting organs such as the liver or spleen?
+    6. Can you see a cell that interacts with infectious agents such as Mycobacterium tuberculosis within granulomatous inflammation?
+    7. Does the image show a cell whose aggregation leads to the formation of granulomas or multinucleated giant cells?
+
+  [Contexual Properties]
+    1. Does the image show a tissue containing cells that are known to increase in size during granulomatous inflammation?
+    2. Is there a tissue present that contains cells which change shape when differentiating from macrophages in response to chronic inflammation?
+    3. Can you identify a tissue with cells that may accumulate cytoplasmic granules in infectious granulomatous diseases such as tuberculosis?
+    4. Does the image include a tissue where certain cells show increased cytoplasmic volume during granuloma formation?
+    5. Is there a tissue containing cells that change their staining characteristics when activated in granulomatous diseases?
+    6. Can you identify a tissue with cells that display abnormal nuclear morphology in certain neoplastic conditions or chronic inflammatory states?
+    7. Does the image show a tissue in which the number of specific cells increases during the formation of granulomas in diseases like sarcoidosis or tuberculosis?
+    8. Is there a tissue present that contains cells capable of developing multinucleation when they fuse to form multinucleated giant cells in chronic granulomatous inflammation?
+    9. Can you identify a tissue with cells that show increased mitotic activity in neoplastic conditions such as epithelioid cell tumors?
+    10. Does the image include a tissue where certain cells exhibit vacuolization in response to cellular injury or infection?
+
+  [Contexual Behavior]
+    1. Does the image show immune cells that increase their activity during chronic granulomatous inflammation?
+    2. Is there a cell type present that may fail to contain infectious agents when immune mechanisms are evaded or granuloma integrity is compromised?
+    3. Can you identify immune cells that alter their function by sustaining prolonged inflammatory signaling in chronic infection?
+    4. Does the image include cells that become more prominent in autoimmune diseases due to ongoing immune activation?
+    5. Is there a cell type that reduces its phagocytic activity as it differentiates and shifts toward secretory and barrier functions?
+    6. Can you identify immune cells that change their behavior by forming tight clusters in certain granulomatous diseases such as sarcoidosis?
+    7. Does the image show cells that contribute to tissue damage by releasing pro-inflammatory mediators and enzymes in pathological conditions?
+    8. Is there a cell type whose ability to form granulomas is impaired in immunodeficient states or when cytokine signaling is disrupted?
+
+======================================================================
+  CONCEPT: EPRA BACILLI
+======================================================================
+
+  [Properties]
+    1. Can you identify a cell that is known to have a rod-shaped morphology characteristic of bacilli?
+    2. Is there a cell present that would typically measure about 0.5 to 1.0 micrometers in width and 1.0 to 4.0 micrometers in length?
+    3. Does the image show a cell that is characterized by being Gram-positive?
+    4. Is there a cell that is known to have a thick peptidoglycan layer with teichoic acids in its cell wall composition?
+    5. Can you identify a cell whose colonies are typically white to cream in color?
+    6. Is there a cell that would typically have a DNA content of approximately 3 to 5 megabase pairs per genome?
+    7. Does the image contain a cell that is known to grow optimally at temperatures around 30 to 37 degrees Celsius?
+    8. Is there a cell present that would typically grow in a pH range of 6.5 to 7.5?
+    9. Can you identify a cell whose membrane lipid content is about 10 to 20 percent of its dry cell weight?
+    10. Is there a cell that is characterized by the presence of cytoplasmic, membrane, and cell wall-associated proteins?
+    11. Does the image show a cell that would typically have a generation time of 20 to 40 minutes under optimal conditions?
+    12. Is there a cell present that is known to be spore-forming and capable of producing endospores?
+    13. Can you identify a cell that is typically motile due to the presence of peritrichous flagella?
+    14. Is there a cell whose colonies are characterized by a circular, smooth, and convex morphology?
+
+======================================================================
+  CONCEPT: FAT NECROSIS
+======================================================================
+
+  [Functions]
+    1. Does the image show a pathological process that causes the death of adipocytes and triggers inflammation?
+    2. Is there evidence of a process that develops through enzymatic destruction of fat cells following trauma or disease?
+    3. Can you identify a pathological process that induces fibrosis, calcification, or the formation of palpable masses in surrounding tissues?
+    4. Does the image include features consistent with a process that promotes scar tissue formation and may delay normal tissue repair?
+    5. Is there a process present that can result in palpable lumps, pain, or diagnostic confusion with malignancy?
+    6. Can you identify a pathological process that appears as irregular lesions with possible calcifications or oil cysts on imaging?
+    7. Does the image show evidence of a process that increases the risk of delayed wound healing, infection, or persistent masses after surgery or trauma?
+
+  [Relational]
+    1. Does the image show a pathological process that affects adipose tissue by causing localized death of fat cells?
+    2. Is there evidence of a pathological process commonly involving organs such as the breast or pancreas?
+    3. Can you identify a pathological process that is associated with inflammation due to the release of fatty acids?
+    4. Does the image include features of a pathological process that may be linked to trauma, pancreatitis, or surgery?
+    5. Is there evidence of a pathological process that can cause inflammation and fibrosis in surrounding viable tissue?
+    6. Can you identify a pathological process where immune cells such as macrophages or multinucleated giant cells are typically present?
+    7. Does the image show signs of a pathological process that may result from diseases such as acute pancreatitis or panniculitis?
+    8. Is there evidence of a pathological process affecting anatomical locations such as the breast, abdominal cavity, or subcutaneous fat?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that can trigger a stronger inflammatory response when large amounts of adipose tissue are damaged?
+    2. Is there a pathological process present that may impair tissue healing due to persistent inflammation and necrotic debris?
+    3. Can you identify a process that leads to the formation of calcifications when fatty acids released from damaged tissue interact with calcium?
+    4. Does the image include a pathological process that can cause pain or swelling in affected tissues during acute inflammation or mass effect?
+    5. Is there a process that interferes with normal organ function when extensive necrosis disrupts organ architecture?
+    6. Can you identify a pathological process that becomes more prominent after trauma or surgery due to direct injury to adipose tissue?
+    7. Does the image show a process that provokes immune cell infiltration when necrotic fat releases chemotactic signals?
+    8. Is there a pathological process that contributes to the development of palpable masses when fibrous tissue and calcifications accumulate?
+    9. Can you identify a process that results in systemic symptoms when widespread necrosis leads to the release of inflammatory mediators or fat emboli?
+
+======================================================================
+  CONCEPT: FETUS DEVELOPING VERY EARLY
+======================================================================
+
+  [Properties]
+    1. Does the image contain a developing human that is known to have a typical size of 1 to 5 millimeters during the earliest weeks?
+    2. Is there a developing human in the image that would typically weigh between 0.4 and 1 gram in the first trimester?
+    3. Can you identify a developing human that is characterized by a curved, C-shaped form with a prominent head and tail?
+    4. Does the image show a developing human that would normally have a crown-rump length of approximately 2 to 5 millimeters at 5 to 6 weeks?
+    5. Is there a developing human that is known to have a typical volume of less than 1 milliliter in the earliest stages?
+    6. Can you identify a developing human that would typically have a heart rate ranging from 90 to 170 beats per minute between 6 and 9 weeks?
+    7. Does the image show a developing human that is characterized by a translucent to pinkish coloration due to thin skin and developing vasculature?
+    8. Is there a developing human that would typically have a water content of approximately 85 to 90 percent of total body weight?
+    9. Can you identify a developing human that is known to have a normal temperature similar to maternal core temperature, around 37 degrees Celsius?
+    10. Does the image contain a developing human whose number of cells increases rapidly from thousands to millions during the first few weeks?
+    11. Is there a developing human that would typically be composed of undifferentiated embryonic tissues, including developing ectoderm, mesoderm, and endoderm?
+    12. Can you identify a developing human that is known to have an oxygen saturation level lower than maternal levels, typically around 50 to 70 percent?
+
+  [Functions]
+    1. Does the image show a developmental stage characterized by rapid cell division and the initial formation of major body structures?
+    2. Is there an entity present that contributes to embryonic tissue differentiation and germ layer formation?
+    3. Can you identify a developmental stage where basic cellular metabolism and primitive circulatory structures are initiated?
+    4. Does the image include a developing entity that adapts growth and development in response to maternal health conditions?
+    5. Is there evidence of a developmental stage involved in the establishment of the neural tube, heart primordium, or early limb buds?
+    6. Can you identify a developmental entity that produces hormonal signals supporting pregnancy maintenance?
+    7. Does the image show a stage that plays a role in determining implantation success and early pregnancy viability?
+
+  [Relational]
+    1. Does the image show an anatomical structure that is typically surrounded by the amniotic cavity and chorion?
+    2. Is there an anatomical structure present that is known to be in contact with maternal tissues such as the endometrium or decidua?
+    3. Can you identify an anatomical structure that is connected to the placenta through developing chorionic villi?
+    4. Does the image include an anatomical structure that is associated with embryonic membranes such as the amnion and chorion?
+    5. Is there evidence of an anatomical structure that influences maternal physiological changes like hormonal shifts or endometrial transformation?
+    6. Can you see an anatomical structure whose development is supported by organs such as the uterus and maternal ovaries?
+    7. Does the image contain an anatomical structure that is embedded within and supported by the uterine environment?
+
+  [Contexual Properties]
+    1. Does the image show a developing organism whose size can change due to factors such as maternal nutrition, chromosomal abnormalities, or exposure to teratogens?
+    2. Is there a developing organism present that may exhibit abnormal growth rates in conditions like intrauterine growth restriction or gestational diabetes?
+    3. Can you identify a developing organism whose tissue composition is known to change when exposed to genetic disorders or maternal metabolic diseases?
+    4. Does the image include a developing organism that may display altered structural development in cases of congenital malformations or teratogenic exposures?
+    5. Is there a developing organism present whose levels of specific biomarkers in maternal serum or amniotic fluid can become abnormal during chromosomal abnormalities or neural tube defects?
+    6. Can you identify a developing organism that may have changes in organ formation in the presence of genetic mutations or environmental insults during early development?
+    7. Does the image show a developing organism whose cell density can change due to abnormal cell proliferation or apoptosis during early embryogenesis?
+    8. Is there a developing organism present that may show abnormal fluid accumulation in cases of early fetal hydrops or cardiac failure?
+
+  [Contexual Behavior]
+    1. Does the image show a developing organism that may experience impaired organ formation under adverse maternal health conditions?
+    2. Is there a developing organism present that can slow its growth rate in response to nutritional deficiencies?
+    3. Can you identify a developing organism that may show delayed development due to genetic abnormalities affecting cell differentiation?
+    4. Does the image include a developing organism that is especially vulnerable to teratogenic substances during early stages?
+    5. Is there a developing organism that may fail to establish normal placental attachment in cases of abnormal implantation?
+    6. Can you identify a developing organism whose developmental trajectory can be altered by maternal infections?
+    7. Does the image show a developing organism that may reduce cell proliferation in response to environmental toxins?
+
+======================================================================
+  CONCEPT: FIBRINOUS PERITONITIS
+======================================================================
+
+  [Functions]
+    1. Does the image show a pathological process involving acute inflammation of the peritoneum with fibrin-rich exudate deposition?
+    2. Is there a pathological process present that impairs normal serosal lubrication and causes peritoneal thickening?
+    3. Can you identify a process that increases the risk of abdominal pain, fever, and sepsis?
+    4. Does the image include evidence of a pathological process that recruits inflammatory cells and promotes the release of pro-inflammatory mediators in the abdomen?
+    5. Is there a process present that contributes to the formation of adhesions between peritoneal surfaces by providing a fibrin scaffold?
+    6. Can you identify a pathological process that delays healing of peritoneal tissues and increases the likelihood of chronic inflammation or fibrosis?
+    7. Does the image show a process that negatively impacts patient outcomes in abdominal infections by increasing morbidity and the risk of complications such as bowel obstruction?
+
+  [Relational]
+    1. Does the image show a pathological process that affects organs within the abdominal cavity such as the intestines or liver?
+    2. Is there evidence of a pathological process involving the peritoneal cavity or spaces between abdominal organs?
+    3. Can you identify a pathological process characterized by inflammation and fibrin deposition within the peritoneal cavity?
+    4. Does the image include tissues such as serosal surfaces or the parietal peritoneum that are known to be covered by fibrin in certain inflammatory conditions?
+    5. Is there evidence of a pathological process that is commonly associated with infectious agents such as Escherichia coli or Streptococcus species?
+    6. Can you see signs of complications such as abscess formation or organ adhesions that are known to arise from certain forms of peritoneal inflammation?
+    7. Does the image show features consistent with a pathological process marked by the exudation of fibrin onto peritoneal surfaces?
+    8. Is there evidence of a pathological process that is commonly linked to diseases such as gastrointestinal perforation or pelvic inflammatory disease?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that may impair peritoneal healing when extensive fibrin deposition occurs?
+    2. Is there a pathological process present that increases the risk of adhesion formation due to persistent fibrin exudate?
+    3. Can you identify a pathological process that can cause reduced peritoneal fluid absorption when fibrin obstructs lymphatic drainage?
+    4. Does the image include a pathological process that triggers a stronger inflammatory response in the presence of ongoing infection or tissue injury?
+    5. Is there a pathological process that may progress to a purulent form when secondary bacterial infection develops?
+    6. Can you identify a pathological process that interferes with normal gastrointestinal motility by causing local inflammation and adhesions?
+    7. Does the image show a pathological process that can worsen due to delayed treatment as inflammation and fibrin deposition increase?
+    8. Is there a pathological process that contributes to systemic infection or sepsis when bacteria or inflammatory mediators enter the bloodstream?
+    9. Can you identify a pathological process that may resolve with appropriate therapy such as antibiotics and removal of the underlying cause?
+    10. Does the image include a pathological process that alters its presentation in immunocompromised patients by showing less pronounced inflammatory signs and atypical symptoms?
+
+======================================================================
+  CONCEPT: FIBROBLASTS
+======================================================================
+
+  [Properties]
+    1. Does the image show a cell that is known to have a typical length of 15 to 20 micrometers?
+    2. Is there a cell present that would typically be spindle-shaped or elongated with tapering ends?
+    3. Can you identify a cell that is characterized by a nucleus with an average diameter of about 5 to 7 micrometers?
+    4. Does the image contain a cell whose cytoplasm is rich in rough endoplasmic reticulum, Golgi apparatus, and cytoskeletal proteins?
+    5. Is there a cell that is known to have high protein content, with major proteins including collagen, fibronectin, and actin?
+    6. Can you identify a cell that would typically have a lifespan of several months to years in vivo?
+    7. Does the image show a cell that, when stained with hematoxylin and eosin, is known to have pale pink cytoplasm and dark blue nuclei?
+    8. Is there a cell present that would typically contain hundreds to thousands of mitochondria, depending on its activity?
+    9. Can you identify a cell that is characterized by having 46 chromosomes in its normal state?
+    10. Does the image contain a cell whose RNA content is approximately 10 to 30 picograms per cell?
+    11. Is there a cell that would typically have a DNA content of about 6 picograms per cell in its diploid state?
+    12. Can you identify a cell that is known to have an average volume of approximately 2,000 to 4,000 cubic micrometers?
+    13. Does the image show a cell with a typical surface area of about 1,000 to 2,000 square micrometers?
+    14. Is there a cell present that would typically have a lipid content constituting about 2 to 5 percent of its mass?
+    15. Can you identify a cell that is characterized by a water content of approximately 70 percent of its total mass?
+
+  [Functions]
+    1. Does the image show a tissue cell type that performs essential functions in tissue repair by synthesizing extracellular matrix components?
+    2. Is there a cell present that contributes to wound healing by producing collagen and facilitating granulation tissue formation?
+    3. Can you identify a cell type that plays a central role in the production of extracellular matrix by secreting collagen, elastin, and glycosaminoglycans?
+    4. Does the image include a cell that becomes activated during inflammation and participates in tissue remodeling through cytokine secretion?
+    5. Is there a cell type present that influences fibrosis and scar formation by overproducing collagen and other matrix proteins?
+    6. Can you identify a cell that affects tissue remodeling by breaking down and reorganizing extracellular matrix components?
+    7. Does the image show a cell type that interacts with immune cells by releasing signaling molecules to modulate immune responses?
+    8. Is there a cell present that, within tumor microenvironments, supports cancer progression by remodeling the stroma and promoting angiogenesis?
+    9. Can you identify a cell type that responds to injury or infection by activating, proliferating, and producing growth factors to aid in tissue repair?
+    10. Does the image include a cell involved in pathological processes such as abnormal collagen deposition and persistent fibrosis?
+
+  [Relational]
+    1. Does the image show a cell type that is commonly found in connective tissues such as skin or tendons?
+    2. Is there a cell present that is known to interact with other connective tissue cells like macrophages or mast cells?
+    3. Can you identify a cell that maintains and remodels the extracellular matrix?
+    4. Does the image include a cell type that provides structural support to organs such as the lungs or heart?
+    5. Is there evidence of a cell type associated with diseases like fibrosis or scleroderma?
+    6. Can you see a cell that interacts with immune cells such as lymphocytes during wound healing?
+    7. Does the image show a cell that is primarily responsible for collagen production in connective tissue?
+    8. Is there a cell type present that is involved in pathological conditions such as fibromatosis or desmoid tumors?
+    9. Can you identify a cell whose function is influenced by signaling molecules like TGF-beta or PDGF?
+    10. Does the image include a cell type that contributes to scar tissue formation at sites of injury?
+
+  [Contexual Properties]
+    1. Is there a tissue component present that is known to increase in cell number during wound healing, chronic inflammation, or fibrotic diseases?
+    2. Can you identify a tissue element whose cells are known to change shape or size in response to activation or mechanical stress?
+    3. Does the image include a tissue whose cellular elements produce excess collagen during fibrosis or chronic inflammatory conditions?
+    4. Is there a tissue in which certain cells become activated after injury or in response to pro-fibrotic cytokines?
+    5. Can you identify a tissue whose cellular components show altered proliferation rates in cancer-associated stroma, wound healing, or fibrotic diseases?
+    6. Does the image show a tissue whose cells may accumulate lipid droplets in metabolic disorders or lipid-rich environments?
+    7. Is there a tissue whose extracellular matrix composition is known to change during tissue remodeling, fibrosis, or cytokine signaling?
+    8. Can you identify a tissue in which certain cells exhibit increased migration during wound healing, tissue repair, or tumor progression?
+    9. Does the image include a tissue whose cellular elements display abnormal morphology in pathological conditions such as scleroderma or within the tumor microenvironment?
+    10. Is there a tissue whose cells show increased expression of alpha-smooth muscle actin when differentiating during wound healing or fibrosis?
+
+  [Contexual Behavior]
+    1. Does the image show a cell type that increases collagen production during the proliferative phase of wound healing?
+    2. Is there a cell present that reduces its activity in chronic inflammation due to persistent inflammatory signals?
+    3. Can you identify a cell type that becomes activated in response to tissue injury by exposure to growth factors and cytokines?
+    4. Does the image include a cell that can transform into a contractile phenotype under pathological conditions such as persistent tissue damage or fibrosis?
+    5. Is there a cell type that contributes to excessive scar formation when its proliferation and collagen deposition are dysregulated?
+    6. Can you identify a cell that alters its behavior in fibrotic diseases by increasing extracellular matrix production and promoting tissue stiffness?
+    7. Does the image show a cell type that may fail to support normal tissue repair in cases of impaired signaling, chronic disease, or aging?
+    8. Is there a cell present that changes its secretory profile in response to cytokines by producing different growth factors and matrix proteins?
+    9. Can you identify a cell type that promotes tumor progression in the tumor microenvironment by supporting cancer cell growth and invasion?
+    10. Does the image include a cell that decreases extracellular matrix production in aging tissues due to cellular senescence?
+
+======================================================================
+  CONCEPT: FIBROUS BAND STRANGULATION
+======================================================================
+
+  [Functions]
+    1. Does the image show a pathological process that causes tissue or organ dysfunction by compressing and constricting anatomical structures?
+    2. Is there a process present that is known to trigger ischemia, inflammation, or necrosis due to restricted blood supply?
+    3. Can you identify a pathological process that contributes to intestinal obstruction by physically narrowing the intestinal lumen?
+    4. Does the image include evidence of a process that may result in severe pain, bowel ischemia, perforation, or risk of sepsis?
+    5. Is there a pathological process present that affects blood flow by constricting vessels and reducing perfusion to tissues?
+    6. Can you identify a process that plays a role in surgical emergencies by creating acute, life-threatening conditions requiring urgent intervention?
+
+  [Relational]
+    1. Does the image show an anatomical structure that is known to be affected by a process that can constrict the small intestine or mesentery?
+    2. Is there evidence of an organ at risk for obstruction due to a constricting anatomical structure, such as the small intestine or colon?
+    3. Can you identify features consistent with a process that causes intestinal obstruction by physically blocking the bowel lumen?
+    4. Does the image include tissues such as the intestinal wall or mesenteric fat that may be compressed by a constricting anatomical structure?
+    5. Is there evidence of a clinical condition, such as small bowel obstruction or ischemia, that is associated with a constricting anatomical structure?
+    6. Can you identify involvement of blood vessels, such as branches of the mesenteric arteries or veins, that may be compromised by a constricting anatomical structure?
+    7. Does the image show complications in an organ, such as ischemia, necrosis, or perforation, that can arise from a constricting anatomical structure?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that can cause bowel obstruction by compressing or encircling a segment of the intestine?
+    2. Is there a pathological process present that may lead to compromised blood supply to tissues when pressure is exerted on supplying vessels?
+    3. Can you identify a process that results in tissue necrosis when prolonged constriction cuts off circulation?
+    4. Does the image include a pathological process that may worsen during physical activity or movement due to increased intra-abdominal pressure?
+    5. Is there a process that becomes clinically significant as a postoperative complication due to adhesion formation after abdominal surgery?
+    6. Can you identify a pathological process that increases the risk of perforation by weakening the intestinal wall under sustained pressure?
+    7. Does the image show a process that can cause acute abdominal symptoms when it suddenly obstructs or compromises blood flow?
+    8. Is there a pathological process that impairs normal organ function by restricting movement or blood flow to the affected organ?
+
+======================================================================
+  CONCEPT: FOREIGN BODY GIANT CELL
+======================================================================
+
+  [Properties]
+    1. Can you identify a cell that is known to have a typical diameter of approximately 40 to 100 micrometers?
+    2. Does the image show a cell that would typically contain between 20 and 100 nuclei?
+    3. Is there a cell present that is characterized by a large, rounded, and irregular shape?
+    4. Can you find a cell that is known to have abundant eosinophilic cytoplasm containing lysosomes and phagocytosed material?
+    5. Does the image contain a cell that would typically display eosinophilic cytoplasm and basophilic nuclei when stained with hematoxylin and eosin?
+    6. Is there a cell that is characterized by a haphazard or centrally clustered nuclear arrangement, without peripheral organization?
+    7. Can you identify a cell whose average volume is estimated to be between 33,500 and 523,600 cubic micrometers?
+    8. Does the image show a cell that is known to have pink cytoplasm and blue to purple nuclei under H&E staining?
+    9. Is there a cell present that would typically have a granular and foamy cytoplasmic texture due to phagocytic activity?
+
+  [Functions]
+    1. Does the image show an immune cell type that surrounds and attempts to isolate non-phagocytosable foreign materials?
+    2. Is there a cell present that contributes to granuloma formation by fusing with other macrophages?
+    3. Can you identify an immune cell that performs limited phagocytosis and secretes enzymes to degrade large foreign substances?
+    4. Does the image include a cell type that adheres to implanted medical devices or sutures and initiates a chronic inflammatory reaction?
+    5. Is there an immune cell present that promotes fibrous capsule formation and persistent inflammation around foreign materials?
+    6. Can you identify a cell type that sustains chronic inflammation and recruits additional immune cells to sites of foreign material?
+    7. Does the image show a cell associated with persistent inflammation, delayed wound healing, or potential failure of implanted devices?
+
+  [Relational]
+    1. Does the image show a cell type that is typically associated with the presence of foreign materials such as sutures or implants?
+    2. Can you identify a cell that is commonly found in connective tissue or at sites of injury or implantation?
+    3. Is there evidence of a cell that is a hallmark of granulomatous inflammation in response to indigestible foreign material?
+    4. Does the image include a cell that is known to interact with immune cells such as macrophages and lymphocytes?
+    5. Can you see a cell type that is characteristic of pathological conditions like foreign body granulomas or chronic inflammatory responses?
+    6. Is there a cell present that is likely to be found at anatomical sites such as surgical wounds, subcutaneous tissue, lungs, or joint spaces in response to implants or injuries?
+
+  [Contexual Properties]
+    1. Is there a cell type present within tissue that is known to increase in size when engulfing large or multiple foreign materials?
+    2. Can you identify a cell that increases in number within tissue during chronic inflammatory responses to persistent foreign substances such as sutures or talc?
+    3. Does the image show a cell whose cytoplasmic composition can change after phagocytosing lipid, mineral, or other exogenous substances?
+    4. Is there a cell type that displays changes in nuclear morphology, such as enlargement or irregularity, during prolonged inflammation or in response to certain foreign substances?
+    5. Can you identify a cell that accumulates pigment or debris when it engulfs indigestible materials like tattoo ink, silica, or carbon particles?
+    6. Does the image include a cell whose density within granulomatous tissue can vary depending on the amount and persistence of foreign material present?
+    7. Is there a cell type that shows vacuolization when engulfing lipid-rich substances or during degenerative changes?
+    8. Can you identify a cell that exhibits changes in staining characteristics when it accumulates certain materials or undergoes metabolic alterations, affecting cytoplasmic or nuclear staining?
+
+  [Contexual Behavior]
+    1. Does the image show an immune cell that increases its phagocytic activity in response to persistent foreign material?
+    2. Is there a cell present that may fail to clear implanted biomaterials when the material is too large or chemically resistant?
+    3. Can you identify an immune cell that becomes more prominent during chronic inflammation caused by ongoing exposure to foreign substances?
+    4. Does the image include a cell whose function can be reduced due to immunosuppression impairing macrophage activation and fusion?
+    5. Is there an immune cell that contributes to granuloma formation in response to indigestible particles persisting in tissue?
+    6. Can you identify a cell that alters its behavior during infection by increasing cytokine production and recruiting additional immune cells?
+    7. Does the image show an immune cell that may exhibit impaired fusion of macrophages under certain pathological conditions?
+

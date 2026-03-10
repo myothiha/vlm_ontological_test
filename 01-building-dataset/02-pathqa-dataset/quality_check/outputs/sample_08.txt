@@ -1,0 +1,397 @@
+VLM Reasoning Questions – Quality Check Sample
+File 8 | Concepts 71–80
+======================================================================
+
+======================================================================
+  CONCEPT: OPENED PERITONEAL CAVITY
+======================================================================
+
+  [Relational]
+    1. Does the image show an anatomical space that exposes structures such as the intestines or liver?
+    2. Is there a region present that contains organs like the stomach, spleen, or reproductive organs?
+    3. Can you identify an anatomical space that is typically accessed during surgical procedures such as laparotomy or appendectomy?
+    4. Does the image include a region where tissues such as the peritoneum and blood vessels may be at risk during surgical access?
+    5. Is there an anatomical space that directly surrounds and provides access to intra-abdominal organs?
+    6. Can you see evidence of a region where complications such as infection or adhesions may arise during surgical procedures?
+
+======================================================================
+  CONCEPT: ORCHIECTOMY
+======================================================================
+
+  [Functions]
+    1. Does the image show a surgical intervention used to remove one or both testicles for disease management?
+    2. Is there a therapeutic procedure present that is performed to achieve local tumor control and facilitate cancer staging?
+    3. Can you identify a clinical intervention that reduces androgen production to limit the progression of hormone-sensitive conditions?
+    4. Does the image include a medical procedure that significantly lowers testosterone levels in the body?
+    5. Is there an intervention depicted that may result in infertility and hormonal changes as clinical consequences?
+    6. Can you identify a treatment that eliminates sperm production and may affect sexual function due to decreased testosterone?
+    7. Does the image show a therapeutic approach indicated for managing testicular cancer, advanced prostate cancer, severe trauma, or intractable testicular pain?
+    8. Is there a procedure present that influences the progression of prostate cancer by reducing androgen levels and suppressing tumor growth?
+    9. Can you identify a clinical intervention associated with decreased libido, mood alterations, or changes in secondary sexual characteristics?
+
+  [Relational]
+    1. Does the image show a surgical procedure that involves removal of one or both organs responsible for sperm production?
+    2. Is there evidence of a surgical intervention that affects structures such as the epididymis, spermatic cord, or surrounding scrotal tissue?
+    3. Can you identify a procedure that is commonly performed to treat conditions like testicular cancer or prostate cancer?
+    4. Does the image include a surgical process that is known to disrupt hormonal regulation by reducing testosterone production?
+    5. Is there a procedure present that may lead to complications involving hematoma, infection, or injury to adjacent nerves or blood vessels?
+    6. Can you see a surgical approach that typically involves anatomical regions such as the scrotum, inguinal canal, or lower abdomen?
+    7. Does the image show a surgical intervention that impacts both the reproductive and endocrine systems?
+    8. Is there evidence of a procedure that alters the endocrine system by decreasing androgen hormone levels?
+
+  [Contexual Behavior]
+    1. Does the image show a surgical procedure that leads to decreased testosterone production immediately after removal of specific organs?
+    2. Is there a surgical intervention present that results in impaired fertility when both relevant organs are removed?
+    3. Can you identify a procedure that alters hormone balance in the body by reducing androgen levels?
+    4. Does the image include a surgical intervention that reduces the risk of hormone-sensitive cancers by lowering circulating androgens?
+    5. Is there a procedure that can cause changes in sexual function due to decreased hormone levels after surgery?
+    6. Can you identify a surgical intervention that affects bone density and increases the risk of osteoporosis over time due to hormonal changes?
+    7. Does the image show a procedure that may lead to psychological or emotional changes such as depression or altered self-image after surgery?
+    8. Is there a surgical intervention that impacts metabolic activity by lowering testosterone, potentially increasing fat mass and reducing muscle mass?
+
+======================================================================
+  CONCEPT: PANCREAS
+======================================================================
+
+  [Properties]
+    1. Does the image show an organ that is known to have a typical length of about 12–15 centimeters?
+    2. Is there an organ in the image that would normally weigh approximately 70–100 grams?
+    3. Can you identify an organ that is characterized by an elongated, flattened, and tadpole-like shape?
+    4. Does the image contain an organ that is typically pale yellow to pinkish-tan in color?
+    5. Is there an organ present that would generally have a volume of about 70–100 milliliters?
+    6. Can you identify an organ that is known to have a soft, lobulated, and friable texture?
+    7. Does the image show an organ with a density typically between 1.05 and 1.07 grams per cubic centimeter?
+    8. Is there an organ that would usually have a water content of about 70–80 percent of its weight?
+    9. Can you identify an organ that is characterized by a fat content typically less than 10 percent in healthy adults?
+    10. Does the image contain an organ whose protein composition includes digestive enzymes, hormones, and structural proteins?
+    11. Is there an organ that is known to contain enzymes such as amylase, lipase, trypsinogen, chymotrypsinogen, and elastase?
+    12. Can you identify an organ that would typically have a slightly alkaline pH, around 7.4 to 8.0?
+    13. Is there an organ present whose glucose concentration is similar to blood glucose levels, typically 70–110 milligrams per deciliter?
+    14. Does the image show an organ that would be expected to have a temperature close to core body temperature, around 37 degrees Celsius?
+    15. Can you identify an organ that does not have distinct anatomical lobes but is divided into head, neck, body, and tail regions?
+
+  [Functions]
+    1. Does the image show an organ that performs both endocrine and exocrine functions such as hormone and digestive enzyme secretion?
+    2. Is there an organ present that regulates blood glucose levels by releasing insulin and glucagon?
+    3. Can you identify an organ that contributes to digestion by secreting enzymes that break down carbohydrates, proteins, and fats?
+    4. Does the image include an organ that senses blood glucose changes and secretes hormones in response?
+    5. Is there an organ that releases amylase, lipase, and proteases to facilitate nutrient breakdown in the digestive tract?
+    6. Can you identify an organ whose dysfunction can lead to metabolic imbalance and impaired digestion?
+    7. Does the image show an organ that may respond to injury or disease with inflammation or impaired secretion of hormones and enzymes?
+    8. Is there an organ present whose reduced insulin production is associated with chronic hyperglycemia in diabetes mellitus?
+    9. Can you identify an organ that synthesizes and releases digestive enzymes in response to food intake?
+    10. Does the image include an organ whose insufficiency can result in malabsorption, weight loss, and nutrient deficiencies?
+
+  [Relational]
+    1. Does the image show an organ that belongs to both the digestive and endocrine systems?
+    2. Is there an organ present that is typically located near the duodenum and stomach?
+    3. Can you identify an organ that is known to be connected to blood vessels such as the splenic artery and superior mesenteric artery?
+    4. Does the image include an organ that is associated with ducts like the main pancreatic duct?
+    5. Is there an organ that would normally be found in the retroperitoneal region of the upper abdomen?
+    6. Can you see an organ that is closely related to the duodenum, with its head nestled in the duodenal curve?
+    7. Does the image contain an organ that is connected to the liver through the bile duct system?
+    8. Is there an organ present that is supported by surrounding connective tissue and anchored by proximity to major blood vessels?
+    9. Can you identify an organ that receives blood supply from branches of the splenic artery and celiac trunk?
+    10. Does the image show an organ that interacts with the stomach, duodenum, and gallbladder during digestion?
+
+  [Contexual Properties]
+    1. Does the image show an organ that is known to become enlarged in conditions such as acute inflammation or tumors?
+    2. Is there an organ present that can decrease in size due to chronic disease or atrophy?
+    3. Can you identify an organ that is known to develop cystic structures following certain neoplastic or inflammatory conditions?
+    4. Does the image include an organ that may show increased fat content in metabolic disorders or chronic inflammation?
+    5. Is there an organ present that can become fibrotic after repeated episodes of inflammation and tissue damage?
+    6. Can you identify an organ whose color is known to change in cases of hemorrhage or tissue necrosis?
+    7. Does the image show an organ that may develop calcifications as a result of long-standing inflammation?
+    8. Is there an organ present whose enzyme levels are known to become abnormal during acute injury or inflammation?
+    9. Can you identify an organ that becomes edematous due to acute inflammation and fluid accumulation?
+    10. Does the image include an organ whose tissue structure is known to become abnormal in chronic disease or malignancy, leading to architectural distortion?
+    11. Is there an organ present that can increase in density when calcifications or fibrosis occur?
+    12. Can you identify an organ that may shrink due to atrophy in chronic disease or advanced metabolic disorders?
+    13. Does the image show an organ that can accumulate fluid, resulting in periorgan fluid collections or pseudocysts during acute inflammation?
+    14. Is there an organ present whose glucose-related properties are known to become abnormal due to impaired hormone secretion in metabolic disease?
+
+  [Contexual Behavior]
+    1. Does the image show an organ that may reduce its insulin secretion in certain forms of diabetes?
+    2. Is there an organ present that increases glucagon release during hypoglycemia or fasting?
+    3. Can you identify an organ that may fail to produce digestive enzymes effectively in chronic disease states?
+    4. Does the image include an organ that alters its hormone output in response to changes in blood sugar levels?
+    5. Is there an organ that becomes less responsive to regulatory signals in chronic metabolic disorders?
+    6. Can you identify an organ that increases enzyme secretion after a meal due to hormonal stimulation?
+    7. Does the image show an organ whose exocrine function may decrease during diseases such as chronic pancreatitis or cancer?
+    8. Is there an organ that can show impaired function due to inflammation in acute or chronic disease?
+    9. Can you identify an organ that may fail to regulate blood glucose properly in diabetes or insufficiency?
+    10. Does the image include an organ that increases its activity in response to high carbohydrate intake?
+    11. Is there an organ whose function may be progressively reduced in chronic disease due to tissue damage?
+    12. Can you identify an organ that alters its hormone and enzyme secretion during acute illness or stress?
+    13. Does the image show an organ that becomes dysfunctional in diabetes mellitus due to impaired insulin production or action?
+
+======================================================================
+  CONCEPT: PERIODIC ACID SCHIFF STAIN
+======================================================================
+
+  [Properties]
+    1. Is there a staining reagent in the image that is known to have a chemical composition including periodic acid, Schiff reagent, and distilled water?
+    2. Can you identify a staining reagent that is characterized by producing a magenta or bright pink color when reacting with positive substances?
+    3. Does the image show a staining reagent that would typically have a solution pH around 2.0 to 2.5?
+    4. Is there a staining reagent present that is known to contain periodic acid at a concentration of approximately 0.5–1% (w/v)?
+    5. Can you identify a staining reagent that would generally contain Schiff reagent at about 0.5–1% basic fuchsin concentration?
+    6. Is there a staining reagent that is typically stored at a temperature of 2–8 °C (refrigerated)?
+    7. Does the image include a staining reagent for which the shelf life is about 6–12 months for periodic acid and 1–2 weeks for Schiff reagent after preparation?
+    8. Is there a staining reagent that is known to have a low osmolarity due to dilute reagent concentrations?
+    9. Can you identify a staining reagent that would typically be used in volumes of 1–5 mL per slide?
+    10. Is there a staining reagent that is characterized by containing periodic acid with a molecular weight of 227.99 g/mol and basic fuchsin with a molecular weight of approximately 337.85 g/mol?
+
+  [Functions]
+    1. Does the image include a histochemical staining technique that highlights carbohydrates and related substances for diagnostic purposes?
+    2. Is there a diagnostic tool present that is used to detect glycogen and other polysaccharides in tissue samples by producing a magenta coloration?
+    3. Can you identify a staining method that assists in the detection of fungal infections by making fungal cell walls visible under the microscope?
+    4. Does the image show a diagnostic technique that plays a role in identifying kidney or liver diseases by revealing basement membrane thickening and abnormal deposits?
+    5. Is there a staining modality present that enhances visualization of mucins, basement membranes, and other carbohydrate-rich structures for pathology assessment?
+    6. Can you identify a diagnostic staining method used to differentiate between various types of tumors by highlighting specific cellular components?
+    7. Does the image include a histopathological tool that supports disease diagnosis by identifying abnormal carbohydrate accumulation in tissues?
+
+  [Relational]
+    1. Does the image include a diagnostic staining technique that is commonly used to examine tissues such as liver, kidney, or muscle?
+    2. Is there evidence of a staining method that is often employed in the diagnosis of diseases like glycogen storage disorders or fungal infections?
+    3. Can you identify a diagnostic tool that highlights cellular components such as glycogen, mucopolysaccharides, or basement membranes?
+    4. Does the image show a staining technique that is associated with the detection of pathological conditions such as Whipple disease or glomerular diseases?
+    5. Is there a diagnostic imaging technique present that is typically used in the histopathological evaluation of biopsies for metabolic or infectious diseases?
+
+======================================================================
+  CONCEPT: PITUITARY
+======================================================================
+
+  [Properties]
+    1. Does the image show an organ that is known to have a typical size of about 10 millimeters in diameter and 5–8 millimeters in height?
+    2. Is there an organ present that would typically weigh approximately 0.5–0.7 grams in adults?
+    3. Can you identify an organ that is characterized by an oval or pea-shaped appearance?
+    4. Does the image contain an organ that is known to have a grayish-pink to reddish-gray coloration?
+    5. Is there an organ that would typically have an average volume of about 500–700 cubic millimeters in adults?
+    6. Can you identify an organ that is composed of anterior and posterior lobes containing endocrine cells, connective tissue, and blood vessels?
+    7. Does the image show an organ whose tissue is known to have a normal pH of approximately 7.2–7.4?
+    8. Is there an organ present that would typically have a water content of about 75–80 percent of its weight?
+    9. Can you identify an organ that is characterized by a density of approximately 1.03–1.05 grams per cubic centimeter?
+    10. Does the image contain an organ that is known to have a soft and slightly elastic texture?
+    11. Is there an organ that would typically have a low iron content, less than 0.1 milligrams per gram of tissue?
+    12. Can you identify an organ that is characterized by a cholesterol level of about 2–4 milligrams per gram of tissue?
+    13. Does the image show an organ whose protein concentration is typically around 100–150 milligrams per gram of tissue?
+
+  [Functions]
+    1. Does the image show an organ that produces and releases hormones to regulate various physiological processes?
+    2. Is there an organ present that regulates hormone secretion in response to signals from the hypothalamus?
+    3. Can you identify an organ that secretes growth hormone to stimulate tissue growth and cell reproduction?
+    4. Does the image include an organ that releases hormones controlling reproductive processes and gonadal function?
+    5. Is there an organ that stimulates other endocrine glands such as the thyroid, adrenal glands, and gonads through hormone secretion?
+    6. Can you identify an organ whose dysfunction can lead to hormonal imbalances affecting growth, metabolism, or reproduction?
+    7. Does the image show an organ that adjusts hormone secretion based on feedback from target organs to maintain homeostasis?
+    8. Is there an organ present that plays a role in the stress response by releasing hormones that stimulate cortisol production?
+    9. Can you identify an organ that contributes to water and electrolyte balance by secreting antidiuretic hormone to regulate kidney function?
+
+  [Relational]
+    1. Does the image show a gland that is typically located adjacent to structures such as the optic chiasm and cavernous sinus?
+    2. Is there a gland present that is supplied by branches of the internal carotid artery, such as the superior and inferior hypophyseal arteries?
+    3. Can you identify a gland that is connected to the hypothalamus by a stalk-like structure?
+    4. Does the image include a gland that is known to regulate other endocrine organs through hormone secretion?
+    5. Is there a gland present that is typically contained within the sella turcica of the sphenoid bone at the base of the skull?
+    6. Can you see a gland that is located near nerves such as the optic nerve and oculomotor nerve?
+    7. Does the image show a gland that is associated with diseases such as pituitary adenoma or acromegaly?
+    8. Is there a gland present that is central to the endocrine system and influences organs like the thyroid gland and adrenal glands?
+    9. Can you identify a gland that is housed within a bony depression in the sphenoid bone?
+
+  [Contexual Properties]
+    1. Does the image show a gland that is known to increase in size under conditions such as adenomas, pregnancy, or hyperplasia?
+    2. Is there a gland present that can become enlarged due to tumors, inflammation, or physiological changes like puberty and pregnancy?
+    3. Can you identify a gland whose size is known to decrease in cases of apoplexy, certain syndromes, or after radiotherapy?
+    4. Does the image include a gland that may show abnormal hormone levels in the presence of tumors or disorders of hormone production?
+    5. Is there a gland that is known to develop cystic changes in association with certain cysts or tumors?
+    6. Can you identify a gland whose shape may change due to mass effect from tumors, cysts, or other structural alterations?
+    7. Does the image show a gland that can exhibit abnormal density on imaging in cases of hemorrhage, calcification, or cystic degeneration?
+    8. Is there a gland present that may develop calcifications following certain tumors, hemorrhage, or inflammation?
+    9. Can you identify a gland whose tissue composition is known to change in the context of tumors, cyst formation, or infiltrative diseases?
+    10. Does the image include a gland that can become hypervascular in functioning tumors or during physiological states such as pregnancy?
+
+  [Contexual Behavior]
+    1. Does the image show an organ that increases hormone secretion in response to stress by releasing more ACTH and related hormones?
+    2. Is there an organ present that reduces its hormone output due to feedback inhibition when target gland hormones are elevated?
+    3. Can you identify an organ that may fail to release adequate growth hormone in conditions such as hypopituitarism?
+    4. Does the image include an organ that alters its activity during pregnancy by increasing secretion of prolactin and other hormones?
+    5. Is there an organ that decreases ACTH production in chronic disease due to suppression by long-term corticosteroid therapy?
+    6. Can you identify an organ that may show impaired function after head trauma due to disrupted blood supply or tissue damage?
+    7. Does the image show an organ that increases prolactin secretion under certain medications such as antipsychotics?
+    8. Is there an organ that reduces thyroid-stimulating hormone release in secondary hypothyroidism caused by its own dysfunction?
+    9. Can you identify an organ that changes its hormone production during puberty by increasing secretion of gonadotropins?
+    10. Does the image include an organ that becomes less responsive to hypothalamic signals in aging or certain disorders, leading to altered hormone regulation?
+
+======================================================================
+  CONCEPT: PORTAL OF ENTRY
+======================================================================
+
+  [Relational]
+    1. Does the image show an anatomical site that is commonly associated with the initial entry of pathogens such as bacteria or viruses?
+    2. Is there a tissue present that is known to serve as a portal for infections like pneumonia or gastroenteritis?
+    3. Can you identify an anatomical structure that is typically linked to the spread and dissemination route of infection within the body?
+    4. Does the image include a site where local or systemic immune responses are triggered due to pathogen entry?
+    5. Is there evidence of clinical interventions, such as wound care or use of personal protective equipment, that are aimed at preventing disease at specific entry sites?
+    6. Can you see epithelial or mucosal surfaces that are known to be the first tissues affected by pathogens at entry points?
+    7. Is there an anatomical region present that is commonly targeted by vaccination or hand hygiene to prevent infection?
+
+======================================================================
+  CONCEPT: PROSTATE
+======================================================================
+
+  [Properties]
+    1. Does the image show an organ that is known to have a typical size of approximately 3–4 cm wide, 4–5 cm long, and 2–3 cm thick in adults?
+    2. Is there an organ in the image that would normally weigh about 20–30 grams in adult males?
+    3. Can you identify an organ that is characterized by a chestnut-shaped or conical appearance?
+    4. Does the image contain an organ that is typically pale grayish or light tan in color?
+    5. Is there an organ present that would usually have a volume of about 20–30 milliliters in adult males?
+    6. Can you find an organ that is known to have a firm and rubbery texture?
+    7. Does the image show an organ that contains glandular epithelial cells, basal cells, stromal cells, and smooth muscle cells?
+    8. Is there an organ that is known to have a water content of approximately 70–75 percent of its weight?
+    9. Can you identify an organ whose protein composition includes prostate-specific antigen (PSA), prostatic acid phosphatase, and kallikreins?
+    10. Does the image contain an organ whose fluid is typically slightly acidic, with a pH around 6.4–7.0?
+    11. Is there an organ present that is known to have a zinc concentration among the highest in the body, typically 500–1,000 micrograms per gram of tissue?
+    12. Can you find an organ that usually has a citrate level of 40–150 millimoles per kilogram of tissue?
+    13. Does the image show an organ with a density of approximately 1.05 grams per cubic centimeter?
+    14. Is there an organ that would typically have a lipid content of about 2–4 percent of its wet weight?
+    15. Can you identify an organ whose enzyme profile includes high levels of acid phosphatase, PSA, and kallikrein-related peptidases?
+
+  [Functions]
+    1. Does the image show an organ that produces and secretes components of seminal fluid in the male reproductive system?
+    2. Is there an organ present that contributes to semen production by adding fluid that nourishes and protects sperm?
+    3. Can you identify an organ that plays a role in regulating urinary flow by surrounding the urethra?
+    4. Does the image include an organ that produces enzymes and nutrients to enhance sperm motility and support fertility?
+    5. Is there an organ shown whose growth and function are regulated by androgens such as testosterone?
+    6. Can you identify an organ whose enlargement can lead to urinary obstruction and lower urinary tract symptoms?
+    7. Does the image show an organ that may exhibit tissue changes in response to inflammation or neoplastic transformation?
+    8. Is there an organ present whose dysfunction can result in urinary retention, increased infection risk, sexual dysfunction, or heightened cancer risk?
+
+  [Relational]
+    1. Does the image show an organ that is known to belong to the male reproductive system?
+    2. Is there an organ present that is typically located adjacent to the bladder and rectum?
+    3. Can you identify an organ that is connected to ducts such as the prostatic urethra and ejaculatory ducts?
+    4. Does the image include an organ that surrounds the proximal portion of the urethra?
+    5. Is there an organ that interacts with glands such as the seminal vesicles and bulbourethral glands?
+    6. Can you see an organ that receives blood supply from vessels like the inferior vesical artery?
+    7. Does the image show an organ associated with lymph nodes such as the obturator or internal iliac nodes?
+    8. Is there an organ present whose enlargement can affect the bladder or kidneys by causing urinary obstruction?
+    9. Can you identify an organ that is surrounded by tissues such as the prostatic capsule and periprostatic fascia?
+    10. Does the image include an organ that contributes to seminal fluid production by mixing its secretions with those from other glands?
+
+  [Contexual Properties]
+    1. Does the image show an organ that is known to become enlarged in conditions such as benign prostatic hyperplasia or cancer?
+    2. Is there an organ present whose size can change due to aging, hormonal shifts, or pathological conditions like hyperplasia or atrophy?
+    3. Can you identify an organ that may develop nodules in certain benign or malignant conditions?
+    4. Does the image include an organ that can increase in density when malignant tissue replaces normal glandular tissue?
+    5. Is there an organ whose texture is known to change when affected by fibrosis, inflammation, or malignancy?
+    6. Can you identify an organ that may accumulate calcifications with aging or in chronic inflammatory conditions?
+    7. Does the image show an organ whose associated biomarker levels can become abnormal in cancer, inflammation, or benign enlargement?
+    8. Is there an organ present that may become asymmetrical due to nodules, tumors, or focal hyperplasia?
+    9. Can you identify an organ whose weight may increase with hyperplasia or decrease with atrophy?
+    10. Does the image include an organ that can develop cysts after inflammation or due to retention phenomena?
+    11. Is there an organ whose tissue composition is known to become abnormal in cancer, inflammation, or fibrosis?
+    12. Can you identify an organ that may become inflamed during acute or chronic pathological processes?
+    13. Does the image show an organ that can decrease in size due to age-related atrophy or after specific therapies?
+
+  [Contexual Behavior]
+    1. Does the image show an organ that increases its secretory activity during sexual arousal and ejaculation?
+    2. Is there an organ present that may reduce its production of prostatic fluid in chronic disease or inflammation?
+    3. Can you identify an organ that becomes enlarged and can obstruct urinary flow in certain benign conditions?
+    4. Does the image include an organ whose function is altered by hormonal changes such as decreased testosterone or androgen deprivation therapy?
+    5. Is there an organ that may show impaired function during acute or chronic inflammation?
+    6. Can you identify an organ that increases its activity in response to androgen stimulation, especially during puberty or with exogenous hormones?
+    7. Does the image show an organ that may fail to contribute to fertility when its secretory function is compromised?
+    8. Is there an organ whose function declines with age due to hormonal and tissue changes?
+    9. Can you identify an organ that changes its behavior in the presence of malignancy by increasing cellular proliferation and altering secretion?
+    10. Does the image include an organ that may reduce its normal function after surgical intervention?
+
+======================================================================
+  CONCEPT: PULMONARY ARTERY BRANCH
+======================================================================
+
+  [Properties]
+    1. Does the image show a blood vessel that is known to have a normal diameter of approximately 1 to 2 centimeters in adults?
+    2. Is there a blood vessel present that would typically have a length of several centimeters, depending on the specific branch?
+    3. Can you identify a blood vessel that is characterized by a wall thickness of about 1 to 2 millimeters?
+    4. Does the image contain a blood vessel that is known to have a tubular, cylindrical shape?
+    5. Is there a blood vessel that can be described as having a wall composed of three layers: intima, media (with smooth muscle and elastic fibers), and adventitia (connective tissue)?
+    6. Can you identify a blood vessel that is known to have a normal blood flow rate of approximately 2 to 4 liters per minute?
+    7. Is there a blood vessel present that would typically have an average pressure of about 15 to 25 mmHg?
+    8. Does the image show a blood vessel that is characterized by moderate elasticity due to elastic fibers in the media layer?
+    9. Is there a blood vessel that is known to have a typical color ranging from pale pink to bluish due to deoxygenated blood?
+    10. Can you identify a blood vessel that would typically contain blood with an oxygen content of about 12 to 16 milliliters O2 per 100 milliliters?
+    11. Is there a blood vessel present that is characterized by blood with a pH typically between 7.35 and 7.45?
+    12. Does the image contain a blood vessel that would generally have a cross-sectional area of around 1 to 3 square centimeters in adults?
+
+  [Functions]
+    1. Does the image show a blood vessel that transports deoxygenated blood from the heart to the lungs?
+    2. Is there a vascular structure present that contributes to oxygenation of blood by delivering it to pulmonary capillaries for gas exchange?
+    3. Can you identify a vessel that plays a role in distributing blood evenly throughout lung tissue as part of pulmonary circulation?
+    4. Does the image include a vascular structure that regulates the volume and pressure of blood reaching different lung segments?
+    5. Is there a blood vessel present whose abnormalities can impair respiratory function by reducing blood flow and limiting gas exchange efficiency?
+    6. Can you identify a vessel whose obstruction may result in clinical consequences such as pulmonary embolism or hypoxemia?
+    7. Does the image show a vascular structure that may exhibit increased pressure or blockage in conditions like pulmonary hypertension or embolism, leading to impaired blood flow and elevated right heart workload?
+
+  [Relational]
+    1. Does the image show a blood vessel that supplies blood to the alveoli and pulmonary capillaries within the lungs?
+    2. Is there a vessel present that delivers deoxygenated blood from the heart to lung tissue for gas exchange?
+    3. Can you identify a vessel that connects proximally to the main pulmonary artery and distally to smaller arterioles?
+    4. Does the image include a vessel that supplies specific lung lobes or segments?
+    5. Is there a vessel that runs alongside the bronchial tree, following its divisions into the lung?
+    6. Can you see a vessel that is commonly associated with clinical conditions such as pulmonary embolism or pulmonary hypertension?
+    7. Is there a vessel present that is related to other arteries within the pulmonary circulation, such as the main pulmonary artery or segmental pulmonary arteries?
+    8. Does the image show a vessel that carries blood to the lungs, in contrast to pulmonary veins that return blood to the heart?
+
+  [Contexual Properties]
+    1. Does the image show a vessel that is known to become dilated in conditions such as pulmonary hypertension or congenital heart disease?
+    2. Is there a vessel present that can become narrowed in cases of chronic thromboembolic disease or vasculitis?
+    3. Can you identify a vessel whose wall is known to thicken in response to chronic pulmonary hypertension or inflammatory diseases?
+    4. Does the image include a vessel that develops increased pressure in pulmonary arterial hypertension or left heart failure?
+    5. Is there a vessel present that can show abnormal calcification in chronic thromboembolic disease or advanced pulmonary hypertension?
+    6. Can you identify a vessel whose diameter is known to change due to acute pulmonary embolism, hypertension, or congenital anomalies?
+    7. Does the image show a vessel that can become occluded in acute or chronic pulmonary embolism?
+    8. Is there a vessel present that may develop aneurysmal changes in pulmonary hypertension, vasculitis, or congenital heart defects?
+    9. Can you identify a vessel that is known to show increased stiffness in chronic pulmonary hypertension or connective tissue diseases?
+    10. Does the image include a vessel whose wall composition may become abnormal in conditions such as arteriosclerosis, vasculitis, or chronic inflammation?
+
+  [Contexual Behavior]
+    1. Does the image show a blood vessel that may experience reduced blood flow when obstructed by an embolism?
+    2. Is there a vessel present that can increase its pressure in response to elevated resistance in pulmonary hypertension?
+    3. Can you identify a vessel that becomes constricted as part of hypoxic pulmonary vasoconstriction?
+    4. Does the image include a vessel that may fail to deliver adequate blood to the lungs during severe obstruction or advanced vascular disease?
+    5. Is there a blood vessel whose function can be impaired due to structural abnormalities in congenital heart disease?
+    6. Can you identify a vessel that alters its flow dynamics in response to increased pulmonary venous pressure from left heart failure?
+    7. Does the image show a vessel that may develop abnormal flow patterns in chronic lung disease due to vascular remodeling?
+
+======================================================================
+  CONCEPT: REDUCTION
+======================================================================
+
+  [Functions]
+    1. Does the image show a medical procedure that realigns displaced bones or joints to their normal anatomical position?
+    2. Is there a clinical intervention present that is performed to restore proper alignment in cases of fractures or dislocations?
+    3. Can you identify a treatment that involves manual or surgical repositioning of fractured or dislocated bones?
+    4. Does the image include a procedure aimed at correcting deformities and ensuring proper joint or bone positioning?
+    5. Is there a medical intervention shown that is used to decrease pain, improve function, and reduce the risk of complications in musculoskeletal injuries?
+    6. Can you identify a procedure that facilitates healing and minimizes long-term disability by restoring anatomical alignment?
+
+======================================================================
+  CONCEPT: RESTING PHASE INTERPHASE
+======================================================================
+
+  [Functions]
+    1. Does the image show a cellular state that allows cells to exit the active cell cycle and remain quiescent?
+    2. Is there evidence of a cell population that contributes to tissue homeostasis by maintaining non-dividing cells?
+    3. Can you identify a cellular phase in which cells perform normal metabolic activities without preparing for division?
+    4. Does the image include cells in a state that limits active proliferation within tissues?
+    5. Is there a cellular condition present that influences tissue regeneration by determining which cells can re-enter the cell cycle?
+    6. Can you identify a cell cycle phase that reduces the pool of cells susceptible to malignant transformation and limits tumor growth?
+    7. Does the image show a cellular state relevant to clinical treatment resistance due to reduced sensitivity to therapies targeting dividing cells?
+
+  [Relational]
+    1. Does the image show a cell that is associated with an intact nuclear envelope, nucleolus, and dispersed chromatin?
+    2. Can you identify a cell type, such as a differentiated somatic cell or quiescent stem cell, that commonly exhibits a non-dividing state?
+    3. Is there evidence of a cell in a phase of the cell cycle that is known to represent a non-dividing or resting state?
+    4. Does the image include a cell that is inversely related to cellular proliferation within tissue?
+    5. Can you identify features in a cell that may be linked to pathological conditions such as cancer due to alterations in the non-dividing phase of the cell cycle?
+

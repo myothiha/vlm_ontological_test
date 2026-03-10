@@ -1,0 +1,546 @@
+VLM Reasoning Questions – Quality Check Sample
+File 10 | Concepts 91–100
+======================================================================
+
+======================================================================
+  CONCEPT: THYMOMA
+======================================================================
+
+  [Properties]
+    1. Is there a tumor in the image that is known to have a typical size ranging from 2 to 10 centimeters in greatest dimension?
+    2. Can you identify a tumor that would commonly weigh between 50 and 200 grams?
+    3. Does the image show a tumor that is characterized by a round, oval, or lobulated shape?
+    4. Is there a tumor present that is known to have a grayish-white to tan coloration?
+    5. Can you identify a tumor that is composed of neoplastic epithelial cells along with varying proportions of non-neoplastic lymphocytes?
+    6. Is there a tumor in the image that would typically have a low mitotic index, often less than 2 mitoses per 10 high-power fields?
+    7. Does the image contain a tumor that is characterized by a density of approximately 1.05 to 1.10 grams per cubic centimeter?
+    8. Is there a tumor present that is known to have a water content of about 70 to 75 percent of its weight?
+    9. Can you identify a tumor that would typically have a lipid content of less than 5 percent of its weight?
+    10. Is there a tumor in the image that is characterized by a protein content of approximately 15 to 20 percent of its weight?
+    11. Does the image show a tumor that is known to have a nucleic acid content of around 1 to 2 percent of its weight?
+    12. Is there a tumor present that would typically have a firm and rubbery texture?
+    13. Can you identify a tumor that is characterized by moderate vascularity, with small to medium-sized blood vessels present?
+    14. Is there a tumor in the image that is known to have calcification present in about 10 to 40 percent of cases, often as focal or punctate deposits?
+    15. Does the image show a tumor that would typically have a pH close to physiological tissue pH, around 7.2 to 7.4?
+
+  [Functions]
+    1. Does the image show a tumor that disrupts normal immune system function by interfering with T cell education?
+    2. Is there a malignancy present that exhibits slow growth and has the potential for local invasion or malignant transformation?
+    3. Can you identify a tumor that invades surrounding mediastinal tissues by penetrating its capsule?
+    4. Does the image include a disease that may cause chest pain, cough, or symptoms due to compression of mediastinal organs?
+    5. Is there a tumor present that is associated with paraneoplastic syndromes such as myasthenia gravis through the production of autoantibodies?
+    6. Can you identify a malignancy that impairs the maturation and selection of functional T lymphocytes?
+    7. Does the image show a tumor that contributes to the development of autoimmune disorders by altering self-tolerance mechanisms?
+    8. Is there a malignancy whose prognosis and treatment outcomes are influenced by its stage, invasiveness, and response to therapy?
+
+  [Relational]
+    1. Does the image show a tumor that arises from and is closely associated with the thymus gland?
+    2. Is there evidence of a malignancy that primarily affects the epithelial tissue of the thymus?
+    3. Can you identify a tumor that is known to impact organs such as the lungs, pleura, or pericardium through local spread?
+    4. Does the image include a malignancy that is associated with syndromes such as myasthenia gravis or pure red cell aplasia?
+    5. Is there a tumor present that commonly involves lymph nodes such as the anterior mediastinal or paratracheal nodes during metastasis?
+    6. Can you see a malignancy that is related to autoimmune diseases like systemic lupus erythematosus or hypogammaglobulinemia?
+    7. Does the image show a tumor that typically extends into anatomical regions such as the anterior mediastinum or pleura?
+    8. Is there evidence of a malignancy that is known to disrupt the immune system by affecting T-cell maturation?
+
+  [Contexual Behavior]
+    1. Does the image show a tumor that may increase its growth rate in aggressive subtypes or advanced stages?
+    2. Is there a malignancy present that can invade surrounding tissues when it progresses beyond its capsule?
+    3. Can you identify a tumor that may become metastatic in rare cases of advanced or high-grade disease?
+    4. Does the image include a malignancy that can alter immune function by disrupting normal T cell education?
+    5. Is there a tumor that may cause paraneoplastic syndromes such as myasthenia gravis through autoantibody production?
+    6. Can you identify a malignancy that may respond poorly to chemotherapy or radiation in refractory or advanced disease?
+    7. Does the image show a tumor that can recur after surgical removal when margins are positive or the tumor is invasive?
+    8. Is there a malignancy that may impair normal thymic function by replacing or compressing healthy tissue?
+    9. Can you identify a tumor that leads to autoimmune complications by promoting loss of self-tolerance in T cells?
+    10. Does the image include a malignancy whose behavior may change in immunocompromised patients, potentially growing more rapidly or presenting atypically?
+
+======================================================================
+  CONCEPT: TUMOR
+======================================================================
+
+  [Properties]
+    1. Does the image show a pathological condition that is known to have a typical size of 1–5 centimeters in diameter at diagnosis?
+    2. Is there a pathological condition present that would typically weigh from a few grams to several hundred grams, depending on its size and type?
+    3. Can you identify a pathological condition that is characterized by a round, oval, lobulated, or irregular shape?
+    4. Does the image contain a pathological condition that is known to have a usual color of white, gray, or tan?
+    5. Is there a pathological condition that would typically have a firm, rubbery, or soft texture?
+    6. Can you identify a pathological condition that is composed of neoplastic cells, stromal cells, immune cells, and blood vessels?
+    7. Does the image show a pathological condition that is characterized by a mitotic index ranging from less than 1% to over 20% depending on grade?
+    8. Is there a pathological condition present that is known to have an elevated vascular density, typically with 20 to over 100 microvessels per high-power field?
+    9. Can you identify a pathological condition that may have a necrotic fraction ranging from 0% to over 50%?
+    10. Does the image contain a pathological condition that is known to have an acidic pH, usually between 6.5 and 7.0?
+    11. Is there a pathological condition that would typically have a water content of 70–80% by weight?
+    12. Can you identify a pathological condition that is characterized by a density of 1.03 to 1.06 grams per cubic centimeter?
+    13. Does the image show a pathological condition that is known to have a protein content of 10–20% of its wet weight?
+    14. Is there a pathological condition present that would typically have a lipid content of 2–5% of its wet weight?
+    15. Can you identify a pathological condition that is characterized by a glucose concentration typically between 0.5 and 2.5 millimoles per liter?
+    16. Does the image contain a pathological condition that is known to have a low oxygen level, with partial pressures of 0–20 mmHg?
+    17. Is there a pathological condition that would typically have a stiffness ranging from 1 to 10 kilopascals?
+    18. Can you identify a pathological condition that may contain microcalcifications detectable by imaging?
+
+  [Functions]
+    1. Does the image show a mass that is characterized by uncontrolled cell proliferation within tissues?
+    2. Is there a lesion present that is known to invade surrounding structures by infiltrating adjacent tissues?
+    3. Can you identify a mass that contributes to metastatic spread through blood or lymphatic vessels?
+    4. Does the image include a lesion that may compress, displace, or destroy healthy tissue, affecting normal organ function?
+    5. Is there a mass present that is known to evade immune detection or induce immune suppression?
+    6. Can you identify a lesion whose presence is associated with clinical consequences such as pain, obstruction, or bleeding?
+    7. Does the image show a mass that influences patient prognosis by affecting survival rates or risk of recurrence?
+    8. Is there a lesion present that is typically detected or monitored using imaging, biopsy, or laboratory tests?
+    9. Can you identify a mass that plays a role in the development of cancer-related symptoms such as weight loss or paraneoplastic syndromes?
+
+  [Relational]
+    1. Does the image show a malignancy that can affect various tissues such as epithelium, connective tissue, or muscle?
+    2. Is there evidence of a disease that may be present within organs like the lung, liver, or brain?
+    3. Can you identify a tumor that is known to invade, compress, or displace surrounding anatomical structures?
+    4. Does the image include a malignancy that may be supplied by nearby arteries, veins, or newly formed capillaries?
+    5. Is there evidence of a disease that can involve regional or sentinel lymph nodes through metastatic spread?
+    6. Can you identify a malignancy that is known to spread to distant sites such as bone or liver?
+    7. Does the image show a tumor that interacts with cellular components like stromal cells or immune cells?
+    8. Is there evidence of a disease that can impact multiple body systems, including the immune or endocrine systems?
+    9. Can you identify a malignancy that may elicit an immune response involving lymphocytes or macrophages?
+    10. Does the image include a tumor that is associated with pathological conditions such as metastasis or paraneoplastic syndromes?
+
+  [Contexual Properties]
+    1. Does the image show a malignancy that is known to increase in size during active growth phases or rapid cell proliferation?
+    2. Is there a malignancy present that can decrease in size following effective treatment such as chemotherapy or radiation?
+    3. Can you identify a malignancy whose density is known to change due to necrosis, hemorrhage, fibrosis, or treatment effects?
+    4. Does the image include a malignancy that may become more vascularized during aggressive growth or angiogenesis?
+    5. Is there a malignancy that can develop areas of necrosis when its growth outpaces its blood supply?
+    6. Can you identify a malignancy whose shape is known to change as it invades surrounding tissues or responds to therapy?
+    7. Does the image show a malignancy that can become calcified in certain benign or malignant conditions?
+    8. Is there a malignancy present whose cellular composition is known to change due to dedifferentiation, new mutations, or therapy response?
+    9. Can you identify a malignancy that becomes more heterogeneous in structure as it develops regions of necrosis, hemorrhage, fibrosis, or cystic change?
+    10. Does the image include a malignancy that may change color due to hemorrhage, necrosis, or melanin production?
+    11. Is there a malignancy whose metabolic activity is known to become abnormal with increased glucose uptake or altered metabolism?
+    12. Can you identify a malignancy that becomes firmer with increased fibrosis or softer with necrosis or cystic degeneration?
+    13. Does the image show a malignancy that can develop cystic regions due to central necrosis or fluid accumulation?
+    14. Is there a malignancy whose margin definition is known to change, becoming irregular or indistinct with invasion or treatment response?
+    15. Can you identify a malignancy that shows increased uptake on imaging studies when it is metabolically active or highly vascularized?
+
+  [Contexual Behavior]
+    1. Does the image show a malignancy that may increase its growth rate under conditions of abundant nutrients or hormonal stimulation?
+    2. Is there a tumor present that can become more invasive in response to changes in the microenvironment such as increased matrix metalloproteinases?
+    3. Can you identify a malignancy that may develop resistance to chemotherapy or radiation therapy after acquiring certain genetic mutations?
+    4. Does the image include a tumor that alters its metabolic activity during hypoxia by increasing glycolysis?
+    5. Is there a malignancy that promotes angiogenesis in response to nutrient deprivation by upregulating pro-angiogenic factors?
+    6. Can you identify a tumor that suppresses immune system recognition by expressing immune checkpoint proteins?
+    7. Does the image show a malignancy that may change its behavior after surgical intervention by increasing proliferation or altering metastatic potential?
+    8. Is there a tumor that can metastasize to distant organs when cancer cells acquire motility and invade blood or lymphatic vessels?
+    9. Can you identify a malignancy that reduces its proliferation in response to targeted therapy by entering a dormant state?
+    10. Does the image include a tumor that modifies its signaling pathways under stress by activating alternative survival mechanisms?
+    11. Is there a malignancy that evades apoptosis during treatment by upregulating anti-apoptotic proteins?
+    12. Can you identify a tumor that increases secretion of growth factors in response to inflammation to promote its own survival?
+
+======================================================================
+  CONCEPT: TUMOR PRIMARY
+======================================================================
+
+  [Properties]
+    1. Is there a tumor in the image that is known to have a size ranging from a few millimeters to over 10 centimeters depending on its type and stage?
+    2. Can you identify a tumor that would typically weigh anywhere from less than a gram to several hundred grams, depending on its size and composition?
+    3. Does the image contain a tumor that is often characterized by an irregular, nodular, round, or lobulated shape?
+    4. Is there a tumor present that is known to have a color such as white, gray, tan, or sometimes reddish due to hemorrhage or necrosis?
+    5. Can you identify a tumor that would typically have a volume ranging from less than 1 cubic centimeter to several hundred cubic centimeters?
+    6. Is there a tumor that is characterized by a cellular composition including malignant cells, stromal cells, and inflammatory cells?
+    7. Does the image show a tumor that is known to have a density generally between 1.0 and 1.1 grams per cubic centimeter, similar to soft tissue?
+    8. Is there a tumor present that would typically have an elevated mitotic index, commonly ranging from 5 to over 50 mitoses per 10 high-power fields?
+    9. Can you identify a tumor that is known to have a necrotic fraction ranging from 0% up to over 50% depending on vascularization?
+    10. Is there a tumor in the image that would typically have increased and variable microvessel density compared to normal tissue?
+    11. Does the image contain a tumor that is characterized by a texture that is usually firm or hard, but may be soft or friable if necrosis is present?
+    12. Is there a tumor present that would typically have a pH lower than normal tissue, often in the range of 6.5 to 7.0?
+    13. Can you identify a tumor that is known to have a water content generally between 70 and 80 percent of its weight?
+    14. Is there a tumor in the image that would typically have a protein content of 10 to 20 percent of its wet weight?
+    15. Does the image show a tumor that is known to have a lipid content usually between 2 and 5 percent of its wet weight?
+    16. Is there a tumor present that would typically have an increased DNA content, often 6 to 10 picograms per cell in aneuploid tumors?
+    17. Can you identify a tumor that is known to have oxygen levels frequently lower than normal tissue, often less than 10 millimeters of mercury in hypoxic regions?
+    18. Is there a tumor in the image that would typically have a glucose concentration less than 1 millimolar in hypoxic or glycolytic conditions?
+
+  [Functions]
+    1. Does the image show a malignancy that initiates abnormal cell growth at its site of origin?
+    2. Is there a tumor present that is known to invade adjacent tissues and disrupt normal architecture locally?
+    3. Can you identify a malignancy that may cause clinical symptoms such as mass effect or functional impairment at its original site?
+    4. Does the image include a tumor that originates at the initial site of malignant transformation and lacks evidence of distant spread?
+    5. Is there a malignancy present that can shed cells into lymphatic or blood vessels, increasing the risk of metastasis?
+    6. Can you identify a tumor that affects organ function at its site of origin by compressing or destroying normal tissue?
+    7. Does the image show a malignancy that induces angiogenesis or alters the local immune microenvironment?
+    8. Is there a tumor present that may respond to treatments such as surgery, chemotherapy, or radiation, but can also develop resistance?
+    9. Can you identify a malignancy that plays a key role in determining disease progression and prognosis?
+    10. Does the image include a tumor that is used for cancer diagnosis and staging by providing tissue for histopathological analysis?
+
+  [Relational]
+    1. Does the image show a malignancy or benign neoplasm that arises in the tissue where the abnormal growth first originates?
+    2. Is there evidence of a disease entity that can be found in organs such as the lung, breast, colon, or skin?
+    3. Can you identify a tumor that is known to serve as the original site from which metastatic tumors may arise?
+    4. Does the image include an organ commonly involved as the initial site of a neoplasm, such as the breast or prostate?
+    5. Is there a disease entity present that is typically associated with regional lymph nodes draining the site of origin, such as axillary or cervical nodes?
+    6. Can you see a tumor that is known to be connected to local arteries and veins supplying the affected tissue?
+    7. Is there evidence of a malignancy that interacts with or disrupts adjacent normal tissue?
+    8. Does the image show a disease entity that may be associated with localized cancer or organ dysfunction at the site of origin?
+    9. Is there evidence of a tumor that would typically be identified using diagnostic procedures such as biopsy or imaging studies?
+
+  [Contexual Properties]
+    1. Does the image show a malignancy that is known to increase in size during uncontrolled cell proliferation?
+    2. Is there a malignancy present that can decrease in size after effective treatment such as chemotherapy or surgical resection?
+    3. Can you identify a malignancy whose density is known to change due to necrosis, fibrosis, or calcification within the tumor mass?
+    4. Does the image include a malignancy that can become necrotic when its blood supply is insufficient or after cytotoxic therapy?
+    5. Is there a malignancy present that is known to develop heterogeneous composition as it acquires areas of necrosis, hemorrhage, fibrosis, or calcification?
+    6. Can you identify a malignancy that may develop calcifications in certain tumor types or after chronic tissue injury?
+    7. Does the image show a malignancy whose shape can change as it invades surrounding tissues or responds to therapy?
+    8. Is there a malignancy present that can become more vascularized during angiogenesis to support tumor growth and metastasis?
+    9. Can you identify a malignancy that is known to change color due to hemorrhage, necrosis, or melanin production in specific tumor types?
+    10. Does the image include a malignancy that may develop cystic areas when tumor cells outgrow their blood supply or undergo degeneration?
+    11. Is there a malignancy present that can show abnormal metabolic activity on imaging studies due to increased glucose uptake?
+    12. Can you identify a malignancy that may become ulcerated when it invades the overlying skin or mucosa, leading to tissue breakdown?
+    13. Does the image show a malignancy whose texture can change as it becomes more fibrotic, necrotic, or cystic?
+    14. Is there a malignancy present that can show increased cellularity in high-grade or aggressive tumors due to rapid proliferation?
+    15. Can you identify a malignancy that may develop hemorrhagic areas when fragile tumor vessels rupture or due to rapid tumor growth?
+
+  [Contexual Behavior]
+    1. Does the image show a malignancy that may increase its growth rate under hypoxic conditions by activating adaptive pathways?
+    2. Is there a tumor present that can become more invasive in response to changes in the surrounding tissue environment?
+    3. Can you identify a malignancy that alters its metabolic activity during nutrient deprivation by shifting to glycolysis or alternative energy sources?
+    4. Does the image include a tumor that may develop resistance to chemotherapy after acquiring drug efflux mechanisms or genetic alterations?
+    5. Is there a malignancy that reduces its proliferation following targeted therapy due to inhibition of specific oncogenic pathways?
+    6. Can you identify a tumor that changes its behavior in response to immune system attack by upregulating immune evasion mechanisms?
+    7. Does the image show a malignancy that increases angiogenesis under low oxygen levels by secreting pro-angiogenic factors?
+    8. Is there a tumor that may fail to maintain its original tissue characteristics during dedifferentiation or epithelial-mesenchymal transition?
+    9. Can you identify a malignancy that becomes more aggressive after acquiring genetic mutations that enhance proliferation or invasiveness?
+    10. Does the image include a tumor that decreases its activity following radiation therapy due to DNA damage and cell death?
+
+======================================================================
+  CONCEPT: TYPICAL ADENOCARCINOMA EXTENDING THROUGH MUSCULARIS TO SEROSA
+======================================================================
+
+  [Functions]
+    1. Does the image show a malignancy that invades surrounding tissues by penetrating the full thickness of the organ wall?
+    2. Is there a tumor present that exhibits aggressive local invasion and disrupts normal tissue architecture?
+    3. Can you identify a malignancy that contributes to disease progression by facilitating spread beyond the primary site?
+    4. Does the image include a tumor that impairs organ function by compromising structural integrity?
+    5. Is there a malignancy present that is associated with increased risk of recurrence, complications, and mortality?
+    6. Can you identify a tumor that increases the risk of metastasis by providing access to lymphatic or peritoneal surfaces?
+    7. Does the image show a malignancy whose presence is critical for cancer staging and indicates advanced local disease?
+
+  [Relational]
+    1. Does the image show a malignancy that is known to invade multiple anatomical layers, including the mucosa, submucosa, muscularis propria, and serosa?
+    2. Is there evidence of a tumor that typically affects both the muscularis propria and the serosal layer?
+    3. Can you identify a malignancy that is known to penetrate the serosal surface and potentially invade adjacent organs?
+    4. Does the image include a tumor that places regional lymph nodes and periserosal lymphatics at risk due to lymphatic involvement?
+    5. Is there evidence of a malignancy that is associated with breaching the serosal surface and increasing the risk of peritoneal dissemination?
+    6. Can you identify a tumor that is commonly linked to pathological processes such as local invasion, lymphatic spread, and peritoneal seeding?
+    7. Does the image show a malignancy that is associated with an increased risk of metastatic spread to lymph nodes and peritoneal surfaces?
+
+  [Contexual Behavior]
+    1. Does the image show a malignancy that may increase its invasiveness when tumor cells acquire additional mutations or interact with a permissive microenvironment?
+    2. Is there a tumor present that can alter its growth rate under different treatment conditions such as exposure to cytotoxic agents or targeted therapies?
+    3. Can you identify a malignancy that becomes more likely to metastasize after breaching the serosal surface and accessing lymphatic or vascular channels?
+    4. Does the image include a tumor that may show resistance to chemotherapy when drug efflux mechanisms or genetic alterations are present?
+    5. Is there a malignancy that causes greater impairment of organ function as it invades deeper layers and disrupts normal tissue architecture?
+    6. Can you identify a tumor that provokes a stronger inflammatory response when invasion leads to tissue destruction and immune cell recruitment?
+    7. Does the image show a malignancy that may respond poorly to surgical intervention when there is extensive local spread or involvement of adjacent structures?
+    8. Is there a tumor that alters its behavior in immunocompromised patients by exhibiting more aggressive growth and reduced immune-mediated tumor suppression?
+
+======================================================================
+  CONCEPT: TYPICAL TUBERCULOUS EXUDATE
+======================================================================
+
+  [Properties]
+    1. Can you identify a biological fluid that is known to have a straw-colored or pale yellow appearance?
+    2. Is there a biological fluid in the image that would typically have a protein concentration greater than 3.5 g/dL?
+    3. Does the image show a biological fluid that is characterized by a moderately increased viscosity due to high protein content?
+    4. Can you find a biological fluid that is known to have a specific gravity usually above 1.018?
+    5. Is there a biological fluid that would typically have a low glucose level, often less than 60 mg/dL?
+    6. Does the image contain a biological fluid that is known to be slightly acidic, with a pH around 7.2 or lower?
+    7. Can you identify a biological fluid that is characterized by a cellular content predominantly composed of lymphocytes and macrophages?
+    8. Is there a biological fluid that, under microscopic examination, would typically show numerous lymphocytes, epithelioid cells, Langhans giant cells, and caseous necrosis?
+    9. Does the image show a biological fluid that is known to have a moderate to large volume in certain anatomical locations?
+    10. Can you find a biological fluid that is typically composed of high protein content, lymphocytes, macrophages, and caseous necrotic debris?
+
+  [Contexual Properties]
+    1. Is there a biological fluid present that is known to change color, becoming yellow, green, or blood-tinged, when secondary infection or hemorrhage occurs?
+    2. Can you identify a biological fluid that becomes thicker or more viscous during chronic inflammation due to increased cellular debris and protein content?
+    3. Does the image show a biological fluid whose volume can increase during active or progressive disease with extensive tissue necrosis?
+    4. Is there a biological fluid present that exhibits higher protein concentration during the early phases of inflammation?
+    5. Can you identify a biological fluid that develops a caseous appearance during granulomatous inflammation with central necrosis?
+    6. Does the image include a biological fluid whose cellular composition changes as the immune response evolves, with more lymphocytes and macrophages in chronic stages and more neutrophils in acute superimposed infection?
+    7. Is there a biological fluid that becomes more purulent when secondary bacterial infection is superimposed on existing lesions?
+    8. Can you identify a biological fluid that shows increased fibrin content during intense inflammatory reactions or when pleural involvement occurs?
+
+======================================================================
+  CONCEPT: ULCER
+======================================================================
+
+  [Properties]
+    1. Can you identify a pathological condition that is known to have a typical diameter ranging from 0.5 to several centimeters?
+    2. Is there a pathological condition present that would typically have a depth ranging from superficial mucosal involvement to several millimeters or centimeters if deeper tissues are affected?
+    3. Does the image show a pathological condition that is characterized by a round, oval, or sometimes irregular shape?
+    4. Is there a pathological condition that is known to have red margins with a yellowish or grayish base?
+    5. Can you identify a pathological condition that would typically have a soft, moist, and granular surface texture, sometimes covered with slough?
+    6. Is there a pathological condition present that is characterized by raised, erythematous, undermined, or sharply demarcated borders?
+    7. Does the image contain a pathological condition whose base is commonly composed of necrotic tissue, granulation tissue, or fibrinous exudate?
+    8. Can you identify a pathological condition that is known to produce an amount of exudate ranging from minimal to copious?
+    9. Is there a pathological condition that would typically have no odor unless infected, in which case it may be foul-smelling?
+    10. Does the image show a pathological condition where the surrounding tissue is known to have an elevated temperature due to inflammation?
+    11. Is there a pathological condition present whose exudate would typically have a pH between 7.0 and 8.5?
+
+  [Functions]
+    1. Does the image show a pathological process characterized by the breakdown and loss of the epithelial or mucosal surface?
+    2. Is there evidence of a process that develops through chronic inflammation, ischemia, or impaired healing responses?
+    3. Can you identify a lesion that disrupts normal tissue barriers and impairs absorption or secretion?
+    4. Does the image include a pathological process associated with pain, bleeding, or increased risk of infection?
+    5. Is there a process present that exposes blood vessels and creates entry points for pathogens, contributing to complications such as bleeding or infection?
+    6. Can you identify a lesion that delays tissue repair and increases the risk of chronic non-healing wounds?
+    7. Does the image show a process that exacerbates tissue damage and complicates disease management by increasing morbidity?
+
+  [Relational]
+    1. Does the image show a pathological process that affects the epithelial lining and underlying connective tissue of a mucosal surface?
+    2. Is there evidence of tissue disruption in organs such as the stomach, duodenum, or oral cavity that is consistent with a process known to cause localized tissue loss?
+    3. Can you identify a pathological process that is commonly associated with inflammation and damage to surrounding healthy tissue?
+    4. Does the image include features that could be linked to diseases such as peptic ulcer disease or inflammatory bowel disease?
+    5. Is there involvement of anatomical sites like the lower extremities or skin that are known to be affected by this type of pathological process?
+    6. Can you see any indication of a process that may be associated with microorganisms such as Helicobacter pylori or herpes simplex virus?
+    7. Does the image show evidence of complications such as bleeding, perforation, or infection in tissues adjacent to a pathological process?
+    8. Is there involvement of blood vessels, such as submucosal arteries or capillaries, that could be affected by a process leading to hemorrhage?
+
+  [Contexual Properties]
+    1. Is there a lesion present that is known to increase in size when healing is impaired by infection, poor blood supply, or repeated trauma?
+    2. Can you identify a lesion that typically decreases in size during effective treatment and proper wound care?
+    3. Does the image show a lesion that can become deeper as tissue destruction progresses due to infection, pressure, or vascular insufficiency?
+    4. Is there a lesion that is known to change color in response to infection, necrosis, or healing, such as turning black with necrosis or red with granulation tissue?
+    5. Can you identify a lesion that may develop necrotic tissue when blood supply is compromised or infection leads to tissue death?
+    6. Does the image include a lesion that shows increased exudate production during infection or inflammation?
+    7. Is there a lesion present that can change in appearance with increased redness, swelling, pus, or foul odor when it becomes infected?
+    8. Can you identify a lesion that develops granulation tissue during the healing process as new blood vessels and connective tissue form?
+    9. Does the image show a lesion that can become more painful due to changes in tissue structure when nerves are exposed or inflamed?
+    10. Is there a lesion whose pH levels are known to become more alkaline in chronic wounds or infections?
+    11. Can you identify a lesion that develops a foul odor when anaerobic bacterial infection or tissue necrosis occurs?
+    12. Does the image include a lesion that shows increased bleeding when granulation tissue is fragile or trauma disrupts blood vessels?
+    13. Is there a lesion that can become indurated or hardened in chronic inflammation or malignancy due to fibrosis?
+    14. Can you identify a lesion that shows delayed healing or chronicity in the presence of diabetes, poor vascular supply, or persistent infection?
+    15. Does the image show a lesion that demonstrates changes in surrounding tissue edema during inflammation or infection?
+
+  [Contexual Behavior]
+    1. Does the image show a lesion that may fail to heal under conditions such as diabetes, vascular insufficiency, or immunosuppression?
+    2. Is there a lesion present that can increase in size during infection due to tissue destruction?
+    3. Can you identify a lesion that becomes more painful when inflammation or tissue damage affects sensory nerves?
+    4. Does the image include a lesion that may bleed more easily in patients with clotting disorders?
+    5. Is there a lesion that shows delayed healing in diabetic patients due to poor glycemic control?
+    6. Can you identify a lesion that becomes deeper when blood supply is inadequate?
+    7. Does the image show a lesion that produces more exudate during secondary infection?
+    8. Is there a lesion that may become chronic in the presence of repeated trauma?
+    9. Can you identify a lesion that worsens in immunocompromised individuals due to reduced ability to fight infection?
+    10. Does the image include a lesion that responds poorly to standard treatments when underlying conditions are present?
+
+======================================================================
+  CONCEPT: UTERUS AND OVARIES
+======================================================================
+
+  [Properties]
+    1. Does the image show organs that are known to have typical sizes of approximately 7–8 by 4–5 centimeters for one and about 3 by 1.5 by 1.5 centimeters for the other?
+    2. Can you identify organs that would typically weigh between 50–80 grams for one and 5–8 grams for the other in non-pregnant adults?
+    3. Is there an organ in the image that is characterized by a pear-shaped form, and another that is almond-shaped?
+    4. Are there organs present that are known to have a pinkish to grayish-white coloration?
+    5. Does the image contain organs with typical volumes of about 75–200 milliliters for one and 3–8 milliliters for the other?
+    6. Can you identify organs that are composed of layers such as endometrium, myometrium, perimetrium, and structures like cortex, follicles, and stroma?
+    7. Is there an organ in the image that is known to have a normal pH around 7.0–7.4?
+    8. Are there organs that would typically contain hundreds of thousands of primordial follicles at birth, decreasing to hundreds at puberty?
+    9. Does the image show an organ with a wall thickness of about 1–2 centimeters and an inner lining that varies from 2–16 millimeters depending on physiological phase?
+    10. Can you identify organs that are known to have a water content of approximately 70–75% of their weight?
+    11. Are there organs present that would typically contain hormone concentrations such as estradiol, progesterone, and inhibin B, varying with physiological cycles?
+    12. Is there an organ in the image that is characterized by a density of approximately 1.05–1.06 grams per cubic centimeter?
+    13. Does the image contain organs that are highly vascularized, receiving blood from specific arteries?
+
+  [Functions]
+    1. Does the image show organs that perform reproductive functions such as supporting ovulation, fertilization, and fetal development?
+    2. Is there an organ system present that regulates the menstrual cycle through coordinated hormonal signaling and cyclical tissue changes?
+    3. Can you identify organs that play roles in fertility and conception by producing eggs and providing an environment for embryo implantation?
+    4. Does the image include organs responsible for synthesizing and secreting reproductive hormones such as estrogen and progesterone?
+    5. Is there an organ that expands during pregnancy to accommodate fetal growth and supports early pregnancy through hormone secretion?
+    6. Can you identify organs whose diseases may impair reproductive health by causing infertility, menstrual irregularities, or increasing malignancy risk?
+    7. Does the image show organs that interact during ovulation, with hormonal signals preparing the endometrium for potential implantation?
+    8. Is there evidence of organs whose dysfunction can result in clinical consequences such as infertility, abnormal bleeding, pelvic pain, or hormonal imbalance?
+
+  [Relational]
+    1. Does the image show organs that are typically adjacent to structures such as the bladder and rectum?
+    2. Is there evidence of organs that are supplied by the uterine and ovarian arteries?
+    3. Can you identify organs that are supported by ligaments such as the broad ligament or ovarian ligament?
+    4. Does the image include organs that are functionally related in reproduction, with one producing oocytes and hormones that regulate the other's cycle?
+    5. Is there an anatomical connection between organs via ducts or tubes such as the fallopian tubes?
+    6. Can you identify organs that are commonly affected by diseases such as endometriosis or pelvic inflammatory disease?
+    7. Does the image show organs associated with lymphatic structures like the pelvic or para-aortic lymph nodes?
+    8. Are there organs present that are normally located within the pelvic cavity?
+    9. Can you identify organs that interact with the endocrine system through the regulation of sex hormones?
+    10. Is there evidence of clinical procedures involving both organs, such as hysterectomy with oophorectomy or pelvic ultrasound?
+
+  [Contexual Properties]
+    1. Does the image show a tissue that is known to increase in size during pregnancy, ovarian hyperstimulation, or in the presence of tumors or cysts?
+    2. Is there a tissue present that can decrease in size after menopause due to hormonal decline and atrophy?
+    3. Can you identify a tissue whose shape is known to change in congenital anomalies, with fibroids, or when large cystic masses are present?
+    4. Does the image include a tissue that may develop cystic structures in conditions such as polycystic ovary syndrome or functional ovarian cysts?
+    5. Is there a tissue present that can show abnormal composition in endometriosis, neoplasms, or chronic inflammation?
+    6. Can you identify a tissue that becomes enlarged due to hormonal changes during puberty, pregnancy, or hormonal therapy?
+    7. Does the image show a tissue whose echogenicity on imaging can change in the presence of cysts, tumors, or hemorrhage?
+    8. Is there a tissue that may develop calcifications in chronic inflammation, aging, or certain tumors such as fibroids or teratomas?
+    9. Can you identify a tissue that can become edematous in pelvic inflammatory disease, ovarian torsion, or severe allergic reactions?
+    10. Does the image include a tissue that is known to show increased vascularity during ovulation, pregnancy, or in the presence of tumors?
+    11. Is there a tissue present that can develop fibrotic changes in chronic pelvic inflammatory disease, endometriosis, or after surgery?
+    12. Can you identify a tissue whose density on imaging studies may change in the presence of tumors, hemorrhage, or calcifications?
+    13. Does the image show a tissue that can accumulate fluid or blood in cases of ovarian cyst rupture, endometriosis, or hemorrhagic cysts?
+
+  [Contexual Behavior]
+    1. Does the image show organs that change their hormonal activity throughout the menstrual cycle?
+    2. Is there evidence of organs that alter their function to support embryo implantation and suppress ovulation during pregnancy?
+    3. Can you identify organs that reduce their activity and hormone production during menopause?
+    4. Does the image include organs that may show impaired function and irregular ovulation in polycystic ovary syndrome?
+    5. Are there organs present that can increase hormone production in response to fertility treatments?
+    6. Can you identify organs that may fail to coordinate ovulation and endometrial preparation in certain endocrine disorders?
+    7. Does the image show organs whose behavior can change during hormonal imbalances, affecting menstrual cycles and fertility?
+    8. Is there evidence of organs that become less responsive to gonadotropins with advancing age or ovarian insufficiency?
+    9. Can you identify organs that exhibit altered function in the presence of endometriosis?
+    10. Does the image include organs that may show decreased reproductive activity due to chronic illness suppressing hormonal function?
+
+======================================================================
+  CONCEPT: VASCULITIS
+======================================================================
+
+  [Functions]
+    1. Does the image show a pathological process characterized by inflammation and destruction of blood vessel walls?
+    2. Is there evidence of a process that impairs blood vessel function by causing narrowing, occlusion, or weakening of vessels?
+    3. Can you identify a pathological process that leads to tissue ischemia, organ dysfunction, or increases the risk of thrombosis or hemorrhage?
+    4. Does the image include features consistent with a process that causes tissue necrosis or organ infarction by reducing blood supply?
+    5. Is there a pathological process present that exhibits inflammatory behaviors such as leukocyte infiltration and cytokine release targeting vessel walls?
+    6. Can you identify a process that manifests in multiple organ systems, producing symptoms such as skin rashes, renal impairment, or neurological deficits?
+    7. Does the image show evidence of a process that plays a role in autoimmune diseases by mediating immune attacks against blood vessels?
+    8. Is there a pathological process that influences blood flow and perfusion by causing vessel narrowing, blockage, or rupture, leading to reduced oxygen delivery to tissues?
+    9. Can you identify a process that impacts patient outcomes by increasing morbidity, risk of organ failure, or the need for immunosuppressive therapy?
+
+  [Relational]
+    1. Does the image show a pathological process that is known to affect blood vessels such as arteries, veins, or capillaries?
+    2. Is there evidence of a pathological process that can damage organs including the kidneys, skin, or lungs?
+    3. Can you identify a pathological process that involves immune cells such as neutrophils, lymphocytes, or macrophages?
+    4. Does the image include features consistent with a disease that is associated with conditions like rheumatoid arthritis or systemic lupus erythematosus?
+    5. Is there evidence of tissue involvement in areas such as the skin, nerves, or mucous membranes due to a pathological process?
+    6. Can you identify a pathological process that is closely related to systemic inflammation resulting from immune-mediated vessel injury?
+    7. Does the image show complications in organs such as renal failure or pulmonary hemorrhage that may arise from a vascular pathological process?
+    8. Is there evidence of a pathological process that most commonly involves small and medium-sized blood vessels?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that increases inflammation in blood vessels during active disease or immune activation?
+    2. Is there a pathological process present that can lead to impaired blood flow when vessel walls become swollen or occluded?
+    3. Can you identify a pathological process that may cause tissue ischemia during disease flare-ups due to vessel narrowing or blockage?
+    4. Does the image include a process that worsens in response to infection or immune triggers by amplifying inflammation?
+    5. Is there a pathological process whose activity reduces during remission when inflammation subsides?
+    6. Can you identify a process that may result in organ dysfunction when critical blood vessels are affected in severe cases?
+    7. Does the image show a pathological process that alters its clinical presentation based on the size of the affected vessels?
+    8. Is there a process that can become resistant to standard immunosuppressive therapy in refractory cases or with certain underlying conditions?
+    9. Can you identify a pathological process that causes more severe symptoms in the presence of comorbidities such as diabetes or cardiovascular disease?
+    10. Does the image include a process that increases the risk of thrombosis during active disease due to endothelial injury and hypercoagulability?
+
+======================================================================
+  CONCEPT: VILLI
+======================================================================
+
+  [Properties]
+    1. Is there a tissue structure in the image that is known to have an average length of about 0.5 to 1.5 millimeters in the small intestine?
+    2. Can you identify a tissue projection that would typically have a width ranging from 0.1 to 0.3 millimeters?
+    3. Does the image show a tissue structure characterized by finger-like or leaf-shaped projections?
+    4. Is there a tissue in the image that is known to have a density of approximately 10 to 40 projections per square millimeter of mucosal surface?
+    5. Can you identify a tissue projection that would typically have a surface area of about 0.2 to 1.0 square millimeters?
+    6. Is there a tissue structure composed mainly of enterocytes, goblet cells, enteroendocrine cells, and a core of lamina propria containing capillaries and lymphatics?
+    7. Does the image contain a tissue projection that is known to have a pale pink coloration due to its vascularity?
+    8. Is there a tissue structure with an epithelial layer thickness of about 20 to 30 micrometers?
+    9. Can you identify a tissue projection that is characterized by a dense capillary network and a single central lacteal?
+    10. Is there a tissue structure in the image that would typically have a water content of approximately 70 to 80 percent of its weight?
+
+  [Functions]
+    1. Does the image show a tissue structure that increases the absorptive surface area of the small intestine?
+    2. Is there a tissue present that facilitates efficient nutrient absorption by providing a large, vascularized surface?
+    3. Can you identify a structure that enhances the surface area for digestion by projecting into the intestinal lumen?
+    4. Does the image include a tissue component that contributes to nutrient transport into the bloodstream via capillaries and lacteals?
+    5. Is there evidence of a tissue whose atrophy or blunting is associated with malabsorption in certain diseases?
+    6. Can you identify a tissue structure whose damage can lead to impaired nutrient absorption and digestive dysfunction?
+    7. Does the image show a tissue that participates in maintaining the intestinal barrier and defending against pathogens?
+
+  [Relational]
+    1. Does the image show a tissue structure that is contained within the mucosal lining of the small intestine?
+    2. Is there a tissue present that is associated with layers such as the epithelium and lamina propria?
+    3. Can you identify a structure that projects from the intestinal mucosa to increase surface area?
+    4. Does the image include a tissue that is connected to capillaries and arterioles within its core?
+    5. Is there evidence of a tissue structure that may be affected by diseases such as celiac disease or tropical sprue?
+    6. Can you see a tissue that contains specialized cells such as enterocytes and goblet cells?
+    7. Does the image show a tissue that is essential for nutrient absorption in the small intestine?
+    8. Is there a tissue structure present that is associated with lymphatic vessels such as lacteals for fat transport?
+
+  [Contexual Properties]
+    1. Does the image show a tissue that is known to become shortened in certain chronic inflammatory or autoimmune conditions?
+    2. Is there a tissue present that can appear blunted during specific gastrointestinal diseases such as tropical sprue or chronic infection?
+    3. Can you identify a tissue whose length is known to increase in response to heightened nutrient demand or following surgical resection?
+    4. Does the image include a tissue that may undergo atrophy in chronic malnutrition or prolonged autoimmune disorders?
+    5. Is there a tissue that can become hypertrophic during intestinal adaptation or in certain congenital conditions?
+    6. Can you identify a tissue whose density is known to change in diseases causing atrophy or in hyperplastic states?
+    7. Does the image show a tissue whose normal structure may be lost during chronic inflammatory or infectious processes of the intestine?
+    8. Is there a tissue present that can become fused together after severe mucosal injury or in advanced autoimmune disease?
+    9. Can you identify a tissue whose cellular composition is known to become abnormal in neoplastic transformation or chronic inflammation?
+    10. Does the image include a tissue that may become flattened in advanced stages of mucosal injury or autoimmune disease?
+    11. Is there a tissue present that is known to change color in response to ischemia, hemorrhage, or infections affecting mucosal blood flow?
+
+  [Contexual Behavior]
+    1. Does the image show an anatomical structure that may decrease its nutrient absorption activity in certain gastrointestinal diseases?
+    2. Is there an anatomical structure present that can become blunted or atrophied in response to chronic inflammation or gluten sensitivity?
+    3. Can you identify an anatomical structure that may fail to maintain its barrier function when tight junctions are disrupted by inflammation or infection?
+    4. Does the image include an anatomical structure that increases its surface area for absorption during growth or increased nutrient demand?
+    5. Is there an anatomical structure that can regenerate after injury or inflammation during the healing phase?
+    6. Can you identify an anatomical structure that may lose its normal function during infection with specific pathogens?
+    7. Does the image show an anatomical structure that alters its enzyme secretion in response to dietary changes?
+    8. Is there an anatomical structure that can show impaired function in autoimmune conditions due to immune-mediated damage?
+    9. Can you identify an anatomical structure that recovers its absorptive capacity after treatment of the underlying disease?
+    10. Does the image include an anatomical structure that may become damaged due to exposure to toxins or certain medications?
+
+======================================================================
+  CONCEPT: WALL OF THE ANEURYSM
+======================================================================
+
+  [Properties]
+    1. Is there a vessel wall in the image that is known to have a typical thickness ranging from 0.2 to 2 millimeters, often thinner than normal vessel walls?
+    2. Can you identify a vessel wall that is composed predominantly of collagen, elastin, smooth muscle cells, inflammatory cells, and extracellular matrix components?
+    3. Does the image show a vessel wall that is characterized by significantly reduced elasticity compared to normal arteries?
+    4. Is there a vessel wall present that would typically have a tensile strength of less than 1 megapascal, making it more prone to rupture?
+    5. Can you identify a vessel wall that is known to have increased but disorganized collagen content, with types I and III being predominant?
+    6. Is there a vessel wall that would typically have markedly decreased elastin content compared to normal vessel walls?
+    7. Does the image contain a vessel wall that is characterized by reduced numbers of smooth muscle cells and increased infiltration of inflammatory cells?
+    8. Is there a vessel wall that is known to have increased permeability due to structural degeneration and inflammation?
+    9. Can you identify a vessel wall that would typically have increased stiffness compared to normal arteries, contributing to its fragility?
+    10. Does the image show a vessel wall that is characterized by a pale, yellowish, or whitish coloration due to fibrosis and loss of normal vascular tissue?
+
+  [Relational]
+    1. Does the image show a vascular structure that is commonly associated with arteries such as the aorta or cerebral arteries?
+    2. Is there evidence of a vascular structure whose wall is typically adjacent to connective tissue or nearby organs depending on its location?
+    3. Can you identify a vascular structure whose wall is known to be affected by pathological processes such as degeneration or atherosclerosis?
+    4. Does the image include a vascular structure whose wall may disrupt or compress surrounding vascular structures?
+    5. Is there a vascular structure present whose wall contains cells such as smooth muscle cells, endothelial cells, or macrophages?
+    6. Can you see a vascular structure whose wall interacts with altered blood flow or hemodynamic forces?
+    7. Is there evidence of complications such as rupture or thrombosis related to changes in the wall of a vascular structure?
+
+  [Contexual Properties]
+    1. Is there a vascular structure present whose wall is known to become thinned as a result of chronic disease progression?
+    2. Can you identify a vascular structure whose wall may increase in thickness due to mural thrombus formation or inflammatory cell infiltration?
+    3. Does the image show a vascular structure whose wall can undergo calcification in advanced or long-standing disease?
+    4. Is there a vascular structure present whose wall is known to exhibit increased inflammation during active expansion or infection?
+    5. Can you identify a vascular structure whose wall may weaken as a result of matrix degradation and loss of structural proteins?
+    6. Does the image include a vascular structure whose wall can accumulate thrombus when blood flow becomes turbulent and stasis occurs?
+    7. Is there a vascular structure whose wall composition is known to change as smooth muscle cells are replaced by inflammatory cells and extracellular matrix components?
+    8. Can you identify a vascular structure whose wall may become more rigid due to calcification and fibrosis over time?
+    9. Does the image show a vascular structure whose wall can develop ulcerations in the setting of plaque rupture or infection?
+    10. Is there a vascular structure present whose wall is known to show increased permeability during acute inflammation or infection?
+
+  [Contexual Behavior]
+    1. Does the image show a vessel wall that may weaken under increased blood pressure due to elevated mechanical stress?
+    2. Is there a vascular structure present whose wall can lose structural integrity during inflammation as extracellular matrix components are degraded?
+    3. Can you identify a vessel wall that becomes more prone to rupture in the presence of connective tissue disorders?
+    4. Does the image include a vascular wall that may show impaired healing after endovascular intervention if endothelial repair is incomplete?
+    5. Is there a vessel wall that can thin as a result of chronic hypertension and progressive remodeling?
+    6. Can you identify a vascular wall that becomes more susceptible to infection when bacteremia or local seeding occurs?
+    7. Does the image show a vessel wall whose elasticity may be altered in response to atherosclerosis due to lipid deposition and fibrosis?
+    8. Is there a vascular wall that may fail to withstand normal hemodynamic forces when structural proteins are depleted or damaged?
+

@@ -1,0 +1,458 @@
+VLM Reasoning Questions – Quality Check Sample
+File 5 | Concepts 41–50
+======================================================================
+
+======================================================================
+  CONCEPT: FOREIGN BODY GIANT CELL WITH UNIFORM NUCLEI
+======================================================================
+
+  [Properties]
+    1. Can you identify a cell that is known to have a typical diameter ranging from 40 to 100 micrometers?
+    2. Is there a cell present that would typically contain between 20 and 50 nuclei?
+    3. Does the image show a cell that is generally large and may have a round, oval, or irregular shape?
+    4. Can you find a cell whose nuclei are typically about 5 to 10 micrometers in diameter?
+    5. Is there a cell characterized by abundant, eosinophilic, and granular cytoplasm?
+    6. Does the image contain a cell that is known to have a strongly eosinophilic cytoplasm with centrally or diffusely distributed nuclei on H&E stain?
+    7. Can you identify a cell whose cytoplasm would typically appear pink to eosinophilic on H&E staining?
+    8. Is there a cell present that is characterized by a low nuclear-to-cytoplasmic ratio due to abundant cytoplasm?
+    9. Does the image show a cell with cytoplasm that is granular and homogeneous in texture?
+    10. Can you find a cell in which the nuclei are distributed in a haphazard or scattered pattern throughout the cytoplasm?
+
+======================================================================
+  CONCEPT: FRACTURE
+======================================================================
+
+  [Functions]
+    1. Does the image show evidence of a pathological process that disrupts normal bone continuity and impairs structural support?
+    2. Is there a condition present that triggers inflammation, bone repair, and remodeling as part of the healing process?
+    3. Can you identify a pathological process that causes pain, instability, and reduced mobility in the affected area?
+    4. Does the image include a process that may result in complications such as infection, nonunion, or nerve injury?
+    5. Is there a pathological process present that contributes to pain and inflammation by damaging bone and surrounding tissues?
+    6. Can you identify a condition associated with acute pain, swelling, deformity, and potential long-term disability?
+    7. Does the image show a process that increases the risk of further injury or disability by weakening the affected area?
+    8. Is there evidence of a pathological process that initiates inflammation and bone regeneration at the cellular and tissue levels?
+    9. Can you identify a condition that plays a role in the development of post-traumatic arthritis by damaging joint surfaces and altering biomechanics?
+
+  [Relational]
+    1. Does the image show an injury that affects bone and may involve a break or crack?
+    2. Is there evidence of an injury that can disrupt tissues such as periosteum, muscle, tendons, or ligaments near the affected area?
+    3. Can you identify an injury that is known to cause instability or dislocation in adjacent joints?
+    4. Does the image include signs of an injury that may damage or compress nearby blood vessels or nerves?
+    5. Is there evidence of an injury that could secondarily affect organs such as the lungs or brain depending on the location?
+    6. Can you see an injury that is commonly associated with soft tissue damage, dislocation, or ligament tear?
+    7. Does the image show involvement of anatomical regions such as the wrist, hip, spine, or long bones, which are particularly susceptible to this type of injury?
+    8. Is there evidence of a process that initiates bone healing, including hematoma or callus formation, following an injury?
+    9. Can you identify an injury that may lead to complications in surrounding tissues, such as infection, compartment syndrome, or vascular or nerve injury?
+
+  [Contexual Behavior]
+    1. Does the image show an injury that may heal more slowly in the presence of underlying diseases such as osteoporosis or diabetes mellitus?
+    2. Is there an injury present that can fail to unite properly under conditions of poor blood supply, infection, or inadequate stabilization?
+    3. Can you identify an injury that increases the risk of infection when bone and tissue are exposed to the external environment?
+    4. Does the image include an injury that may cause impaired mobility depending on its location, such as in the hip, spine, or lower limb bones?
+    5. Is there an injury that can lead to complications like nonunion or malunion when healing is disrupted by instability, infection, or poor vascularity?
+    6. Can you identify an injury that may result in greater blood loss depending on the bone involved, such as in femoral or pelvic regions?
+    7. Does the image show an injury that may require surgical intervention instead of conservative management in cases of displacement or instability?
+    8. Is there an injury present that increases the risk of nerve or vascular injury when occurring near major neurovascular bundles?
+    9. Can you identify an injury that may delay functional recovery in elderly patients due to decreased bone healing capacity and comorbidities?
+    10. Does the image include an injury that can worsen due to repeated stress or inadequate immobilization, leading to further displacement or delayed healing?
+
+======================================================================
+  CONCEPT: FULLY FORMED GRANULOMA
+======================================================================
+
+  [Properties]
+    1. Does the image show a tissue structure that is known to typically measure between 0.5 and 2 millimeters in diameter?
+    2. Is there a tissue structure present that would usually have an average diameter of about 1 millimeter?
+    3. Can you identify a tissue structure that is characterized by a round or oval shape?
+    4. Does the image contain a tissue structure that is known to be composed of epithelioid macrophages, multinucleated giant cells, lymphocytes, and fibroblasts?
+    5. Is there a tissue structure that would typically contain several hundred to a few thousand cells?
+    6. Can you identify a tissue structure in which the collagen content may comprise up to 30–40% of its mass in fibrotic stages?
+    7. Does the image show a tissue structure where the calcium concentration can reach up to 200–400 mg/g in calcified regions?
+    8. Is there a tissue structure that is known to have a protein content of approximately 10–20% of its dry weight, primarily from cellular and extracellular matrix proteins?
+    9. Can you identify a tissue structure that would generally have a lipid content of less than 5% of its dry weight?
+    10. Is there a tissue structure present that is characterized by a density of approximately 1.05–1.10 grams per cubic centimeter?
+    11. Does the image contain a tissue structure that is known to have a slightly acidic pH, typically around 6.5–7.0?
+    12. Can you identify a tissue structure that would typically have a water content of about 60–70% of its total weight?
+
+  [Functions]
+    1. Does the image show a tissue structure that organizes immune cells to isolate and control persistent pathogens or foreign substances?
+    2. Is there a lesion present that functions to contain infectious agents by surrounding them with layers of immune cells?
+    3. Can you identify a tissue structure that plays a role in maintaining chronic inflammation?
+    4. Does the image include a lesion that can disrupt normal tissue architecture and impair function?
+    5. Is there a structure present that may cause localized tissue damage, mass effect, or organ dysfunction?
+    6. Can you identify a lesion that influences disease progression by either containing infection or contributing to chronic disease?
+    7. Does the image show a tissue structure that may serve as a protective barrier in infections or as a marker of immune dysregulation in non-infectious conditions?
+    8. Is there a lesion present that can promote fibrosis or scar formation at the site of inflammation?
+
+  [Relational]
+    1. Does the image show a pathological process that creates localized collections of immune cells within tissue?
+    2. Is there evidence of a tissue structure containing cells such as macrophages, epithelioid cells, or multinucleated giant cells?
+    3. Can you identify a pathological process that is commonly associated with diseases like tuberculosis or sarcoidosis?
+    4. Does the image include a tissue change that interacts with surrounding tissue by causing localized inflammation and remodeling?
+    5. Is there evidence of a pathological process involving chronic inflammation or T-cell mediated immune responses?
+    6. Can you see a tissue abnormality that is typically found in organs such as the lungs, lymph nodes, or liver?
+    7. Is there a pathological process present that is known to result from persistent infection or immune dysregulation?
+    8. Does the image show a tissue change that may be associated with microorganisms such as Mycobacterium tuberculosis or Histoplasma capsulatum?
+
+  [Contexual Properties]
+    1. Does the image show a tissue structure that is known to increase in size during persistent infection or ongoing antigenic stimulation?
+    2. Is there a tissue entity present that can become calcified during chronic inflammation or healing, such as in healed tuberculosis or sarcoidosis?
+    3. Can you identify a tissue structure whose cellular composition changes as it matures, with increased fibrosis and decreased inflammatory cells over time?
+    4. Does the image include a tissue entity that may develop central necrosis in certain infectious conditions?
+    5. Is there a tissue structure that is known to decrease in density as central necrosis or liquefaction occurs?
+    6. Can you identify a tissue entity that becomes fibrotic during the healing phase or chronic inflammation due to collagen deposition?
+    7. Does the image show a tissue structure whose architecture changes as it progresses from a cellular to a fibrotic or calcified stage?
+    8. Is there a tissue entity present that shows increased vascularization during its early formation or in response to active inflammation?
+    9. Can you identify a tissue structure that may shrink or resolve when the underlying antigen is cleared or with effective treatment?
+    10. Does the image include a tissue entity that can change color as it undergoes necrosis, fibrosis, or calcification, often appearing yellowish or whitish?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that may increase immune activity by recruiting more immune cells in response to persistent infection?
+    2. Is there a pathological process present that can fail to contain pathogens effectively under immune suppression or high pathogen virulence?
+    3. Can you identify a process that may break down and release its contents during immune compromise or excessive inflammation?
+    4. Does the image include a pathological process that becomes fibrotic or calcified over time due to chronic inflammation?
+    5. Is there a process that contributes to tissue dysfunction by disrupting normal tissue architecture?
+    6. Can you identify a pathological process that may enlarge during disease progression if infection or inflammation persists?
+    7. Does the image show a process that reduces its inflammatory response after successful treatment?
+    8. Is there a pathological process that can impair organ function by obstructing ducts, vessels, or compressing surrounding tissue due to its size or location?
+
+======================================================================
+  CONCEPT: GIANT CELL
+======================================================================
+
+  [Properties]
+    1. Can you identify a cell that is known to have a typical diameter ranging from 40 to 100 micrometers?
+    2. Is there a cell present that would typically contain more than 10 nuclei, and sometimes over 100?
+    3. Does the image show a cell that is generally round, oval, or sometimes irregular in shape?
+    4. Is there a cell that is characterized by abundant eosinophilic cytoplasm containing organelles such as mitochondria, lysosomes, and endoplasmic reticulum?
+    5. Can you identify a cell that typically displays eosinophilic cytoplasm and basophilic nuclei when stained with hematoxylin and eosin?
+    6. Is there a cell that would be expected to have a volume between approximately 33,500 and 523,600 cubic micrometers based on its diameter?
+    7. Does the image contain a cell that is known to have pink cytoplasm and purple-blue nuclei under H&E staining?
+    8. Is there a cell present that would typically have a low nuclear-to-cytoplasmic ratio due to abundant cytoplasm?
+    9. Can you identify a cell whose density is similar to other eukaryotic cells, approximately 1.05 grams per cubic centimeter?
+
+  [Functions]
+    1. Does the image show a cell type that performs immune functions by engulfing large particles or pathogens through phagocytosis?
+    2. Is there a cell present that forms by the fusion of activated macrophages in response to persistent inflammation or foreign bodies?
+    3. Can you identify a cell type that plays a role in granulomatous inflammation by organizing and containing infectious agents within granulomas?
+    4. Does the image include a cell that contributes to tissue remodeling or damage by releasing enzymes that degrade the extracellular matrix?
+    5. Is there a cell type present that helps contain and attempt to eliminate pathogens such as mycobacteria or fungi?
+    6. Can you identify a cell involved in the body's response to foreign materials by surrounding and isolating implants or non-degradable substances?
+    7. Does the image show evidence of a cell type associated with chronic inflammation, tissue destruction, or granuloma formation?
+
+  [Relational]
+    1. Does the image show a cell type that is typically found in tissues such as lymph nodes, lungs, or bone during pathological conditions?
+    2. Is there a cell present that is commonly associated with diseases such as tuberculosis or sarcoidosis?
+    3. Can you identify a cell that is a hallmark of granulomatous inflammation and forms part of granulomas?
+    4. Does the image include a cell type that is known to interact with macrophages, lymphocytes, or fibroblasts in pathological settings?
+    5. Is there evidence of a cell that is involved in pathological processes such as chronic inflammation or granuloma formation?
+    6. Can you see a cell type that is often linked to infectious agents like Mycobacterium tuberculosis, fungi, or herpesvirus?
+    7. Does the image show a cell that results from the fusion of multiple mononuclear cells, leading to multinucleated cell formation?
+    8. Is there a cell present that is associated with chronic inflammatory or granulomatous immune responses to persistent pathogens or foreign material?
+
+  [Contexual Properties]
+    1. Is there a cell type present that is known to increase in size during granulomatous inflammation or in response to foreign bodies?
+    2. Can you identify a cell that contains more nuclei in conditions such as tuberculosis, sarcoidosis, or foreign body reactions?
+    3. Does the image include a cell whose cytoplasmic composition can change when engulfing foreign material or during lipid accumulation in certain diseases?
+    4. Is there a cell type that shows abnormal staining characteristics in pathological states such as infections or neoplastic processes?
+    5. Can you identify a cell that becomes multinucleated during chronic inflammation, especially in granulomatous diseases?
+    6. Does the image show a cell that can accumulate lipid or other inclusions in conditions like xanthogranulomas or storage diseases?
+    7. Is there a cell type whose shape or structure is known to change in response to the type of inciting agent, such as foreign bodies or persistent pathogens?
+    8. Can you identify a cell that exhibits increased density when it accumulates cellular debris or mineral deposits in chronic inflammatory lesions?
+    9. Does the image include a cell that shows vacuolization during phagocytosis of lipid material or in degenerative processes?
+    10. Is there a cell type that displays altered surface markers in immune-mediated diseases or during neoplastic transformation?
+
+  [Contexual Behavior]
+    1. Does the image show a cell type that increases its phagocytic activity during infection or when exposed to persistent foreign bodies?
+    2. Is there a cell present that forms in response to chronic inflammation by fusing to isolate indigestible material?
+    3. Can you identify a cell that may fail to contain foreign material in granulomatous diseases when the immune response is inadequate?
+    4. Does the image include a cell type that contributes to tissue destruction in autoimmune conditions by releasing proteolytic enzymes and inflammatory mediators?
+    5. Is there a cell that alters its behavior in response to persistent pathogens by increasing cytokine secretion and sustaining granuloma formation?
+    6. Can you identify a cell type that becomes more prominent in certain tumors such as giant cell tumor of bone or some sarcomas?
+    7. Does the image show a cell whose fusion may be impaired under immunodeficiency conditions due to defective macrophage function?
+    8. Is there a cell present that increases cytokine production during disease progression to amplify the local inflammatory response?
+
+======================================================================
+  CONCEPT: GRANULAR CASEATION NECROSIS
+======================================================================
+
+  [Functions]
+    1. Does the image show evidence of a pathological process that forms areas of acellular, cheese-like debris associated with pathogen persistence and tissue destruction?
+    2. Is there a pathological process present that disrupts normal tissue architecture and impairs organ function?
+    3. Can you identify a process known to be associated with granuloma formation, chronic inflammation, and central necrosis within affected tissues?
+    4. Does the image include a pathological process that recruits immune cells such as macrophages and lymphocytes while also limiting effective immune clearance?
+    5. Is there evidence of a process that contributes to persistent infection, tissue cavitation, or increased risk of organ dysfunction?
+    6. Can you identify a pathological process that delays tissue repair and promotes fibrosis or cavity formation in granulomatous diseases?
+
+  [Relational]
+    1. Does the image show a pathological process that typically affects tissues within granulomas, especially at sites of chronic inflammation?
+    2. Is there evidence of a pathological process that is commonly associated with diseases such as tuberculosis or certain fungal infections?
+    3. Can you identify a pathological process that serves as a hallmark of granulomatous inflammation, particularly in infectious diseases?
+    4. Does the image include organs such as the lungs or lymph nodes that are known to commonly exhibit this type of pathological process?
+    5. Is there evidence of a pathological process linked to infectious agents like Mycobacterium tuberculosis or Histoplasma?
+    6. Can you see areas where immune cells such as macrophages, epithelioid cells, or multinucleated giant cells are present in association with a necrotic core?
+    7. Does the image show features consistent with the formation of granulomas, where a necrotic core is surrounded by immune cells?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that becomes more pronounced in infectious diseases when the immune response fails to clear the pathogen?
+    2. Is there a pathological process present that can impair tissue function by replacing normal parenchyma with necrotic debris?
+    3. Can you identify a process that triggers a stronger immune response when necrotic material persists and stimulates chronic inflammation?
+    4. Does the image include a pathological process that may slow down healing when a necrotic core prevents effective tissue regeneration?
+    5. Is there a process that contributes to organ dysfunction when extensive necrosis disrupts normal architecture?
+    6. Can you identify a pathological process that increases the risk of cavity formation when necrotic tissue liquefies and drains, especially in certain organs?
+    7. Does the image show a process that alters its characteristics by becoming more fibrotic and encapsulated during chronic inflammation?
+
+======================================================================
+  CONCEPT: GREAT TOE
+======================================================================
+
+  [Properties]
+    1. Does the image show a digit that is known to have a typical adult length of approximately 4–6 centimeters and a width of 1.5–2.5 centimeters?
+    2. Is there a digit in the image that would normally weigh about 40–60 grams in adults?
+    3. Can you identify a digit that is characterized by a broad, flat, and slightly curved shape?
+    4. Does the image contain a digit that is composed of a proximal and distal phalanx?
+    5. Is there a digit present that would typically have a nail thickness of about 0.5–1 millimeter?
+    6. Can you identify a digit whose skin thickness ranges from 1.5–3 millimeters, with the thickest skin on the plantar surface?
+    7. Does the image show a digit that is known to be flesh-colored with a pinkish nail bed?
+    8. Is there a digit in the image whose bone density is typically around 1.7–2.0 grams per cubic centimeter?
+    9. Can you identify a digit that is known to have a water content of about 60–70 percent of its weight?
+    10. Does the image contain a digit where the fat content is mainly subcutaneous and typically around 10–20 percent of the soft tissue mass?
+    11. Is there a digit present that would typically have cartilage in its joint measuring approximately 1–2 millimeters in thickness?
+    12. Can you identify a digit that is known to have a normal temperature close to core body temperature, around 32–34 degrees Celsius?
+
+  [Functions]
+    1. Does the image show an anatomical structure that provides stability and propulsion during human movement?
+    2. Is there a body part present that contributes to walking and running by pushing off the ground during the toe-off phase of gait?
+    3. Can you identify an anatomical structure that plays a role in maintaining posture by stabilizing the body during standing and movement?
+    4. Does the image include a structure whose injury can lead to gait disturbance and mobility impairment?
+    5. Is there an anatomical structure that participates in weight-bearing activities by absorbing and distributing forces during standing and movement?
+    6. Can you identify a body part whose dysfunction may result in impaired balance, difficulty walking, or increased risk of falls?
+
+  [Relational]
+    1. Does the image show a digit that is connected to both proximal and distal phalanges as well as a metatarsal bone?
+    2. Is there a digit present that articulates with the first metatarsal and contains both metatarsophalangeal and interphalangeal joints?
+    3. Can you identify a digit that is known to have muscles such as the flexor hallucis longus and abductor hallucis attaching to it?
+    4. Does the image include a digit that receives nerve supply from the medial plantar nerve or deep peroneal nerve?
+    5. Is there a digit present that is supplied by blood vessels like the dorsal digital artery and plantar digital artery?
+    6. Can you see a digit that is associated with tendons of the flexor hallucis longus and extensor hallucis longus?
+    7. Does the image show a digit that is commonly affected by conditions such as hallux valgus or gout?
+    8. Is there a digit that plays a key role in foot biomechanics, including balance and propulsion during gait?
+    9. Can you identify a digit that is supported by ligaments such as the plantar plate and collateral ligaments?
+
+  [Contexual Properties]
+    1. Does the image show a digit that is known to become swollen in conditions such as gout, infection, or trauma?
+    2. Is there a digit present that can change color in cases of bruising, poor circulation, or infection?
+    3. Can you identify a digit that is known to increase in size due to inflammation, edema, or tumor formation?
+    4. Does the image include a digit that may become deformed in chronic conditions like hallux valgus or after repeated trauma?
+    5. Is there a digit present that can develop abnormal tissue density in cases of osteomyelitis, fracture, or tumor?
+    6. Can you identify a digit whose normal structure may be lost following severe trauma, infection, or advanced arthritis?
+    7. Does the image show a digit that can become discolored in peripheral vascular disease, bruising, or infection?
+    8. Is there a digit present that may show abnormal temperature during infection, inflammation, or vascular compromise?
+    9. Can you identify a digit that is known to develop abnormal nail growth in fungal infections, trauma, or psoriasis?
+    10. Does the image include a digit that can accumulate fluid in cases of joint effusion, infection, or lymphedema?
+    11. Is there a digit that may become thickened in response to chronic pressure, callus formation, or fungal infection?
+    12. Can you identify a digit that is known to lose normal sensation in diabetic neuropathy, nerve injury, or peripheral vascular disease?
+
+  [Contexual Behavior]
+    1. Does the image show a digit that may lose its ability to bear weight during walking in cases of fracture or severe arthritis?
+    2. Is there a digit present that can show reduced range of motion when joint inflammation or degeneration occurs?
+    3. Can you identify a digit that may experience impaired balance function due to sensory or motor deficits?
+    4. Does the image include a digit that becomes less effective in propulsion during running when weakness or pain is present?
+    5. Is there a digit whose sensory function can decrease in neuropathy due to peripheral nerve damage?
+    6. Can you identify a digit that may fail to maintain stability when supporting structures are injured?
+    7. Does the image show a digit whose movement can become restricted after trauma such as swelling or fracture?
+    8. Is there a digit that develops altered function in diabetic foot conditions due to neuropathy or deformity?
+
+======================================================================
+  CONCEPT: HEART
+======================================================================
+
+  [Properties]
+    1. Does the image show an organ that is known to have a typical adult size of approximately 12 centimeters in length, 8–9 centimeters in width, and 6 centimeters in thickness?
+    2. Is there an organ present that would typically weigh between 250 and 350 grams in adults?
+    3. Can you identify an organ that is characterized by a dark red to reddish-brown coloration?
+    4. Does the image contain an organ that is known to have a conical or pyramidal shape with a broad base and a pointed apex?
+    5. Is there an organ that would typically have a firm, muscular, but slightly elastic texture?
+    6. Can you find an organ that is known to have an average volume of about 500–700 milliliters?
+    7. Is there an organ present that would typically have a water content of approximately 75–80 percent of its weight?
+    8. Does the image show an organ that is characterized by a fat content of about 2–5 percent of its weight, mainly in the epicardial region?
+    9. Can you identify an organ that is known to have a density of approximately 1.06 grams per cubic centimeter?
+    10. Is there an organ present that would typically have a tissue pH around 7.2–7.4?
+    11. Does the image contain an organ in which the oxygen level is known to vary, with arterial blood at about 95–100 mmHg and venous blood at 30–40 mmHg?
+    12. Can you find an organ that is characterized by a tissue glucose concentration of approximately 0.5–1.5 millimoles per liter?
+    13. Is there an organ present that would typically have a protein content of about 15–20 percent of its wet weight?
+    14. Does the image show an organ whose mineral composition includes potassium, sodium, calcium, magnesium, and phosphorus?
+    15. Can you identify an organ that is known to have a typical temperature close to core body temperature, around 37 degrees Celsius?
+
+  [Functions]
+    1. Does the image show an organ that performs the essential function of pumping blood throughout the body to deliver oxygen and nutrients to tissues?
+    2. Is there an organ present that propels blood through the circulatory system by rhythmic muscular contractions?
+    3. Can you identify an organ that plays a key role in oxygenating tissues by circulating oxygen-rich blood from the lungs to other organs?
+    4. Does the image include an organ that regulates blood pressure by adjusting its output in response to physiological signals?
+    5. Is there an organ that responds to physical activity or stress by increasing its rate and output to meet elevated oxygen and nutrient demands?
+    6. Can you identify an organ that may exhibit abnormal electrical activity resulting in disrupted rhythm and impaired blood flow?
+    7. Does the image show an organ capable of remodeling its structure and function in response to pathological conditions, often with reduced efficiency?
+    8. Is there an organ present whose dysfunction can lead to reduced blood flow and potential failure of other organs such as the kidneys, brain, or liver?
+    9. Can you identify an organ that contributes to maintaining homeostasis by supporting stable circulation, temperature regulation, and fluid balance?
+    10. Does the image include an organ whose abnormal function can result in symptoms such as chest pain, shortness of breath, edema, or arrhythmias?
+
+  [Relational]
+    1. Does the image show an organ that is connected to both the circulatory and respiratory systems?
+    2. Is there an organ present that is known to be attached to major blood vessels such as the aorta and pulmonary arteries?
+    3. Can you identify an organ that is typically surrounded by structures like the pericardium and lungs?
+    4. Does the image include an organ that receives blood supply from coronary arteries and cardiac veins?
+    5. Is there an organ whose function is known to affect other organs such as the brain and kidneys?
+    6. Can you see an organ that pumps deoxygenated blood to the lungs and receives oxygenated blood in return?
+    7. Does the image contain an organ characterized by having four chambers and four main valves?
+    8. Is there an organ present that is regulated by nerves such as the vagus nerve and sympathetic cardiac nerves?
+    9. Can you identify an organ associated with lymphatic structures like cardiac lymphatic vessels and mediastinal lymph nodes?
+    10. Does the image show an organ whose dysfunction can lead to diseases such as heart failure or pulmonary edema?
+
+  [Contexual Properties]
+    1. Does the image show an organ that is known to become enlarged in conditions such as hypertension or cardiomyopathy?
+    2. Is there an organ present whose wall can thicken in response to chronic pressure overload, as seen in hypertension or aortic stenosis?
+    3. Can you identify an organ that may decrease in size after severe injury or in restrictive disease states?
+    4. Does the image include an organ that can accumulate excess fat in metabolic disorders, leading to fatty infiltration?
+    5. Is there an organ present whose tissue structure is known to become abnormal in certain diseases or after injury?
+    6. Can you identify an organ that may become fibrotic following chronic injury or in hypertensive disease?
+    7. Does the image show an organ that can change color during acute ischemic events, appearing pale or mottled?
+    8. Is there an organ present that may increase in weight in chronic hypertension or hypertrophic conditions?
+    9. Can you identify an organ whose chamber size may become abnormal in dilated or hypertrophic disease states?
+    10. Does the image include an organ that can develop abnormal density due to infiltrative diseases or calcification?
+    11. Is there an organ present that may become dilated in chronic volume overload or specific cardiomyopathies?
+    12. Can you identify an organ whose stiffness is known to increase in restrictive disease or with extensive fibrosis?
+    13. Does the image show an organ that can accumulate fluid in its surrounding sac during certain pathological conditions?
+    14. Is there an organ present that may develop calcifications in chronic disease or after injury?
+    15. Can you identify an organ whose mass may become abnormal in the presence of primary or metastatic tumors?
+
+  [Contexual Behavior]
+    1. Does the image show an organ that may reduce its pumping efficiency in certain disease states?
+    2. Is there an organ present that increases its rate during physical activity to meet higher metabolic demands?
+    3. Can you identify an organ that may fail to maintain adequate blood flow in severe dysfunction or shock?
+    4. Does the image include an organ that can develop abnormal rhythms under stress or arrhythmogenic conditions?
+    5. Is there an organ whose contractile function declines in diseases such as myocardial infarction or cardiomyopathy?
+    6. Can you identify an organ that compensates for increased blood pressure by thickening its walls and increasing muscle mass?
+    7. Does the image show an organ whose oxygen demand rises during exertion as it works harder to supply tissues?
+    8. Is there an organ that becomes unable to respond to increased workload in advanced disease or severe vascular compromise?
+    9. Can you identify an organ that may show impaired electrical conduction in certain pathological conditions?
+    10. Does the image include an organ that enlarges in response to chronic hypertension due to increased workload?
+    11. Is there an organ whose output decreases during failure as its ability to pump blood is compromised?
+    12. Can you identify an organ that experiences reduced perfusion during ischemia when its blood supply is compromised?
+    13. Does the image show an organ that adapts its function in response to anemia by increasing rate and output?
+    14. Is there an organ whose activity changes during sleep, typically slowing down and showing increased vagal tone?
+    15. Can you identify an organ that alters its behavior after tissue injury by remodeling and potentially developing arrhythmias or reduced contractility?
+
+======================================================================
+  CONCEPT: HEMATOPOIETIC PRECURSORS
+======================================================================
+
+  [Properties]
+    1. Can you identify a cell that is known to have a typical diameter ranging from 10 to 20 micrometers?
+    2. Is there a cell present that would typically have a round to oval shape?
+    3. Does the image show a cell that is characterized by a high nuclear-to-cytoplasmic ratio, often greater than 2:1?
+    4. Can you find a cell that is known to appear basophilic under a microscope, with blue to purple cytoplasm and dark-staining nuclei?
+    5. Is there a cell that would typically lack granules in early stages but develop lineage-specific granules as it matures?
+    6. Can you identify a cell that is characterized by fine, dispersed chromatin in its early stages?
+    7. Does the image contain a cell whose cytoplasm is known to be rich in ribosomes, RNA, and organelles, with scant cytoplasm in early developmental stages?
+    8. Is there a cell that would typically have an average lifespan of several days, such as 3 to 7 days before differentiation?
+    9. Can you identify a cell that is known to express surface markers such as CD34 and CD117 (c-Kit), along with variable lineage-specific proteins?
+    10. Is there a cell present that would typically have high RNA content, especially in its early stages?
+    11. Does the image show a cell that is characterized by diploid (2N) DNA content in most cases, with variable content during the cell cycle?
+    12. Can you find a cell that would typically express surface markers including CD34, CD38, CD117, and HLA-DR?
+    13. Is there a cell that is known to have moderate mitochondrial content to support active metabolism and proliferation?
+    14. Does the image contain a cell whose typical pH is close to physiological, around 7.2 to 7.4?
+
+  [Functions]
+    1. Does the image show a cell population that gives rise to all types of blood cells through proliferation and differentiation?
+    2. Is there a group of cells present that contributes to the regeneration and renewal of blood cells by continuous cell division?
+    3. Can you identify a cell type that maintains normal hematopoiesis by balancing the production of erythroid, myeloid, and lymphoid lineages?
+    4. Does the image include cells that respond to bone marrow injury or disease by increasing proliferation to restore blood cell counts?
+    5. Is there a cell population present that exhibits lineage-specific gene expression and morphological changes during differentiation into mature blood cells?
+    6. Can you identify cells involved in recovery from chemotherapy or radiation therapy by regenerating damaged blood cell populations?
+    7. Does the image show a cell type that affects immune system function by producing immune cells such as lymphocytes, monocytes, and granulocytes?
+    8. Is there a cell population present that participates in bone marrow transplantation by engrafting and reconstituting the hematopoietic system?
+
+  [Relational]
+    1. Does the image show a cell type that is primarily found in bone marrow or, during development, in fetal liver and spleen?
+    2. Is there a cell present that resides within the bone marrow and gives rise to mature blood cells?
+    3. Can you identify a cell that is known to differentiate into erythrocytes, leukocytes, or platelets?
+    4. Does the image include a cell type whose abnormalities are associated with diseases such as leukemia or myelodysplastic syndromes?
+    5. Is there a cell present that influences organs like the spleen, lymph nodes, or thymus?
+    6. Can you identify a cell that is supported by specialized microenvironments such as the bone marrow niche or stromal cell networks?
+    7. Does the image show a cell type responsible for producing blood components such as red blood cells and platelets?
+    8. Is there a cell present that is essential for generating immune cells and maintaining immune system function?
+
+  [Contexual Properties]
+    1. Is there a tissue present that can increase in the number of certain cells during bone marrow hyperplasia, such as in response to anemia or after chemotherapy recovery?
+    2. Can you identify a tissue in which the number of specific precursor cells is known to decrease in conditions like aplastic anemia or after exposure to myelotoxic agents?
+    3. Does the image show a tissue where precursor cells may exhibit abnormal morphology in disorders such as myelodysplastic syndromes or certain leukemias?
+    4. Is there a tissue that can accumulate abnormal cellular inclusions in disorders like acute myeloid leukemia with Auer rods or in storage diseases?
+    5. Can you identify a tissue where precursor cells are known to change in size, becoming larger in megaloblastic anemia or smaller in iron deficiency anemia?
+    6. Does the image include a tissue in which precursor cell proliferation increases during myeloproliferative neoplasms or bone marrow regeneration?
+    7. Is there a tissue where precursor cells may display dysplastic features in conditions such as myelodysplastic syndromes or after chemotherapy toxicity?
+    8. Can you identify a tissue whose cellular composition changes during leukemias, with a predominance of blasts, or in response to specific lineage stimulation?
+    9. Does the image show a tissue where precursor cells may display altered staining characteristics in conditions like acute leukemia or vitamin deficiencies?
+    10. Is there a tissue in which precursor cells are known to show increased apoptosis in myelodysplastic syndromes or after exposure to cytotoxic drugs?
+
+  [Contexual Behavior]
+    1. Does the image show a cell population that increases its proliferation in response to blood loss or elevated demand for new blood cells?
+    2. Is there a cell lineage present that reduces its differentiation during bone marrow suppression caused by chemotherapy or radiation?
+    3. Can you identify a cell population that may fail to mature properly in the presence of certain genetic mutations associated with congenital bone marrow failure syndromes?
+    4. Does the image include a cell lineage that increases its activity during infection or inflammation due to cytokine stimulation?
+    5. Is there a cell population that decreases its production after chemotherapy as a result of cytotoxic bone marrow damage?
+    6. Can you identify a cell lineage that shows impaired function in aplastic anemia due to bone marrow hypocellularity and stem cell depletion?
+    7. Does the image show a cell population that can shift its lineage commitment under stress conditions such as infection or anemia to favor production of specific cell types?
+    8. Is there a cell lineage that becomes dysfunctional in myelodysplastic syndromes due to abnormal clonal proliferation and ineffective hematopoiesis?
+    9. Can you identify a cell population that increases its output in response to erythropoietin stimulation during hypoxia or anemia?
+    10. Does the image include a cell lineage that may fail to replenish mature blood cells during bone marrow failure, resulting in pancytopenia?
+
+======================================================================
+  CONCEPT: HEMORRHAGE
+======================================================================
+
+  [Functions]
+    1. Does the image show a pathological process that causes loss of blood from the vascular system, leading to tissue hypoxia and potential organ dysfunction?
+    2. Is there a process present that impairs tissue and organ function by reducing oxygen delivery and disrupting cellular metabolism?
+    3. Can you identify a pathological process associated with clinical consequences such as anemia, hypovolemia, or shock?
+    4. Does the image include a process that contributes to hemodynamic instability by decreasing circulating blood volume and lowering blood pressure?
+    5. Is there evidence of a pathological process that triggers activation of the coagulation cascade, inflammation, or compensatory vasoconstriction?
+    6. Can you identify a process that influences wound healing by delaying tissue repair and increasing the risk of infection?
+    7. Does the image show a pathological process that negatively affects patient outcomes in trauma or surgery by increasing morbidity or prolonging recovery?
+    8. Is there a process present that interacts with coagulation mechanisms by stimulating platelet aggregation and clot formation to achieve hemostasis?
+
+  [Relational]
+    1. Does the image show a pathological process that causes blood to leak into or around tissues?
+    2. Is there evidence of a process that can involve organs such as the brain, lungs, or gastrointestinal tract?
+    3. Can you identify a pathological process that is associated with rupture or damage to arteries, veins, or capillaries?
+    4. Does the image include signs of a process that disrupts surrounding tissues by increasing pressure or causing swelling?
+    5. Is there evidence of a pathological process that may be linked to clinical conditions such as trauma or aneurysm rupture?
+    6. Can you see accumulation of blood in anatomical spaces such as the intracranial space or peritoneal cavity that could result from a pathological process?
+    7. Does the image suggest complications in organs, such as infarction or shock, that may arise from a process involving blood loss?
+    8. Is there evidence of a pathological process that can impact body systems such as the circulatory or nervous system?
+
+  [Contexual Behavior]
+    1. Does the image show a pathological process that may increase in severity due to underlying clotting disorders?
+    2. Is there a process present that becomes more difficult to control in patients receiving anticoagulant therapy?
+    3. Can you identify a pathological process that can lead to shock when blood loss is rapid and substantial, such as in trauma situations?
+    4. Does the image include a process that may worsen during surgical procedures if blood vessels are damaged or hemostasis is inadequate?
+    5. Is there a pathological process that may fail to stop due to platelet dysfunction?
+    6. Can you identify a process that causes neurological deficits in the brain when bleeding compresses neural tissue or increases intracranial pressure?
+    7. Does the image show a pathological process that resolves more slowly in patients with impaired synthesis of clotting factors, such as in liver disease?
+    8. Is there a process that triggers compensatory cardiovascular responses like increased heart rate and vasoconstriction during acute blood loss?
+    9. Can you identify a pathological process that becomes life-threatening in clinical contexts such as gastrointestinal bleeding or ruptured aneurysms?
+    10. Does the image include a process that increases the risk of infection in open wounds by providing a medium for microbial growth and impairing tissue defense?
+
+======================================================================
+  CONCEPT: HYALINE GLOBULES
+======================================================================
+
+  [Properties]
+    1. Can you identify a cellular component that is known to have a typical diameter ranging from 1 to 10 micrometers?
+    2. Is there a cellular structure in the image that would typically be round or oval in shape?
+    3. Does the image show a cellular inclusion that is characterized by an eosinophilic or pink appearance with H&E staining?
+    4. Can you identify a cellular component that is known to be composed mainly of proteins such as immunoglobulins, albumin, or cytokeratins?
+    5. Is there a cellular inclusion that would typically be eosinophilic with H&E stain and may also be PAS-positive?
+    6. Does the image contain a cellular structure that is known to have a density higher than the surrounding cytoplasm due to its protein-rich composition?
+    7. Can you identify a cellular component that is characterized by a refractive index typically in the range of 1.40 to 1.50, higher than that of the surrounding cytoplasm?
+    8. Is there a cellular inclusion that would typically be present in few to several numbers per affected cell or tissue section?
+

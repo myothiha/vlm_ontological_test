@@ -1,0 +1,1114 @@
+{
+  "acrocyanosis": {
+    "Functions": {
+      "Can you identify a clinical indicator of impaired peripheral circulation that decreases blood flow to the skin of the extremities without causing tissue damage?": [
+        "language-bias"
+      ],
+      "Can you identify a clinical sign that may impact patient quality of life by causing cosmetic concerns and discomfort due to persistent coldness, though it is usually benign?": [
+        "language-bias"
+      ],
+      "Does the image show a localized, non-hypoxemic form of cyanosis that is persistent, symmetrical, painless, and limited to the extremities?": [
+        "misalignment"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of a condition that involves small arteries, arterioles, or capillaries in the peripheral circulation?": [
+        "language-bias"
+      ],
+      "Can you identify signs of a process that is commonly associated with connective tissue disorders or Raynaud phenomenon?": [
+        "language-bias"
+      ],
+      "Is there evidence of a clinical syndrome, such as Raynaud syndrome or dysautonomia, that may include this pathological process as a feature?": [
+        "language-bias"
+      ],
+      "Can you see signs that are often accompanied by coldness, sweating, or swelling of the extremities?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a process that worsens in the presence of underlying vascular disease when circulation is impaired?": [
+        "language-bias"
+      ],
+      "Is there a process that may persist despite removal of triggering factors in chronic vascular disorders?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that becomes less responsive to standard treatments in severe or refractory cases?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that can fluctuate with emotional stress due to autonomic effects on circulation?": [
+        "language-bias"
+      ]
+    }
+  },
+  "adenomyosis": {
+    "Contextual Behavior": {
+      "Can you identify a disease that may worsen infertility symptoms by interfering with normal uterine function and embryo implantation?": [
+        "language-bias"
+      ],
+      "Is there a disease that becomes more symptomatic during hormonal changes such as perimenopause or hormonal therapy?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that may respond poorly to medical therapy in cases of extensive involvement or hormonal treatment resistance?": [
+        "language-bias"
+      ],
+      "Is there a disease that typically reduces its symptoms after menopause due to decreased estrogen levels?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that contributes to anemia when excessive menstrual bleeding leads to significant blood loss?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify a disease that contributes to abnormal uterine bleeding by increasing vascularity and disrupting the endometrial-myometrial interface?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that alters the myometrium by causing thickening, fibrosis, and loss of normal muscle architecture?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that interacts with other gynecological conditions, potentially exacerbating symptoms and complicating management?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that causes persistent inflammation and nerve sensitization within the uterus, leading to chronic pelvic pain?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a pathological process that primarily impacts the uterus?": [
+        "language-bias"
+      ],
+      "Can you see evidence of endometrial tissue invading and proliferating within the myometrium?": [
+        "language-bias"
+      ]
+    }
+  },
+  "adenosis": {
+    "Functions": {
+      "Is there a breast tissue abnormality that is typically identified through histopathological examination or imaging modalities such as mammography or ultrasound?": [
+        "language-bias"
+      ],
+      "Can you identify a benign glandular proliferation that may slightly increase the risk of developing other breast conditions, especially when associated with atypia?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of a process characterized by proliferation or enlargement of glandular structures within affected tissue?": [
+        "language-bias"
+      ],
+      "Can you identify a tissue change that commonly occurs in organs such as the breast, prostate, or salivary glands?": [
+        "language-bias"
+      ],
+      "Is there evidence of interaction between proliferative glandular tissue and surrounding stromal tissue, such as localized expansion or stromal reaction?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a pathological process that becomes more pronounced in the presence of hormonal imbalances such as excess estrogen or progesterone?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that can lead to clinical symptoms such as breast pain or tenderness during menstrual cycle fluctuations?": [
+        "language-bias"
+      ],
+      "Can you identify a process that increases the risk of developing benign breast conditions such as sclerosing adenosis or fibrocystic changes?": [
+        "misalignment",
+        "language-bias"
+      ]
+    }
+  },
+  "alcoholic_cirrhosis": {
+    "Functions": {
+      "Can you identify a disease that contributes to the development of organ failure by progressively destroying functional tissue and disrupting normal processes?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that impairs metabolism and detoxification by reducing an organ’s capacity to process nutrients, drugs, and toxins?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process characterized by progressive fibrosis, declining organ function, and increased risk of complications over time?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of a pathological process characterized by chronic scarring and dysfunction of an organ due to prolonged alcohol exposure?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that is known to alter blood vessels such as the portal vein and hepatic artery, leading to changes in blood flow?": [
+        "language-bias"
+      ],
+      "Is there evidence of pathological changes involving hepatic parenchyma, fibrous tissue, or vascular structures within an organ?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that is a major cause of portal hypertension due to increased resistance to portal blood flow?": [
+        "language-bias"
+      ],
+      "Is there evidence of anatomical alterations involving structures like liver lobules, portal tracts, or hepatic sinusoids?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that is a leading cause of hepatic encephalopathy due to impaired detoxification?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Is there a disease present that leads to increased risk of hepatic encephalopathy when detoxification capacity declines?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that impairs blood clotting under stress or injury due to reduced synthesis of clotting factors?": [
+        "language-bias"
+      ],
+      "Is there a disease that causes fluid accumulation in the abdomen during progression due to portal hypertension and hypoalbuminemia?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that increases susceptibility to infections as immune function becomes compromised?": [
+        "language-bias"
+      ],
+      "Is there a disease that leads to portal hypertension complications when scarring obstructs blood flow through the liver?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that decreases bile production in advanced stages as hepatocyte function deteriorates?": [
+        "language-bias"
+      ]
+    }
+  },
+  "alpha_smooth_muscle_actin_immunohistochemical": {
+    "Functions": {
+      "Can you identify a diagnostic tool that helps differentiate tissue types by highlighting cells with smooth muscle or myofibroblastic differentiation?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a diagnostic tool that is used to detect myofibroblasts by highlighting their cytoskeletal components?": [
+        "language-bias"
+      ],
+      "Can you see evidence of a diagnostic imaging technique that is used to evaluate anatomical structures like blood vessel walls or the uterus?": [
+        "language-bias"
+      ],
+      "Is there evidence of a diagnostic technique that assists in the diagnosis of diseases like leiomyoma or desmoid tumor?": [
+        "language-bias"
+      ]
+    }
+  },
+  "bone_clivus": {
+    "Properties": {
+      "Can you identify a cranial bone that is characterized by a sloped, triangular shape forming part of the skull base?": [
+        "language-bias"
+      ],
+      "Is there a cranial bone that would typically be composed of cortical and cancellous bone, with hydroxyapatite and collagen as main components?": [
+        "language-bias"
+      ],
+      "Can you identify a cranial bone that is estimated to weigh only a few grams due to its small size?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Is there an anatomical structure present that acts as a barrier protecting neural tissues at the cranial base?": [
+        "language-bias"
+      ],
+      "Can you identify a bony region that may serve as a pathway or barrier for the spread of cranial base tumors?": [
+        "language-bias"
+      ],
+      "Is there an anatomical region that is commonly evaluated with imaging modalities such as MRI or CT for assessment of lesions, fractures, or infiltration at the skull base?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Can you identify a bony structure whose injury or disease may result in cranial nerve deficits or brainstem dysfunction?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify an anatomical structure that is closely related to neurovascular structures such as the basilar artery and abducens nerve?": [
+        "language-bias"
+      ],
+      "Is there an anatomical structure that is located anterior to the brainstem and forms part of the cranial base supporting it?": [
+        "language-bias"
+      ],
+      "Is there evidence of an anatomical structure that may be accessed using surgical approaches such as the transclival or endoscopic endonasal approach?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify a bone that is known to increase in thickness in disorders like Paget's disease or fibrous dysplasia?": [
+        "language-bias"
+      ],
+      "Can you identify a bone that is known to become sclerotic in response to chronic inflammation, metastatic prostate cancer, or Paget's disease?": [
+        "language-bias"
+      ],
+      "Can you identify a bone that is known to become infiltrated by tumor in cases of nasopharyngeal carcinoma, chordoma, or metastatic disease?": [
+        "misalignment",
+        "language-bias"
+      ]
+    }
+  },
+  "borderline_serous_cystadenoma": {
+    "Properties": {
+      "Can you identify a tumor that is characterized by a unilocular or multilocular cystic shape with smooth or slightly irregular contours?": [
+        "language-bias"
+      ],
+      "Is there a tumor that would typically be composed of cystic fluid, fibrous stroma, and a lining of serous epithelial cells with papillary structures?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor that is known to contain clear, watery, serous fluid?": [
+        "language-bias"
+      ],
+      "Is there a tumor present that is characterized by a low mitotic index, typically less than 4 mitoses per 10 high-power fields?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor that would typically exhibit mild to moderate nuclear atypia without severe pleomorphism?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Can you identify a tumor that is characterized by a cyst wall thickness of 1 to 5 millimeters?": [
+        "language-bias"
+      ],
+      "Is there a tumor that would typically have a low protein concentration in its cyst fluid, usually less than 3 grams per deciliter?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Is there a neoplasm present that can affect ovarian tissue function by causing mass effect or disrupting normal ovarian architecture?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor that is associated with a low but present risk of recurrence and rare potential for malignant transformation?": [
+        "language-bias"
+      ],
+      "Can you identify a neoplasm that presents as a multilocular cystic ovarian mass with papillary projections and stratified epithelium in imaging or pathology?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of a neoplasm that involves the ovarian surface epithelium and underlying stromal tissue?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor that is classified as an epithelial ovarian neoplasm?": [
+        "language-bias"
+      ],
+      "Is there evidence of a neoplasm that may compress or invade surrounding ovarian tissue without destructive stromal invasion?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify a tumor whose cyst fluid composition is known to change in the presence of hemorrhage, infection, or increased protein content?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor that becomes multilocular when multiple cystic spaces form due to septation within the lesion?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor whose wall thickness is known to change due to fibrosis, inflammation, or tumor progression?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a tumor that, in rare cases, may progress toward invasive carcinoma with additional genetic alterations or prolonged disease duration?": [
+        "language-bias"
+      ],
+      "Is there a tumor that can exhibit more aggressive features under certain genetic mutations like KRAS or BRAF?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor that becomes symptomatic when it grows large enough to cause abdominal pain, bloating, or pressure effects?": [
+        "language-bias"
+      ],
+      "Is there a tumor that can demonstrate atypical cellular behavior, such as reactive changes or increased proliferation, in response to inflammation?": [
+        "language-bias"
+      ]
+    }
+  },
+  "brain": {
+    "Properties": {
+      "Is there an organ in the image that would normally weigh approximately 1,300–1,400 grams in adults?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that is characterized by a pinkish-gray coloration?": [
+        "language-bias"
+      ],
+      "Is there an organ that would typically have a volume of about 1,200–1,400 milliliters in adults?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that is known to have a water content of approximately 75–80 percent of its weight?": [
+        "language-bias"
+      ],
+      "Is there an organ present that would typically have a protein composition of roughly 8–10 percent of its wet weight?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that is characterized by a glucose concentration of 0.7–2.5 mmol/L in its tissue?": [
+        "language-bias"
+      ],
+      "Is there an organ that would typically have a density of approximately 1.03–1.05 grams per cubic centimeter?": [
+        "language-bias"
+      ],
+      "Can you identify an organ with a normal pH around 7.1–7.3?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that is characterized by having four major lobes in each hemisphere: frontal, parietal, temporal, and occipital?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify an organ that supports learning, reasoning, and memory formation?": [
+        "language-bias"
+      ],
+      "Is there an organ that processes sensory information by receiving and interpreting signals from the environment?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that exhibits neuroplasticity and compensatory reorganization in response to injury or disease?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that enables language processing and communication through specialized cortical regions?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there an organ present that is supplied by major blood vessels such as the internal carotid arteries and vertebral arteries?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that is protected by structures like the skull and meninges?": [
+        "language-bias"
+      ],
+      "Is there an organ that is directly connected to the spinal cord, forming part of the central nervous system?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that is separated from other tissues by barriers like the blood-brain barrier and meninges?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify an organ that may exhibit abnormal accumulation of fluid in specific disease states?": [
+        "language-bias"
+      ],
+      "Is there an organ whose density is known to change on imaging during hemorrhage, infarction, or demyelinating diseases?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that may exhibit swelling in response to trauma, infection, or ischemic injury?": [
+        "language-bias"
+      ],
+      "Is there an organ present that may develop abnormal tissue structure in the setting of tumors, malformations, or chronic injury?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that is known to accumulate abnormal protein deposits in diseases such as Alzheimer's or Parkinson's disease?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Is there an organ that can become atrophic in chronic neurodegenerative conditions or after prolonged hypoxia?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Can you identify an organ that may display abnormal iron accumulation in certain neurodegenerative disorders?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Is there an organ whose weight is known to change due to atrophy in chronic disease or swelling in acute injury?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that may exhibit abnormal levels of neurotransmitters in specific neurological or psychiatric disorders?": [
+        "misalignment",
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify an organ that may fail to regulate body temperature properly in cases of injury or dysfunction?": [
+        "language-bias"
+      ],
+      "Is there an organ that shows impaired memory function after injury such as trauma or stroke?": [
+        "language-bias"
+      ],
+      "Is there an organ that may lose its ability to coordinate movement in specific neurological diseases?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that changes its electrical activity during sleep, showing distinct patterns?": [
+        "language-bias"
+      ],
+      "Is there an organ that adapts its functions after injury through reorganization of neural circuits?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that becomes more sensitive to pain in chronic pain conditions?": [
+        "language-bias"
+      ],
+      "Is there an organ that compensates for sensory loss by enhancing other sensory modalities or reorganizing itself?": [
+        "language-bias"
+      ],
+      "Can you identify an organ whose plasticity increases after injury to support recovery and reorganization?": [
+        "language-bias"
+      ]
+    }
+  },
+  "calvarium": {
+    "Properties": {
+      "Can you identify a bone structure that would typically weigh approximately 400 to 500 grams in adults?": [
+        "language-bias"
+      ],
+      "Can you identify a bone structure with a typical bone density of about 1.3 to 1.7 grams per cubic centimeter?": [
+        "language-bias"
+      ],
+      "Is there a bone structure that is composed primarily of compact and spongy bone, consisting of hydroxyapatite, collagen, and water?": [
+        "language-bias"
+      ],
+      "Is there a bone structure that would typically enclose a volume of about 1,200 to 1,500 milliliters in adults?": [
+        "language-bias"
+      ],
+      "Can you identify a bone structure whose mineral content is mainly calcium and phosphate in the form of hydroxyapatite?": [
+        "language-bias"
+      ],
+      "Is there a bone structure that is known to have a water content of approximately 10 to 20 percent by weight?": [
+        "language-bias"
+      ],
+      "Is there a bone structure that would typically have a cortical bone thickness of about 1 to 2 millimeters?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Is there an anatomical structure present that contributes to the structural integrity and stability of the cranial vault?": [
+        "language-bias"
+      ],
+      "Can you identify a bony structure that shields intracranial contents from trauma by absorbing and dispersing impact forces?": [
+        "language-bias"
+      ],
+      "Is there an anatomical structure whose defects or fractures are associated with increased risk of brain injury and infection?": [
+        "language-bias"
+      ],
+      "Can you identify a bony structure that interacts with other cranial components during growth by accommodating brain expansion and fusing at sutures?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there a bone present that contains anatomical structures like the brain and cerebral blood vessels?": [
+        "language-bias"
+      ],
+      "Can you identify a bone that is adjacent to the scalp externally and the meninges internally?": [
+        "language-bias"
+      ],
+      "Is there a bone associated with blood vessels such as the middle meningeal artery and diploic veins?": [
+        "language-bias"
+      ],
+      "Can you identify a bone that is commonly affected by injuries or diseases such as skull fractures or bone tumors?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify a bony structure whose density is known to become abnormal in metabolic bone diseases such as osteopetrosis or osteomalacia?": [
+        "language-bias"
+      ],
+      "Is there a bony structure that is known to show increased porosity in conditions like hyperparathyroidism or thalassemia?": [
+        "language-bias"
+      ],
+      "Can you identify a bony structure that may become deformed in congenital disorders such as craniosynostosis or in rickets?": [
+        "language-bias"
+      ],
+      "Can you identify a bony structure that may show abnormal mineralization in conditions such as rickets, osteomalacia, or chronic kidney disease?": [
+        "language-bias"
+      ],
+      "Can you identify a bony structure whose inner or outer surfaces are known to become irregular in disorders such as fibrous dysplasia or following trauma?": [
+        "language-bias"
+      ]
+    }
+  },
+  "carcinomatosis": {
+    "Functions": {
+      "Can you identify a malignancy that is known to cause obstruction, effusion, or impaired organ function?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that often requires systemic therapy and limits the effectiveness of surgical intervention?": [
+        "language-bias"
+      ],
+      "Is there evidence of a malignancy that indicates advanced disease with poor prognosis?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Does the image include a disease associated with pain, ascites, effusions, or increased risk of organ failure?": [
+        "misalignment"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of a disease process characterized by dissemination of malignant cells from primary tumors to distant sites?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that involves anatomical spaces such as the peritoneal or pleural cavities?": [
+        "language-bias"
+      ],
+      "Is there evidence of a disease that is strongly associated with widespread secondary tumor deposits?": [
+        "language-bias"
+      ],
+      "Can you identify a malignancy that involves lymphatic structures such as regional lymph nodes or lymphatic vessels to facilitate tumor spread?": [
+        "language-bias"
+      ],
+      "Is there evidence of a pathological process characterized by peritoneal dissemination, often associated with gastrointestinal or ovarian cancers?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a malignancy that becomes resistant to standard therapies after repeated exposure to chemotherapy or targeted agents?": [
+        "language-bias"
+      ],
+      "Is there a malignancy that can alter its pattern of spread in response to treatment by selecting for resistant tumor clones or changing metastatic routes?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that results in more severe systemic symptoms as tumor burden increases and paraneoplastic syndromes develop?": [
+        "language-bias"
+      ],
+      "Is there a disease that increases the risk of secondary complications such as infection, bowel obstruction, or thromboembolism in advanced stages?": [
+        "language-bias"
+      ],
+      "Can you identify a malignancy that becomes less responsive to chemotherapy after the development of multidrug resistance or tumor heterogeneity?": [
+        "language-bias"
+      ]
+    }
+  },
+  "chronic_inflammatory_cells": {
+    "Properties": {
+      "Can you identify a cell that would typically have a round to oval shape, though some may be slightly irregular?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that would typically have a lifespan ranging from days to years depending on the subtype?": [
+        "language-bias"
+      ],
+      "Is there a cell that is characterized by basophilic nuclei with scant, lightly stained cytoplasm, or more abundant pale cytoplasm in some types?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that would typically express surface markers such as CD3, CD20, CD68, or CD138?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify immune cells that contribute to tissue damage by releasing enzymes and reactive oxygen species, as well as promote fibrosis and tissue remodeling?": [
+        "language-bias"
+      ],
+      "Is there evidence of immune cells that induce structural changes in surrounding tissues, promote fibrosis, and alter normal tissue function?": [
+        "language-bias"
+      ],
+      "Can you identify immune cells that interact with other immune cells by presenting antigens and modulating immune responses in disease processes?": [
+        "language-bias"
+      ],
+      "Can you identify immune cells that contribute to persistent symptoms, tissue destruction, and complications such as organ dysfunction in chronic inflammatory conditions?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of cells that are typically present in diseases like tuberculosis or rheumatoid arthritis?": [
+        "language-bias"
+      ],
+      "Can you identify cells that are known to contribute to granuloma formation by aggregating around persistent antigens?": [
+        "language-bias"
+      ],
+      "Is there evidence of cell infiltration in organs commonly affected by prolonged inflammation, such as the lungs or liver?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify a tissue in which certain cells are known to change in size during activation or transformation, such as in granulomatous diseases?": [
+        "language-bias"
+      ],
+      "Is there a tissue that can accumulate a particular cell type during chronic infections or granulomatous inflammation?": [
+        "language-bias"
+      ],
+      "Can you identify a tissue where certain cells show increased cytoplasmic granularity when activated or in response to infection?": [
+        "language-bias"
+      ],
+      "Can you identify a tissue in which certain cells display increased mitotic activity in lymphoproliferative disorders or during active immune responses?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Is there a cell population present that can reduce its function during immunosuppressive therapy due to inhibition of immune signaling?": [
+        "language-bias"
+      ],
+      "Can you identify immune cells that may fail to resolve inflammation in autoimmune diseases by perpetuating self-directed responses?": [
+        "language-bias"
+      ],
+      "Is there a cell population that contributes to tissue damage in chronic inflammatory conditions through prolonged release of mediators?": [
+        "language-bias"
+      ],
+      "Can you identify immune cells that become less effective at controlling pathogens when immune evasion or exhaustion occurs?": [
+        "language-bias"
+      ],
+      "Is there a cell population that shifts its role in response to anti-inflammatory medications by decreasing pro-inflammatory activity?": [
+        "language-bias"
+      ]
+    }
+  },
+  "colon": {
+    "Properties": {
+      "Can you identify an organ that is characterized by a weight of approximately 1.5 kilograms when empty?": [
+        "language-bias"
+      ],
+      "Is there an organ that would typically have a tubular, segmented shape with sacculations known as haustra?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that is characterized by a normal wall thickness of 2 to 3 millimeters when distended?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Can you identify an organ whose wall is known to contain approximately 70 to 75 percent water?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that is characterized by a bacterial concentration of about 10¹¹ to 10¹² bacteria per gram of content?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that would typically have a soft and pliable tissue texture?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify an organ that supports the maintenance of gut microbiota by providing an environment for beneficial bacteria?": [
+        "language-bias"
+      ],
+      "Is there an organ that participates in the fermentation of undigested carbohydrates by resident bacteria?": [
+        "language-bias"
+      ],
+      "Can you identify an organ involved in the absorption of vitamins produced by gut bacteria, such as vitamin K?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify an organ that is located near structures such as the bladder or kidneys?": [
+        "language-bias"
+      ],
+      "Can you identify an organ involved in the digestive process by absorbing water and electrolytes?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify an organ that is known to develop polyps due to genetic predisposition or chronic inflammation?": [
+        "language-bias"
+      ],
+      "Is there an organ that can become dilated in response to obstruction, pseudo-obstruction, or severe constipation?": [
+        "language-bias"
+      ],
+      "Can you identify an organ whose mucosal permeability increases during active inflammation such as in ulcerative colitis?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that is known to develop ulcerations in inflammatory, infectious, or ischemic conditions?": [
+        "language-bias"
+      ],
+      "Is there an organ that becomes inflamed during infections, inflammatory diseases, or ischemic injury?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that develops diverticula with increased intraluminal pressure and wall weakening, especially in older adults?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that becomes edematous in acute inflammation, infection, or ischemia?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify an organ that may reduce its ability to reabsorb electrolytes in inflammatory or diarrheal diseases?": [
+        "language-bias"
+      ],
+      "Can you identify an organ whose microbiome composition may change during disease states or antibiotic use?": [
+        "language-bias"
+      ],
+      "Is there an organ that increases peristaltic activity during infection or acute gastroenteritis?": [
+        "language-bias"
+      ],
+      "Can you identify an organ that may decrease its absorption due to injury from ischemia, radiation, or severe inflammation?": [
+        "language-bias"
+      ],
+      "Is there an organ that exhibits reduced contractility in response to certain medications?": [
+        "language-bias"
+      ],
+      "Can you identify an organ whose function changes after surgical resection, leading to altered absorption and motility?": [
+        "language-bias"
+      ],
+      "Is there an organ that may fail to maintain normal pH balance in severe diarrhea or metabolic disturbances?": [
+        "language-bias"
+      ]
+    }
+  },
+  "completion_of_cell_division": {
+    "Functions": {
+      "Can you identify a process whose abnormality can lead to genomic instability and tumorigenesis?": [
+        "language-bias"
+      ],
+      "Can you identify a cellular process regulated by cell cycle checkpoints and signaling pathways to ensure fidelity?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a cellular process that accelerates in cancerous cells because of dysregulated cell cycle control?": [
+        "language-bias"
+      ],
+      "Is there a cellular process that may halt in response to checkpoint activation when errors or damage are detected?": [
+        "language-bias"
+      ],
+      "Can you identify a process that becomes abnormal in the presence of mitotic inhibitors disrupting spindle formation or chromosome segregation?": [
+        "language-bias"
+      ],
+      "Is there a cellular process that can be disrupted by genetic mutations affecting key cell cycle regulators?": [
+        "language-bias"
+      ]
+    }
+  },
+  "cytoplasm": {
+    "Properties": {
+      "Can you identify a cell that is known to have a cytoplasmic compartment with a typical water content of about 70–85 percent by weight?": [
+        "language-bias"
+      ],
+      "Can you find a cell whose cytoplasm is known to contain proteins, ions, lipids, carbohydrates, nucleic acids, and various small molecules?": [
+        "language-bias"
+      ],
+      "Is there a cell whose cytoplasmic protein concentration would usually be in the range of 100–300 mg/mL?": [
+        "language-bias"
+      ],
+      "Can you identify a cell with a cytoplasmic glucose concentration typically between 0.5 and 2 mM?": [
+        "language-bias"
+      ],
+      "Can you find a cell whose cytoplasm generally contains less than 5 percent lipids by mass?": [
+        "language-bias"
+      ],
+      "Is there a cell whose cytoplasmic temperature under normal conditions would be close to core body temperature, around 37 °C?": [
+        "language-bias"
+      ],
+      "Can you identify a cell with a cytoplasmic density of about 1.03–1.05 g/cm³?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify a part of the cell that enables intracellular transport through cytoskeletal elements?": [
+        "language-bias"
+      ],
+      "Is there a cellular structure that participates in transmitting signals and distributing signaling molecules?": [
+        "language-bias"
+      ],
+      "Can you identify a region of the cell that exhibits cytoplasmic streaming and cytokinesis during cell division?": [
+        "language-bias"
+      ],
+      "Is there a cellular compartment that may accumulate abnormal proteins or inclusions, contributing to cellular dysfunction?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a cell region that contains organelles like mitochondria and endoplasmic reticulum?": [
+        "language-bias"
+      ],
+      "Is there evidence of a cell region where proteins, RNA, ions, or metabolites are transported?": [
+        "language-bias"
+      ],
+      "Can you see a cell component that contains a network of protein filaments known as the cytoskeleton?": [
+        "language-bias"
+      ],
+      "Is there a cell component involved in processes like signal transduction, protein synthesis, or vesicular transport?": [
+        "language-bias"
+      ],
+      "Does the image show a cell component that contains structures such as organelles and inclusions?": [
+        "misalignment"
+      ],
+      "Is there a cell component present that is enclosed by the cell membrane and separated from the extracellular environment?": [
+        "misalignment"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify a tissue component that is known to change in viscosity during cellular stress or injury, such as hypoxia or ATP depletion?": [
+        "language-bias"
+      ],
+      "Can you identify a tissue component whose color is known to change during cell injury, such as increased eosinophilia in necrosis or basophilia in reactive states?": [
+        "language-bias"
+      ],
+      "Is there a tissue component that shows altered pH levels during metabolic disturbances like lactic acidosis or ischemia?": [
+        "language-bias"
+      ],
+      "Can you identify a tissue component whose volume is known to decrease during apoptosis due to cell shrinkage and condensation?": [
+        "language-bias"
+      ],
+      "Can you identify a tissue component that displays abnormal ion concentrations during disruptions in membrane integrity, such as in ischemia or toxin exposure?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a cell structure that increases its role in buffering pH changes during acidosis?": [
+        "language-bias"
+      ],
+      "Is there a cell compartment that accumulates abnormal substances in pathological conditions such as storage diseases or protein aggregation disorders?": [
+        "language-bias"
+      ],
+      "Can you identify a cellular structure whose viscosity changes during dehydration or hyperosmolar states?": [
+        "language-bias"
+      ],
+      "Is there a cell compartment that may fail to maintain ion balance during cellular injury such as ischemia or toxin exposure?": [
+        "language-bias"
+      ],
+      "Can you identify a cellular structure that alters its function to support viral replication and assembly during infection?": [
+        "language-bias"
+      ]
+    }
+  },
+  "ductopenia": {
+    "Functions": {
+      "Is there evidence of a process associated with chronic inflammation and progressive loss of bile ducts in the liver?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that contributes to cholestasis, fibrosis, or cirrhosis in hepatic tissue?": [
+        "language-bias"
+      ],
+      "Can you identify a histological marker used in the diagnosis of cholestatic liver disorders such as primary biliary cholangitis or graft-versus-host disease?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of a disease process that is known to be associated with the liver as its primary organ?": [
+        "language-bias"
+      ],
+      "Can you identify features consistent with diseases such as primary biliary cholangitis or chronic rejection after liver transplantation?": [
+        "language-bias"
+      ],
+      "Is there evidence of chronic inflammation or immune-mediated injury linked to bile duct destruction?": [
+        "language-bias"
+      ],
+      "Can you see tissue changes that would impact the epithelial cells lining the bile ducts, such as cholangiocytes?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a pathological process that becomes more pronounced after liver transplantation in cases of chronic rejection or biliary complications?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that progresses in autoimmune liver conditions due to immune-mediated duct injury?": [
+        "language-bias"
+      ],
+      "Can you identify a process that results in liver dysfunction when extensive duct loss impairs bile-dependent functions?": [
+        "language-bias"
+      ]
+    }
+  },
+  "edema": {
+    "Functions": {
+      "Is there evidence of a complication that causes swelling and impairs tissue function or nutrient exchange?": [
+        "language-bias"
+      ],
+      "Can you identify a process that increases the risk of pain, limited mobility, infection, or compromised organ performance?": [
+        "language-bias"
+      ],
+      "Can you identify a complication that delays wound healing and increases the risk of chronic wounds or infection?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of a pathological process affecting organs such as the lungs, brain, liver, or kidneys by causing fluid buildup?": [
+        "language-bias"
+      ],
+      "Can you identify tissue findings that may be related to impaired lymphatic drainage?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a process that typically resolves with diuretic therapy as excess fluid is removed?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that can develop rapidly due to allergic reactions when increased vascular permeability leads to sudden fluid leakage?": [
+        "language-bias"
+      ],
+      "Can you identify a process that decreases after successful treatment of underlying liver disease?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that can persist despite standard treatment in cases of severe or refractory disease?": [
+        "language-bias"
+      ],
+      "Can you identify a process that interferes with wound healing by increasing tissue pressure and impairing oxygen delivery?": [
+        "language-bias"
+      ]
+    }
+  },
+  "electron_microscopy": {
+    "Functions": {
+      "Can you identify a diagnostic tool that assists in the evaluation of renal disorders by revealing glomerular basement membrane changes and immune deposits?": [
+        "language-bias"
+      ],
+      "Can you identify an imaging modality that contributes to the study of cellular organelles in disease by enabling detailed examination of mitochondria and lysosomes?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify an imaging modality that is frequently used to analyze kidney, nerve, or muscle tissue in clinical practice?": [
+        "language-bias"
+      ],
+      "Can you identify an imaging modality that is used to assist in the diagnosis of diseases like glomerular diseases or neuromuscular disorders?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify an imaging modality that reveals ultrastructural changes in disease conditions when cellular organelles or membranes are altered?": [
+        "language-bias"
+      ],
+      "Is there an imaging modality whose use increases in the investigation of rare diseases when conventional methods are inconclusive?": [
+        "language-bias"
+      ],
+      "Can you identify a diagnostic tool that becomes necessary for confirming a clinical diagnosis when definitive identification of specific organelle or pathogen morphology is required?": [
+        "language-bias"
+      ],
+      "Is there a diagnostic tool that offers unique insights during infectious disease outbreaks by enabling direct visualization of viral particles or microbial structures?": [
+        "language-bias"
+      ]
+    }
+  },
+  "endocrine_system": {
+    "Properties": {
+      "Can you identify a group of glands that is characterized by including the pituitary, thyroid, adrenal, pancreas, and gonads?": [
+        "language-bias"
+      ],
+      "Is there a system of glands whose typical hormone concentrations range from picograms to nanograms per milliliter?": [
+        "language-bias"
+      ],
+      "Can you identify glands that would typically have a density similar to soft tissue, approximately 1.03–1.06 grams per cubic centimeter?": [
+        "language-bias"
+      ],
+      "Does the image contain glands that are known to have a water content of about 70–80 percent of their weight?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Is there an organ system present that controls hormone production and secretion through feedback mechanisms involving the hypothalamus and pituitary gland?": [
+        "language-bias"
+      ],
+      "Can you identify an organ system responsible for maintaining metabolic balance by regulating glucose and lipid metabolism?": [
+        "language-bias"
+      ],
+      "Is there an organ system present that responds to stress by activating hormonal pathways such as the hypothalamic-pituitary-adrenal axis?": [
+        "language-bias"
+      ],
+      "Can you identify an organ system that regulates reproductive processes, including menstrual cycles and gamete production, through hormone secretion?": [
+        "language-bias"
+      ],
+      "Can you identify an organ system whose dysfunction contributes to disease progression by disrupting metabolic control and organ function?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of a system that produces hormones like insulin, cortisol, or thyroid hormones?": [
+        "language-bias"
+      ],
+      "Can you identify an organ system that interacts with the nervous system through neuroendocrine signaling?": [
+        "language-bias"
+      ],
+      "Is there evidence of feedback mechanisms, such as negative or positive feedback loops, involving hormones like cortisol or insulin?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify an organ system whose hormone levels are known to become abnormal in disorders such as hyperthyroidism or Cushing's syndrome?": [
+        "language-bias"
+      ],
+      "Can you identify an organ system that becomes infiltrated by abnormal cells in malignancies such as lymphoma or metastatic cancer?": [
+        "language-bias"
+      ],
+      "Does the image include an organ system that can accumulate excess fat or fluid in disorders such as fatty infiltration or cystic degeneration of glands?": [
+        "misalignment"
+      ],
+      "Can you identify an organ system that demonstrates abnormal vascularity in tumors or inflammatory processes?": [
+        "misalignment"
+      ],
+      "Does the image show an organ system that can develop nodules or masses in conditions like thyroid nodules or pituitary tumors?": [
+        "misalignment"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a system that can fail to maintain metabolic balance in disorders such as diabetes mellitus or thyroid dysfunction?": [
+        "language-bias"
+      ],
+      "Is there a physiological system that becomes overactive in autoimmune conditions like Graves' disease or Hashimoto's thyroiditis?": [
+        "language-bias"
+      ],
+      "Can you identify a system that may show impaired feedback control in disorders such as Cushing's syndrome or primary hyperparathyroidism?": [
+        "language-bias"
+      ],
+      "Can you identify a physiological system that may respond abnormally to medication affecting hormone synthesis or receptor sensitivity?": [
+        "language-bias"
+      ],
+      "Is there a system that decreases hormone output with aging due to reduced glandular function?": [
+        "language-bias"
+      ]
+    }
+  },
+  "epithelioid_cells": {
+    "Properties": {
+      "Can you identify a cell that would typically have a polygonal to oval shape with abundant cytoplasm?": [
+        "language-bias"
+      ],
+      "Can you find a cell that is known to have pink cytoplasm and a pale to dark-staining nucleus when stained with hematoxylin and eosin?": [
+        "language-bias"
+      ],
+      "Is there a cell that would typically have one to two nucleoli per nucleus?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that is generally known to have low lipid content under normal conditions?": [
+        "language-bias"
+      ],
+      "Can you find a cell that would typically have a volume of approximately 4,000 to 14,000 cubic micrometers?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that is characterized by diploid DNA content, corresponding to a normal somatic cell?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify an immune cell that plays a role in sustaining chronic inflammation and organizing cellular aggregates?": [
+        "language-bias"
+      ],
+      "Does the image include a cell type known to interact with pathogens or foreign materials through phagocytosis and antigen presentation?": [
+        "misalignment"
+      ],
+      "Can you identify an immune cell that influences the progression of infectious diseases by localizing infection and limiting pathogen spread through granuloma formation?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a cell that is typically associated with diseases such as tuberculosis or sarcoidosis?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Is there a tissue containing cells that change their staining characteristics when activated in granulomatous diseases?": [
+        "language-bias"
+      ],
+      "Can you identify a tissue with cells that may accumulate cytoplasmic granules in infectious granulomatous diseases such as tuberculosis?": [
+        "language-bias"
+      ],
+      "Can you identify a tissue with cells that display abnormal nuclear morphology in certain neoplastic conditions or chronic inflammatory states?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Can you identify a tissue with cells that show increased mitotic activity in neoplastic conditions such as epithelioid cell tumors?": [
+        "misalignment",
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify immune cells that change their behavior by forming tight clusters in certain granulomatous diseases such as sarcoidosis?": [
+        "language-bias"
+      ],
+      "Is there a cell type that reduces its phagocytic activity as it differentiates and shifts toward secretory and barrier functions?": [
+        "language-bias"
+      ],
+      "Is there a cell type whose ability to form granulomas is impaired in immunodeficient states or when cytokine signaling is disrupted?": [
+        "language-bias"
+      ]
+    }
+  },
+  "fat_necrosis": {
+    "Functions": {
+      "Can you identify a pathological process that induces fibrosis, calcification, or the formation of palpable masses in surrounding tissues?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that appears as irregular lesions with possible calcifications or oil cysts on imaging?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a pathological process that is associated with inflammation due to the release of fatty acids?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process where immune cells such as macrophages or multinucleated giant cells are typically present?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a process that leads to the formation of calcifications when fatty acids released from damaged tissue interact with calcium?": [
+        "language-bias"
+      ],
+      "Is there a process that interferes with normal organ function when extensive necrosis disrupts organ architecture?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that becomes more prominent after trauma or surgery due to direct injury to adipose tissue?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that contributes to the development of palpable masses when fibrous tissue and calcifications accumulate?": [
+        "language-bias"
+      ],
+      "Can you identify a process that results in systemic symptoms when widespread necrosis leads to the release of inflammatory mediators or fat emboli?": [
+        "language-bias"
+      ]
+    }
+  }
+}
