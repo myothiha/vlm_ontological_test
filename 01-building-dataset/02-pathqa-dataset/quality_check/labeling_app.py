@@ -220,6 +220,7 @@ def api_progress():
         "total":            total,
         "flagged":          flagged,
         "concepts_flagged": concepts_flagged,
+        "total_concepts":   len(concepts),
     })
 
 

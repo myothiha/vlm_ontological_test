@@ -901,7 +901,7 @@
             const pct = data.total ? Math.round(data.flagged / data.total * 100) : 0;
             document.getElementById("progressFill").style.width = pct + "%";
             document.getElementById("progressLabel").textContent =
-                `${data.flagged} questions flagged across ${data.concepts_flagged} concepts`;
+                `${data.flagged} flagged (${data.concepts_flagged}/${data.total_concepts} Concepts, ${data.total} Total Qs)`;
         }
 
         // ── Search ───────────────────────────────────────────────────────────

@@ -15,3 +15,8 @@ __pycache__/
 # Per-server model configuration (not tracked in git)
 02-evaluate-models/models_config.py
 01-building-dataset/02-pathqa-dataset/quality_check/login.txt
+
+# Personal quality_check data (should not be shared so multiple people can annotate independently)
+01-building-dataset/02-pathqa-dataset/quality_check/data/labels.json
+01-building-dataset/02-pathqa-dataset/quality_check/data/quality_stats.json
+01-building-dataset/02-pathqa-dataset/quality_check/data/quality_stats.csv

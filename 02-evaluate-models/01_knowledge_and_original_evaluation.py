@@ -53,6 +53,10 @@ dataset = load_dataset("myothiha/conceptbench_path_vqa", split="train", cache_di
 
 # Output result file setup
 csv_output = "results/01_gemma3_yes_no_questions_zero_shot.csv"
+
+# create dir if does not exist.
+os.makedirs(os.path.dirname(csv_output), exist_ok=True)
+
 pd.DataFrame(columns=["index", "reasoning_question", "answer", "model_answer"]).to_csv(csv_output, index=False)
 
 # evaluation time result

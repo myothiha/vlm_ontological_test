@@ -12,6 +12,7 @@ from libs.llm_loader.llm_wrapper.llm_wrapper import LLMWrapper
 from libs.llm_loader.ollama.ollama_wrapper import OllamaWrapper
 from libs.Evaluation.qa_evaluation_with_llm import QAEvaluationLLM
 from libs.hugging_face.DatasetManager import HuggingFaceDatasetManager
+from models_config import models
 
 # Load environment variables
 load_dotenv()
@@ -24,16 +25,7 @@ evaluator = QAEvaluationLLM(llm)
 hf_token = os.getenv("HF_ACCESS_TOKEN")
 login(token=hf_token)
 
-models = [
-    # "llava_34b",
-    # "gemma3_27b",
-    # "llava_med_v1.5_mistral_7b",
-    # "mistral_small3.2_24b",
-    # "qwen2.5vl_72b",
-    "llama3.2_vision_11b_instruct",
-]
-
-for model_name in models:
+for model_name in models.keys():
 
     print(f"Evaluate Answers for {model_name}")
 
