@@ -2,7 +2,6 @@ import re
 import json
 
 from libs.prompt.prompt_manager import PromptTemplateManager
-from libs.llm_loader.llm_wrapper.llm_wrapper import LLMWrapper
 
 class QAEvaluationLLM:
     

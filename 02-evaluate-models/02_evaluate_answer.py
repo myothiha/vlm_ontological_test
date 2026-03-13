@@ -7,8 +7,6 @@ from datasets import load_dataset
 # Add the parent folder to Python's search path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from libs.dataset_loader.processed_pathvqa_dataset_loader import PathVQADatasetLoader
-from libs.llm_loader.llm_wrapper.llm_wrapper import LLMWrapper
 from libs.llm_loader.ollama.ollama_wrapper import OllamaWrapper
 from libs.Evaluation.qa_evaluation_with_llm import QAEvaluationLLM
 from libs.hugging_face.DatasetManager import HuggingFaceDatasetManager
@@ -24,13 +22,14 @@ evaluator = QAEvaluationLLM(llm)
 # Paste your token here (or load from environment variable)
 hf_token = os.getenv("HF_ACCESS_TOKEN")
 login(token=hf_token)
+cache_dir = os.getenv("HF_CACHE_DIR")
 
 for model_name in models.keys():
 
     print(f"Evaluate Answers for {model_name}")
 
     dataset_path = f"myothiha/conceptbench_path_vqa_result_2_{model_name}"
-    dataset = load_dataset(dataset_path, split="train", cache_dir="/mnt/synology/myothiha/HF_CACHE")
+    dataset = load_dataset(dataset_path, split="train", cache_dir=cache_dir)
 
     results = []
     for i, row in enumerate(dataset):
