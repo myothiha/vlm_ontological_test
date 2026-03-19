@@ -1110,5 +1110,793 @@
         "language-bias"
       ]
     }
+  },
+  "acute_cellular_rejection_of_a_kidney_graft": {
+    "Relational": {
+      "Can you identify a process that targets a transplanted organ and leads to immune-mediated injury of graft tissue?": [
+        "language-bias"
+      ],
+      "Is there evidence of pathological changes such as interstitial inflammation, tubulitis, or endarteritis in a transplanted organ?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify a pathological process characterized by lymphocyte infiltration and cytotoxic T-cell activation targeting a transplanted tissue?": [
+        "language-bias"
+      ],
+      "Does the image include features consistent with a process that leads to decreased filtration capacity in a transplanted organ?": [
+        "incoherence"
+      ],
+      "Can you identify a process that requires prompt medical intervention and adjustment of immunosuppressive therapy in transplant recipients?": [
+        "language-bias"
+      ],
+      "Is there evidence of a process that impairs graft function through tubular damage and vascular inflammation?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a pathological process that causes rapid loss of graft function when extensive immune-mediated injury occurs?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that leads to decreased urine output when inflammation impairs renal function?": [
+        "language-bias"
+      ],
+      "Can you identify a process that becomes resistant to steroid treatment in certain clinical scenarios?": [
+        "language-bias"
+      ],
+      "Is there a process that can trigger systemic inflammatory responses during severe rejection episodes?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that may subside after adjustment of immunosuppressive therapy?": [
+        "language-bias"
+      ]
+    }
+  },
+  "amyloid_angiopathy": {
+    "Functions": {
+      "Can you identify a disease that impairs cerebral blood flow through vascular dysfunction and microvascular occlusion?": [
+        "language-bias"
+      ],
+      "Is there evidence of a disease that exacerbates neurodegeneration by promoting vascular injury in the brain?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that commonly acts as a comorbidity in Alzheimer's disease, worsening vascular pathology and disease severity?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of a pathological process that increases the risk of cerebral hemorrhage, especially lobar intracerebral hemorrhage?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that commonly involves the cerebral cortex and leptomeninges?": [
+        "language-bias"
+      ],
+      "Is there evidence of a pathological process that is frequently found in patients with Alzheimer's disease due to amyloid-beta deposition in cerebral vessels?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a disease that may worsen cognitive decline when recurrent microbleeds and ischemic injury occur?": [
+        "language-bias"
+      ],
+      "Is there a disease that can lead to blood-brain barrier disruption as a result of damage to endothelial cells and vessel walls?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that increases susceptibility to ischemic events when affected vessels become occluded or poorly responsive to autoregulation?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that can reduce cerebral perfusion when vessel narrowing and occlusion impair blood flow?": [
+        "language-bias"
+      ]
+    }
+  },
+  "amyloid_angiopathy_r": {
+    "Functions": {
+      "Is there evidence of a disease that is associated with amyloid deposition and vessel wall pathology in cerebral vessels?": [
+        "misalignment"
+      ],
+      "Can you identify a pathological process that increases the risk of stroke or cerebral microbleeds by promoting small vessel rupture?": [
+        "language-bias"
+      ],
+      "Is there a pathological process present that often co-occurs with neurodegenerative diseases such as Alzheimer's disease and exacerbates neurodegeneration?": [
+        "misalignment"
+      ],
+      "Can you identify a disease that disrupts blood-brain barrier integrity by promoting vascular leakage into brain tissue?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify involvement of brain regions such as the cerebral cortex or leptomeninges by a vascular pathological process?": [
+        "incoherence",
+        "language-bias"
+      ],
+      "Can you identify a pathological process in the brain that may lead to complications such as recurrent intracerebral hemorrhage or progressive cognitive decline?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a disease that worsens cognitive decline when recurrent microbleeds or ischemia damage brain tissue?": [
+        "language-bias"
+      ],
+      "Does the image include a disease that contributes to cerebral microbleeds as fragile vessels rupture easily?": [
+        "misalignment"
+      ],
+      "Is there a disease that becomes more severe with age due to progressive amyloid deposition in cerebral vessels?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that alters its behavior in the presence of hypertension by increasing hemorrhagic risk?": [
+        "language-bias"
+      ],
+      "Is there a disease that leads to impaired clearance of amyloid from blood vessels when drainage pathways are compromised?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that shows increased amyloid deposition after traumatic brain injury?": [
+        "language-bias"
+      ]
+    }
+  },
+  "anaplastic_adenocarcinoma": {
+    "Functions": {
+      "Can you identify a malignancy that invades surrounding tissues by breaking down the extracellular matrix?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor associated with rapid disease progression and increased risk of organ failure?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a malignancy that is known for aggressive local invasion and destruction of surrounding tissue structures?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor that is known to metastasize to organs such as the liver, bone, or brain?": [
+        "language-bias"
+      ],
+      "Can you identify a malignancy that is associated with pathological conditions such as rapid progression, necrosis, or extensive tissue destruction?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a malignancy that shows increased invasiveness when epithelial-to-mesenchymal transition is activated?": [
+        "language-bias"
+      ],
+      "Is there a malignancy that may respond poorly to targeted therapies when it harbors mutations bypassing targeted pathways?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor that changes its behavior after radiation treatment by selecting for radioresistant cell populations?": [
+        "language-bias"
+      ],
+      "Can you identify a malignancy that causes more severe clinical symptoms in advanced stages or when vital organs are involved?": [
+        "language-bias"
+      ],
+      "Is there a tumor that displays increased angiogenesis in hypoxic conditions by upregulating pro-angiogenic factors?": [
+        "language-bias"
+      ]
+    }
+  },
+  "apoptosis": {
+    "Functions": {
+      "Can you identify a process that regulates immune function by deleting autoreactive lymphocytes and resolving immune responses?": [
+        "language-bias"
+      ],
+      "Can you identify a biological process whose dysregulation is associated with cancer, autoimmune disorders, or degenerative diseases?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Can you identify a process that limits inflammation and facilitates tissue repair by resolving tissue injury?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a process that is associated with diseases like cancer or neurodegenerative disorders?": [
+        "language-bias"
+      ],
+      "Can you identify a process that is generally non-inflammatory but may lead to secondary inflammation if clearance is defective?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a process that may fail to eliminate damaged cells when its pathways are disrupted or inhibited?": [
+        "language-bias"
+      ],
+      "Is there a cellular process that decreases in cancer cells due to mutations or enhanced survival signaling?": [
+        "language-bias"
+      ],
+      "Can you identify a process that can be activated by immune signaling through cytokines such as TNF-alpha or Fas ligand?": [
+        "language-bias"
+      ],
+      "Is there a process that becomes dysregulated in autoimmune diseases, leading to inappropriate cell death or survival?": [
+        "language-bias"
+      ],
+      "Can you identify a process that plays a protective role during infection by eliminating infected or damaged cells?": [
+        "language-bias"
+      ]
+    }
+  },
+  "canals_of_hering": {
+    "Properties": {
+      "Can you identify a ductular structure in the image that is known to have a typical diameter of approximately 10–15 micrometers?": [
+        "language-bias"
+      ],
+      "Is there a short, narrow, and tortuous tubular structure that would typically measure between 50 and 200 micrometers in length?": [
+        "language-bias"
+      ],
+      "Can you identify a ductular structure that is typically present in numbers of about 3–6 per liver lobule?": [
+        "language-bias"
+      ],
+      "Does the image contain a ductular structure that is usually located at the interface between bile canaliculi and interlobular bile ducts, near the periportal region of a liver lobule?": [
+        "misalignment"
+      ]
+    },
+    "Functions": {
+      "Can you identify a hepatic structure that plays a role in liver regeneration by housing progenitor cells?": [
+        "language-bias"
+      ],
+      "Can you identify a liver tissue component whose dysfunction can lead to impaired bile flow and compromised regeneration?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a tissue interface between hepatocytes and the biliary system that facilitates bile flow?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify a bile duct component that is known to become obstructed in certain congenital or acquired conditions?": [
+        "language-bias"
+      ],
+      "Is there a bile duct structure that may show abnormal cellular composition during regenerative or reactive processes?": [
+        "language-bias"
+      ],
+      "Can you identify a ductal entity that becomes proliferative when hepatic progenitor cells are activated in chronic injury?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Does the image show a bile duct structure that can exhibit inflammatory changes in autoimmune or infectious conditions?": [
+        "misalignment"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify an anatomical structure that increases its regenerative activity by activating hepatic progenitor cells after liver injury?": [
+        "language-bias"
+      ],
+      "Is there an anatomical structure that alters its function during hepatic inflammation by increasing progenitor cell activation and participating in repair?": [
+        "language-bias"
+      ],
+      "Can you identify an anatomical structure that contributes to impaired liver regeneration when its progenitor cell niche is damaged or depleted?": [
+        "language-bias"
+      ]
+    }
+  },
+  "carcinoma_metastatic_lung": {
+    "Functions": {
+      "Can you identify a malignancy that affects lung function by obstructing airways and reducing gas exchange?": [
+        "language-bias"
+      ],
+      "Can you identify a disease that is associated with poor prognosis and reduced survival rates?": [
+        "language-bias"
+      ],
+      "Can you identify a malignancy that influences oncology treatment strategies by necessitating systemic therapies and palliative care approaches?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a malignancy that is known to involve regional and distant lymph nodes during its spread?": [
+        "language-bias"
+      ],
+      "Can you identify a tumor that originates in the lung and is known to spread to other organs?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Is there a cancer present that can become resistant to targeted therapies after developing secondary genetic alterations or activating alternative signaling pathways?": [
+        "language-bias"
+      ],
+      "Can you identify a malignancy that alters its growth pattern after chemotherapy by selecting for resistant cell clones or inducing phenotypic changes?": [
+        "language-bias"
+      ],
+      "Is there a malignancy that may reduce its response to immunotherapy when tumor cells evade immune detection or create an immunosuppressive environment?": [
+        "language-bias"
+      ],
+      "Can you identify a cancer that changes its metastatic behavior in response to hormonal changes by altering receptor expression or signaling pathways?": [
+        "language-bias"
+      ],
+      "Is there a cancer that decreases its proliferation after radiation therapy as a result of DNA damage and cell cycle arrest?": [
+        "language-bias"
+      ],
+      "Can you identify a malignancy that modifies its metastatic potential due to genetic mutations affecting cell adhesion, motility, or invasion?": [
+        "language-bias"
+      ]
+    }
+  },
+  "contusion_and_abrasion_focus": {
+    "Relational": {
+      "Can you identify a pathological process that is related to blood vessels through rupture or localized bleeding?": [
+        "language-bias"
+      ],
+      "Can you see features consistent with a pathological process that may present in the context of soft tissue injury, accident, or physical assault?": [
+        "language-bias"
+      ],
+      "Is there evidence of a pathological process that is linked to hemorrhage, inflammation, or tissue repair?": [
+        "language-bias"
+      ],
+      "Does the image include signs of an injury commonly associated with blunt trauma or falls?": [
+        "language-bias"
+      ]
+    },
+    "Properties": {
+      "Can you identify a pathological condition that is characterized by being superficial for some forms (limited to the epidermis) and up to several millimeters deep for others?": [
+        "language-bias"
+      ],
+      "Is there a pathological condition that would typically have a rough or scabbed texture in some areas and a swollen or firm texture in others?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological condition that is known to cover an area ranging from less than 1 square centimeter to over 10 square centimeters?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological condition that is characterized by discoloration lasting about 1 to 2 weeks depending on severity and healing?": [
+        "language-bias"
+      ]
+    }
+  },
+  "cardiovascular": {
+    "Functions": {
+      "Can you identify a system that maintains blood pressure through coordinated actions of the heart and blood vessels?": [
+        "language-bias"
+      ],
+      "Can you identify a system that may exhibit dysfunctions such as arrhythmias, hypertension, or heart failure during disease states?": [
+        "language-bias"
+      ],
+      "Can you identify a system that adapts to changes in body position or volume status by altering vascular tone and heart rate?": [
+        "language-bias"
+      ]
+    }
+  },
+  "cell_cycle": {
+    "Functions": {
+      "Can you identify a process that enables tissue growth and repair by producing new cells to replace damaged or lost tissue?": [
+        "language-bias"
+      ],
+      "Can you identify a process that uses checkpoints to prevent abnormal cell division in response to DNA damage?": [
+        "language-bias"
+      ],
+      "Can you identify a process that influences the effectiveness of chemotherapy by determining the sensitivity of rapidly dividing cells?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a process whose disruption is associated with diseases such as cancer or genetic disorders?": [
+        "language-bias"
+      ],
+      "Is there a process influenced by signaling pathways such as the p53 or Rb pathways?": [
+        "language-bias"
+      ],
+      "Does the image show cells that may have altered regulation of a process commonly affected in cancer or genetic mutations?": [
+        "incoherence",
+        "misalignment"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a process that accelerates in cancerous cells because of loss of normal regulatory controls?": [
+        "language-bias"
+      ],
+      "Is there a biological process that becomes dysregulated in genetic disorders affecting regulatory proteins?": [
+        "incoherence",
+        "language-bias"
+      ],
+      "Can you identify a process that pauses during cellular stress to prevent propagation of damaged cells?": [
+        "language-bias"
+      ],
+      "Is there a biological process that becomes impaired by exposure to toxins that damage DNA or disrupt regulatory proteins?": [
+        "language-bias"
+      ],
+      "Can you identify a process that increases its activity during tissue regeneration to replace lost or damaged cells?": [
+        "language-bias"
+      ]
+    }
+  },
+  "chambers_of_the_heart": {
+    "Properties": {
+      "Can you identify an organ that contains internal spaces known to have a left ventricular diameter of approximately 4.5–5.6 centimeters and a right ventricular diameter of about 2.0–3.0 centimeters?": [
+        "language-bias"
+      ],
+      "Can you identify an organ whose internal cavities are known to have an oval or ellipsoid shape with smooth, muscular walls?": [
+        "language-bias"
+      ],
+      "Is there an organ whose internal cavities are composed of layers such as endocardium, myocardium, and epicardium, including cardiac muscle cells and an endothelial lining?": [
+        "language-bias"
+      ],
+      "Can you identify an organ whose internal spaces would be expected to have a normal pH of approximately 7.35–7.45?": [
+        "language-bias"
+      ],
+      "Can you identify an organ whose internal cavities have a typical tissue density of about 1.06 grams per cubic centimeter?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify a structure that generates the force needed to propel blood through the pulmonary and systemic circuits, thereby maintaining blood pressure?": [
+        "language-bias"
+      ],
+      "Can you identify an anatomical feature whose dysfunction may result in reduced cardiac output, fluid accumulation, or arrhythmias?": [
+        "language-bias"
+      ],
+      "Is there an anatomical region that is commonly assessed in the diagnosis of cardiovascular diseases using imaging or functional evaluation?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a structure that is separated and regulated by cardiac valves controlling blood flow?": [
+        "language-bias"
+      ],
+      "Can you identify a structure that is typically examined in clinical procedures such as cardiac catheterization or echocardiography?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify an organ whose internal compartments may decrease in size in restrictive cardiomyopathy or severe ventricular hypertrophy?": [
+        "language-bias"
+      ],
+      "Can you identify an organ whose internal compartments may develop abnormal shapes in congenital defects or after myocardial infarction?": [
+        "language-bias"
+      ],
+      "Can you identify an organ whose internal compartments may develop abnormal tissue composition in infiltrative diseases such as amyloidosis or hemochromatosis?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a heart compartment that becomes dilated due to volume overload in certain diseases?": [
+        "language-bias"
+      ],
+      "Is there a cardiac structure that can develop abnormal rhythms under arrhythmic conditions?": [
+        "language-bias"
+      ],
+      "Can you identify a heart compartment whose contractile function decreases after a myocardial infarction?": [
+        "language-bias"
+      ],
+      "Is there a heart compartment that experiences increased pressure during pulmonary hypertension?": [
+        "language-bias"
+      ],
+      "Can you identify a cardiac structure that alters its function during exercise or physical stress to meet metabolic demands?": [
+        "language-bias"
+      ]
+    }
+  },
+  "cut": {
+    "Functions": {
+      "Can you identify a pathological process that increases the risk of infection by providing a portal of entry for pathogens?": [
+        "language-bias"
+      ],
+      "Can you identify a process that may lead to clinical complications such as infection, delayed healing, or hemorrhage?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a process that is directly related to bleeding due to disruption of blood vessels?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that would involve the participation of cells such as platelets, neutrophils, or fibroblasts in healing?": [
+        "language-bias"
+      ]
+    }
+  },
+  "cyst": {
+    "Properties": {
+      "Can you identify a lesion that is characterized by a round or oval shape?": [
+        "language-bias"
+      ],
+      "Is there a lesion that would typically have a volume between 1 and 100 milliliters?": [
+        "language-bias"
+      ],
+      "Can you identify a lesion whose fluid content is typically clear or straw-colored, but may also appear yellow, green, or bloody depending on the underlying cause?": [
+        "language-bias"
+      ],
+      "Can you identify a lesion whose fluid is typically neutral to slightly alkaline, with a pH around 7.0 to 8.0?": [
+        "language-bias"
+      ],
+      "Is there a lesion that would typically have an internal pressure of less than 20 mmHg?": [
+        "language-bias"
+      ],
+      "Can you identify a lesion that is known to appear as a well-defined, anechoic or hypoechoic structure with thin walls and posterior acoustic enhancement on imaging?": [
+        "language-bias"
+      ],
+      "Can you identify a lesion whose fluid is typically sparsely cellular, containing few epithelial cells, macrophages, or inflammatory cells depending on its etiology?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify a lesion that is known to produce symptoms such as pain, swelling, infection, or rupture?": [
+        "language-bias"
+      ],
+      "Can you identify a structure that is typically assessed using imaging modalities such as ultrasound, CT, or MRI to monitor changes over time?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a lesion that is known to compress or displace adjacent anatomical structures?": [
+        "language-bias"
+      ],
+      "Can you identify a lesion that is most frequently found in anatomical locations like the pancreas or skin?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify a lesion whose internal fluid content is known to change when infection, hemorrhage, or partial resolution occurs?": [
+        "language-bias"
+      ],
+      "Is there a lesion that can develop internal septations in complex cases or after repeated hemorrhage or infection?": [
+        "language-bias"
+      ],
+      "Can you identify a lesion whose density on imaging is known to change when it becomes hemorrhagic, infected, or contains debris?": [
+        "language-bias"
+      ],
+      "Can you identify a lesion that may become hemorrhagic when blood vessels within its wall rupture, often due to trauma or neoplastic changes?": [
+        "language-bias"
+      ],
+      "Is there a lesion that can develop irregular borders in cases of malignant transformation or after repeated inflammation and scarring?": [
+        "language-bias"
+      ],
+      "Can you identify a lesion that may show enhancement after contrast administration if vascularized tissue or solid components are present, suggesting complexity or malignancy?": [
+        "language-bias"
+      ],
+      "Is there a lesion whose echogenicity on ultrasound is known to change when its content becomes more complex due to hemorrhage, infection, or debris?": [
+        "language-bias"
+      ],
+      "Can you identify a lesion that may develop solid components in cases of neoplastic transformation or when debris accumulates within the cavity?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a lesion that becomes symptomatic in response to hormonal changes?": [
+        "language-bias"
+      ],
+      "Is there a lesion that becomes more likely to recur after incomplete removal?": [
+        "language-bias"
+      ],
+      "Can you identify a structure that may develop internal bleeding or hemorrhage following trauma or rapid growth?": [
+        "language-bias"
+      ],
+      "Can you identify a lesion that interferes with normal tissue function during disease progression?": [
+        "language-bias"
+      ]
+    }
+  },
+  "epra_bacilli": {
+    "Properties": {
+      "Can you identify a cell that is known to have a rod-shaped morphology characteristic of bacilli?": [
+        "language-bias"
+      ],
+      "Is there a cell that is known to have a thick peptidoglycan layer with teichoic acids in its cell wall composition?": [
+        "language-bias"
+      ],
+      "Can you identify a cell whose colonies are typically white to cream in color?": [
+        "language-bias"
+      ],
+      "Is there a cell that would typically have a DNA content of approximately 3 to 5 megabase pairs per genome?": [
+        "language-bias"
+      ],
+      "Can you identify a cell whose membrane lipid content is about 10 to 20 percent of its dry cell weight?": [
+        "language-bias"
+      ],
+      "Is there a cell that is characterized by the presence of cytoplasmic, membrane, and cell wall-associated proteins?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that is typically motile due to the presence of peritrichous flagella?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Is there a cell whose colonies are characterized by a circular, smooth, and convex morphology?": [
+        "language-bias"
+      ]
+    }
+  },
+  "fetus_developing_very_early": {
+    "Properties": {
+      "Can you identify a developing human that is characterized by a curved, C-shaped form with a prominent head and tail?": [
+        "language-bias"
+      ],
+      "Is there a developing human that is known to have a typical volume of less than 1 milliliter in the earliest stages?": [
+        "language-bias"
+      ],
+      "Can you identify a developing human that would typically have a heart rate ranging from 90 to 170 beats per minute between 6 and 9 weeks?": [
+        "language-bias"
+      ],
+      "Is there a developing human that would typically have a water content of approximately 85 to 90 percent of total body weight?": [
+        "language-bias"
+      ],
+      "Can you identify a developing human that is known to have a normal temperature similar to maternal core temperature, around 37 degrees Celsius?": [
+        "language-bias"
+      ],
+      "Is there a developing human that would typically be composed of undifferentiated embryonic tissues, including developing ectoderm, mesoderm, and endoderm?": [
+        "language-bias"
+      ],
+      "Can you identify a developing human that is known to have an oxygen saturation level lower than maternal levels, typically around 50 to 70 percent?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify a developmental stage where basic cellular metabolism and primitive circulatory structures are initiated?": [
+        "language-bias"
+      ],
+      "Is there evidence of a developmental stage involved in the establishment of the neural tube, heart primordium, or early limb buds?": [
+        "language-bias"
+      ],
+      "Can you identify a developmental entity that produces hormonal signals supporting pregnancy maintenance?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify an anatomical structure that is connected to the placenta through developing chorionic villi?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify a developing organism whose tissue composition is known to change when exposed to genetic disorders or maternal metabolic diseases?": [
+        "language-bias"
+      ],
+      "Can you identify a developing organism that may have changes in organ formation in the presence of genetic mutations or environmental insults during early development?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a developing organism that may show delayed development due to genetic abnormalities affecting cell differentiation?": [
+        "language-bias"
+      ],
+      "Is there a developing organism that may fail to establish normal placental attachment in cases of abnormal implantation?": [
+        "language-bias"
+      ],
+      "Can you identify a developing organism whose developmental trajectory can be altered by maternal infections?": [
+        "language-bias"
+      ]
+    }
+  },
+  "fibrinous_peritonitis": {
+    "Functions": {
+      "Can you identify a process that increases the risk of abdominal pain, fever, and sepsis?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that delays healing of peritoneal tissues and increases the likelihood of chronic inflammation or fibrosis?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a pathological process characterized by inflammation and fibrin deposition within the peritoneal cavity?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a pathological process that can cause reduced peritoneal fluid absorption when fibrin obstructs lymphatic drainage?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that may progress to a purulent form when secondary bacterial infection develops?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that interferes with normal gastrointestinal motility by causing local inflammation and adhesions?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that contributes to systemic infection or sepsis when bacteria or inflammatory mediators enter the bloodstream?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that may resolve with appropriate therapy such as antibiotics and removal of the underlying cause?": [
+        "language-bias"
+      ]
+    }
+  },
+  "fibroblasts": {
+    "Properties": {
+      "Can you identify a cell that is characterized by a nucleus with an average diameter of about 5 to 7 micrometers?": [
+        "language-bias"
+      ],
+      "Is there a cell that is known to have high protein content, with major proteins including collagen, fibronectin, and actin?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that would typically have a lifespan of several months to years in vivo?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that is characterized by having 46 chromosomes in its normal state?": [
+        "language-bias"
+      ],
+      "Is there a cell that would typically have a DNA content of about 6 picograms per cell in its diploid state?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that is known to have an average volume of approximately 2,000 to 4,000 cubic micrometers?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that is characterized by a water content of approximately 70 percent of its total mass?": [
+        "language-bias"
+      ]
+    },
+    "Functions": {
+      "Can you identify a cell type that plays a central role in the production of extracellular matrix by secreting collagen, elastin, and glycosaminoglycans?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that affects tissue remodeling by breaking down and reorganizing extracellular matrix components?": [
+        "language-bias"
+      ],
+      "Can you identify a cell type that responds to injury or infection by activating, proliferating, and producing growth factors to aid in tissue repair?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Can you identify a cell that maintains and remodels the extracellular matrix?": [
+        "language-bias"
+      ],
+      "Can you identify a cell whose function is influenced by signaling molecules like TGF-beta or PDGF?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Properties": {
+      "Can you identify a tissue element whose cells are known to change shape or size in response to activation or mechanical stress?": [
+        "language-bias"
+      ],
+      "Is there a tissue in which certain cells become activated after injury or in response to pro-fibrotic cytokines?": [
+        "language-bias"
+      ],
+      "Can you identify a tissue whose cellular components show altered proliferation rates in cancer-associated stroma, wound healing, or fibrotic diseases?": [
+        "language-bias"
+      ],
+      "Is there a tissue whose extracellular matrix composition is known to change during tissue remodeling, fibrosis, or cytokine signaling?": [
+        "language-bias"
+      ],
+      "Can you identify a tissue in which certain cells exhibit increased migration during wound healing, tissue repair, or tumor progression?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Is there a tissue whose cells show increased expression of alpha-smooth muscle actin when differentiating during wound healing or fibrosis?": [
+        "language-bias"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a cell type that becomes activated in response to tissue injury by exposure to growth factors and cytokines?": [
+        "language-bias"
+      ],
+      "Is there a cell type that contributes to excessive scar formation when its proliferation and collagen deposition are dysregulated?": [
+        "language-bias"
+      ],
+      "Can you identify a cell that alters its behavior in fibrotic diseases by increasing extracellular matrix production and promoting tissue stiffness?": [
+        "language-bias"
+      ],
+      "Can you identify a cell type that promotes tumor progression in the tumor microenvironment by supporting cancer cell growth and invasion?": [
+        "language-bias"
+      ]
+    }
+  },
+  "fibrous_band_strangulation": {
+    "Functions": {
+      "Can you identify a pathological process that contributes to intestinal obstruction by physically narrowing the intestinal lumen?": [
+        "language-bias"
+      ],
+      "Can you identify a process that plays a role in surgical emergencies by creating acute, life-threatening conditions requiring urgent intervention?": [
+        "language-bias"
+      ]
+    },
+    "Relational": {
+      "Is there evidence of an organ at risk for obstruction due to a constricting anatomical structure, such as the small intestine or colon?": [
+        "language-bias"
+      ],
+      "Can you identify features consistent with a process that causes intestinal obstruction by physically blocking the bowel lumen?": [
+        "language-bias"
+      ],
+      "Can you identify involvement of blood vessels, such as branches of the mesenteric arteries or veins, that may be compromised by a constricting anatomical structure?": [
+        "misalignment",
+        "language-bias"
+      ],
+      "Does the image show complications in an organ, such as ischemia, necrosis, or perforation, that can arise from a constricting anatomical structure?": [
+        "misalignment"
+      ]
+    },
+    "Contextual Behavior": {
+      "Can you identify a process that results in tissue necrosis when prolonged constriction cuts off circulation?": [
+        "language-bias"
+      ],
+      "Is there a process that becomes clinically significant as a postoperative complication due to adhesion formation after abdominal surgery?": [
+        "language-bias"
+      ],
+      "Can you identify a pathological process that increases the risk of perforation by weakening the intestinal wall under sustained pressure?": [
+        "language-bias"
+      ],
+      "Is there a pathological process that impairs normal organ function by restricting movement or blood flow to the affected organ?": [
+        "misalignment",
+        "language-bias"
+      ]
+    }
   }
 }
